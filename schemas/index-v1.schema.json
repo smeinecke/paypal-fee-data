@@ -15,10 +15,6 @@
           "default": null,
           "title": "Content Sha256"
         },
-        "country_code": {
-          "title": "Country Code",
-          "type": "string"
-        },
         "data_url": {
           "title": "Data Url",
           "type": "string"
@@ -35,6 +31,18 @@
           "default": null,
           "title": "Derived Status"
         },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
+        },
         "locale": {
           "anyOf": [
             {
@@ -46,6 +54,10 @@
           ],
           "default": null,
           "title": "Locale"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         },
         "source_updated_at": {
           "anyOf": [
@@ -65,7 +77,7 @@
         }
       },
       "required": [
-        "country_code",
+        "paypal_market_code",
         "data_url",
         "source_url"
       ],

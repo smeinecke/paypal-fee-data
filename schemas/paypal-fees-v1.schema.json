@@ -93,6 +93,13 @@
           "default": null,
           "title": "Chargeback"
         },
+        "classification_evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Classification Evidence",
+          "type": "array"
+        },
         "commercial_fixed_fees": {
           "items": {
             "$ref": "#/$defs/FixedFees"
@@ -419,16 +426,23 @@
       "type": "object"
     },
     "Market": {
-      "description": "A discovered PayPal market/country.",
+      "description": "A discovered PayPal market/country.\n\nPayPal market codes (e.g. ``C2`` for China) are kept separate from ISO\n3166-1 alpha-2 country codes. The ``country_code`` property is preserved\nfor backward compatibility and returns the ISO code when known, otherwise\nthe raw PayPal market code.",
       "properties": {
-        "country_code": {
-          "pattern": "^[A-Z]{2}$",
-          "title": "Country Code",
-          "type": "string"
-        },
         "country_name": {
           "title": "Country Name",
           "type": "string"
+        },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
         },
         "languages": {
           "items": {
@@ -448,6 +462,10 @@
           ],
           "default": null,
           "title": "Locale"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         },
         "preferred_language": {
           "anyOf": [
@@ -487,7 +505,7 @@
         }
       },
       "required": [
-        "country_code",
+        "paypal_market_code",
         "country_name"
       ],
       "title": "Market",
@@ -534,6 +552,18 @@
           },
           "title": "Cells",
           "type": "array"
+        },
+        "row_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Id"
         }
       },
       "title": "Row",
@@ -774,6 +804,18 @@
           "default": null,
           "title": "Component Type"
         },
+        "declared_column_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Declared Column Count"
+        },
         "document_id": {
           "anyOf": [
             {
@@ -793,6 +835,25 @@
           "title": "Headers",
           "type": "array"
         },
+        "parent_path": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Parent Path",
+          "type": "array"
+        },
+        "reference_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference Id"
+        },
         "rows": {
           "items": {
             "$ref": "#/$defs/Row"
@@ -807,12 +868,29 @@
           "title": "Section Path",
           "type": "array"
         },
+        "source_order": {
+          "default": 0,
+          "title": "Source Order",
+          "type": "integer"
+        },
         "source_table_ids": {
           "items": {
             "type": "string"
           },
           "title": "Source Table Ids",
           "type": "array"
+        },
+        "table_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Table Id"
         }
       },
       "title": "Table",
