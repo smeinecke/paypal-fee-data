@@ -27,16 +27,23 @@
       "type": "object"
     },
     "Market": {
-      "description": "A discovered PayPal market/country.",
+      "description": "A discovered PayPal market/country.\n\nPayPal market codes (e.g. ``C2`` for China) are kept separate from ISO\n3166-1 alpha-2 country codes. The ``country_code`` property is preserved\nfor backward compatibility and returns the ISO code when known, otherwise\nthe raw PayPal market code.",
       "properties": {
-        "country_code": {
-          "pattern": "^[A-Z]{2}$",
-          "title": "Country Code",
-          "type": "string"
-        },
         "country_name": {
           "title": "Country Name",
           "type": "string"
+        },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
         },
         "languages": {
           "items": {
@@ -56,6 +63,10 @@
           ],
           "default": null,
           "title": "Locale"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         },
         "preferred_language": {
           "anyOf": [
@@ -95,7 +106,7 @@
         }
       },
       "required": [
-        "country_code",
+        "paypal_market_code",
         "country_name"
       ],
       "title": "Market",
@@ -104,10 +115,6 @@
     "UnsupportedCountry": {
       "description": "A market without a discoverable public fee page.",
       "properties": {
-        "country_code": {
-          "title": "Country Code",
-          "type": "string"
-        },
         "country_name": {
           "anyOf": [
             {
@@ -132,6 +139,18 @@
           "default": null,
           "title": "First Confirmed At"
         },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
+        },
         "last_confirmed_at": {
           "anyOf": [
             {
@@ -155,6 +174,10 @@
           ],
           "default": null,
           "title": "Last Status"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         },
         "reason": {
           "anyOf": [
@@ -182,7 +205,7 @@
         }
       },
       "required": [
-        "country_code"
+        "paypal_market_code"
       ],
       "title": "UnsupportedCountry",
       "type": "object"

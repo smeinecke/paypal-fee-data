@@ -4,62 +4,130 @@
       "country_code": "DE",
       "derived": {
         "chargeback": null,
+        "classification_evidence": [
+          "document_id FEETB16 is a known standard-commercial table",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "document_id FEETB91 is a known international-surcharge table",
+          "caption/section matches international-surcharge keywords",
+          "headers match international-surcharge patterns",
+          "document_id FEETB18 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "document_id FEETB306 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "document_id FEETB539 is a known currency-conversion table",
+          "caption/section matches currency-conversion keywords",
+          "caption/section matches international-surcharge keywords",
+          "headers match international-surcharge patterns",
+          "standard percentage 2.99 from 3 matched row(s)",
+          "standard_commercial table FEETB16",
+          "fixed-fee table FEETB18: 12 row(s)",
+          "fixed-fee table FEETB306: 12 row(s)",
+          "international-surcharge table FEETB91: [InternationalSurcharge(region='EEA', percentage_points='0'), InternationalSurcharge(region='GB', percentage_points='1.29'), InternationalSurcharge(region='OTHER', percentage_points='1.99')]",
+          "currency-conversion table FEETB539: spread 3"
+        ],
         "commercial_fixed_fees": [
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "0.59",
+            "currency": "AUD"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "2.49",
+            "currency": "BRL"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
-          },
-          {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
+            "amount": "0.59",
+            "currency": "CAD"
           },
           {
             "amount": "0.39",
             "currency": "CHF"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "9",
+            "currency": "CZK"
           },
           {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
-            "currency": "CHF"
+            "amount": "2.89",
+            "currency": "DKK"
           },
           {
             "amount": "0.39",
             "currency": "EUR"
           },
           {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
             "amount": "0.29",
             "currency": "GBP"
           },
           {
-            "amount": "0.39",
-            "currency": "CHF"
+            "amount": "3.49",
+            "currency": "HKD"
+          },
+          {
+            "amount": "139",
+            "currency": "HUF"
+          },
+          {
+            "amount": "1.39",
+            "currency": "ILS"
+          },
+          {
+            "amount": "49",
+            "currency": "JPY"
+          },
+          {
+            "amount": "9",
+            "currency": "MXN"
+          },
+          {
+            "amount": "1.79",
+            "currency": "MYR"
+          },
+          {
+            "amount": "3.89",
+            "currency": "NOK"
+          },
+          {
+            "amount": "0.59",
+            "currency": "NZD"
+          },
+          {
+            "amount": "19",
+            "currency": "PHP"
+          },
+          {
+            "amount": "1.79",
+            "currency": "PLN"
+          },
+          {
+            "amount": "29",
+            "currency": "RUB"
+          },
+          {
+            "amount": "3.99",
+            "currency": "SEK"
+          },
+          {
+            "amount": "0.59",
+            "currency": "SGD"
+          },
+          {
+            "amount": "14",
+            "currency": "THB"
+          },
+          {
+            "amount": "9",
+            "currency": "TWD"
+          },
+          {
+            "amount": "0.49",
+            "currency": "USD"
           }
         ],
         "currency_conversion": {
@@ -89,70 +157,142 @@
           "percentage": "2.99"
         },
         "status": "complete",
-        "unclassified_sections": []
+        "unclassified_sections": [
+          "chargeback",
+          "donation",
+          "micropayment",
+          "nonprofit"
+        ]
       },
-      "derived_status": "complete"
+      "derived_status": "complete",
+      "iso_country_code": "DE",
+      "paypal_market_code": "DE"
     },
     {
       "country_code": "GB",
       "derived": {
         "chargeback": null,
+        "classification_evidence": [
+          "document_id FEETB16 is a known standard-commercial table",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "document_id FEETB18 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "document_id FEETB261 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "document_id FEETB128 is a known currency-conversion table",
+          "caption/section matches currency-conversion keywords",
+          "caption/section matches international-surcharge keywords",
+          "headers match international-surcharge patterns",
+          "standard percentage 2.9 from 1 matched row(s)",
+          "standard_commercial table FEETB16",
+          "fixed-fee table FEETB18: 12 row(s)",
+          "fixed-fee table FEETB261: 12 row(s)",
+          "currency-conversion table FEETB128: spread 3",
+          "international-surcharge section exposed but no reliable values extracted"
+        ],
         "commercial_fixed_fees": [
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "0.3",
+            "currency": "AUD"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "0.6",
+            "currency": "BRL"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "0.3",
+            "currency": "CAD"
           },
           {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
+            "amount": "0.55",
             "currency": "CHF"
           },
           {
-            "amount": "0.39",
+            "amount": "10",
+            "currency": "CZK"
+          },
+          {
+            "amount": "2.6",
+            "currency": "DKK"
+          },
+          {
+            "amount": "0.35",
             "currency": "EUR"
           },
           {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
+            "amount": "0.3",
             "currency": "GBP"
           },
           {
-            "amount": "0.39",
-            "currency": "CHF"
+            "amount": "2.35",
+            "currency": "HKD"
           },
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "90",
+            "currency": "HUF"
           },
           {
-            "amount": "0.49",
+            "amount": "1.2",
+            "currency": "ILS"
+          },
+          {
+            "amount": "40",
+            "currency": "JPY"
+          },
+          {
+            "amount": "4",
+            "currency": "MXN"
+          },
+          {
+            "amount": "2",
+            "currency": "MYR"
+          },
+          {
+            "amount": "2.8",
+            "currency": "NOK"
+          },
+          {
+            "amount": "0.45",
+            "currency": "NZD"
+          },
+          {
+            "amount": "15",
+            "currency": "PHP"
+          },
+          {
+            "amount": "1.35",
+            "currency": "PLN"
+          },
+          {
+            "amount": "10",
+            "currency": "RUB"
+          },
+          {
+            "amount": "3.25",
+            "currency": "SEK"
+          },
+          {
+            "amount": "0.5",
+            "currency": "SGD"
+          },
+          {
+            "amount": "11",
+            "currency": "THB"
+          },
+          {
+            "amount": "10",
+            "currency": "TWD"
+          },
+          {
+            "amount": "0.3",
             "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
-            "currency": "CHF"
           }
         ],
         "currency_conversion": {
@@ -161,39 +301,86 @@
         "dispute": null,
         "donations": null,
         "goods_and_services": null,
-        "international_surcharges": [
-          {
-            "percentage_points": "0",
-            "region": "EEA"
-          },
-          {
-            "percentage_points": "1.29",
-            "region": "GB"
-          },
-          {
-            "percentage_points": "1.99",
-            "region": "OTHER"
-          }
-        ],
+        "international_surcharges": [],
         "micropayments": null,
         "nonprofit": null,
         "standard_commercial": {
           "fixed_fee_reference": "commercial_fixed_fees",
-          "percentage": "2.99"
+          "percentage": "2.9"
         },
-        "status": "complete",
-        "unclassified_sections": []
+        "status": "partial",
+        "unclassified_sections": [
+          "chargeback",
+          "dispute",
+          "donation",
+          "micropayment"
+        ]
       },
-      "derived_status": "complete"
+      "derived_status": "partial",
+      "iso_country_code": "GB",
+      "paypal_market_code": "GB"
     },
     {
       "country_code": "US",
       "derived": {
         "chargeback": null,
+        "classification_evidence": [
+          "document_id FEETB16 is a known standard-commercial table",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "document_id FEETB91 is a known international-surcharge table",
+          "caption/section matches international-surcharge keywords",
+          "document_id FEETB18 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "document_id FEETB306 is a known fixed-fee table",
+          "caption/section matches fixed-fee keywords",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches standard commercial keywords",
+          "headers match standard commercial patterns",
+          "caption/section matches currency-conversion keywords",
+          "headers match currency-conversion patterns",
+          "standard percentage 3.49 from 4 matched row(s)",
+          "standard_commercial table FEETB16",
+          "fixed-fee table FEETB18: 24 row(s)",
+          "fixed-fee table FEETB306: 12 row(s)",
+          "international-surcharge table FEETB91: [InternationalSurcharge(region='OTHER', percentage_points='1.5')]",
+          "currency-conversion table FEETB79: spread 3"
+        ],
         "commercial_fixed_fees": [
           {
-            "amount": "0.39",
-            "currency": "EUR"
+            "amount": "0.59",
+            "currency": "AUD"
+          },
+          {
+            "amount": "2.9",
+            "currency": "BRL"
+          },
+          {
+            "amount": "0.59",
+            "currency": "CAD"
+          },
+          {
+            "amount": "0.49",
+            "currency": "CHF"
+          },
+          {
+            "amount": "9",
+            "currency": "CZK"
+          },
+          {
+            "amount": "2.9",
+            "currency": "DKK"
           },
           {
             "amount": "0.39",
@@ -201,51 +388,71 @@
           },
           {
             "amount": "0.39",
-            "currency": "EUR"
+            "currency": "GBP"
+          },
+          {
+            "amount": "3.79",
+            "currency": "HKD"
+          },
+          {
+            "amount": "149",
+            "currency": "HUF"
+          },
+          {
+            "amount": "1.6",
+            "currency": "ILS"
+          },
+          {
+            "amount": "49",
+            "currency": "JPY"
+          },
+          {
+            "amount": "9",
+            "currency": "MXN"
+          },
+          {
+            "amount": "2",
+            "currency": "MYR"
+          },
+          {
+            "amount": "3.9",
+            "currency": "NOK"
+          },
+          {
+            "amount": "0.69",
+            "currency": "NZD"
+          },
+          {
+            "amount": "25",
+            "currency": "PHP"
+          },
+          {
+            "amount": "1.89",
+            "currency": "PLN"
+          },
+          {
+            "amount": "39",
+            "currency": "RUB"
+          },
+          {
+            "amount": "4.09",
+            "currency": "SEK"
+          },
+          {
+            "amount": "0.69",
+            "currency": "SGD"
+          },
+          {
+            "amount": "15",
+            "currency": "THB"
+          },
+          {
+            "amount": "14",
+            "currency": "TWD"
           },
           {
             "amount": "0.49",
             "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
-            "currency": "CHF"
-          },
-          {
-            "amount": "0.39",
-            "currency": "EUR"
-          },
-          {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
-            "currency": "CHF"
-          },
-          {
-            "amount": "0.39",
-            "currency": "EUR"
-          },
-          {
-            "amount": "0.49",
-            "currency": "USD"
-          },
-          {
-            "amount": "0.29",
-            "currency": "GBP"
-          },
-          {
-            "amount": "0.39",
-            "currency": "CHF"
           }
         ],
         "currency_conversion": {
@@ -256,15 +463,7 @@
         "goods_and_services": null,
         "international_surcharges": [
           {
-            "percentage_points": "0",
-            "region": "EEA"
-          },
-          {
-            "percentage_points": "1.29",
-            "region": "GB"
-          },
-          {
-            "percentage_points": "1.99",
+            "percentage_points": "1.5",
             "region": "OTHER"
           }
         ],
@@ -272,14 +471,21 @@
         "nonprofit": null,
         "standard_commercial": {
           "fixed_fee_reference": "commercial_fixed_fees",
-          "percentage": "2.99"
+          "percentage": "3.49"
         },
         "status": "complete",
-        "unclassified_sections": []
+        "unclassified_sections": [
+          "chargeback",
+          "dispute",
+          "donation",
+          "micropayment"
+        ]
       },
-      "derived_status": "complete"
+      "derived_status": "complete",
+      "iso_country_code": "US",
+      "paypal_market_code": "US"
     }
   ],
-  "generated_at": "2026-04-30",
+  "generated_at": null,
   "schema_version": 1
 }

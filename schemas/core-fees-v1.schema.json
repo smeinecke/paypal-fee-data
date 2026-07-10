@@ -34,20 +34,32 @@
     "CoreFeeEntry": {
       "description": "A single country's confidently derived core fees.",
       "properties": {
-        "country_code": {
-          "title": "Country Code",
-          "type": "string"
-        },
         "derived": {
           "$ref": "#/$defs/DerivedFees"
         },
         "derived_status": {
           "title": "Derived Status",
           "type": "string"
+        },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         }
       },
       "required": [
-        "country_code",
+        "paypal_market_code",
         "derived_status",
         "derived"
       ],
@@ -87,6 +99,13 @@
           ],
           "default": null,
           "title": "Chargeback"
+        },
+        "classification_evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Classification Evidence",
+          "type": "array"
         },
         "commercial_fixed_fees": {
           "items": {

@@ -1,10 +1,11 @@
 {
   "fee_page_urls": {},
-  "generated_at": "2026-04-30",
+  "generated_at": null,
   "markets": [
     {
       "country_code": "DE",
       "country_name": "Germany",
+      "iso_country_code": "DE",
       "languages": [
         {
           "code": "de",
@@ -12,13 +13,16 @@
         }
       ],
       "locale": "de_DE",
+      "paypal_market_code": "DE",
       "preferred_language": "de",
       "region": "europe",
-      "url_prefix": "https://www.paypal.com/de"
+      "url_prefix": "https://www.paypal.com/de",
+      "url_slug": "de"
     },
     {
       "country_code": "US",
       "country_name": "United States",
+      "iso_country_code": "US",
       "languages": [
         {
           "code": "en",
@@ -26,13 +30,16 @@
         }
       ],
       "locale": "en_US",
+      "paypal_market_code": "US",
       "preferred_language": "en",
       "region": "north_america",
-      "url_prefix": "https://www.paypal.com/us"
+      "url_prefix": "https://www.paypal.com/us",
+      "url_slug": "us"
     },
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
+      "iso_country_code": "GB",
       "languages": [
         {
           "code": "en",
@@ -40,9 +47,11 @@
         }
       ],
       "locale": "en_GB",
+      "paypal_market_code": "GB",
       "preferred_language": "en",
       "region": "europe",
-      "url_prefix": "https://www.paypal.com/gb"
+      "url_prefix": "https://www.paypal.com/gb",
+      "url_slug": "gb"
     }
   ],
   "schema_version": 1,
