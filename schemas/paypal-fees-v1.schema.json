@@ -854,6 +854,18 @@
     "derived": {
       "$ref": "#/$defs/DerivedFees"
     },
+    "generated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Generated At"
+    },
     "market": {
       "$ref": "#/$defs/Market"
     },

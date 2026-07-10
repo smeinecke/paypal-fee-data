@@ -1,0 +1,236 @@
+{
+  "$defs": {
+    "Language": {
+      "description": "A supported language for a market.",
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "title": "Language",
+      "type": "object"
+    },
+    "Market": {
+      "description": "A discovered PayPal market/country.",
+      "properties": {
+        "country_code": {
+          "pattern": "^[A-Z]{2}$",
+          "title": "Country Code",
+          "type": "string"
+        },
+        "country_name": {
+          "title": "Country Name",
+          "type": "string"
+        },
+        "languages": {
+          "items": {
+            "$ref": "#/$defs/Language"
+          },
+          "title": "Languages",
+          "type": "array"
+        },
+        "locale": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Locale"
+        },
+        "preferred_language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preferred Language"
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region"
+        },
+        "url_prefix": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url Prefix"
+        }
+      },
+      "required": [
+        "country_code",
+        "country_name"
+      ],
+      "title": "Market",
+      "type": "object"
+    },
+    "UnsupportedCountry": {
+      "description": "A market without a discoverable public fee page.",
+      "properties": {
+        "country_code": {
+          "title": "Country Code",
+          "type": "string"
+        },
+        "country_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country Name"
+        },
+        "first_confirmed_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Confirmed At"
+        },
+        "last_confirmed_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Confirmed At"
+        },
+        "last_status": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Status"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "temporary": {
+          "default": false,
+          "title": "Temporary",
+          "type": "boolean"
+        },
+        "tested_urls": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tested Urls",
+          "type": "array"
+        }
+      },
+      "required": [
+        "country_code"
+      ],
+      "title": "UnsupportedCountry",
+      "type": "object"
+    }
+  },
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/manifest-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Discovered country manifest.",
+  "properties": {
+    "fee_page_urls": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Fee Page Urls",
+      "type": "object"
+    },
+    "generated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Generated At"
+    },
+    "markets": {
+      "items": {
+        "$ref": "#/$defs/Market"
+      },
+      "title": "Markets",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "unsupported": {
+      "items": {
+        "$ref": "#/$defs/UnsupportedCountry"
+      },
+      "title": "Unsupported",
+      "type": "array"
+    }
+  },
+  "title": "CountryManifest",
+  "type": "object"
+}
