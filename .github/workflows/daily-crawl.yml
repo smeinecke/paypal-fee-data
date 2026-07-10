@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
-  actions: read
 
 jobs:
   crawl:
@@ -56,15 +54,23 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create pull request
+      - name: Stage optional change report
         if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
+        run: |
+          if [ -f change-report.json ]; then
+            git add change-report.json
+          fi
+
+      - name: Add and commit
+        if: steps.changes.outputs.changed == 'true'
+        uses: EndBug/add-and-commit@v9
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         with:
-          commit-message: "Daily PayPal fee update"
-          title: "Daily PayPal fee update"
-          body: "Automated data refresh from the daily crawler run."
-          branch: "daily-crawl-update"
-          delete-branch: true
+          add: 'json meta schemas'
+          author_name: Auto Update Bot
+          author_email: bot@github.com
+          message: 'Daily PayPal fee update'
 
       - name: Upload diagnostics
         if: failure()
