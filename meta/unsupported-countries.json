@@ -1,4 +1,24 @@
 {
   "schema_version": 1,
-  "unsupported": []
+  "unsupported": [
+    {
+      "country_code": "VA",
+      "country_name": "Vatican City",
+      "first_confirmed_at": null,
+      "iso_country_code": "VA",
+      "last_confirmed_at": null,
+      "last_status": null,
+      "paypal_market_code": "VA",
+      "reason": "No public merchant fee page found for VA",
+      "temporary": false,
+      "tested_urls": [
+        "https://www.paypal.com/va/business/paypal-business-fees",
+        "https://www.paypal.com/va/business/paypal-business-fees",
+        "https://www.paypal.com/va/merchant/paypal-merchant-fees",
+        "https://www.paypal.com/va/business/fees",
+        "https://www.paypal.com/va/seller-fees",
+        "https://www.paypal.com/va"
+      ]
+    }
+  ]
 }

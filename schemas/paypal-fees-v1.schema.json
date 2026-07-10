@@ -118,6 +118,11 @@
           ],
           "default": null
         },
+        "currency_conversion_exposed": {
+          "default": false,
+          "title": "Currency Conversion Exposed",
+          "type": "boolean"
+        },
         "dispute": {
           "anyOf": [
             {
@@ -151,6 +156,11 @@
             }
           ],
           "default": null
+        },
+        "international_surcharge_exposed": {
+          "default": false,
+          "title": "International Surcharge Exposed",
+          "type": "boolean"
         },
         "international_surcharges": {
           "items": {

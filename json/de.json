@@ -2,6 +2,8 @@
   "derived": {
     "chargeback": null,
     "classification_evidence": [
+      "caption/section matches international-surcharge keywords",
+      "headers match international-surcharge patterns",
       "document_id FEETB16 is a known standard-commercial table",
       "caption/section matches standard commercial keywords",
       "headers match standard commercial patterns",
@@ -22,8 +24,6 @@
       "headers match standard commercial patterns",
       "document_id FEETB539 is a known currency-conversion table",
       "caption/section matches currency-conversion keywords",
-      "caption/section matches international-surcharge keywords",
-      "headers match international-surcharge patterns",
       "standard percentage 2.99 from 3 matched row(s)",
       "standard_commercial table FEETB16",
       "fixed-fee table FEETB18: 12 row(s)",
@@ -134,9 +134,11 @@
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "currency_conversion_exposed": true,
     "dispute": null,
     "donations": null,
     "goods_and_services": null,
+    "international_surcharge_exposed": true,
     "international_surcharges": [
       {
         "percentage_points": "1.29",
@@ -185,6 +187,152 @@
       "body": null,
       "component_id": "3dre1UmqRTgXY8mO28OA4W",
       "component_type": "Content",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "169Leu8iWsjKG48eqLXYO9",
+      "component_type": "TextSectionType",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "4OjYj2VkTo5fzlH02RHEiQ",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "55khpU73hqTPHCvzaSEHdh",
+      "component_type": "SubNav",
+      "heading": "Gebühren",
+      "section_path": [
+        "Gebühren"
+      ]
+    },
+    {
+      "body": null,
+      "component_id": "LhcoeRFUYXNXedZmEGnTw",
+      "component_type": "Button",
+      "heading": null,
+      "section_path": [
+        "Gebühren"
+      ]
+    },
+    {
+      "body": null,
+      "component_id": "4TNld0lUefmaNOHEca1vzG",
+      "component_type": "FeatureNavigationSection",
+      "heading": "Gebührenmenü",
+      "section_path": [
+        "Gebührenmenü"
+      ]
+    },
+    {
+      "body": null,
+      "component_id": "67uUslvIWA6RCzWZU750GI",
+      "component_type": "TextSectionType",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "2gmr9vIMb3gg8kJGyUOblk",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "uNsVW48vxNmZ5iVJyv13z",
+      "component_type": "TextSectionType",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "65zqV2g3PZcw9Nilqb61VA",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "NRq8VBvvLaFdy7eZGzNaL",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "2dIAqdxEfgrtAua5hlHCoe",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "1XVTrPbCIJYxKqn5UdEW3U",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "popover-modal-1",
+      "component_type": "PopoverModal",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "6fS6eB05dQ8Ogq8lPiQq7q",
+      "component_type": "PopoverModalItem",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "3nps439UNHYE14Psz9gnEa",
+      "component_type": "TextHeaderInner",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "4XiaNZOU7GtDkowoRjSC5",
+      "component_type": "TextGroup",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "popover-modal-code-table",
+      "component_type": "PopoverModal",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "5cthP1UNiFwdJIw4vRnN3X",
+      "component_type": "PopoverModalItem",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "7t7x8VlxQoEt2XqBdXJuGs",
+      "component_type": "TextHeaderInner",
+      "heading": null,
+      "section_path": []
+    },
+    {
+      "body": null,
+      "component_id": "d7abHX52eZtZq2uCyX9Od",
+      "component_type": "TextGroup",
       "heading": null,
       "section_path": []
     },
@@ -985,158 +1133,12 @@
       "section_path": [
         "Gebührentabelle für inaktive PayPal-Konten"
       ]
-    },
-    {
-      "body": null,
-      "component_id": "169Leu8iWsjKG48eqLXYO9",
-      "component_type": "TextSectionType",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "4OjYj2VkTo5fzlH02RHEiQ",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "55khpU73hqTPHCvzaSEHdh",
-      "component_type": "SubNav",
-      "heading": "Gebühren",
-      "section_path": [
-        "Gebühren"
-      ]
-    },
-    {
-      "body": null,
-      "component_id": "LhcoeRFUYXNXedZmEGnTw",
-      "component_type": "Button",
-      "heading": null,
-      "section_path": [
-        "Gebühren"
-      ]
-    },
-    {
-      "body": null,
-      "component_id": "4TNld0lUefmaNOHEca1vzG",
-      "component_type": "FeatureNavigationSection",
-      "heading": "Gebührenmenü",
-      "section_path": [
-        "Gebührenmenü"
-      ]
-    },
-    {
-      "body": null,
-      "component_id": "67uUslvIWA6RCzWZU750GI",
-      "component_type": "TextSectionType",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "2gmr9vIMb3gg8kJGyUOblk",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "uNsVW48vxNmZ5iVJyv13z",
-      "component_type": "TextSectionType",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "65zqV2g3PZcw9Nilqb61VA",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "NRq8VBvvLaFdy7eZGzNaL",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "2dIAqdxEfgrtAua5hlHCoe",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "1XVTrPbCIJYxKqn5UdEW3U",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "popover-modal-1",
-      "component_type": "PopoverModal",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "6fS6eB05dQ8Ogq8lPiQq7q",
-      "component_type": "PopoverModalItem",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "3nps439UNHYE14Psz9gnEa",
-      "component_type": "TextHeaderInner",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "4XiaNZOU7GtDkowoRjSC5",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "popover-modal-code-table",
-      "component_type": "PopoverModal",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "5cthP1UNiFwdJIw4vRnN3X",
-      "component_type": "PopoverModalItem",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "7t7x8VlxQoEt2XqBdXJuGs",
-      "component_type": "TextHeaderInner",
-      "heading": null,
-      "section_path": []
-    },
-    {
-      "body": null,
-      "component_id": "d7abHX52eZtZq2uCyX9Od",
-      "component_type": "TextGroup",
-      "heading": null,
-      "section_path": []
     }
   ],
   "source": {
     "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
     "cms_updated_at": "2025-09-14T23:07:54.269Z",
-    "content_sha256": "a7d1e1942206df8285baac698945bb1a9904e59fb6868146f25a17c271a43d8f",
+    "content_sha256": "6d41a3a07010274d7fbe9fdec99f532684b3d3f7eb049ab40001c4272b3061da",
     "etag": null,
     "last_modified": null,
     "page_id": "business/paypal-business-fees",
@@ -1146,6 +1148,2736 @@
     "requested_url": "https://www.paypal.com/de/business/paypal-business-fees"
   },
   "tables": [
+    {
+      "caption": "Gebührentabelle : Tabelle der Markt-/Regionalgruppen",
+      "column_count": 2,
+      "component_id": "3tT43Kre7IBN8tGicWRxAz",
+      "component_type": "FeeTable",
+      "declared_column_count": null,
+      "document_id": "FEETB87",
+      "headers": [
+        {
+          "links": [],
+          "text": "Gruppenname",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Markt/Region",
+          "tokens": []
+        }
+      ],
+      "parent_path": [],
+      "reference_id": null,
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Europäischer Wirtschaftsraum (EWR)",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Französisch-Guayana, Griechenland, Guadeloupe, Irland, Island, Italien, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Martinique, Mayotte, Monaco, Niederlande, Norwegen, Österreich, Polen, Portugal, Réunion, Rumänien, San Marino, Schweden, Slowakei, Slowenien, Spanien, Tschechische Republik, Ungarn, Vatikanstadt, Zypern.",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "",
+              "tokens": []
+            }
+          ],
+          "row_id": "2xYNambK7bo4Ju11S7bd20"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Europa I",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Österreich, Belgien, Kanalinseln, Zypern, Estland, Frankreich (einschließlich Französisch Guyana, Guadeloupe, Martinique, Réunion und Mayotte), Deutschland, Griechenland, Irland, Isle of Man, Italien, Luxemburg, Malta, Monaco, Montenegro, Niederlande, Portugal, San Marino, Slowakei, Slowenien, Spanien, Vereinigtes Königreich, Vatikanstadt.",
+              "tokens": []
+            }
+          ],
+          "row_id": "36afYOuUYpgfC1XJZu2ZUA"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Europa II",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Albanien, Andorra, Weißrussland, Bosnien und Herzegowina, Bulgarien, Kroatien, Tschechische Republik, Georgien, Ungarn, Kosovo, Lettland, Liechtenstein, Litauen, Mazedonien, Moldawien, Polen, Rumänien, Russische Föderation, Serbien, Schweiz, Ukraine.",
+              "tokens": []
+            }
+          ],
+          "row_id": "7pvJU3lRCgiYTPDuN9kMMj"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Nordeuropa",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Aland-Inseln, Dänemark, Färöer-Inseln, Finnland, Grönland, Island, Norwegen, Schweden.",
+              "tokens": []
+            }
+          ],
+          "row_id": "3ZR3XYMzoTWsgymmTSvqJJ"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Großbritannien (GB)",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Guernsey, Isle of Man, Jersey und Großbritannien",
+              "tokens": []
+            }
+          ],
+          "row_id": "4KfdaTzX4n9NvMc3AkE3mc"
+        }
+      ],
+      "section_path": [
+        "Gebührentabelle : Tabelle der Markt-/Regionalgruppen"
+      ],
+      "source_order": 1,
+      "source_table_ids": [],
+      "table_id": "FeeTable::FEETB87::1"
+    },
+    {
+      "caption": "Gebührentabelle: Tabelle der Marktcodes",
+      "column_count": 4,
+      "component_id": "4JEJIpKCRw8Re7onzLbYIb",
+      "component_type": "FeeTable",
+      "declared_column_count": null,
+      "document_id": "FEETB102",
+      "headers": [
+        {
+          "links": [],
+          "text": "Markt",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Int. Vorwahl",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Markt",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Int. Vorwahl",
+          "tokens": []
+        }
+      ],
+      "parent_path": [],
+      "reference_id": null,
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Albanien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AL",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Luxemburg",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LU",
+              "tokens": []
+            }
+          ],
+          "row_id": "23INbfIOq6utsgDr75evk0"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Algerien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DZ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mazedonien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MK",
+              "tokens": []
+            }
+          ],
+          "row_id": "2zULN5vi4gjyZKMRhbI4DG"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Andorra",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Madagaskar",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MG",
+              "tokens": []
+            }
+          ],
+          "row_id": "zSrhbKyZEk06saqLpyvSE"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Angola",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Malawi",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MW",
+              "tokens": []
+            }
+          ],
+          "row_id": "3dIWIjXhLxA25ZOpjMFMjE"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Anguilla",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Malaysia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MY",
+              "tokens": []
+            }
+          ],
+          "row_id": "1imdqKLrZGrt1Ybuu8w5VB"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Antigua und Barbuda",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Malediven",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MV",
+              "tokens": []
+            }
+          ],
+          "row_id": "2Kc9LgTjnVtVLoN5j9xgsR"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Argentinien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mali",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ML",
+              "tokens": []
+            }
+          ],
+          "row_id": "1uVcsPvTjqHgeXHLTDYp1L"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Armenien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Malta",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MT",
+              "tokens": []
+            }
+          ],
+          "row_id": "6iW52NFzEg68XJeckk1BzF"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Aruba",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AW",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Marshallinseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MH",
+              "tokens": []
+            }
+          ],
+          "row_id": "66w86TK1iofoXsrE5n1MMA"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Australien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AU",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Martinique",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MQ",
+              "tokens": []
+            }
+          ],
+          "row_id": "2C6btZFHa6EB4g8AlOVkJe"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Österreich",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AT",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mauretanien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MR",
+              "tokens": []
+            }
+          ],
+          "row_id": "2fKx7mGb3mdkwf3wLOygbi"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Aserbaidschan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AZ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mauritius",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MU",
+              "tokens": []
+            }
+          ],
+          "row_id": "2Gk4vQu3HJ0EbLR2Qps3Xn"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bahamas",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BS",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mayotte",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "YT",
+              "tokens": []
+            }
+          ],
+          "row_id": "4QhpZz2IFDAIvQ30LZj5ko"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bahrain",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BH",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mexiko",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MX",
+              "tokens": []
+            }
+          ],
+          "row_id": "3dx0VRxKrfECaojhKwackw"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bangladesch",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Moldau",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MD",
+              "tokens": []
+            }
+          ],
+          "row_id": "73hT56NR6naC6s2iGs7uUQ"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Barbados",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BB",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Monaco",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MC",
+              "tokens": []
+            }
+          ],
+          "row_id": "5UoLAymfqzi0PtQoeHpga7"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Weißrussland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BY",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mongolei",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MN",
+              "tokens": []
+            }
+          ],
+          "row_id": "4HTYDFkKElnyIryy8KzBWO"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Belgien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Montenegro",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ME",
+              "tokens": []
+            }
+          ],
+          "row_id": "3JJL9LQjLRBEoVzcCKxJnM"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Belize",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BZ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Montserrat",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MS",
+              "tokens": []
+            }
+          ],
+          "row_id": "3cSncLcRNF7ozBH0FKqESh"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Benin",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BJ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Marokko",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MA",
+              "tokens": []
+            }
+          ],
+          "row_id": "3sQUki27VQWkz12KEgeViG"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bermuda",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Mosambik",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "MZ",
+              "tokens": []
+            }
+          ],
+          "row_id": "77IAj72Ydk55M7gpcfhRwo"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bhutan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BT",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Namibia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NA",
+              "tokens": []
+            }
+          ],
+          "row_id": "5su58G23XnTD5d4S1DRpYA"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bolivien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Nauru",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NR",
+              "tokens": []
+            }
+          ],
+          "row_id": "6SyN3bpo8KbYrwDUD6DHVA"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bosnien und Herzegowina",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Nepal",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NP",
+              "tokens": []
+            }
+          ],
+          "row_id": "6ptcCshU2UkPvZTxNJIf81"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Botsuana",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BW",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Niederlande",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NL",
+              "tokens": []
+            }
+          ],
+          "row_id": "1zce8czBKchmBphv8TUu3s"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Brasilien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Niederländische Antillen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AN",
+              "tokens": []
+            }
+          ],
+          "row_id": "5ul9SZkdA4DKXbSziC7E02"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Britische Jungferninseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Neukaledonien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NC",
+              "tokens": []
+            }
+          ],
+          "row_id": "5cK2MTNosNtMv9p45gl9wQ"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Brunei",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BN",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Neuseeland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NZ",
+              "tokens": []
+            }
+          ],
+          "row_id": "57PTXBp7dj5SrWNZ5l75sq"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Bulgarien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Nicaragua",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NI",
+              "tokens": []
+            }
+          ],
+          "row_id": "23bkiejAUXty1OIUHnxwO0"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Burkina Faso",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Niger",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NE",
+              "tokens": []
+            }
+          ],
+          "row_id": "3uCBCvZGTfhR2QaHBAaleH"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Burundi",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "BI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Nigeria",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NG",
+              "tokens": []
+            }
+          ],
+          "row_id": "63IIkOSjbb4887ohjkGI6J"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kambodscha",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KH",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Niue",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NU",
+              "tokens": []
+            }
+          ],
+          "row_id": "6zKcrKqSn5iWtiKdihEPOg"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kamerun",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Norfolk-Insel",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NF",
+              "tokens": []
+            }
+          ],
+          "row_id": "58ghRhmvBYpBIYznFdv1Mp"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kanada",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Norwegen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "NO",
+              "tokens": []
+            }
+          ],
+          "row_id": "56EOAhrnes5Kc1xhPonr5a"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kap Verde",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CV",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Oman",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "OM",
+              "tokens": []
+            }
+          ],
+          "row_id": "1cVmGyaVZwDm751UDZqYS5"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Cayman-Inseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KY",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Palau",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PW",
+              "tokens": []
+            }
+          ],
+          "row_id": "6tmub3zq2xLLdwZkZdNj2V"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Tschad",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Panama",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PA",
+              "tokens": []
+            }
+          ],
+          "row_id": "65fNNpFhghEiQaDqK799yz"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Chile",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CL",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Papua-Neuguinea",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PG",
+              "tokens": []
+            }
+          ],
+          "row_id": "4EEU3ky1tdU8bUbcKJ3uEV"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "China",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CN",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Paraguay",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PY",
+              "tokens": []
+            }
+          ],
+          "row_id": "7cObzZbeJATLpojQxbYUrL"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kolumbien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Peru",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PE",
+              "tokens": []
+            }
+          ],
+          "row_id": "3g01ZfXUHlc23xPJU3vhed"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Komoren",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Philippinen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PH",
+              "tokens": []
+            }
+          ],
+          "row_id": "Sv4mi0igACkiYGj6Cu2J2"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Cook-Inseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CK",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Pitcairninseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PN",
+              "tokens": []
+            }
+          ],
+          "row_id": "4N7YtQmMJ3p1mq1AATsxS0"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Costa Rica",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Polen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PO",
+              "tokens": []
+            }
+          ],
+          "row_id": "6Ul1ciWCOaUI2wM2E7yvlC"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Elfenbeinküste",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Portugal",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PT",
+              "tokens": []
+            }
+          ],
+          "row_id": "42PHh3dastlsqg2wHeLrbs"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kroatien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "HR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Katar",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "QA",
+              "tokens": []
+            }
+          ],
+          "row_id": "3BVD2reOgjkDHiinZkb6zI"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Zypern",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CY",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Republik Kongo",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CG",
+              "tokens": []
+            }
+          ],
+          "row_id": "3ps22P5trLl1stfrYmgWYl"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Tschechische Republik",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CZ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Réunion",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "RE",
+              "tokens": []
+            }
+          ],
+          "row_id": "1MYMYtXTFklY0oiEjL5Afq"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Demokratische Republik Kongo",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Rumänien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "RO",
+              "tokens": []
+            }
+          ],
+          "row_id": "2pyTDWpv6gOPPIaobjzIja"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Dänemark",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DK",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Russland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "RU",
+              "tokens": []
+            }
+          ],
+          "row_id": "quMcMYpDP9WkDq1sheXBi"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Dschibuti",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DJ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Ruanda",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "RW",
+              "tokens": []
+            }
+          ],
+          "row_id": "4PCFeqQsWsP13aS5yhqEXd"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Dominica",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "St. Helena",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SH",
+              "tokens": []
+            }
+          ],
+          "row_id": "6lAVfTXJZjm2jn89MgA8Uf"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Dominikanische Republik",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "St. Kitts und Nevis",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KN",
+              "tokens": []
+            }
+          ],
+          "row_id": "6D3wO5jt216Hr8Zvdnmq0i"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Ecuador",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "EC",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "St. Lucia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LC",
+              "tokens": []
+            }
+          ],
+          "row_id": "62FILR8bIimJrA8LUT4AOD"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Ägypten",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "EG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Saint-Pierre und Miquelon",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PM",
+              "tokens": []
+            }
+          ],
+          "row_id": "3Pkz9rDO7V6lRiVoDZGw6o"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "El Salvador",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SV",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "St. Vincent und die Grenadinen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VC",
+              "tokens": []
+            }
+          ],
+          "row_id": "11esEeS9PUlKWjo6f6o21Y"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Eritrea",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ER",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Samoa",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "WS",
+              "tokens": []
+            }
+          ],
+          "row_id": "6h0v2Xs4ani2RxngSPh2x"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Estland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "EE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "San Marino",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SM",
+              "tokens": []
+            }
+          ],
+          "row_id": "6p4jqw0f9igWyXoHPtBd5G"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Äthiopien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ET",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "São Tomé und Príncipe",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ST",
+              "tokens": []
+            }
+          ],
+          "row_id": "3LcykHQ22T6zBzPRBNB2zO"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Falklandinseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FK",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Saudi-Arabien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SA",
+              "tokens": []
+            }
+          ],
+          "row_id": "5SgoJJn8XNF6pSNofpESpO"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Färöer",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Senegal",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SN",
+              "tokens": []
+            }
+          ],
+          "row_id": "60HjokBbCH26y4elTeT28b"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Föderierte Staaten von Mikronesien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Serbien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "RS",
+              "tokens": []
+            }
+          ],
+          "row_id": "6vTcanPA9Y0t10nwqT8S86"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Fidschi",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FJ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Seychellen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SC",
+              "tokens": []
+            }
+          ],
+          "row_id": "22sJ4Z67ush97SZI2Gn92c"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Finnland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Sierra Leone",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SL",
+              "tokens": []
+            }
+          ],
+          "row_id": "5L6QK4yICBWvNCNNlEeMBy"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Frankreich",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "FR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Singapur",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SG",
+              "tokens": []
+            }
+          ],
+          "row_id": "SFgzsI6F1FHD0m7NN3yka"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Französisch-Guyana",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Slowakei",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SK",
+              "tokens": []
+            }
+          ],
+          "row_id": "6ObLQKgGuGt0pe2ykaIl2n"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Französisch-Polynesien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "PF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Slowenien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SI",
+              "tokens": []
+            }
+          ],
+          "row_id": "4UhOTBdofSHnLFmntcitBF"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Gabun",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Salomonen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SB",
+              "tokens": []
+            }
+          ],
+          "row_id": "5CeG6BYArlD4XtHNT8IKjv"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Gambia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Somalia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SO",
+              "tokens": []
+            }
+          ],
+          "row_id": "6USP82L0zXzuoDgVpZ72ec"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Georgien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Südafrika",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ZA",
+              "tokens": []
+            }
+          ],
+          "row_id": "2rq2kyzianJo9Gh2m94p3z"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Deutschland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "DE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Südkorea",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KR",
+              "tokens": []
+            }
+          ],
+          "row_id": "5tZED6WbBpnCsmmk4XHutq"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Griechenland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Spanien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ES",
+              "tokens": []
+            }
+          ],
+          "row_id": "5IMw8GlwimlWqyEKFThve4"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Grönland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GL",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Sri Lanka",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LK",
+              "tokens": []
+            }
+          ],
+          "row_id": "4CHv9miajv2EswvsojtEin"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Grenada",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Surinam",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SR",
+              "tokens": []
+            }
+          ],
+          "row_id": "RWm6Zw75xxMUI6eLh83jN"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guadeloupe",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GP",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Svalbard und Jan Mayen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SJ",
+              "tokens": []
+            }
+          ],
+          "row_id": "6m0WKS3Obip5C4TpkgfGgm"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guatemala",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GT",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Swasiland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SZ",
+              "tokens": []
+            }
+          ],
+          "row_id": "41mzPmmcue7cezNUOf6XPV"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guernsey",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Schweden",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "SE",
+              "tokens": []
+            }
+          ],
+          "row_id": "2UfaGnmcPsgS55Eq4dwgj1"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guinea",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GN",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Schweiz",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "CH",
+              "tokens": []
+            }
+          ],
+          "row_id": "gNya0JSPsnkybqlV5BO3K"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guinea-Bissau",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GW",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Taiwan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TW",
+              "tokens": []
+            }
+          ],
+          "row_id": "69Z5UmwLCZwbc3fVzbl9BF"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Guyana",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GY",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Tadschikistan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TJ",
+              "tokens": []
+            }
+          ],
+          "row_id": "5y5df0h5Nfg8aib6dQzH50"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Honduras",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "HN",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Tansania",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TZ",
+              "tokens": []
+            }
+          ],
+          "row_id": "BfBZf5JuoOMfSRpZ3mrkt"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Hongkong",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "HK",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Togo",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TG",
+              "tokens": []
+            }
+          ],
+          "row_id": "4XbKUurAVTvSBTkF7GdwCe"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Ungarn",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "HU",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Thailand",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TH",
+              "tokens": []
+            }
+          ],
+          "row_id": "5H31VMLMlv2ECO9m8wHOt7"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Island",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IS",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Tonga",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TO",
+              "tokens": []
+            }
+          ],
+          "row_id": "2KY2G26wn93VciHBJrk55T"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Indien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IN",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Trinidad und Tobago",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TT",
+              "tokens": []
+            }
+          ],
+          "row_id": "8DU5mfcjL2yDiYgXXhyVg"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Indonesien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ID",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Tunesien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TN",
+              "tokens": []
+            }
+          ],
+          "row_id": "281OyDG0SKOqEoEJVfM3gu"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Irland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Turkmenistan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TM",
+              "tokens": []
+            }
+          ],
+          "row_id": "1nr1FvSdwotecvCX1VMcj5"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Insel Man",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Turks- und Caicos-Inseln",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TC",
+              "tokens": []
+            }
+          ],
+          "row_id": "1OpiK78ZqYghXQhkw14FYn"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Israel",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IL",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Tuvalu",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "TV",
+              "tokens": []
+            }
+          ],
+          "row_id": "6TY3hU8h1fDMoP6aP2DhBt"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Italien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "IT",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Uganda",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "UG",
+              "tokens": []
+            }
+          ],
+          "row_id": "LMLhgcT4brDCeBNBGqMz2"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Jamaika",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "JM",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Ukraine",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "UA",
+              "tokens": []
+            }
+          ],
+          "row_id": "5rI5P6XlW8a7EQEBW1W7cZ"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Japan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "JP",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Vereinigte Arabische Emirate",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "AE",
+              "tokens": []
+            }
+          ],
+          "row_id": "1foeQxrRHxmAPI4cdSNsqV"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Jersey",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "JE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Großbritannien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "GB",
+              "tokens": []
+            }
+          ],
+          "row_id": "1DhggwSCV6FzlFnGCUfin3"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Jordanien",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "JO",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "USA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "US",
+              "tokens": []
+            }
+          ],
+          "row_id": "5Q0PyucLaW1TzVsygC2SCL"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kasachstan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KZ",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Uruguay",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "UY",
+              "tokens": []
+            }
+          ],
+          "row_id": "6VoSzHUQCtfLIuHqezUOYB"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kenia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KE",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Vanuatu",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VU",
+              "tokens": []
+            }
+          ],
+          "row_id": "MxbHMiBKpjLw50DzHlmQ0"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kiribati",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Vatikanstadt",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VA",
+              "tokens": []
+            }
+          ],
+          "row_id": "1WBpF4JiOFKXeuuSQWGvQd"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kuwait",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KW",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Venezuela",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VE",
+              "tokens": []
+            }
+          ],
+          "row_id": "5r5gbQjluAzLPYp954uKdv"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Kirgisistan",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "KG",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Vietnam",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "VN",
+              "tokens": []
+            }
+          ],
+          "row_id": "42FsG7Vm3mWaGbB96wSrrH"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Laos",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Wallis und Futuna",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "WF",
+              "tokens": []
+            }
+          ],
+          "row_id": "1Z2xBlmd9m3yuRnZhf8mki"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Lettland",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LV",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Jemen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "YE",
+              "tokens": []
+            }
+          ],
+          "row_id": "6VD61dV3JxqudbBpe8ndl0"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Lesotho",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LS",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Sambia",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ZM",
+              "tokens": []
+            }
+          ],
+          "row_id": "6PtregKIKcozR7Gm7075ok"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Liechtenstein",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LI",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "Simbabwe",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "ZW",
+              "tokens": []
+            }
+          ],
+          "row_id": "2BYTJSVtXX84MrHYH5vnLe"
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Litauen",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "LT",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "",
+              "tokens": []
+            }
+          ],
+          "row_id": "y5mYgbvjau3Wyap5AAbY0"
+        }
+      ],
+      "section_path": [
+        "Gebührentabelle: Tabelle der Marktcodes"
+      ],
+      "source_order": 2,
+      "source_table_ids": [],
+      "table_id": "FeeTable::FEETB102::2"
+    },
     {
       "caption": "Gebührentabelle: Standardgebühr beim Empfang von Inlandstransaktionen",
       "column_count": 2,
@@ -1415,9 +4147,9 @@
       "section_path": [
         "Gebührentabelle: Standardgebühr beim Empfang von Inlandstransaktionen"
       ],
-      "source_order": 1,
+      "source_order": 3,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB16::1"
+      "table_id": "FeeTable::FEETB16::3"
     },
     {
       "caption": "Gebührentabelle: Prozentuale Zusatzgebühr für internationale geschäftliche Transaktionen",
@@ -1554,9 +4286,9 @@
       "section_path": [
         "Gebührentabelle: Prozentuale Zusatzgebühr für internationale geschäftliche Transaktionen"
       ],
-      "source_order": 2,
+      "source_order": 4,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB91::2"
+      "table_id": "FeeTable::FEETB91::4"
     },
     {
       "caption": "Gebührentabelle: Zusätzliche prozentuale Gebühr für Auslandszahlungen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\"",
@@ -1706,9 +4438,9 @@
       "section_path": [
         "Gebührentabelle: Zusätzliche prozentuale Gebühr für Auslandszahlungen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\""
       ],
-      "source_order": 3,
+      "source_order": 5,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB379::3"
+      "table_id": "FeeTable::FEETB379::5"
     },
     {
       "caption": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
@@ -1779,9 +4511,9 @@
       "section_path": [
         "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen"
       ],
-      "source_order": 4,
+      "source_order": 6,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB382::4"
+      "table_id": "FeeTable::FEETB382::6"
     },
     {
       "caption": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
@@ -2301,11 +5033,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)"
       ],
-      "source_order": 5,
+      "source_order": 7,
       "source_table_ids": [
         "FEETB18"
       ],
-      "table_id": "FeeTable::FEETB18::5"
+      "table_id": "FeeTable::FEETB18::7"
     },
     {
       "caption": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
@@ -2799,11 +5531,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)"
       ],
-      "source_order": 6,
+      "source_order": 8,
       "source_table_ids": [
         "FEETB306"
       ],
-      "table_id": "FeeTable::FEETB306::6"
+      "table_id": "FeeTable::FEETB306::8"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\" (basierend auf der erhaltenen Währung)",
@@ -3323,11 +6055,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\" (basierend auf der erhaltenen Währung)"
       ],
-      "source_order": 9,
+      "source_order": 11,
       "source_table_ids": [
         "FEETB29"
       ],
-      "table_id": "FeeTable::FEETB29::9"
+      "table_id": "FeeTable::FEETB29::11"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\" (basierend auf der erhaltenen Währung)",
@@ -3821,11 +6553,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen vom Typ \"Geld für Waren und Dienstleistungen senden/empfangen\" (basierend auf der erhaltenen Währung)"
       ],
-      "source_order": 10,
+      "source_order": 12,
       "source_table_ids": [
         "FEETB307"
       ],
-      "table_id": "FeeTable::FEETB307::10"
+      "table_id": "FeeTable::FEETB307::12"
     },
     {
       "caption": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
@@ -3934,9 +6666,9 @@
       "section_path": [
         "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden"
       ],
-      "source_order": 13,
+      "source_order": 15,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB391::13"
+      "table_id": "FeeTable::FEETB391::15"
     },
     {
       "caption": "Gebührentabelle: Zusätzliche prozentuale Gebühr für internationale Spenden",
@@ -4119,9 +6851,9 @@
       "section_path": [
         "Gebührentabelle: Zusätzliche prozentuale Gebühr für internationale Spenden"
       ],
-      "source_order": 14,
+      "source_order": 16,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB394::14"
+      "table_id": "FeeTable::FEETB394::16"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)",
@@ -4641,11 +7373,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)"
       ],
-      "source_order": 15,
+      "source_order": 17,
       "source_table_ids": [
         "FEETB25"
       ],
-      "table_id": "FeeTable::FEETB25::15"
+      "table_id": "FeeTable::FEETB25::17"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)",
@@ -5139,11 +7871,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)"
       ],
-      "source_order": 16,
+      "source_order": 18,
       "source_table_ids": [
         "FEETB270"
       ],
-      "table_id": "FeeTable::FEETB270::16"
+      "table_id": "FeeTable::FEETB270::18"
     },
     {
       "caption": "Gebührentabelle: Empfangen von Inlandstransaktionen für gemeinnützige Organisationen",
@@ -5224,9 +7956,9 @@
       "section_path": [
         "Gebührentabelle: Empfangen von Inlandstransaktionen für gemeinnützige Organisationen"
       ],
-      "source_order": 19,
+      "source_order": 21,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB417::19"
+      "table_id": "FeeTable::FEETB417::21"
     },
     {
       "caption": "Gebührentabelle: Zusätzliche prozentuale Gebühr für internationale gemeinnützige Transaktionen",
@@ -5366,9 +8098,9 @@
       "section_path": [
         "Gebührentabelle: Zusätzliche prozentuale Gebühr für internationale gemeinnützige Transaktionen"
       ],
-      "source_order": 20,
+      "source_order": 22,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB420::20"
+      "table_id": "FeeTable::FEETB420::22"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)",
@@ -5732,11 +8464,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 21,
+      "source_order": 23,
       "source_table_ids": [
         "FEETB445"
       ],
-      "table_id": "FeeTable::FEETB445::21"
+      "table_id": "FeeTable::FEETB445::23"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)",
@@ -6100,11 +8832,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 22,
+      "source_order": 24,
       "source_table_ids": [
         "FEETB450"
       ],
-      "table_id": "FeeTable::FEETB450::22"
+      "table_id": "FeeTable::FEETB450::24"
     },
     {
       "caption": "Gebührentabelle: Empfangen von Inlandstransaktionen",
@@ -6198,9 +8930,9 @@
       "section_path": [
         "Gebührentabelle: Empfangen von Inlandstransaktionen"
       ],
-      "source_order": 25,
+      "source_order": 27,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB421::25"
+      "table_id": "FeeTable::FEETB421::27"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)",
@@ -6564,11 +9296,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 26,
+      "source_order": 28,
       "source_table_ids": [
         "FEETB457"
       ],
-      "table_id": "FeeTable::FEETB457::26"
+      "table_id": "FeeTable::FEETB457::28"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)",
@@ -6932,11 +9664,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 27,
+      "source_order": 29,
       "source_table_ids": [
         "FEETB461"
       ],
-      "table_id": "FeeTable::FEETB461::27"
+      "table_id": "FeeTable::FEETB461::29"
     },
     {
       "caption": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
@@ -7123,9 +9855,9 @@
       "section_path": [
         "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen"
       ],
-      "source_order": 30,
+      "source_order": 32,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB479::30"
+      "table_id": "FeeTable::FEETB479::32"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)",
@@ -7489,11 +10221,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 31,
+      "source_order": 33,
       "source_table_ids": [
         "FEETB485"
       ],
-      "table_id": "FeeTable::FEETB485::31"
+      "table_id": "FeeTable::FEETB485::33"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)",
@@ -7857,11 +10589,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)"
       ],
-      "source_order": 32,
+      "source_order": 34,
       "source_table_ids": [
         "FEETB489"
       ],
-      "table_id": "FeeTable::FEETB489::32"
+      "table_id": "FeeTable::FEETB489::34"
     },
     {
       "caption": "Gebührentabelle: Sonstige Gebühren für die Nutzung der PayPal-Dienste für Online-Kartenzahlungen",
@@ -7947,9 +10679,9 @@
       "section_path": [
         "Gebührentabelle: Sonstige Gebühren für die Nutzung der PayPal-Dienste für Online-Kartenzahlungen"
       ],
-      "source_order": 35,
+      "source_order": 37,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB503::35"
+      "table_id": "FeeTable::FEETB503::37"
     },
     {
       "caption": "Gebührentabelle: Standardgebühren für den Empfang von Transaktionen mit PayPal Point of Sale",
@@ -8165,9 +10897,9 @@
       "section_path": [
         "Gebührentabelle: Standardgebühren für den Empfang von Transaktionen mit PayPal Point of Sale"
       ],
-      "source_order": 36,
+      "source_order": 38,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB893::36"
+      "table_id": "FeeTable::FEETB893::38"
     },
     {
       "caption": "Gebührentabelle: Senden von PayPal-Sammelzahlungen",
@@ -8276,9 +11008,9 @@
       "section_path": [
         "Gebührentabelle: Senden von PayPal-Sammelzahlungen"
       ],
-      "source_order": 37,
+      "source_order": 39,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB504::37"
+      "table_id": "FeeTable::FEETB504::39"
     },
     {
       "caption": "Gebührentabelle: Obergrenze bei PayPal-Sammelzahlungen",
@@ -9415,9 +12147,9 @@
       "section_path": [
         "Gebührentabelle: Obergrenze bei PayPal-Sammelzahlungen"
       ],
-      "source_order": 38,
+      "source_order": 40,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB505::38"
+      "table_id": "FeeTable::FEETB505::40"
     },
     {
       "caption": "Gebührentabelle: Empfangen von Mikrozahlungen",
@@ -9488,9 +12220,9 @@
       "section_path": [
         "Gebührentabelle: Empfangen von Mikrozahlungen"
       ],
-      "source_order": 39,
+      "source_order": 41,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB510::39"
+      "table_id": "FeeTable::FEETB510::41"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Mikrozahlungen",
@@ -9924,11 +12656,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Mikrozahlungen"
       ],
-      "source_order": 40,
+      "source_order": 42,
       "source_table_ids": [
         "FEETB511"
       ],
-      "table_id": "FeeTable::FEETB511::40"
+      "table_id": "FeeTable::FEETB511::42"
     },
     {
       "caption": "Gebührentabelle: Festgebühr für Mikrozahlungen",
@@ -10362,11 +13094,11 @@
       "section_path": [
         "Gebührentabelle: Festgebühr für Mikrozahlungen"
       ],
-      "source_order": 41,
+      "source_order": 43,
       "source_table_ids": [
         "FEETB518"
       ],
-      "table_id": "FeeTable::FEETB518::41"
+      "table_id": "FeeTable::FEETB518::43"
     },
     {
       "caption": "Gebührentabelle: Rückbuchungsgebühren",
@@ -10800,11 +13532,11 @@
       "section_path": [
         "Gebührentabelle: Rückbuchungsgebühren"
       ],
-      "source_order": 44,
+      "source_order": 46,
       "source_table_ids": [
         "FEETB522"
       ],
-      "table_id": "FeeTable::FEETB522::44"
+      "table_id": "FeeTable::FEETB522::46"
     },
     {
       "caption": "Gebührentabelle: Rückbuchungsgebühren",
@@ -11238,11 +13970,11 @@
       "section_path": [
         "Gebührentabelle: Rückbuchungsgebühren"
       ],
-      "source_order": 45,
+      "source_order": 47,
       "source_table_ids": [
         "FEETB525"
       ],
-      "table_id": "FeeTable::FEETB525::45"
+      "table_id": "FeeTable::FEETB525::47"
     },
     {
       "caption": "Gebührentabelle: Standard-Konfliktgebühren und Konfliktgebühren bei hohem Volumen",
@@ -11634,11 +14366,11 @@
       "section_path": [
         "Gebührentabelle: Standard-Konfliktgebühren und Konfliktgebühren bei hohem Volumen"
       ],
-      "source_order": 48,
+      "source_order": 50,
       "source_table_ids": [
         "FEETB529"
       ],
-      "table_id": "FeeTable::FEETB529::48"
+      "table_id": "FeeTable::FEETB529::50"
     },
     {
       "caption": "Gebührentabelle: Standard-Konfliktgebühren und Konfliktgebühren bei hohem Volumen",
@@ -12002,11 +14734,11 @@
       "section_path": [
         "Gebührentabelle: Standard-Konfliktgebühren und Konfliktgebühren bei hohem Volumen"
       ],
-      "source_order": 49,
+      "source_order": 51,
       "source_table_ids": [
         "FEETB534"
       ],
-      "table_id": "FeeTable::FEETB534::49"
+      "table_id": "FeeTable::FEETB534::51"
     },
     {
       "caption": "Gebührentabelle: Umrechnung des Guthabens für ein Geschäftskonto und für Transaktionen, bei denen ein Empfänger zugestimmt hat, die Kosten für die Währungsumrechnung zu tragen",
@@ -12057,9 +14789,9 @@
       "section_path": [
         "Gebührentabelle: Umrechnung des Guthabens für ein Geschäftskonto und für Transaktionen, bei denen ein Empfänger zugestimmt hat, die Kosten für die Währungsumrechnung zu tragen"
       ],
-      "source_order": 52,
+      "source_order": 54,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB539::52"
+      "table_id": "FeeTable::FEETB539::54"
     },
     {
       "caption": "Gebührentabelle: Guthaben von einem PayPal-Geschäftskonto abbuchen",
@@ -12178,9 +14910,9 @@
       "section_path": [
         "Gebührentabelle: Guthaben von einem PayPal-Geschäftskonto abbuchen"
       ],
-      "source_order": 53,
+      "source_order": 55,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB543::53"
+      "table_id": "FeeTable::FEETB543::55"
     },
     {
       "caption": "Gebührentabelle: Mindest- und Höchstgebühren",
@@ -15026,11 +17758,11 @@
       "section_path": [
         "Gebührentabelle: Mindest- und Höchstgebühren"
       ],
-      "source_order": 54,
+      "source_order": 56,
       "source_table_ids": [
         "FEETB546"
       ],
-      "table_id": "FeeTable::FEETB546::54"
+      "table_id": "FeeTable::FEETB546::56"
     },
     {
       "caption": "Gebührentabelle: Sonstige Gebühren",
@@ -15233,9 +17965,9 @@
       "section_path": [
         "Gebührentabelle: Sonstige Gebühren"
       ],
-      "source_order": 56,
+      "source_order": 58,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB560::56"
+      "table_id": "FeeTable::FEETB560::58"
     },
     {
       "caption": "Gebührentabelle: Gebührentabelle für inaktive PayPal-Konten",
@@ -15565,2750 +18297,12 @@
       "section_path": [
         "Gebührentabelle: Gebührentabelle für inaktive PayPal-Konten"
       ],
-      "source_order": 57,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB561::57"
-    },
-    {
-      "caption": "Gebührentabelle : Tabelle der Markt-/Regionalgruppen",
-      "column_count": 2,
-      "component_id": "3tT43Kre7IBN8tGicWRxAz",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
-      "document_id": "FEETB87",
-      "headers": [
-        {
-          "links": [],
-          "text": "Gruppenname",
-          "tokens": []
-        },
-        {
-          "links": [],
-          "text": "Markt/Region",
-          "tokens": []
-        }
-      ],
-      "parent_path": [],
-      "reference_id": null,
-      "rows": [
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Europäischer Wirtschaftsraum (EWR)",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Französisch-Guayana, Griechenland, Guadeloupe, Irland, Island, Italien, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Martinique, Mayotte, Monaco, Niederlande, Norwegen, Österreich, Polen, Portugal, Réunion, Rumänien, San Marino, Schweden, Slowakei, Slowenien, Spanien, Tschechische Republik, Ungarn, Vatikanstadt, Zypern.",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "",
-              "tokens": []
-            }
-          ],
-          "row_id": "2xYNambK7bo4Ju11S7bd20"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Europa I",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Österreich, Belgien, Kanalinseln, Zypern, Estland, Frankreich (einschließlich Französisch Guyana, Guadeloupe, Martinique, Réunion und Mayotte), Deutschland, Griechenland, Irland, Isle of Man, Italien, Luxemburg, Malta, Monaco, Montenegro, Niederlande, Portugal, San Marino, Slowakei, Slowenien, Spanien, Vereinigtes Königreich, Vatikanstadt.",
-              "tokens": []
-            }
-          ],
-          "row_id": "36afYOuUYpgfC1XJZu2ZUA"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Europa II",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Albanien, Andorra, Weißrussland, Bosnien und Herzegowina, Bulgarien, Kroatien, Tschechische Republik, Georgien, Ungarn, Kosovo, Lettland, Liechtenstein, Litauen, Mazedonien, Moldawien, Polen, Rumänien, Russische Föderation, Serbien, Schweiz, Ukraine.",
-              "tokens": []
-            }
-          ],
-          "row_id": "7pvJU3lRCgiYTPDuN9kMMj"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Nordeuropa",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Aland-Inseln, Dänemark, Färöer-Inseln, Finnland, Grönland, Island, Norwegen, Schweden.",
-              "tokens": []
-            }
-          ],
-          "row_id": "3ZR3XYMzoTWsgymmTSvqJJ"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Großbritannien (GB)",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Guernsey, Isle of Man, Jersey und Großbritannien",
-              "tokens": []
-            }
-          ],
-          "row_id": "4KfdaTzX4n9NvMc3AkE3mc"
-        }
-      ],
-      "section_path": [
-        "Gebührentabelle : Tabelle der Markt-/Regionalgruppen"
-      ],
-      "source_order": 58,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB87::58"
-    },
-    {
-      "caption": "Gebührentabelle: Tabelle der Marktcodes",
-      "column_count": 4,
-      "component_id": "4JEJIpKCRw8Re7onzLbYIb",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
-      "document_id": "FEETB102",
-      "headers": [
-        {
-          "links": [],
-          "text": "Markt",
-          "tokens": []
-        },
-        {
-          "links": [],
-          "text": "Int. Vorwahl",
-          "tokens": []
-        },
-        {
-          "links": [],
-          "text": "Markt",
-          "tokens": []
-        },
-        {
-          "links": [],
-          "text": "Int. Vorwahl",
-          "tokens": []
-        }
-      ],
-      "parent_path": [],
-      "reference_id": null,
-      "rows": [
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Albanien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AL",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Luxemburg",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LU",
-              "tokens": []
-            }
-          ],
-          "row_id": "23INbfIOq6utsgDr75evk0"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Algerien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DZ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mazedonien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MK",
-              "tokens": []
-            }
-          ],
-          "row_id": "2zULN5vi4gjyZKMRhbI4DG"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Andorra",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AD",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Madagaskar",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MG",
-              "tokens": []
-            }
-          ],
-          "row_id": "zSrhbKyZEk06saqLpyvSE"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Angola",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Malawi",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MW",
-              "tokens": []
-            }
-          ],
-          "row_id": "3dIWIjXhLxA25ZOpjMFMjE"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Anguilla",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Malaysia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MY",
-              "tokens": []
-            }
-          ],
-          "row_id": "1imdqKLrZGrt1Ybuu8w5VB"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Antigua und Barbuda",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Malediven",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MV",
-              "tokens": []
-            }
-          ],
-          "row_id": "2Kc9LgTjnVtVLoN5j9xgsR"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Argentinien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mali",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ML",
-              "tokens": []
-            }
-          ],
-          "row_id": "1uVcsPvTjqHgeXHLTDYp1L"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Armenien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Malta",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MT",
-              "tokens": []
-            }
-          ],
-          "row_id": "6iW52NFzEg68XJeckk1BzF"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Aruba",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AW",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Marshallinseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MH",
-              "tokens": []
-            }
-          ],
-          "row_id": "66w86TK1iofoXsrE5n1MMA"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Australien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AU",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Martinique",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MQ",
-              "tokens": []
-            }
-          ],
-          "row_id": "2C6btZFHa6EB4g8AlOVkJe"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Österreich",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AT",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mauretanien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MR",
-              "tokens": []
-            }
-          ],
-          "row_id": "2fKx7mGb3mdkwf3wLOygbi"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Aserbaidschan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AZ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mauritius",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MU",
-              "tokens": []
-            }
-          ],
-          "row_id": "2Gk4vQu3HJ0EbLR2Qps3Xn"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bahamas",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BS",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mayotte",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "YT",
-              "tokens": []
-            }
-          ],
-          "row_id": "4QhpZz2IFDAIvQ30LZj5ko"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bahrain",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BH",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mexiko",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MX",
-              "tokens": []
-            }
-          ],
-          "row_id": "3dx0VRxKrfECaojhKwackw"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bangladesch",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BD",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Moldau",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MD",
-              "tokens": []
-            }
-          ],
-          "row_id": "73hT56NR6naC6s2iGs7uUQ"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Barbados",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BB",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Monaco",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MC",
-              "tokens": []
-            }
-          ],
-          "row_id": "5UoLAymfqzi0PtQoeHpga7"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Weißrussland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BY",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mongolei",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MN",
-              "tokens": []
-            }
-          ],
-          "row_id": "4HTYDFkKElnyIryy8KzBWO"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Belgien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Montenegro",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ME",
-              "tokens": []
-            }
-          ],
-          "row_id": "3JJL9LQjLRBEoVzcCKxJnM"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Belize",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BZ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Montserrat",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MS",
-              "tokens": []
-            }
-          ],
-          "row_id": "3cSncLcRNF7ozBH0FKqESh"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Benin",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BJ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Marokko",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MA",
-              "tokens": []
-            }
-          ],
-          "row_id": "3sQUki27VQWkz12KEgeViG"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bermuda",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Mosambik",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "MZ",
-              "tokens": []
-            }
-          ],
-          "row_id": "77IAj72Ydk55M7gpcfhRwo"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bhutan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BT",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Namibia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NA",
-              "tokens": []
-            }
-          ],
-          "row_id": "5su58G23XnTD5d4S1DRpYA"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bolivien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Nauru",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NR",
-              "tokens": []
-            }
-          ],
-          "row_id": "6SyN3bpo8KbYrwDUD6DHVA"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bosnien und Herzegowina",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BA",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Nepal",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NP",
-              "tokens": []
-            }
-          ],
-          "row_id": "6ptcCshU2UkPvZTxNJIf81"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Botsuana",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BW",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Niederlande",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NL",
-              "tokens": []
-            }
-          ],
-          "row_id": "1zce8czBKchmBphv8TUu3s"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Brasilien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Niederländische Antillen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AN",
-              "tokens": []
-            }
-          ],
-          "row_id": "5ul9SZkdA4DKXbSziC7E02"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Britische Jungferninseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Neukaledonien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NC",
-              "tokens": []
-            }
-          ],
-          "row_id": "5cK2MTNosNtMv9p45gl9wQ"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Brunei",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BN",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Neuseeland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NZ",
-              "tokens": []
-            }
-          ],
-          "row_id": "57PTXBp7dj5SrWNZ5l75sq"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Bulgarien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Nicaragua",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NI",
-              "tokens": []
-            }
-          ],
-          "row_id": "23bkiejAUXty1OIUHnxwO0"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Burkina Faso",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BF",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Niger",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NE",
-              "tokens": []
-            }
-          ],
-          "row_id": "3uCBCvZGTfhR2QaHBAaleH"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Burundi",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "BI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Nigeria",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NG",
-              "tokens": []
-            }
-          ],
-          "row_id": "63IIkOSjbb4887ohjkGI6J"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kambodscha",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KH",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Niue",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NU",
-              "tokens": []
-            }
-          ],
-          "row_id": "6zKcrKqSn5iWtiKdihEPOg"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kamerun",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Norfolk-Insel",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NF",
-              "tokens": []
-            }
-          ],
-          "row_id": "58ghRhmvBYpBIYznFdv1Mp"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kanada",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CA",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Norwegen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "NO",
-              "tokens": []
-            }
-          ],
-          "row_id": "56EOAhrnes5Kc1xhPonr5a"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kap Verde",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CV",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Oman",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "OM",
-              "tokens": []
-            }
-          ],
-          "row_id": "1cVmGyaVZwDm751UDZqYS5"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Cayman-Inseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KY",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Palau",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PW",
-              "tokens": []
-            }
-          ],
-          "row_id": "6tmub3zq2xLLdwZkZdNj2V"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Tschad",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TD",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Panama",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PA",
-              "tokens": []
-            }
-          ],
-          "row_id": "65fNNpFhghEiQaDqK799yz"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Chile",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CL",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Papua-Neuguinea",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PG",
-              "tokens": []
-            }
-          ],
-          "row_id": "4EEU3ky1tdU8bUbcKJ3uEV"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "China",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CN",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Paraguay",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PY",
-              "tokens": []
-            }
-          ],
-          "row_id": "7cObzZbeJATLpojQxbYUrL"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kolumbien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Peru",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PE",
-              "tokens": []
-            }
-          ],
-          "row_id": "3g01ZfXUHlc23xPJU3vhed"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Komoren",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Philippinen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PH",
-              "tokens": []
-            }
-          ],
-          "row_id": "Sv4mi0igACkiYGj6Cu2J2"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Cook-Inseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CK",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Pitcairninseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PN",
-              "tokens": []
-            }
-          ],
-          "row_id": "4N7YtQmMJ3p1mq1AATsxS0"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Costa Rica",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Polen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PO",
-              "tokens": []
-            }
-          ],
-          "row_id": "6Ul1ciWCOaUI2wM2E7yvlC"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Elfenbeinküste",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Portugal",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PT",
-              "tokens": []
-            }
-          ],
-          "row_id": "42PHh3dastlsqg2wHeLrbs"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kroatien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "HR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Katar",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "QA",
-              "tokens": []
-            }
-          ],
-          "row_id": "3BVD2reOgjkDHiinZkb6zI"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Zypern",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CY",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Republik Kongo",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CG",
-              "tokens": []
-            }
-          ],
-          "row_id": "3ps22P5trLl1stfrYmgWYl"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Tschechische Republik",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CZ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Réunion",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "RE",
-              "tokens": []
-            }
-          ],
-          "row_id": "1MYMYtXTFklY0oiEjL5Afq"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Demokratische Republik Kongo",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CD",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Rumänien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "RO",
-              "tokens": []
-            }
-          ],
-          "row_id": "2pyTDWpv6gOPPIaobjzIja"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Dänemark",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DK",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Russland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "RU",
-              "tokens": []
-            }
-          ],
-          "row_id": "quMcMYpDP9WkDq1sheXBi"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Dschibuti",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DJ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Ruanda",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "RW",
-              "tokens": []
-            }
-          ],
-          "row_id": "4PCFeqQsWsP13aS5yhqEXd"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Dominica",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "St. Helena",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SH",
-              "tokens": []
-            }
-          ],
-          "row_id": "6lAVfTXJZjm2jn89MgA8Uf"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Dominikanische Republik",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "St. Kitts und Nevis",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KN",
-              "tokens": []
-            }
-          ],
-          "row_id": "6D3wO5jt216Hr8Zvdnmq0i"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Ecuador",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "EC",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "St. Lucia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LC",
-              "tokens": []
-            }
-          ],
-          "row_id": "62FILR8bIimJrA8LUT4AOD"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Ägypten",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "EG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Saint-Pierre und Miquelon",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PM",
-              "tokens": []
-            }
-          ],
-          "row_id": "3Pkz9rDO7V6lRiVoDZGw6o"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "El Salvador",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SV",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "St. Vincent und die Grenadinen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VC",
-              "tokens": []
-            }
-          ],
-          "row_id": "11esEeS9PUlKWjo6f6o21Y"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Eritrea",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ER",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Samoa",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "WS",
-              "tokens": []
-            }
-          ],
-          "row_id": "6h0v2Xs4ani2RxngSPh2x"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Estland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "EE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "San Marino",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SM",
-              "tokens": []
-            }
-          ],
-          "row_id": "6p4jqw0f9igWyXoHPtBd5G"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Äthiopien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ET",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "São Tomé und Príncipe",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ST",
-              "tokens": []
-            }
-          ],
-          "row_id": "3LcykHQ22T6zBzPRBNB2zO"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Falklandinseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FK",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Saudi-Arabien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SA",
-              "tokens": []
-            }
-          ],
-          "row_id": "5SgoJJn8XNF6pSNofpESpO"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Färöer",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Senegal",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SN",
-              "tokens": []
-            }
-          ],
-          "row_id": "60HjokBbCH26y4elTeT28b"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Föderierte Staaten von Mikronesien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Serbien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "RS",
-              "tokens": []
-            }
-          ],
-          "row_id": "6vTcanPA9Y0t10nwqT8S86"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Fidschi",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FJ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Seychellen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SC",
-              "tokens": []
-            }
-          ],
-          "row_id": "22sJ4Z67ush97SZI2Gn92c"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Finnland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Sierra Leone",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SL",
-              "tokens": []
-            }
-          ],
-          "row_id": "5L6QK4yICBWvNCNNlEeMBy"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Frankreich",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "FR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Singapur",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SG",
-              "tokens": []
-            }
-          ],
-          "row_id": "SFgzsI6F1FHD0m7NN3yka"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Französisch-Guyana",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GF",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Slowakei",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SK",
-              "tokens": []
-            }
-          ],
-          "row_id": "6ObLQKgGuGt0pe2ykaIl2n"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Französisch-Polynesien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "PF",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Slowenien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SI",
-              "tokens": []
-            }
-          ],
-          "row_id": "4UhOTBdofSHnLFmntcitBF"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Gabun",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GA",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Salomonen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SB",
-              "tokens": []
-            }
-          ],
-          "row_id": "5CeG6BYArlD4XtHNT8IKjv"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Gambia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Somalia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SO",
-              "tokens": []
-            }
-          ],
-          "row_id": "6USP82L0zXzuoDgVpZ72ec"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Georgien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Südafrika",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ZA",
-              "tokens": []
-            }
-          ],
-          "row_id": "2rq2kyzianJo9Gh2m94p3z"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Deutschland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "DE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Südkorea",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KR",
-              "tokens": []
-            }
-          ],
-          "row_id": "5tZED6WbBpnCsmmk4XHutq"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Griechenland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GR",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Spanien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ES",
-              "tokens": []
-            }
-          ],
-          "row_id": "5IMw8GlwimlWqyEKFThve4"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Grönland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GL",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Sri Lanka",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LK",
-              "tokens": []
-            }
-          ],
-          "row_id": "4CHv9miajv2EswvsojtEin"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Grenada",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GD",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Surinam",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SR",
-              "tokens": []
-            }
-          ],
-          "row_id": "RWm6Zw75xxMUI6eLh83jN"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guadeloupe",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GP",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Svalbard und Jan Mayen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SJ",
-              "tokens": []
-            }
-          ],
-          "row_id": "6m0WKS3Obip5C4TpkgfGgm"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guatemala",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GT",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Swasiland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SZ",
-              "tokens": []
-            }
-          ],
-          "row_id": "41mzPmmcue7cezNUOf6XPV"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guernsey",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Schweden",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "SE",
-              "tokens": []
-            }
-          ],
-          "row_id": "2UfaGnmcPsgS55Eq4dwgj1"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guinea",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GN",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Schweiz",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "CH",
-              "tokens": []
-            }
-          ],
-          "row_id": "gNya0JSPsnkybqlV5BO3K"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guinea-Bissau",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GW",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Taiwan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TW",
-              "tokens": []
-            }
-          ],
-          "row_id": "69Z5UmwLCZwbc3fVzbl9BF"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Guyana",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GY",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Tadschikistan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TJ",
-              "tokens": []
-            }
-          ],
-          "row_id": "5y5df0h5Nfg8aib6dQzH50"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Honduras",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "HN",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Tansania",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TZ",
-              "tokens": []
-            }
-          ],
-          "row_id": "BfBZf5JuoOMfSRpZ3mrkt"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Hongkong",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "HK",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Togo",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TG",
-              "tokens": []
-            }
-          ],
-          "row_id": "4XbKUurAVTvSBTkF7GdwCe"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Ungarn",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "HU",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Thailand",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TH",
-              "tokens": []
-            }
-          ],
-          "row_id": "5H31VMLMlv2ECO9m8wHOt7"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Island",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IS",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Tonga",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TO",
-              "tokens": []
-            }
-          ],
-          "row_id": "2KY2G26wn93VciHBJrk55T"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Indien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IN",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Trinidad und Tobago",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TT",
-              "tokens": []
-            }
-          ],
-          "row_id": "8DU5mfcjL2yDiYgXXhyVg"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Indonesien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ID",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Tunesien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TN",
-              "tokens": []
-            }
-          ],
-          "row_id": "281OyDG0SKOqEoEJVfM3gu"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Irland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Turkmenistan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TM",
-              "tokens": []
-            }
-          ],
-          "row_id": "1nr1FvSdwotecvCX1VMcj5"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Insel Man",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Turks- und Caicos-Inseln",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TC",
-              "tokens": []
-            }
-          ],
-          "row_id": "1OpiK78ZqYghXQhkw14FYn"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Israel",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IL",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Tuvalu",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "TV",
-              "tokens": []
-            }
-          ],
-          "row_id": "6TY3hU8h1fDMoP6aP2DhBt"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Italien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "IT",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Uganda",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "UG",
-              "tokens": []
-            }
-          ],
-          "row_id": "LMLhgcT4brDCeBNBGqMz2"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Jamaika",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "JM",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Ukraine",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "UA",
-              "tokens": []
-            }
-          ],
-          "row_id": "5rI5P6XlW8a7EQEBW1W7cZ"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Japan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "JP",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Vereinigte Arabische Emirate",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "AE",
-              "tokens": []
-            }
-          ],
-          "row_id": "1foeQxrRHxmAPI4cdSNsqV"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Jersey",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "JE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Großbritannien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "GB",
-              "tokens": []
-            }
-          ],
-          "row_id": "1DhggwSCV6FzlFnGCUfin3"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Jordanien",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "JO",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "USA",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "US",
-              "tokens": []
-            }
-          ],
-          "row_id": "5Q0PyucLaW1TzVsygC2SCL"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kasachstan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KZ",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Uruguay",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "UY",
-              "tokens": []
-            }
-          ],
-          "row_id": "6VoSzHUQCtfLIuHqezUOYB"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kenia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KE",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Vanuatu",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VU",
-              "tokens": []
-            }
-          ],
-          "row_id": "MxbHMiBKpjLw50DzHlmQ0"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kiribati",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Vatikanstadt",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VA",
-              "tokens": []
-            }
-          ],
-          "row_id": "1WBpF4JiOFKXeuuSQWGvQd"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kuwait",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KW",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Venezuela",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VE",
-              "tokens": []
-            }
-          ],
-          "row_id": "5r5gbQjluAzLPYp954uKdv"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Kirgisistan",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "KG",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Vietnam",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "VN",
-              "tokens": []
-            }
-          ],
-          "row_id": "42FsG7Vm3mWaGbB96wSrrH"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Laos",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LA",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Wallis und Futuna",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "WF",
-              "tokens": []
-            }
-          ],
-          "row_id": "1Z2xBlmd9m3yuRnZhf8mki"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Lettland",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LV",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Jemen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "YE",
-              "tokens": []
-            }
-          ],
-          "row_id": "6VD61dV3JxqudbBpe8ndl0"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Lesotho",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LS",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Sambia",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ZM",
-              "tokens": []
-            }
-          ],
-          "row_id": "6PtregKIKcozR7Gm7075ok"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Liechtenstein",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LI",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "Simbabwe",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "ZW",
-              "tokens": []
-            }
-          ],
-          "row_id": "2BYTJSVtXX84MrHYH5vnLe"
-        },
-        {
-          "cells": [
-            {
-              "links": [],
-              "text": "Litauen",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "LT",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "",
-              "tokens": []
-            },
-            {
-              "links": [],
-              "text": "",
-              "tokens": []
-            }
-          ],
-          "row_id": "y5mYgbvjau3Wyap5AAbY0"
-        }
-      ],
-      "section_path": [
-        "Gebührentabelle: Tabelle der Marktcodes"
-      ],
       "source_order": 59,
       "source_table_ids": [],
-      "table_id": "FeeTable::FEETB102::59"
+      "table_id": "FeeTable::FEETB561::59"
     }
   ],
   "warnings": [
-    {
-      "code": "row_wider_than_header",
-      "context": {
-        "component_id": "6Vr4MpD3mlh8QJYWRMFERI",
-        "document_id": "FEETB539"
-      },
-      "message": "Table FEETB539 has rows with 2 cells but only 1 headers"
-    },
     {
       "code": "row_wider_than_header",
       "context": {
@@ -18316,6 +18310,14 @@
         "document_id": "FEETB87"
       },
       "message": "Table FEETB87 has rows with 4 cells but only 2 headers"
+    },
+    {
+      "code": "row_wider_than_header",
+      "context": {
+        "component_id": "6Vr4MpD3mlh8QJYWRMFERI",
+        "document_id": "FEETB539"
+      },
+      "message": "Table FEETB539 has rows with 2 cells but only 1 headers"
     }
   ]
 }
