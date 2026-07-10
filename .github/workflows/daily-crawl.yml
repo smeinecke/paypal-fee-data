@@ -45,6 +45,9 @@ jobs:
         working-directory: ./crawler
         run: uv run paypal-fee-crawler validate ..
 
+      - name: Update README statistics
+        run: python3 scripts/generate_readme.py
+
       - name: Check for changes
         id: changes
         run: |
@@ -67,7 +70,7 @@ jobs:
         env:
           ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         with:
-          add: 'json meta schemas'
+          add: 'json meta schemas README.md'
           author_name: Auto Update Bot
           author_email: bot@github.com
           message: 'Daily PayPal fee update'
