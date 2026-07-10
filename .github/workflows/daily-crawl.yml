@@ -1,0 +1,74 @@
+name: Daily Crawl
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out data repo with crawler submodule
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.11.12"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install crawler dependencies
+        working-directory: ./crawler
+        run: uv sync --frozen
+
+      - name: Run crawler
+        working-directory: ./crawler
+        run: |
+          uv run paypal-fee-crawler crawl \
+            --output .. \
+            --atomic \
+            --fail-on-regression \
+            --report /tmp/crawl-report.json
+
+      - name: Validate generated JSON
+        working-directory: ./crawler
+        run: uv run paypal-fee-crawler validate ..
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Daily PayPal fee update"
+          title: "Daily PayPal fee update"
+          body: "Automated data refresh from the daily crawler run."
+          branch: "daily-crawl-update"
+          delete-branch: true
+
+      - name: Upload diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawl-diagnostics
+          path: /tmp/crawl-report.json

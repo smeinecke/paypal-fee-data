@@ -1,0 +1,779 @@
+{
+  "derived": {
+    "chargeback": null,
+    "commercial_fixed_fees": [
+      {
+        "amount": "0.39",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.39",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.39",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.49",
+        "currency": "USD"
+      },
+      {
+        "amount": "0.29",
+        "currency": "GBP"
+      },
+      {
+        "amount": "0.39",
+        "currency": "CHF"
+      },
+      {
+        "amount": "0.39",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.49",
+        "currency": "USD"
+      },
+      {
+        "amount": "0.29",
+        "currency": "GBP"
+      },
+      {
+        "amount": "0.39",
+        "currency": "CHF"
+      },
+      {
+        "amount": "0.39",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.49",
+        "currency": "USD"
+      },
+      {
+        "amount": "0.29",
+        "currency": "GBP"
+      },
+      {
+        "amount": "0.39",
+        "currency": "CHF"
+      }
+    ],
+    "currency_conversion": {
+      "spread_percentage": "3"
+    },
+    "dispute": null,
+    "donations": null,
+    "goods_and_services": null,
+    "international_surcharges": [
+      {
+        "percentage_points": "0",
+        "region": "EEA"
+      },
+      {
+        "percentage_points": "1.29",
+        "region": "GB"
+      },
+      {
+        "percentage_points": "1.99",
+        "region": "OTHER"
+      }
+    ],
+    "micropayments": null,
+    "nonprofit": null,
+    "standard_commercial": {
+      "fixed_fee_reference": "commercial_fixed_fees",
+      "percentage": "2.99"
+    },
+    "status": "complete",
+    "unclassified_sections": []
+  },
+  "market": {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch"
+      }
+    ],
+    "locale": "de_DE",
+    "preferred_language": "de",
+    "region": "europe",
+    "url_prefix": "https://www.paypal.com/de"
+  },
+  "schema_version": 1,
+  "sections": [
+    {
+      "body": "Fees for receiving domestic payments.",
+      "component_id": "sec-intro-de",
+      "component_type": "TextSectionType",
+      "heading": "Commercial transaction fees",
+      "section_path": [
+        "Commercial transaction fees"
+      ]
+    }
+  ],
+  "source": {
+    "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+    "cms_updated_at": null,
+    "content_sha256": "aaa52de91dd6ce956091c7ae1741c771bc233e43c00f47b1780735f0ba41cc08",
+    "etag": null,
+    "last_modified": null,
+    "page_id": "business/paypal-business-fees",
+    "page_title": "PayPal Merchant and Seller Fees - Germany",
+    "page_updated_at": "2026-04-30",
+    "pdf_url": null,
+    "requested_url": "https://www.paypal.com/de/business/paypal-business-fees"
+  },
+  "tables": [
+    {
+      "caption": "Commercial transaction fees",
+      "column_count": 2,
+      "component_id": "ft-commercial-de",
+      "component_type": "FeeTable",
+      "document_id": "FEETB-de-01",
+      "headers": [
+        {
+          "links": [],
+          "text": "Payment type",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Fee",
+          "tokens": []
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Commercial transactions",
+              "tokens": []
+            },
+            {
+              "links": [
+                {
+                  "text": "0,39 EUR",
+                  "uri": "#fixed-fee"
+                }
+              ],
+              "text": "2,99% + 0,39 EUR",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": null,
+                  "raw": "2,99%",
+                  "token_id": null,
+                  "value": "2.99"
+                },
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "EUR",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39EUR",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Charity / nonprofit",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "1,99% + 0,39 EUR",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": null,
+                  "raw": "1,99%",
+                  "token_id": null,
+                  "value": "1.99"
+                },
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "EUR",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": "add",
+                  "raw": "+0,39EUR",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section_path": [
+        "Fee tables",
+        "Commercial transaction fees"
+      ],
+      "source_table_ids": []
+    },
+    {
+      "caption": "Fixed fee by received currency",
+      "column_count": 2,
+      "component_id": "ft-fixed-de",
+      "component_type": "FeeTable",
+      "document_id": "FEETB-de-02",
+      "headers": [
+        {
+          "links": [],
+          "text": "Currency",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Fixed fee",
+          "tokens": []
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "EUR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 EUR",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "EUR",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39EUR",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "USD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,49 USD",
+              "tokens": [
+                {
+                  "amount": "0.49",
+                  "content_type": null,
+                  "currency": "USD",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,49USD",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "GBP",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,29 GBP",
+              "tokens": [
+                {
+                  "amount": "0.29",
+                  "content_type": null,
+                  "currency": "GBP",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,29GBP",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "CHF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 CHF",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "CHF",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39CHF",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section_path": [
+        "Fee tables",
+        "Fixed fee by received currency"
+      ],
+      "source_table_ids": []
+    },
+    {
+      "caption": "International surcharge",
+      "column_count": 2,
+      "component_id": "ft-intl-de",
+      "component_type": "FeeTable",
+      "document_id": "FEETB-de-03",
+      "headers": [
+        {
+          "links": [],
+          "text": "Payer region",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Surcharge",
+          "tokens": []
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "EEA",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0%",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": null,
+                  "raw": "0%",
+                  "token_id": null,
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "GB",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "+1,29%",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": "add",
+                  "raw": "+1,29%",
+                  "token_id": null,
+                  "value": "1.29"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Other",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "+1,99%",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": "add",
+                  "raw": "+1,99%",
+                  "token_id": null,
+                  "value": "1.99"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section_path": [
+        "Fee tables",
+        "International surcharge"
+      ],
+      "source_table_ids": []
+    },
+    {
+      "caption": "Currency conversion",
+      "column_count": 2,
+      "component_id": "ft-conv-de",
+      "component_type": "FeeTable",
+      "document_id": "FEETB-de-04",
+      "headers": [
+        {
+          "links": [],
+          "text": "Currency conversion",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Spread",
+          "tokens": []
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "Currency conversion",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "3%",
+              "tokens": [
+                {
+                  "amount": null,
+                  "content_type": null,
+                  "currency": null,
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "percentage",
+                  "operator": null,
+                  "raw": "3%",
+                  "token_id": null,
+                  "value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section_path": [
+        "Fee tables",
+        "Currency conversion"
+      ],
+      "source_table_ids": []
+    },
+    {
+      "caption": "Currency fixed fees",
+      "column_count": 2,
+      "component_id": "ft-split-a-de",
+      "component_type": "FeeTable",
+      "document_id": "FEETB-de-05",
+      "headers": [
+        {
+          "links": [],
+          "text": "Currency",
+          "tokens": []
+        },
+        {
+          "links": [],
+          "text": "Fee",
+          "tokens": []
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "EUR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 EUR",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "EUR",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39EUR",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "USD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,49 USD",
+              "tokens": [
+                {
+                  "amount": "0.49",
+                  "content_type": null,
+                  "currency": "USD",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,49USD",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "GBP",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,29 GBP",
+              "tokens": [
+                {
+                  "amount": "0.29",
+                  "content_type": null,
+                  "currency": "GBP",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,29GBP",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "CHF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 CHF",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "CHF",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39CHF",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "EUR",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 EUR",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "EUR",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39EUR",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "USD",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,49 USD",
+              "tokens": [
+                {
+                  "amount": "0.49",
+                  "content_type": null,
+                  "currency": "USD",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,49USD",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "GBP",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,29 GBP",
+              "tokens": [
+                {
+                  "amount": "0.29",
+                  "content_type": null,
+                  "currency": "GBP",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,29GBP",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "links": [],
+              "text": "CHF",
+              "tokens": []
+            },
+            {
+              "links": [],
+              "text": "0,39 CHF",
+              "tokens": [
+                {
+                  "amount": "0.39",
+                  "content_type": null,
+                  "currency": "CHF",
+                  "fee_data_key": null,
+                  "internal_name": null,
+                  "kind": "money",
+                  "operator": null,
+                  "raw": "0,39CHF",
+                  "token_id": null,
+                  "value": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section_path": [
+        "Fee tables",
+        "Currency fixed fees"
+      ],
+      "source_table_ids": [
+        "FEETB-de-05"
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,896 @@
+{
+  "$defs": {
+    "Cell": {
+      "description": "A rendered table cell.",
+      "properties": {
+        "links": {
+          "items": {
+            "$ref": "#/$defs/Link"
+          },
+          "title": "Links",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "tokens": {
+          "items": {
+            "$ref": "#/$defs/FeeToken"
+          },
+          "title": "Tokens",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "Cell",
+      "type": "object"
+    },
+    "CommercialFee": {
+      "description": "Standard commercial transaction fee.",
+      "properties": {
+        "fixed_fee_reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fixed Fee Reference"
+        },
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        }
+      },
+      "title": "CommercialFee",
+      "type": "object"
+    },
+    "CurrencyConversion": {
+      "description": "Currency conversion spread.",
+      "properties": {
+        "spread_percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spread Percentage"
+        }
+      },
+      "title": "CurrencyConversion",
+      "type": "object"
+    },
+    "DerivedFees": {
+      "description": "Derived core fees with confidence status.",
+      "properties": {
+        "chargeback": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Chargeback"
+        },
+        "commercial_fixed_fees": {
+          "items": {
+            "$ref": "#/$defs/FixedFees"
+          },
+          "title": "Commercial Fixed Fees",
+          "type": "array"
+        },
+        "currency_conversion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CurrencyConversion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "dispute": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dispute"
+        },
+        "donations": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommercialFee"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "goods_and_services": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommercialFee"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "international_surcharges": {
+          "items": {
+            "$ref": "#/$defs/InternationalSurcharge"
+          },
+          "title": "International Surcharges",
+          "type": "array"
+        },
+        "micropayments": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommercialFee"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "nonprofit": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommercialFee"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "standard_commercial": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommercialFee"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "status": {
+          "default": "unclassified",
+          "title": "Status",
+          "type": "string"
+        },
+        "unclassified_sections": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unclassified Sections",
+          "type": "array"
+        }
+      },
+      "title": "DerivedFees",
+      "type": "object"
+    },
+    "FeeToken": {
+      "description": "A normalized pricing token.",
+      "properties": {
+        "amount": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Amount"
+        },
+        "content_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Type"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency"
+        },
+        "fee_data_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fee Data Key"
+        },
+        "internal_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Internal Name"
+        },
+        "kind": {
+          "default": "text",
+          "title": "Kind",
+          "type": "string"
+        },
+        "operator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Operator"
+        },
+        "raw": {
+          "title": "Raw",
+          "type": "string"
+        },
+        "token_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Token Id"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        }
+      },
+      "required": [
+        "raw"
+      ],
+      "title": "FeeToken",
+      "type": "object"
+    },
+    "FixedFees": {
+      "description": "Fixed fees by received currency.",
+      "properties": {
+        "amount": {
+          "title": "Amount",
+          "type": "string"
+        },
+        "currency": {
+          "title": "Currency",
+          "type": "string"
+        }
+      },
+      "required": [
+        "currency",
+        "amount"
+      ],
+      "title": "FixedFees",
+      "type": "object"
+    },
+    "InternationalSurcharge": {
+      "description": "International payer-region surcharge.",
+      "properties": {
+        "percentage_points": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage Points"
+        },
+        "region": {
+          "title": "Region",
+          "type": "string"
+        }
+      },
+      "required": [
+        "region"
+      ],
+      "title": "InternationalSurcharge",
+      "type": "object"
+    },
+    "Language": {
+      "description": "A supported language for a market.",
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "title": "Language",
+      "type": "object"
+    },
+    "Link": {
+      "description": "A hyperlink extracted from a rich-text cell.",
+      "properties": {
+        "text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Text"
+        },
+        "uri": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uri"
+        }
+      },
+      "title": "Link",
+      "type": "object"
+    },
+    "Market": {
+      "description": "A discovered PayPal market/country.",
+      "properties": {
+        "country_code": {
+          "pattern": "^[A-Z]{2}$",
+          "title": "Country Code",
+          "type": "string"
+        },
+        "country_name": {
+          "title": "Country Name",
+          "type": "string"
+        },
+        "languages": {
+          "items": {
+            "$ref": "#/$defs/Language"
+          },
+          "title": "Languages",
+          "type": "array"
+        },
+        "locale": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Locale"
+        },
+        "preferred_language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preferred Language"
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region"
+        },
+        "url_prefix": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url Prefix"
+        }
+      },
+      "required": [
+        "country_code",
+        "country_name"
+      ],
+      "title": "Market",
+      "type": "object"
+    },
+    "ParserWarning": {
+      "description": "A non-fatal parser warning.",
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "context": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Context"
+        },
+        "message": {
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ],
+      "title": "ParserWarning",
+      "type": "object"
+    },
+    "Row": {
+      "description": "A rendered table row.",
+      "properties": {
+        "cells": {
+          "items": {
+            "$ref": "#/$defs/Cell"
+          },
+          "title": "Cells",
+          "type": "array"
+        }
+      },
+      "title": "Row",
+      "type": "object"
+    },
+    "Section": {
+      "description": "A normalized page section.",
+      "properties": {
+        "body": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Body"
+        },
+        "component_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Id"
+        },
+        "component_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Type"
+        },
+        "heading": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Heading"
+        },
+        "section_path": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Section Path",
+          "type": "array"
+        }
+      },
+      "title": "Section",
+      "type": "object"
+    },
+    "Source": {
+      "description": "Source metadata for a crawled fee page.",
+      "properties": {
+        "canonical_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Url"
+        },
+        "cms_updated_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cms Updated At"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "etag": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Etag"
+        },
+        "last_modified": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Modified"
+        },
+        "page_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Id"
+        },
+        "page_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Title"
+        },
+        "page_updated_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Updated At"
+        },
+        "pdf_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pdf Url"
+        },
+        "requested_url": {
+          "title": "Requested Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "requested_url"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "Table": {
+      "description": "A normalized fee table.",
+      "properties": {
+        "caption": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Caption"
+        },
+        "column_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Column Count"
+        },
+        "component_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Id"
+        },
+        "component_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Type"
+        },
+        "document_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Document Id"
+        },
+        "headers": {
+          "items": {
+            "$ref": "#/$defs/TableHeader"
+          },
+          "title": "Headers",
+          "type": "array"
+        },
+        "rows": {
+          "items": {
+            "$ref": "#/$defs/Row"
+          },
+          "title": "Rows",
+          "type": "array"
+        },
+        "section_path": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Section Path",
+          "type": "array"
+        },
+        "source_table_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Table Ids",
+          "type": "array"
+        }
+      },
+      "title": "Table",
+      "type": "object"
+    },
+    "TableHeader": {
+      "description": "A table header cell.",
+      "properties": {
+        "links": {
+          "items": {
+            "$ref": "#/$defs/Link"
+          },
+          "title": "Links",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "tokens": {
+          "items": {
+            "$ref": "#/$defs/FeeToken"
+          },
+          "title": "Tokens",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TableHeader",
+      "type": "object"
+    }
+  },
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/paypal-fees-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Per-country normalized output.",
+  "properties": {
+    "derived": {
+      "$ref": "#/$defs/DerivedFees"
+    },
+    "market": {
+      "$ref": "#/$defs/Market"
+    },
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "sections": {
+      "items": {
+        "$ref": "#/$defs/Section"
+      },
+      "title": "Sections",
+      "type": "array"
+    },
+    "source": {
+      "$ref": "#/$defs/Source"
+    },
+    "tables": {
+      "items": {
+        "$ref": "#/$defs/Table"
+      },
+      "title": "Tables",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "$ref": "#/$defs/ParserWarning"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "market",
+    "source"
+  ],
+  "title": "CountryOutput",
+  "type": "object"
+}
