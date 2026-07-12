@@ -2922,6 +2922,10 @@
         "international_surcharge_exposed": true,
         "international_surcharges": [
           {
+            "percentage_points": "3",
+            "region": "GB"
+          },
+          {
             "percentage_points": "4.4",
             "region": "OTHER"
           }
@@ -4492,6 +4496,10 @@
         "international_surcharge_exposed": true,
         "international_surcharges": [
           {
+            "percentage_points": "3",
+            "region": "GB"
+          },
+          {
             "percentage_points": "4.4",
             "region": "OTHER"
           }
@@ -4720,6 +4728,10 @@
         "currency_conversion_exposed": true,
         "international_surcharge_exposed": true,
         "international_surcharges": [
+          {
+            "percentage_points": "3",
+            "region": "GB"
+          },
           {
             "percentage_points": "4.4",
             "region": "OTHER"
@@ -5743,10 +5755,120 @@
     {
       "country_code": "DZ",
       "derived": {
-        "commercial_fixed_fees": [],
-        "currency_conversion_exposed": false,
+        "commercial_fixed_fees": [
+          {
+            "amount": "0.3",
+            "currency": "AUD"
+          },
+          {
+            "amount": "0.6",
+            "currency": "BRL"
+          },
+          {
+            "amount": "0.3",
+            "currency": "CAD"
+          },
+          {
+            "amount": "0.55",
+            "currency": "CHF"
+          },
+          {
+            "amount": "10",
+            "currency": "CZK"
+          },
+          {
+            "amount": "2.6",
+            "currency": "DKK"
+          },
+          {
+            "amount": "0.35",
+            "currency": "EUR"
+          },
+          {
+            "amount": "0.2",
+            "currency": "GBP"
+          },
+          {
+            "amount": "2.35",
+            "currency": "HKD"
+          },
+          {
+            "amount": "90",
+            "currency": "HUF"
+          },
+          {
+            "amount": "1.2",
+            "currency": "ILS"
+          },
+          {
+            "amount": "40",
+            "currency": "JPY"
+          },
+          {
+            "amount": "4",
+            "currency": "MXN"
+          },
+          {
+            "amount": "2",
+            "currency": "MYR"
+          },
+          {
+            "amount": "2.8",
+            "currency": "NOK"
+          },
+          {
+            "amount": "0.45",
+            "currency": "NZD"
+          },
+          {
+            "amount": "15",
+            "currency": "PHP"
+          },
+          {
+            "amount": "1.35",
+            "currency": "PLN"
+          },
+          {
+            "amount": "10",
+            "currency": "RUB"
+          },
+          {
+            "amount": "3.25",
+            "currency": "SEK"
+          },
+          {
+            "amount": "0.5",
+            "currency": "SGD"
+          },
+          {
+            "amount": "11",
+            "currency": "THB"
+          },
+          {
+            "amount": "10",
+            "currency": "TWD"
+          },
+          {
+            "amount": "0.3",
+            "currency": "USD"
+          }
+        ],
+        "currency_conversion_exposed": true,
         "international_surcharge_exposed": true,
-        "international_surcharges": [],
+        "international_surcharges": [
+          {
+            "percentage_points": "3",
+            "region": "GB"
+          },
+          {
+            "percentage_points": "4.4",
+            "region": "OTHER"
+          }
+        ],
+        "standard_commercial": {
+          "fixed_fee_reference": "commercial_fixed_fees",
+          "percentage": "3.4"
+        },
         "status": "partial"
       },
       "derived_status": "partial",
@@ -5857,6 +5979,10 @@
         "currency_conversion_exposed": true,
         "international_surcharge_exposed": true,
         "international_surcharges": [
+          {
+            "percentage_points": "3",
+            "region": "GB"
+          },
           {
             "percentage_points": "4.4",
             "region": "OTHER"
@@ -8333,13 +8459,126 @@
     {
       "country_code": "GR",
       "derived": {
-        "commercial_fixed_fees": [],
-        "currency_conversion_exposed": false,
+        "commercial_fixed_fees": [
+          {
+            "amount": "0.3",
+            "currency": "AUD"
+          },
+          {
+            "amount": "0.6",
+            "currency": "BRL"
+          },
+          {
+            "amount": "0.3",
+            "currency": "CAD"
+          },
+          {
+            "amount": "0.55",
+            "currency": "CHF"
+          },
+          {
+            "amount": "10",
+            "currency": "CZK"
+          },
+          {
+            "amount": "2.6",
+            "currency": "DKK"
+          },
+          {
+            "amount": "0.35",
+            "currency": "EUR"
+          },
+          {
+            "amount": "0.3",
+            "currency": "GBP"
+          },
+          {
+            "amount": "2.35",
+            "currency": "HKD"
+          },
+          {
+            "amount": "90",
+            "currency": "HUF"
+          },
+          {
+            "amount": "1.2",
+            "currency": "ILS"
+          },
+          {
+            "amount": "40",
+            "currency": "JPY"
+          },
+          {
+            "amount": "4",
+            "currency": "MXN"
+          },
+          {
+            "amount": "2",
+            "currency": "MYR"
+          },
+          {
+            "amount": "2.8",
+            "currency": "NOK"
+          },
+          {
+            "amount": "0.45",
+            "currency": "NZD"
+          },
+          {
+            "amount": "15",
+            "currency": "PHP"
+          },
+          {
+            "amount": "1.35",
+            "currency": "PLN"
+          },
+          {
+            "amount": "10",
+            "currency": "RUB"
+          },
+          {
+            "amount": "3.25",
+            "currency": "SEK"
+          },
+          {
+            "amount": "0.5",
+            "currency": "SGD"
+          },
+          {
+            "amount": "11",
+            "currency": "THB"
+          },
+          {
+            "amount": "10",
+            "currency": "TWD"
+          },
+          {
+            "amount": "0.3",
+            "currency": "USD"
+          }
+        ],
+        "currency_conversion": {
+          "spread_percentage": "3"
+        },
+        "currency_conversion_exposed": true,
         "international_surcharge_exposed": true,
-        "international_surcharges": [],
-        "status": "partial"
+        "international_surcharges": [
+          {
+            "percentage_points": "1.29",
+            "region": "GB"
+          },
+          {
+            "percentage_points": "1.99",
+            "region": "OTHER"
+          }
+        ],
+        "standard_commercial": {
+          "fixed_fee_reference": "commercial_fixed_fees",
+          "percentage": "3.4"
+        },
+        "status": "complete"
       },
-      "derived_status": "partial",
+      "derived_status": "complete",
       "iso_country_code": "GR",
       "paypal_market_code": "GR"
     },
@@ -17031,6 +17270,10 @@
         "international_surcharge_exposed": true,
         "international_surcharges": [
           {
+            "percentage_points": "3",
+            "region": "GB"
+          },
+          {
             "percentage_points": "4.4",
             "region": "OTHER"
           }
@@ -21823,6 +22066,10 @@
         "currency_conversion_exposed": true,
         "international_surcharge_exposed": true,
         "international_surcharges": [
+          {
+            "percentage_points": "3",
+            "region": "GB"
+          },
           {
             "percentage_points": "4.4",
             "region": "OTHER"

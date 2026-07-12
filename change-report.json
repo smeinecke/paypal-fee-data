@@ -2,176 +2,86 @@
   "changes": [
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
+      "after": 51,
+      "before": 56,
       "country_code": "BO",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for BO increased",
-      "severity": "info"
-    },
-    {
-      "accepted": true,
-      "after": false,
-      "before": true,
-      "country_code": "BR",
-      "identifier": "commercial_fixed_fees",
-      "kind": "lost_core_category",
-      "message": "Core category commercial_fixed_fees disappeared for BR (accepted regression)",
+      "kind": "table_count_decreased",
+      "message": "Table count for BO decreased",
       "severity": "warning"
     },
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "BZ",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for BZ increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
+      "after": 51,
+      "before": 56,
       "country_code": "CL",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for CL increased",
-      "severity": "info"
+      "kind": "table_count_decreased",
+      "message": "Table count for CL decreased",
+      "severity": "warning"
     },
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
+      "after": 51,
+      "before": 56,
       "country_code": "CO",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for CO increased",
-      "severity": "info"
+      "kind": "table_count_decreased",
+      "message": "Table count for CO decreased",
+      "severity": "warning"
     },
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "CR",
+      "after": 51,
+      "before": 53,
+      "country_code": "DZ",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for CR increased",
-      "severity": "info"
+      "kind": "table_count_decreased",
+      "message": "Table count for DZ decreased",
+      "severity": "warning"
+    },
+    {
+      "accepted": false,
+      "after": 51,
+      "before": 56,
+      "country_code": "EC",
+      "identifier": null,
+      "kind": "table_count_decreased",
+      "message": "Table count for EC decreased",
+      "severity": "warning"
     },
     {
       "accepted": false,
       "after": 54,
       "before": 53,
-      "country_code": "CZ",
+      "country_code": "GR",
       "identifier": null,
       "kind": "new_table",
-      "message": "Table count for CZ increased",
+      "message": "Table count for GR increased",
       "severity": "info"
     },
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "EC",
+      "after": 51,
+      "before": 56,
+      "country_code": "PY",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for EC increased",
-      "severity": "info"
+      "kind": "table_count_decreased",
+      "message": "Table count for PY decreased",
+      "severity": "warning"
     },
     {
       "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "GT",
+      "after": 51,
+      "before": 56,
+      "country_code": "VE",
       "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for GT increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "HN",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for HN increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": false,
-      "before": true,
-      "country_code": "IL",
-      "identifier": "commercial_fixed_fees",
-      "kind": "lost_core_category",
-      "message": "Core category commercial_fixed_fees disappeared for IL",
-      "severity": "regression"
-    },
-    {
-      "accepted": false,
-      "after": false,
-      "before": true,
-      "country_code": "MX",
-      "identifier": "currency_conversion",
-      "kind": "lost_core_category",
-      "message": "Core category currency_conversion disappeared for MX",
-      "severity": "regression"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "NI",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for NI increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "PA",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for PA increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "PE",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for PE increased",
-      "severity": "info"
-    },
-    {
-      "accepted": false,
-      "after": false,
-      "before": true,
-      "country_code": "SE",
-      "identifier": "commercial_fixed_fees",
-      "kind": "lost_core_category",
-      "message": "Core category commercial_fixed_fees disappeared for SE",
-      "severity": "regression"
-    },
-    {
-      "accepted": false,
-      "after": 56,
-      "before": 51,
-      "country_code": "SV",
-      "identifier": null,
-      "kind": "new_table",
-      "message": "Table count for SV increased",
-      "severity": "info"
+      "kind": "table_count_decreased",
+      "message": "Table count for VE decreased",
+      "severity": "warning"
     }
   ],
   "generated_at": null,
-  "has_regression": true,
+  "has_regression": false,
   "schema_version": 1
 }
