@@ -1,6 +1,7 @@
 {
   "$defs": {
     "CommercialFee": {
+      "additionalProperties": false,
       "description": "Standard commercial transaction fee.",
       "properties": {
         "fixed_fee_reference": {
@@ -31,11 +32,84 @@
       "title": "CommercialFee",
       "type": "object"
     },
-    "CoreFeeEntry": {
-      "description": "A single country's confidently derived core fees.",
+    "CurrencyConversion": {
+      "additionalProperties": false,
+      "description": "Currency conversion spread.",
       "properties": {
+        "spread_percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spread Percentage"
+        }
+      },
+      "title": "CurrencyConversion",
+      "type": "object"
+    },
+    "FixedFees": {
+      "additionalProperties": false,
+      "description": "Fixed fees by received currency.",
+      "properties": {
+        "amount": {
+          "title": "Amount",
+          "type": "string"
+        },
+        "currency": {
+          "title": "Currency",
+          "type": "string"
+        }
+      },
+      "required": [
+        "currency",
+        "amount"
+      ],
+      "title": "FixedFees",
+      "type": "object"
+    },
+    "InternationalSurcharge": {
+      "additionalProperties": false,
+      "description": "International payer-region surcharge.",
+      "properties": {
+        "percentage_points": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage Points"
+        },
+        "region": {
+          "title": "Region",
+          "type": "string"
+        }
+      },
+      "required": [
+        "region"
+      ],
+      "title": "InternationalSurcharge",
+      "type": "object"
+    },
+    "PublicCoreFeeEntry": {
+      "additionalProperties": false,
+      "description": "A single country's confidently derived core fees (public).",
+      "properties": {
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
+          "type": "string"
+        },
         "derived": {
-          "$ref": "#/$defs/DerivedFees"
+          "$ref": "#/$defs/PublicDerivedFees"
         },
         "derived_status": {
           "title": "Derived Status",
@@ -61,32 +135,15 @@
       "required": [
         "paypal_market_code",
         "derived_status",
-        "derived"
+        "derived",
+        "country_code"
       ],
-      "title": "CoreFeeEntry",
+      "title": "PublicCoreFeeEntry",
       "type": "object"
     },
-    "CurrencyConversion": {
-      "description": "Currency conversion spread.",
-      "properties": {
-        "spread_percentage": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Spread Percentage"
-        }
-      },
-      "title": "CurrencyConversion",
-      "type": "object"
-    },
-    "DerivedFees": {
-      "description": "Derived core fees with confidence status.",
+    "PublicDerivedFees": {
+      "additionalProperties": false,
+      "description": "Public derived core fees without classifier diagnostics.",
       "properties": {
         "chargeback": {
           "anyOf": [
@@ -99,13 +156,6 @@
           ],
           "default": null,
           "title": "Chargeback"
-        },
-        "classification_evidence": {
-          "items": {
-            "type": "string"
-          },
-          "title": "Classification Evidence",
-          "type": "array"
         },
         "commercial_fixed_fees": {
           "items": {
@@ -213,71 +263,20 @@
           "default": "unclassified",
           "title": "Status",
           "type": "string"
-        },
-        "unclassified_sections": {
-          "items": {
-            "type": "string"
-          },
-          "title": "Unclassified Sections",
-          "type": "array"
         }
       },
-      "title": "DerivedFees",
-      "type": "object"
-    },
-    "FixedFees": {
-      "description": "Fixed fees by received currency.",
-      "properties": {
-        "amount": {
-          "title": "Amount",
-          "type": "string"
-        },
-        "currency": {
-          "title": "Currency",
-          "type": "string"
-        }
-      },
-      "required": [
-        "currency",
-        "amount"
-      ],
-      "title": "FixedFees",
-      "type": "object"
-    },
-    "InternationalSurcharge": {
-      "description": "International payer-region surcharge.",
-      "properties": {
-        "percentage_points": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Percentage Points"
-        },
-        "region": {
-          "title": "Region",
-          "type": "string"
-        }
-      },
-      "required": [
-        "region"
-      ],
-      "title": "InternationalSurcharge",
+      "title": "PublicDerivedFees",
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/core-fees-v1.schema.json",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/core-fees-v2.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
   "description": "Consolidated core fees across all countries.",
   "properties": {
     "countries": {
       "items": {
-        "$ref": "#/$defs/CoreFeeEntry"
+        "$ref": "#/$defs/PublicCoreFeeEntry"
       },
       "title": "Countries",
       "type": "array"
@@ -295,7 +294,7 @@
       "title": "Generated At"
     },
     "schema_version": {
-      "default": 1,
+      "default": 2,
       "title": "Schema Version",
       "type": "integer"
     }

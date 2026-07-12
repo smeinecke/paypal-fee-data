@@ -1,6 +1,7 @@
 {
   "$defs": {
     "CountryIndexEntry": {
+      "additionalProperties": false,
       "description": "Compact entry in the country index.",
       "properties": {
         "content_sha256": {
@@ -14,6 +15,11 @@
           ],
           "default": null,
           "title": "Content Sha256"
+        },
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
+          "type": "string"
         },
         "data_url": {
           "title": "Data Url",
@@ -79,14 +85,16 @@
       "required": [
         "paypal_market_code",
         "data_url",
-        "source_url"
+        "source_url",
+        "country_code"
       ],
       "title": "CountryIndexEntry",
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/index-v1.schema.json",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/index-v2.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
   "description": "Index of successfully processed countries.",
   "properties": {
     "countries": {
@@ -109,7 +117,7 @@
       "title": "Generated At"
     },
     "schema_version": {
-      "default": 1,
+      "default": 2,
       "title": "Schema Version",
       "type": "integer"
     }

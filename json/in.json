@@ -1,21 +1,5 @@
 {
   "derived": {
-    "chargeback": null,
-    "classification_evidence": [
-      "caption/section matches international-surcharge keywords",
-      "headers match international-surcharge patterns",
-      "caption/section matches international-surcharge keywords",
-      "headers match international-surcharge patterns",
-      "document_id FEETB18 is a known fixed-fee table",
-      "caption/section matches fixed-fee keywords",
-      "document_id FEETB306 is a known fixed-fee table",
-      "caption/section matches fixed-fee keywords",
-      "caption/section matches currency-conversion keywords",
-      "fixed-fee table FEETB18: 13 row(s)",
-      "fixed-fee table FEETB306: 12 row(s)",
-      "currency-conversion table FEETB79: spread 3",
-      "international-surcharge section exposed but no reliable values extracted"
-    ],
     "commercial_fixed_fees": [
       {
         "amount": "0.3",
@@ -122,19 +106,9 @@
       "spread_percentage": "3"
     },
     "currency_conversion_exposed": true,
-    "dispute": null,
-    "donations": null,
-    "goods_and_services": null,
     "international_surcharge_exposed": true,
     "international_surcharges": [],
-    "micropayments": null,
-    "nonprofit": null,
-    "standard_commercial": null,
-    "status": "partial",
-    "unclassified_sections": [
-      "dispute",
-      "micropayment"
-    ]
+    "status": "partial"
   },
   "generated_at": null,
   "market": {
@@ -154,421 +128,209 @@
     "url_prefix": "https://www.paypal.com/in",
     "url_slug": "in"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "sections": [
     {
-      "body": null,
-      "component_id": "760j224m58Gx6PL6eDFgY9",
-      "component_type": "Content",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "hero",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "3txufmSoEUWErRLv1FuyD4",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "4NUs2d11RgKXGSAUvHgY9g",
-      "component_type": "SubNav",
       "heading": "Fees",
       "section_path": [
         "Fees"
       ]
     },
     {
-      "body": null,
-      "component_id": "3458zzI75ZjcG41oHSxsD3",
-      "component_type": "Button",
-      "heading": null,
       "section_path": [
         "Fees"
       ]
     },
     {
-      "body": null,
-      "component_id": "5VNkBZeUYUoEXV9Nfjdoy",
-      "component_type": "FeatureNavigationSection",
       "heading": "Merchant Fees Menu",
       "section_path": [
         "Merchant Fees Menu"
       ]
     },
     {
-      "body": null,
-      "component_id": "2HizH4pa5RcllcyzKmI680",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5s2S9El33nWlRd5P1ff9jV",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "4fwcfCiP38piLA5zbuoG5n",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "b3KcwAnfk0xYBAfKe5oQP",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "712mlMYzVx50ZVl4j7PF0q",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "277wNyVbmbZKrhjeZc32CX",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5xdeQPPEVlp9ZL0gHYD6uG",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "popover-modal-groupings",
-      "component_type": "PopoverModal",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "6vlWHG0Y1OokfLXIXCBwYC",
-      "component_type": "PopoverModalItem",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5cuHwrw4Xh46WIXHzRh3Az",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "2YvL3cVLKtwzcyf9oI4aBs",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "popover-modal-code-table",
-      "component_type": "PopoverModal",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "EVz3aYSDtthoeD1LQ1DLi",
-      "component_type": "PopoverModalItem",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5IGRpTBg0igN7xTdMItz5p",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "4iuW1GDkP3UFYDOzGW4wdl",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "relevant",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "3CUZNO7Zp4SNd3vyNsnyQa",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "6Go1mQuB05nnpvAQR9ewsL",
-      "component_type": "TextGroup",
       "heading": "Market/Region list",
       "section_path": [
         "Market/Region list"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-2",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "3cQ0Vrm2jpOBSMkUVnwRCg",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "3cOYmtSKt5utobExobE70w",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "7zpAtfBfPU3xqu50T8aSiB",
-      "component_type": "TextGroup",
       "heading": "Receiving international transactions",
       "section_path": [
         "Receiving international transactions"
       ]
     },
     {
-      "body": null,
-      "component_id": "A7adW5Kr7ytdwD3ehyaGJ",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "sUGa4yRcm1zPlSh5TqJGJ",
-      "component_type": "TextGroup",
       "heading": "Fixed fee for commercial transactions (based on currency received)",
       "section_path": [
         "Fixed fee for commercial transactions (based on currency received)"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-6",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "195woQ4UQ5Fg9ngnPqaH3X",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "statement-11",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "45eFPVwcgJMfPtvZXgzlzf",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "QEUAgjEAyiU7FEI48rrCU",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5DWkYOCD34zpieVxSUM5Vi",
-      "component_type": "TextGroup",
       "heading": "Receiving micropayments",
       "section_path": [
         "Receiving micropayments"
       ]
     },
     {
-      "body": null,
-      "component_id": "29wZDNhdiAEZWmTpLDlXLP",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "54CpWo0y8pQf372vuFofdA",
-      "component_type": "TextGroup",
       "heading": "Micropayments fixed fee",
       "section_path": [
         "Micropayments fixed fee"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-19",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "4cyarHGw9tYZ7lVM1oKlUO",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "1EGUch2Fv9FbHdFCTjtuOG",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "31emtgH9SnMa3JQniPWTHW",
-      "component_type": "TextGroup",
       "heading": "Standard Dispute Fees",
       "section_path": [
         "Standard Dispute Fees"
       ]
     },
     {
-      "body": null,
-      "component_id": "55lj1NyjW7QIqh54SUXoM6",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "PmAmkWjIFGOLLctTn7DZP",
-      "component_type": "TextGroup",
       "heading": "High Volume Dispute Fees",
       "section_path": [
         "High Volume Dispute Fees"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-131",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5XxPWBhNV3fTVoB3qparhT",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "U295XQOf4OxHXAeIWhFrB",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "7gBsL0COd5cuh8xymLdAOS",
-      "component_type": "TextGroup",
       "heading": "Converting balance and payments received into another currency",
       "section_path": [
         "Converting balance and payments received into another currency"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-15",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "7HXAdz9Qa54488wHpl9rZH",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "791cE7C4JDvBQjjg9Rt7bP",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "3YWI9cskemyMdHj3N3sh6x",
-      "component_type": "TextGroup",
       "heading": "Withdrawing a balance from a business PayPal account",
       "section_path": [
         "Withdrawing a balance from a business PayPal account"
       ]
     },
     {
-      "body": null,
-      "component_id": "statement-16",
-      "component_type": "TextSectionType",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "4RLYVPfiUiG0jic0CdDryY",
-      "component_type": "TextGroup",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "5ZIT7Gbo91ebZdMXDTdnmI",
-      "component_type": "TextHeaderInner",
-      "heading": null,
       "section_path": []
     },
     {
-      "body": null,
-      "component_id": "YMLxzOWTH38Rl3Eb7i1Lh",
-      "component_type": "TextGroup",
       "heading": "Other Fees",
       "section_path": [
         "Other Fees"
@@ -576,12 +338,9 @@
     }
   ],
   "source": {
+    "artifact_sha256": "d923a27c32044f73e1213836ee8cb8a329ab84f022dfcc4dee73121c5af600c2",
     "canonical_url": "https://www.paypal.com/in/business/paypal-business-fees",
     "cms_updated_at": "2025-09-24T08:08:14.769Z",
-    "content_sha256": "24198a4ecaadbcc19c787d994355887264b576c6cca38863137c243e581d60a0",
-    "etag": null,
-    "last_modified": null,
-    "page_id": "business/paypal-business-fees",
     "page_title": "PayPal Fees for Sellers",
     "page_updated_at": "2025-09-24T08:08:14.769Z",
     "pdf_url": "https://www.paypalobjects.com/marketing/ua/pdf/IN/en/in-en-merchant-fees-28-march-2024.pdf",
@@ -591,9 +350,6 @@
     {
       "caption": "Fee Table: Market/Region Grouping Table",
       "column_count": 2,
-      "component_id": "5j3yVmDWGB0rqNMBKn6xC6",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB87",
       "headers": [
         {
@@ -607,8 +363,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -632,8 +386,7 @@
               "text": "LU",
               "tokens": []
             }
-          ],
-          "row_id": "XEpLc6YyJoddXEjAGDIHd"
+          ]
         },
         {
           "cells": [
@@ -647,8 +400,7 @@
               "text": "Austria, Belgium, Channel Islands, Cyprus, Estonia, France (including French Guiana, Guadeloupe, Martinique, Reunion and Mayotte), Germany, Greece, Ireland, Isle of Man, Italy, Luxembourg, Malta, Monaco, Montenegro, Netherlands, Portugal, San Marino, Slovakia, Slovenia, Spain, United Kingdom, Vatican City State.",
               "tokens": []
             }
-          ],
-          "row_id": "20a3rnY8wOgFi561MVyG0T"
+          ]
         },
         {
           "cells": [
@@ -662,8 +414,7 @@
               "text": "Albania, Andorra, Belarus, Bosnia and Herzegovina, Bulgaria, Croatia, Czech Republic, Georgia, Hungary, Kosovo, Latvia, Liechtenstein, Lithuania, Macedonia, Moldova, Poland, Romania, Russian Federation, Serbia, Switzerland, Ukraine.",
               "tokens": []
             }
-          ],
-          "row_id": "2O6WcrL12mxBlWUbIyPRay"
+          ]
         },
         {
           "cells": [
@@ -677,8 +428,7 @@
               "text": "Aland Islands, Denmark, Faroe Islands, Finland, Greenland, Iceland, Norway, Sweden.",
               "tokens": []
             }
-          ],
-          "row_id": "Ut4ydVcxTZA2DWz77Wwcq"
+          ]
         },
         {
           "cells": [
@@ -692,23 +442,16 @@
               "text": "Guernsey, Isle of Man, Jersey, & United Kingdom",
               "tokens": []
             }
-          ],
-          "row_id": "48r2newvTpAgmoTioapP2K"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Market/Region Grouping Table"
-      ],
-      "source_order": 1,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB87::1"
+      ]
     },
     {
       "caption": "Fee Table: Market Code Table",
       "column_count": 4,
-      "component_id": "6pLskBUsAb5z9egX9Yyea",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB102",
       "headers": [
         {
@@ -732,8 +475,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -757,8 +498,7 @@
               "text": "LU",
               "tokens": []
             }
-          ],
-          "row_id": "3ZkhpBndIuHWpCGliqPVgu"
+          ]
         },
         {
           "cells": [
@@ -782,8 +522,7 @@
               "text": "MK",
               "tokens": []
             }
-          ],
-          "row_id": "1bckstHAsdTYmQRKjTeIfG"
+          ]
         },
         {
           "cells": [
@@ -807,8 +546,7 @@
               "text": "MG",
               "tokens": []
             }
-          ],
-          "row_id": "68jv89hJrNu3mZ5mSBOYLr"
+          ]
         },
         {
           "cells": [
@@ -832,8 +570,7 @@
               "text": "MW",
               "tokens": []
             }
-          ],
-          "row_id": "6T1Go9KeZ5JBGBCnqEIwyr"
+          ]
         },
         {
           "cells": [
@@ -857,8 +594,7 @@
               "text": "MY",
               "tokens": []
             }
-          ],
-          "row_id": "6VhUTr3rvT7vXtNHCgZtO3"
+          ]
         },
         {
           "cells": [
@@ -882,8 +618,7 @@
               "text": "MV",
               "tokens": []
             }
-          ],
-          "row_id": "5MDPUTkTxyc9o6K1vu2f9V"
+          ]
         },
         {
           "cells": [
@@ -907,8 +642,7 @@
               "text": "ML",
               "tokens": []
             }
-          ],
-          "row_id": "5z4yQdrHjVjPoPQIBcIaQu"
+          ]
         },
         {
           "cells": [
@@ -932,8 +666,7 @@
               "text": "MT",
               "tokens": []
             }
-          ],
-          "row_id": "3FCphNiyR5rjVoKvGSdgyo"
+          ]
         },
         {
           "cells": [
@@ -957,8 +690,7 @@
               "text": "MH",
               "tokens": []
             }
-          ],
-          "row_id": "2CfdIrx08u8Tr11XpON0Hk"
+          ]
         },
         {
           "cells": [
@@ -982,8 +714,7 @@
               "text": "MQ",
               "tokens": []
             }
-          ],
-          "row_id": "1syPSOqlLLy6YG1v3VouBa"
+          ]
         },
         {
           "cells": [
@@ -1007,8 +738,7 @@
               "text": "MR",
               "tokens": []
             }
-          ],
-          "row_id": "6qoUocTZR9UeK7o2ESEIWP"
+          ]
         },
         {
           "cells": [
@@ -1032,8 +762,7 @@
               "text": "MU",
               "tokens": []
             }
-          ],
-          "row_id": "7tSOWuLUDIYVvkMi0aJ5JZ"
+          ]
         },
         {
           "cells": [
@@ -1057,8 +786,7 @@
               "text": "YT",
               "tokens": []
             }
-          ],
-          "row_id": "2dloBCZQ7d5dvjncz3djNE"
+          ]
         },
         {
           "cells": [
@@ -1082,8 +810,7 @@
               "text": "MX",
               "tokens": []
             }
-          ],
-          "row_id": "2X6LmLEML0qb4M1MOiuEXl"
+          ]
         },
         {
           "cells": [
@@ -1107,8 +834,7 @@
               "text": "MD",
               "tokens": []
             }
-          ],
-          "row_id": "6BtSXbrzvMExkolE3baBOY"
+          ]
         },
         {
           "cells": [
@@ -1132,8 +858,7 @@
               "text": "MC",
               "tokens": []
             }
-          ],
-          "row_id": "4bWQFWUXgGm50uP3LFqenI"
+          ]
         },
         {
           "cells": [
@@ -1157,8 +882,7 @@
               "text": "MN",
               "tokens": []
             }
-          ],
-          "row_id": "6b4mwLS7QRQmljQLlROO1q"
+          ]
         },
         {
           "cells": [
@@ -1182,8 +906,7 @@
               "text": "ME",
               "tokens": []
             }
-          ],
-          "row_id": "3AdGFOG7wUTzDfUNff2F8G"
+          ]
         },
         {
           "cells": [
@@ -1207,8 +930,7 @@
               "text": "MS",
               "tokens": []
             }
-          ],
-          "row_id": "hl7Gsnt7iUwPLZQn35qlm"
+          ]
         },
         {
           "cells": [
@@ -1232,8 +954,7 @@
               "text": "MA",
               "tokens": []
             }
-          ],
-          "row_id": "6yDS9Cg43V676aI5n3MXa2"
+          ]
         },
         {
           "cells": [
@@ -1257,8 +978,7 @@
               "text": "MZ",
               "tokens": []
             }
-          ],
-          "row_id": "6PLwQJtWrDa0hVlkaL3zrX"
+          ]
         },
         {
           "cells": [
@@ -1282,8 +1002,7 @@
               "text": "NA",
               "tokens": []
             }
-          ],
-          "row_id": "21dJ2XvJdwDVmBNBhDn1R7"
+          ]
         },
         {
           "cells": [
@@ -1307,8 +1026,7 @@
               "text": "NR",
               "tokens": []
             }
-          ],
-          "row_id": "4ySboil5z55bzhGvIQEKTZ"
+          ]
         },
         {
           "cells": [
@@ -1332,8 +1050,7 @@
               "text": "NP",
               "tokens": []
             }
-          ],
-          "row_id": "6KfZumQpvEqX42u0BlUpbM"
+          ]
         },
         {
           "cells": [
@@ -1357,8 +1074,7 @@
               "text": "NL",
               "tokens": []
             }
-          ],
-          "row_id": "2wOKQP7SnOcqMJq4GjHPvh"
+          ]
         },
         {
           "cells": [
@@ -1382,8 +1098,7 @@
               "text": "AN",
               "tokens": []
             }
-          ],
-          "row_id": "5iIs3NligGfSbs9Rvli7dW"
+          ]
         },
         {
           "cells": [
@@ -1407,8 +1122,7 @@
               "text": "NC",
               "tokens": []
             }
-          ],
-          "row_id": "1pHqQWGOFxZllz2l4iE0H3"
+          ]
         },
         {
           "cells": [
@@ -1432,8 +1146,7 @@
               "text": "NZ",
               "tokens": []
             }
-          ],
-          "row_id": "2uQcJiG80bMdlcFPrAWiEr"
+          ]
         },
         {
           "cells": [
@@ -1457,8 +1170,7 @@
               "text": "NI",
               "tokens": []
             }
-          ],
-          "row_id": "1ayLwbYWBSWH57pu5KCXS9"
+          ]
         },
         {
           "cells": [
@@ -1482,8 +1194,7 @@
               "text": "NE",
               "tokens": []
             }
-          ],
-          "row_id": "3nE1pdveTmAJY5gNoJEkTk"
+          ]
         },
         {
           "cells": [
@@ -1507,8 +1218,7 @@
               "text": "NG",
               "tokens": []
             }
-          ],
-          "row_id": "4gxeFouAXx3P9J49givFcx"
+          ]
         },
         {
           "cells": [
@@ -1532,8 +1242,7 @@
               "text": "NU",
               "tokens": []
             }
-          ],
-          "row_id": "6aNTAc7jmi36Xut7ue17c4"
+          ]
         },
         {
           "cells": [
@@ -1557,8 +1266,7 @@
               "text": "NF",
               "tokens": []
             }
-          ],
-          "row_id": "4Ug9KIJDbIiDvOsXlzi4B0"
+          ]
         },
         {
           "cells": [
@@ -1582,8 +1290,7 @@
               "text": "NO",
               "tokens": []
             }
-          ],
-          "row_id": "3hoN8GcykBROuHGbBm1zPN"
+          ]
         },
         {
           "cells": [
@@ -1607,8 +1314,7 @@
               "text": "OM",
               "tokens": []
             }
-          ],
-          "row_id": "2nUxxphCbrFe4shiC34958"
+          ]
         },
         {
           "cells": [
@@ -1632,8 +1338,7 @@
               "text": "PW",
               "tokens": []
             }
-          ],
-          "row_id": "7d4IpsgAE9jpGmOYOqdni"
+          ]
         },
         {
           "cells": [
@@ -1657,8 +1362,7 @@
               "text": "PA",
               "tokens": []
             }
-          ],
-          "row_id": "74cgN9HMrAr7aqPDFp5GJN"
+          ]
         },
         {
           "cells": [
@@ -1682,8 +1386,7 @@
               "text": "PG",
               "tokens": []
             }
-          ],
-          "row_id": "MBiWSpBd3gByhkaummfop"
+          ]
         },
         {
           "cells": [
@@ -1707,8 +1410,7 @@
               "text": "PY",
               "tokens": []
             }
-          ],
-          "row_id": "5amSXqLUiCpWK4oYC3w6O6"
+          ]
         },
         {
           "cells": [
@@ -1732,8 +1434,7 @@
               "text": "PE",
               "tokens": []
             }
-          ],
-          "row_id": "1Wk4K9elFEZAUIpiq8mIlC"
+          ]
         },
         {
           "cells": [
@@ -1757,8 +1458,7 @@
               "text": "PH",
               "tokens": []
             }
-          ],
-          "row_id": "6DGg2MB4VWp6TLIrm53yYk"
+          ]
         },
         {
           "cells": [
@@ -1782,8 +1482,7 @@
               "text": "PN",
               "tokens": []
             }
-          ],
-          "row_id": "5mezBZSDmpL1B9ElF351gv"
+          ]
         },
         {
           "cells": [
@@ -1807,8 +1506,7 @@
               "text": "PO",
               "tokens": []
             }
-          ],
-          "row_id": "7E4hWGJSkIoJhQpF8DL7AZ"
+          ]
         },
         {
           "cells": [
@@ -1832,8 +1530,7 @@
               "text": "PT",
               "tokens": []
             }
-          ],
-          "row_id": "6rgG8jwu9zhR3ZuPDEpiYQ"
+          ]
         },
         {
           "cells": [
@@ -1857,8 +1554,7 @@
               "text": "QA",
               "tokens": []
             }
-          ],
-          "row_id": "105UgPF8DigjY9a0fHZg5h"
+          ]
         },
         {
           "cells": [
@@ -1882,8 +1578,7 @@
               "text": "CG",
               "tokens": []
             }
-          ],
-          "row_id": "7BMHlXqVQamWe14Z4xdgDD"
+          ]
         },
         {
           "cells": [
@@ -1907,8 +1602,7 @@
               "text": "RE",
               "tokens": []
             }
-          ],
-          "row_id": "75nPl27HKewny6LhQj1NBn"
+          ]
         },
         {
           "cells": [
@@ -1932,8 +1626,7 @@
               "text": "RO",
               "tokens": []
             }
-          ],
-          "row_id": "4bFCYBgRA4btPIdYple6CD"
+          ]
         },
         {
           "cells": [
@@ -1957,8 +1650,7 @@
               "text": "RU",
               "tokens": []
             }
-          ],
-          "row_id": "OWL8LbaX5qVcZWzUIjBk4"
+          ]
         },
         {
           "cells": [
@@ -1982,8 +1674,7 @@
               "text": "RW",
               "tokens": []
             }
-          ],
-          "row_id": "6C7UC20qwlOuoT0UbCqw8x"
+          ]
         },
         {
           "cells": [
@@ -2007,8 +1698,7 @@
               "text": "SH",
               "tokens": []
             }
-          ],
-          "row_id": "5i6cWN1aKALFNjkblmmynH"
+          ]
         },
         {
           "cells": [
@@ -2032,8 +1722,7 @@
               "text": "KN",
               "tokens": []
             }
-          ],
-          "row_id": "4Mj7oEqqhijEB35sOH1515"
+          ]
         },
         {
           "cells": [
@@ -2057,8 +1746,7 @@
               "text": "LC",
               "tokens": []
             }
-          ],
-          "row_id": "629RiCbogHfVRCoLMgFhOe"
+          ]
         },
         {
           "cells": [
@@ -2082,8 +1770,7 @@
               "text": "PM",
               "tokens": []
             }
-          ],
-          "row_id": "4BrhRX4G9z6fwHwIH4QxUV"
+          ]
         },
         {
           "cells": [
@@ -2107,8 +1794,7 @@
               "text": "VC",
               "tokens": []
             }
-          ],
-          "row_id": "6vCE56AqW4YXNc8hnNInmN"
+          ]
         },
         {
           "cells": [
@@ -2132,8 +1818,7 @@
               "text": "WS",
               "tokens": []
             }
-          ],
-          "row_id": "5cEd8PXIZVYhGt9TdtLNsi"
+          ]
         },
         {
           "cells": [
@@ -2157,8 +1842,7 @@
               "text": "SM",
               "tokens": []
             }
-          ],
-          "row_id": "2QYvQBff0SJHBDIUPpafBH"
+          ]
         },
         {
           "cells": [
@@ -2182,8 +1866,7 @@
               "text": "ST",
               "tokens": []
             }
-          ],
-          "row_id": "3KzMSnOkun021VNytznjId"
+          ]
         },
         {
           "cells": [
@@ -2207,8 +1890,7 @@
               "text": "SA",
               "tokens": []
             }
-          ],
-          "row_id": "6fApbL5TcrMKgdtauLuoVb"
+          ]
         },
         {
           "cells": [
@@ -2232,8 +1914,7 @@
               "text": "SN",
               "tokens": []
             }
-          ],
-          "row_id": "6ZWKP7WFEUHwfUXPuemxWN"
+          ]
         },
         {
           "cells": [
@@ -2257,8 +1938,7 @@
               "text": "RS",
               "tokens": []
             }
-          ],
-          "row_id": "5CiuXigZ0JVI7pPgokbdOH"
+          ]
         },
         {
           "cells": [
@@ -2282,8 +1962,7 @@
               "text": "SC",
               "tokens": []
             }
-          ],
-          "row_id": "5RbRykTR7NB6kXwsgmgmVo"
+          ]
         },
         {
           "cells": [
@@ -2307,8 +1986,7 @@
               "text": "SL",
               "tokens": []
             }
-          ],
-          "row_id": "63WjAWRG3qZOGmj04NnXF0"
+          ]
         },
         {
           "cells": [
@@ -2332,8 +2010,7 @@
               "text": "SG",
               "tokens": []
             }
-          ],
-          "row_id": "630zIUwhuz2JmB7zo2qhMo"
+          ]
         },
         {
           "cells": [
@@ -2357,8 +2034,7 @@
               "text": "SK",
               "tokens": []
             }
-          ],
-          "row_id": "4UVG1i4gBZL3R1WZ9WwmG5"
+          ]
         },
         {
           "cells": [
@@ -2382,8 +2058,7 @@
               "text": "SI",
               "tokens": []
             }
-          ],
-          "row_id": "4TQQvfGbmiQlCVhZJ0AS5s"
+          ]
         },
         {
           "cells": [
@@ -2407,8 +2082,7 @@
               "text": "SB",
               "tokens": []
             }
-          ],
-          "row_id": "5fuMKOF8egQKcGFoUDPIoV"
+          ]
         },
         {
           "cells": [
@@ -2432,8 +2106,7 @@
               "text": "SO",
               "tokens": []
             }
-          ],
-          "row_id": "63oJ7fzOQxNvDGt91YUWIx"
+          ]
         },
         {
           "cells": [
@@ -2457,8 +2130,7 @@
               "text": "ZA",
               "tokens": []
             }
-          ],
-          "row_id": "19ZIJjSIKoB7Rp8dE4wD3w"
+          ]
         },
         {
           "cells": [
@@ -2482,8 +2154,7 @@
               "text": "KR",
               "tokens": []
             }
-          ],
-          "row_id": "6ZWBLovHRoz8kE8YL6tgnf"
+          ]
         },
         {
           "cells": [
@@ -2507,8 +2178,7 @@
               "text": "ES",
               "tokens": []
             }
-          ],
-          "row_id": "6oGy1mKxEDCRt1fxLGgKt0"
+          ]
         },
         {
           "cells": [
@@ -2532,8 +2202,7 @@
               "text": "LK",
               "tokens": []
             }
-          ],
-          "row_id": "1HKtAUYrh4H0sahEYJUBkv"
+          ]
         },
         {
           "cells": [
@@ -2557,8 +2226,7 @@
               "text": "SR",
               "tokens": []
             }
-          ],
-          "row_id": "4gtiDCTN2M4GfYao7PribZ"
+          ]
         },
         {
           "cells": [
@@ -2582,8 +2250,7 @@
               "text": "SJ",
               "tokens": []
             }
-          ],
-          "row_id": "tx45rUANhk8sUmPrCAuIj"
+          ]
         },
         {
           "cells": [
@@ -2607,8 +2274,7 @@
               "text": "SZ",
               "tokens": []
             }
-          ],
-          "row_id": "3vtZel8m4Lwdd04DbxRcXs"
+          ]
         },
         {
           "cells": [
@@ -2632,8 +2298,7 @@
               "text": "SE",
               "tokens": []
             }
-          ],
-          "row_id": "UDr5tlP83u7h1R9iSWQFw"
+          ]
         },
         {
           "cells": [
@@ -2657,8 +2322,7 @@
               "text": "CH",
               "tokens": []
             }
-          ],
-          "row_id": "oUDnMRZaIkHPF7J0vnRpa"
+          ]
         },
         {
           "cells": [
@@ -2682,8 +2346,7 @@
               "text": "TW",
               "tokens": []
             }
-          ],
-          "row_id": "7Lmel5gTpCK71KvJjBh0sM"
+          ]
         },
         {
           "cells": [
@@ -2707,8 +2370,7 @@
               "text": "TJ",
               "tokens": []
             }
-          ],
-          "row_id": "wJ620aGn5ERDwNTOrUMos"
+          ]
         },
         {
           "cells": [
@@ -2732,8 +2394,7 @@
               "text": "TZ",
               "tokens": []
             }
-          ],
-          "row_id": "5LK4KKZrBsdxSoVDh123ah"
+          ]
         },
         {
           "cells": [
@@ -2757,8 +2418,7 @@
               "text": "TG",
               "tokens": []
             }
-          ],
-          "row_id": "2XnMsx5SaumPBWzfed2K5g"
+          ]
         },
         {
           "cells": [
@@ -2782,8 +2442,7 @@
               "text": "TH",
               "tokens": []
             }
-          ],
-          "row_id": "1hsyeOZL1rmcdvDipSbgfi"
+          ]
         },
         {
           "cells": [
@@ -2807,8 +2466,7 @@
               "text": "TO",
               "tokens": []
             }
-          ],
-          "row_id": "5DjRjYZVrehJPDdlFZeyRY"
+          ]
         },
         {
           "cells": [
@@ -2832,8 +2490,7 @@
               "text": "TT",
               "tokens": []
             }
-          ],
-          "row_id": "7abWoJnTDkeqx8987q2Ad9"
+          ]
         },
         {
           "cells": [
@@ -2857,8 +2514,7 @@
               "text": "TN",
               "tokens": []
             }
-          ],
-          "row_id": "5mFrIlvb7DcFFcro6y7y21"
+          ]
         },
         {
           "cells": [
@@ -2882,8 +2538,7 @@
               "text": "TM",
               "tokens": []
             }
-          ],
-          "row_id": "SSzqoNQjnpWdGah8AkpHi"
+          ]
         },
         {
           "cells": [
@@ -2907,8 +2562,7 @@
               "text": "TC",
               "tokens": []
             }
-          ],
-          "row_id": "2PNF2Pj1q2GnSADL0ate5c"
+          ]
         },
         {
           "cells": [
@@ -2932,8 +2586,7 @@
               "text": "TV",
               "tokens": []
             }
-          ],
-          "row_id": "3obNCn1rTGzQoRswBntjfd"
+          ]
         },
         {
           "cells": [
@@ -2957,8 +2610,7 @@
               "text": "UG",
               "tokens": []
             }
-          ],
-          "row_id": "1ZJh0x7y5ZMPdm6LZ5iWXA"
+          ]
         },
         {
           "cells": [
@@ -2982,8 +2634,7 @@
               "text": "UA",
               "tokens": []
             }
-          ],
-          "row_id": "4eyauW2Zbad24KZ1XNBDxj"
+          ]
         },
         {
           "cells": [
@@ -3007,8 +2658,7 @@
               "text": "AE",
               "tokens": []
             }
-          ],
-          "row_id": "2cptu8wxWmxdqckxM3Uwk0"
+          ]
         },
         {
           "cells": [
@@ -3032,8 +2682,7 @@
               "text": "GB",
               "tokens": []
             }
-          ],
-          "row_id": "3L4y8ZZHtxQy2EyEXF52qS"
+          ]
         },
         {
           "cells": [
@@ -3057,8 +2706,7 @@
               "text": "US",
               "tokens": []
             }
-          ],
-          "row_id": "5icVLwUfnOlVMv48sEdK0D"
+          ]
         },
         {
           "cells": [
@@ -3082,8 +2730,7 @@
               "text": "UY",
               "tokens": []
             }
-          ],
-          "row_id": "7FL3TXz2ctzR9GaZfdIwJW"
+          ]
         },
         {
           "cells": [
@@ -3107,8 +2754,7 @@
               "text": "VU",
               "tokens": []
             }
-          ],
-          "row_id": "56SyHGqYrVKQ2R4r1lspfX"
+          ]
         },
         {
           "cells": [
@@ -3132,8 +2778,7 @@
               "text": "VA",
               "tokens": []
             }
-          ],
-          "row_id": "7DgNViQnyVwe5EL0TYMUFm"
+          ]
         },
         {
           "cells": [
@@ -3157,8 +2802,7 @@
               "text": "VE",
               "tokens": []
             }
-          ],
-          "row_id": "N7IL6z44X6l4NfDQQEX4s"
+          ]
         },
         {
           "cells": [
@@ -3182,8 +2826,7 @@
               "text": "VN",
               "tokens": []
             }
-          ],
-          "row_id": "6icC33khXfBr6JwDEWzs9x"
+          ]
         },
         {
           "cells": [
@@ -3207,8 +2850,7 @@
               "text": "WF",
               "tokens": []
             }
-          ],
-          "row_id": "7HmEFuBHr1jOk3WpqL9MO"
+          ]
         },
         {
           "cells": [
@@ -3232,8 +2874,7 @@
               "text": "YE",
               "tokens": []
             }
-          ],
-          "row_id": "d5qGG2Z6SfJoZ4cLY4u61"
+          ]
         },
         {
           "cells": [
@@ -3257,8 +2898,7 @@
               "text": "ZM",
               "tokens": []
             }
-          ],
-          "row_id": "6Pnm0Rc8TITq719RyhdrwY"
+          ]
         },
         {
           "cells": [
@@ -3282,8 +2922,7 @@
               "text": "ZW",
               "tokens": []
             }
-          ],
-          "row_id": "3A7p1KzRcNv8GtDutXZCR8"
+          ]
         },
         {
           "cells": [
@@ -3307,23 +2946,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "EGdRt2QDgouTK9BWX1p9Y"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Market Code Table"
-      ],
-      "source_order": 2,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB102::2"
+      ]
     },
     {
       "caption": "Fee Table: Receiving international transactions",
       "column_count": 2,
-      "component_id": "5XRu9pMjG53AgYGSrsW2Zi",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB16",
       "headers": [
         {
@@ -3337,8 +2969,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -3357,36 +2987,22 @@
               "text": "4.40% + Fixed Fee",
               "tokens": [
                 {
-                  "amount": null,
-                  "content_type": "cvPricingToken",
-                  "currency": null,
-                  "fee_data_key": "4.40%",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Receiving international transactions - 0.044",
                   "kind": "percentage",
-                  "operator": null,
                   "raw": "4.40%",
-                  "token_id": "3oH0YsEXQxjwED58muKrxh",
                   "value": "4.4"
                 }
               ]
             }
-          ],
-          "row_id": "1XeLax63BghkznY3SpzIs6"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Receiving international transactions"
-      ],
-      "source_order": 3,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB16::3"
+      ]
     },
     {
       "caption": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
       "column_count": 4,
-      "component_id": "6d5nryI4pwX9o1MWFR4cl1",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB18",
       "headers": [
         {
@@ -3410,8 +3026,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -3426,15 +3040,9 @@
               "tokens": [
                 {
                   "amount": "0.3",
-                  "content_type": "cvPricingToken",
                   "currency": "AUD",
-                  "fee_data_key": "0.30 AUD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.30 AUD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.30 AUD",
-                  "token_id": "4rL1kCuvgf1lumJABuGDz5",
-                  "value": null
+                  "raw": "0.30 AUD"
                 }
               ]
             },
@@ -3448,8 +3056,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6Udw3jwu48SfpVyMqzcD5j"
+          ]
         },
         {
           "cells": [
@@ -3464,15 +3071,9 @@
               "tokens": [
                 {
                   "amount": "0.6",
-                  "content_type": "cvPricingToken",
                   "currency": "BRL",
-                  "fee_data_key": "0.60 BRL",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.60 BRL",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.60 BRL",
-                  "token_id": "7x2wYY1jXRK58G5fFoOL7v",
-                  "value": null
+                  "raw": "0.60 BRL"
                 }
               ]
             },
@@ -3486,8 +3087,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4SeQu2Id1zky9lr7p9t1ay"
+          ]
         },
         {
           "cells": [
@@ -3502,15 +3102,9 @@
               "tokens": [
                 {
                   "amount": "0.3",
-                  "content_type": "cvPricingToken",
                   "currency": "CAD",
-                  "fee_data_key": "0.30 CAD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.30 CAD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.30 CAD",
-                  "token_id": "4o1Ek1KJsp4AQZx1Zv0JJe",
-                  "value": null
+                  "raw": "0.30 CAD"
                 }
               ]
             },
@@ -3524,8 +3118,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5hLmTdEMHInkU8dTwycz1i"
+          ]
         },
         {
           "cells": [
@@ -3540,15 +3133,9 @@
               "tokens": [
                 {
                   "amount": "10",
-                  "content_type": "cvPricingToken",
                   "currency": "CZK",
-                  "fee_data_key": "10.00 CZK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 10.00 CZK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "10.00 CZK",
-                  "token_id": "7l0wlQarIHmcUozuA1e1bC",
-                  "value": null
+                  "raw": "10.00 CZK"
                 }
               ]
             },
@@ -3562,8 +3149,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "gbUdfJx9MEPx7fAr411jX"
+          ]
         },
         {
           "cells": [
@@ -3578,15 +3164,9 @@
               "tokens": [
                 {
                   "amount": "2.6",
-                  "content_type": "cvPricingToken",
                   "currency": "DKK",
-                  "fee_data_key": "2.60 DKK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 2.60 DKK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.60 DKK",
-                  "token_id": "4zMJ8Upll6y9Di0Q6aq7ol",
-                  "value": null
+                  "raw": "2.60 DKK"
                 }
               ]
             },
@@ -3600,8 +3180,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5japYAveSkLQk8h2w1ueEo"
+          ]
         },
         {
           "cells": [
@@ -3616,15 +3195,9 @@
               "tokens": [
                 {
                   "amount": "0.35",
-                  "content_type": "cvPricingToken",
                   "currency": "EUR",
-                  "fee_data_key": "0.35 EUR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.35 EUR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.35 EUR",
-                  "token_id": "1cs25Jg6veGYUkCQ9nuj8u",
-                  "value": null
+                  "raw": "0.35 EUR"
                 }
               ]
             },
@@ -3638,8 +3211,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "7zLBC0kemkrDCY65a1Ne3x"
+          ]
         },
         {
           "cells": [
@@ -3654,15 +3226,9 @@
               "tokens": [
                 {
                   "amount": "2.35",
-                  "content_type": "cvPricingToken",
                   "currency": "HKD",
-                  "fee_data_key": "2.35 HKD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 2.35 HKD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.35 HKD",
-                  "token_id": "4m3boMbAfwOQ4mDJK365lI",
-                  "value": null
+                  "raw": "2.35 HKD"
                 }
               ]
             },
@@ -3676,8 +3242,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5Ipt6RFiZLFEB3ZkR46M6m"
+          ]
         },
         {
           "cells": [
@@ -3692,15 +3257,9 @@
               "tokens": [
                 {
                   "amount": "90",
-                  "content_type": "cvPricingToken",
                   "currency": "HUF",
-                  "fee_data_key": "90.00 HUF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 90.00 HUF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "90.00 HUF",
-                  "token_id": "2sISFf6RfC9vkhwmVnce1A",
-                  "value": null
+                  "raw": "90.00 HUF"
                 }
               ]
             },
@@ -3714,8 +3273,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3HU05U7jHr2B4TXjhSrUX"
+          ]
         },
         {
           "cells": [
@@ -3730,15 +3288,9 @@
               "tokens": [
                 {
                   "amount": "3",
-                  "content_type": "cvPricingToken",
                   "currency": "INR",
-                  "fee_data_key": "3.00 INR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 3.00 INR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "3.00 INR",
-                  "token_id": "4Qm0xGEnOHQw0T2M2pClwo",
-                  "value": null
+                  "raw": "3.00 INR"
                 }
               ]
             },
@@ -3752,8 +3304,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1XsV0097MrHfZK0AkZ9qsd"
+          ]
         },
         {
           "cells": [
@@ -3768,15 +3319,9 @@
               "tokens": [
                 {
                   "amount": "1.2",
-                  "content_type": "cvPricingToken",
                   "currency": "ILS",
-                  "fee_data_key": "1.20 ILS",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 1.20 ILS",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1.20 ILS",
-                  "token_id": "7ix9GArWOGfN77W1N0htfo",
-                  "value": null
+                  "raw": "1.20 ILS"
                 }
               ]
             },
@@ -3790,8 +3335,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2QoQZXMStGcCvhxkCWf9sS"
+          ]
         },
         {
           "cells": [
@@ -3806,15 +3350,9 @@
               "tokens": [
                 {
                   "amount": "40",
-                  "content_type": "cvPricingToken",
                   "currency": "JPY",
-                  "fee_data_key": "40.00 JPY",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 40.00 JPY",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "40.00 JPY",
-                  "token_id": "7pe8Kn6321FR0PGxAipmTV",
-                  "value": null
+                  "raw": "40.00 JPY"
                 }
               ]
             },
@@ -3828,8 +3366,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4ZMAENO85RbfDNe6KoHMoH"
+          ]
         },
         {
           "cells": [
@@ -3844,15 +3381,9 @@
               "tokens": [
                 {
                   "amount": "2",
-                  "content_type": "cvPricingToken",
                   "currency": "MYR",
-                  "fee_data_key": "2.00 MYR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 2.00 MYR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.00 MYR",
-                  "token_id": "2nLUqYBc0DeKr7Jn4pZasb",
-                  "value": null
+                  "raw": "2.00 MYR"
                 }
               ]
             },
@@ -3866,8 +3397,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6NUDvyLunGhhd1hH7TInLa"
+          ]
         },
         {
           "cells": [
@@ -3882,35 +3412,22 @@
               "tokens": [
                 {
                   "amount": "4",
-                  "content_type": "cvPricingToken",
                   "currency": "MXN",
-                  "fee_data_key": "4.00 MXN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 4.00 MXN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "4.00 MXN",
-                  "token_id": "6lKxKndJItlhncw3smJALz",
-                  "value": null
+                  "raw": "4.00 MXN"
                 }
               ]
             }
-          ],
-          "row_id": "7L4jJpr4KE53wVKNooRBeR"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Fixed fee for commercial transactions (based on currency received)"
-      ],
-      "source_order": 4,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB18::4"
+      ]
     },
     {
       "caption": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
       "column_count": 4,
-      "component_id": "2nOkdVvK78UmhgY7mPLvUc",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB306",
       "headers": [
         {
@@ -3934,8 +3451,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -3950,15 +3465,9 @@
               "tokens": [
                 {
                   "amount": "10",
-                  "content_type": "cvPricingToken",
                   "currency": "TWD",
-                  "fee_data_key": "10.00 TWD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 10.00 TWD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "10.00 TWD",
-                  "token_id": "3EGy2YMScH7npaPyXtw60f",
-                  "value": null
+                  "raw": "10.00 TWD"
                 }
               ]
             },
@@ -3972,8 +3481,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5mgvUtSaRhhwCIQwnWeODL"
+          ]
         },
         {
           "cells": [
@@ -3988,15 +3496,9 @@
               "tokens": [
                 {
                   "amount": "0.45",
-                  "content_type": "cvPricingToken",
                   "currency": "NZD",
-                  "fee_data_key": "0.45 NZD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.45 NZD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.45 NZD",
-                  "token_id": "7pDh97uUx2Rwiv4B9DKghT",
-                  "value": null
+                  "raw": "0.45 NZD"
                 }
               ]
             },
@@ -4010,8 +3512,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5KSeLZCs9hNZlYnh8UAX94"
+          ]
         },
         {
           "cells": [
@@ -4026,15 +3527,9 @@
               "tokens": [
                 {
                   "amount": "2.8",
-                  "content_type": "cvPricingToken",
                   "currency": "NOK",
-                  "fee_data_key": "2.80 NOK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 2.80 NOK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.80 NOK",
-                  "token_id": "6424yTPOz4FF2arY7e85GM",
-                  "value": null
+                  "raw": "2.80 NOK"
                 }
               ]
             },
@@ -4048,8 +3543,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6rjaoLFXBRmKN4vpTuJDmD"
+          ]
         },
         {
           "cells": [
@@ -4064,15 +3558,9 @@
               "tokens": [
                 {
                   "amount": "15",
-                  "content_type": "cvPricingToken",
                   "currency": "PHP",
-                  "fee_data_key": "15.00 PHP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 15.00 PHP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "15.00 PHP",
-                  "token_id": "6DrUJ2W2KA05sJQsiu29QN",
-                  "value": null
+                  "raw": "15.00 PHP"
                 }
               ]
             },
@@ -4086,8 +3574,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4dqa2pDaRTZlLEdvdIOJ6A"
+          ]
         },
         {
           "cells": [
@@ -4102,15 +3589,9 @@
               "tokens": [
                 {
                   "amount": "1.35",
-                  "content_type": "cvPricingToken",
                   "currency": "PLN",
-                  "fee_data_key": "1.35 PLN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 1.35 PLN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1.35 PLN",
-                  "token_id": "1Pu0AjeIsGDoNGy5pOaXwc",
-                  "value": null
+                  "raw": "1.35 PLN"
                 }
               ]
             },
@@ -4124,8 +3605,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3zbzKxJOT5TrUrwgZRs9Do"
+          ]
         },
         {
           "cells": [
@@ -4140,15 +3620,9 @@
               "tokens": [
                 {
                   "amount": "10",
-                  "content_type": "cvPricingToken",
                   "currency": "RUB",
-                  "fee_data_key": "10.00 RUB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 10.00 RUB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "10.00 RUB",
-                  "token_id": "7eavRlyl45cMbJIVCXeIPb",
-                  "value": null
+                  "raw": "10.00 RUB"
                 }
               ]
             },
@@ -4162,8 +3636,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "43TZvnnB4Hnhqxa3bZkuth"
+          ]
         },
         {
           "cells": [
@@ -4178,15 +3651,9 @@
               "tokens": [
                 {
                   "amount": "0.5",
-                  "content_type": "cvPricingToken",
                   "currency": "SGD",
-                  "fee_data_key": "0.50 SGD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.50 SGD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.50 SGD",
-                  "token_id": "2KO8HPbctera0HY5IjDklf",
-                  "value": null
+                  "raw": "0.50 SGD"
                 }
               ]
             },
@@ -4200,8 +3667,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5MNxik8w7wmiqygdDvW1w9"
+          ]
         },
         {
           "cells": [
@@ -4216,15 +3682,9 @@
               "tokens": [
                 {
                   "amount": "3.25",
-                  "content_type": "cvPricingToken",
                   "currency": "SEK",
-                  "fee_data_key": "3.25 SEK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 3.25 SEK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "3.25 SEK",
-                  "token_id": "4ivmDaKwyM4yZHpFFWtrkt",
-                  "value": null
+                  "raw": "3.25 SEK"
                 }
               ]
             },
@@ -4238,8 +3698,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6dvaI7elDNMsXJle2LACvV"
+          ]
         },
         {
           "cells": [
@@ -4254,15 +3713,9 @@
               "tokens": [
                 {
                   "amount": "0.55",
-                  "content_type": "cvPricingToken",
                   "currency": "CHF",
-                  "fee_data_key": "0.55 CHF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.55 CHF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.55 CHF",
-                  "token_id": "1ZP0IixpKz5rgnFIiscps7",
-                  "value": null
+                  "raw": "0.55 CHF"
                 }
               ]
             },
@@ -4276,8 +3729,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5WzP8hb0HymmcCoxTC6Fy8"
+          ]
         },
         {
           "cells": [
@@ -4292,15 +3744,9 @@
               "tokens": [
                 {
                   "amount": "11",
-                  "content_type": "cvPricingToken",
                   "currency": "THB",
-                  "fee_data_key": "11.00 THB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 11.00 THB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "11.00 THB",
-                  "token_id": "5V4XEdIFM3j493gIiwFG6j",
-                  "value": null
+                  "raw": "11.00 THB"
                 }
               ]
             },
@@ -4314,8 +3760,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "ke3NIK26LwtXsbAf9aYR8"
+          ]
         },
         {
           "cells": [
@@ -4330,15 +3775,9 @@
               "tokens": [
                 {
                   "amount": "0.2",
-                  "content_type": "cvPricingToken",
                   "currency": "GBP",
-                  "fee_data_key": "0.20 GBP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.20 GBP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.20 GBP",
-                  "token_id": "6mtimlOXeu08d21d5gRpJ3",
-                  "value": null
+                  "raw": "0.20 GBP"
                 }
               ]
             },
@@ -4352,8 +3791,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "01yhJL85mAZKjPplWYAPAX"
+          ]
         },
         {
           "cells": [
@@ -4368,15 +3806,9 @@
               "tokens": [
                 {
                   "amount": "0.3",
-                  "content_type": "cvPricingToken",
                   "currency": "USD",
-                  "fee_data_key": "0.30 USD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Fixed fee for commercial transactions (based on currency received) - 0.30 USD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.30 USD",
-                  "token_id": "S3ImoSBAjacly0pGvGMcT",
-                  "value": null
+                  "raw": "0.30 USD"
                 }
               ]
             },
@@ -4390,23 +3822,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6Nilr1hL4PegLYvLwRIAsC"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Fixed fee for commercial transactions (based on currency received)"
-      ],
-      "source_order": 5,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB306::5"
+      ]
     },
     {
       "caption": "Fee Table: Receiving micropayments",
       "column_count": 4,
-      "component_id": "1f1GMCBQtHePqYKY89udwI",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB66",
       "headers": [
         {
@@ -4430,8 +3855,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -4450,15 +3873,8 @@
               "text": "6.00% \\+ micropayments fixed fee",
               "tokens": [
                 {
-                  "amount": null,
-                  "content_type": "cvPricingToken",
-                  "currency": null,
-                  "fee_data_key": "6.00%",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Receiving micropayments - 0.06",
                   "kind": "percentage",
-                  "operator": null,
                   "raw": "6.00%",
-                  "token_id": "6xx3DrOhsGR624uqJORJ2x",
                   "value": "6"
                 }
               ]
@@ -4473,23 +3889,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1rhTakee6KgJGLOYRsp51o"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Receiving micropayments"
-      ],
-      "source_order": 6,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB66::6"
+      ]
     },
     {
       "caption": "Fee Table: Micropayments fixed fee",
       "column_count": 4,
-      "component_id": "t4dRjeYwcRtImmPzcNHDv",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB69",
       "headers": [
         {
@@ -4513,8 +3922,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -4529,15 +3936,9 @@
               "tokens": [
                 {
                   "amount": "0.05",
-                  "content_type": "cvPricingToken",
                   "currency": "AUD",
-                  "fee_data_key": "0.05 AUD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.05 AUD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.05 AUD",
-                  "token_id": "1vDt5q7edBZmfUnrTPo0ry",
-                  "value": null
+                  "raw": "0.05 AUD"
                 }
               ]
             },
@@ -4551,8 +3952,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "nOet7YLVzQb6hXLjZA2Ez"
+          ]
         },
         {
           "cells": [
@@ -4567,15 +3967,9 @@
               "tokens": [
                 {
                   "amount": "0.1",
-                  "content_type": "cvPricingToken",
                   "currency": "BRL",
-                  "fee_data_key": "0.10 BRL",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.10 BRL",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.10 BRL",
-                  "token_id": "1rNoLD7Vfhp5l6lYZmJDlB",
-                  "value": null
+                  "raw": "0.10 BRL"
                 }
               ]
             },
@@ -4589,8 +3983,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3Usple8s3jtfrPvZpyQjP"
+          ]
         },
         {
           "cells": [
@@ -4605,15 +3998,9 @@
               "tokens": [
                 {
                   "amount": "0.05",
-                  "content_type": "cvPricingToken",
                   "currency": "CAD",
-                  "fee_data_key": "0.05 CAD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.05 CAD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.05 CAD",
-                  "token_id": "1slOpXjhYbcTRnOvYIQXf5",
-                  "value": null
+                  "raw": "0.05 CAD"
                 }
               ]
             },
@@ -4627,8 +4014,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6Dlh6vBNfZ5tmjrHhblJUN"
+          ]
         },
         {
           "cells": [
@@ -4643,15 +4029,9 @@
               "tokens": [
                 {
                   "amount": "1.67",
-                  "content_type": "cvPricingToken",
                   "currency": "CZK",
-                  "fee_data_key": "1.67 CZK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 1.67 CZK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1.67 CZK",
-                  "token_id": "2MgWjlO9eEGgH9VO3snPAn",
-                  "value": null
+                  "raw": "1.67 CZK"
                 }
               ]
             },
@@ -4665,8 +4045,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "28tNtlQU9wExkTODVq60wu"
+          ]
         },
         {
           "cells": [
@@ -4681,15 +4060,9 @@
               "tokens": [
                 {
                   "amount": "0.43",
-                  "content_type": "cvPricingToken",
                   "currency": "DKK",
-                  "fee_data_key": "0.43 DKK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.43 DKK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.43 DKK",
-                  "token_id": "eJMEGUQ9TatABYbIPq0Oi",
-                  "value": null
+                  "raw": "0.43 DKK"
                 }
               ]
             },
@@ -4703,8 +4076,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3Y2wNvYsPThxaY7dBjyhLs"
+          ]
         },
         {
           "cells": [
@@ -4719,15 +4091,9 @@
               "tokens": [
                 {
                   "amount": "0.05",
-                  "content_type": "cvPricingToken",
                   "currency": "EUR",
-                  "fee_data_key": "0.05 EUR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.05 EUR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.05 EUR",
-                  "token_id": "2TTt0uLhdxU8l1FyLshhx5",
-                  "value": null
+                  "raw": "0.05 EUR"
                 }
               ]
             },
@@ -4741,8 +4107,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6sMNz9FxTEVvKvyT5KgepS"
+          ]
         },
         {
           "cells": [
@@ -4757,15 +4122,9 @@
               "tokens": [
                 {
                   "amount": "0.39",
-                  "content_type": "cvPricingToken",
                   "currency": "HKD",
-                  "fee_data_key": "0.39 HKD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.39 HKD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.39 HKD",
-                  "token_id": "4sv8TsHWRubhK1N0JaJ1pf",
-                  "value": null
+                  "raw": "0.39 HKD"
                 }
               ]
             },
@@ -4779,8 +4138,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6J3SbQ0P2hK07IiUUOjMtm"
+          ]
         },
         {
           "cells": [
@@ -4795,15 +4153,9 @@
               "tokens": [
                 {
                   "amount": "15",
-                  "content_type": "cvPricingToken",
                   "currency": "HUF",
-                  "fee_data_key": "15.00 HUF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 15.00 HUF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "15.00 HUF",
-                  "token_id": "6gP9wZSQ0v1DjaECKKJTAy",
-                  "value": null
+                  "raw": "15.00 HUF"
                 }
               ]
             },
@@ -4817,8 +4169,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "17kcFfITwHELnIpWfJPPVP"
+          ]
         },
         {
           "cells": [
@@ -4833,15 +4184,9 @@
               "tokens": [
                 {
                   "amount": "0.25",
-                  "content_type": "cvPricingToken",
                   "currency": "INR",
-                  "fee_data_key": "0.25 INR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.25 INR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.25 INR",
-                  "token_id": "2wwWJLxhClvX28SobkciTU",
-                  "value": null
+                  "raw": "0.25 INR"
                 }
               ]
             },
@@ -4855,8 +4200,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "11hDzgWU2eIeLlPLejsVmn"
+          ]
         },
         {
           "cells": [
@@ -4871,15 +4215,9 @@
               "tokens": [
                 {
                   "amount": "0.2",
-                  "content_type": "cvPricingToken",
                   "currency": "ILS",
-                  "fee_data_key": "0.20 ILS",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.20 ILS",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.20 ILS",
-                  "token_id": "3MFt3uNaRyd5x0bYDXXGU2",
-                  "value": null
+                  "raw": "0.20 ILS"
                 }
               ]
             },
@@ -4893,8 +4231,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2AkLhfwtWPO1LvI38WK8td"
+          ]
         },
         {
           "cells": [
@@ -4909,15 +4246,9 @@
               "tokens": [
                 {
                   "amount": "7",
-                  "content_type": "cvPricingToken",
                   "currency": "JPY",
-                  "fee_data_key": "7.00 JPY",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 7.00 JPY",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "7.00 JPY",
-                  "token_id": "2Wc8LUb64h4wLTiWo5pBwv",
-                  "value": null
+                  "raw": "7.00 JPY"
                 }
               ]
             },
@@ -4931,8 +4262,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "nREZc05XoAimJNpFUbuob"
+          ]
         },
         {
           "cells": [
@@ -4947,15 +4277,9 @@
               "tokens": [
                 {
                   "amount": "0.2",
-                  "content_type": "cvPricingToken",
                   "currency": "MYR",
-                  "fee_data_key": "0.20 MYR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.20 MYR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.20 MYR",
-                  "token_id": "3nTJ88di24DicyPF7NOZIt",
-                  "value": null
+                  "raw": "0.20 MYR"
                 }
               ]
             },
@@ -4969,8 +4293,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "40bCGANLn4n3Kkb2py0Ygj"
+          ]
         },
         {
           "cells": [
@@ -4985,35 +4308,22 @@
               "tokens": [
                 {
                   "amount": "0.55",
-                  "content_type": "cvPricingToken",
                   "currency": "MXN",
-                  "fee_data_key": "0.55 MXN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.55 MXN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.55 MXN",
-                  "token_id": "VgaiusWSEnBZB0whVmGo3",
-                  "value": null
+                  "raw": "0.55 MXN"
                 }
               ]
             }
-          ],
-          "row_id": "j2vQ4L1cLlAKNdNBcvLdY"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Micropayments fixed fee"
-      ],
-      "source_order": 7,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB69::7"
+      ]
     },
     {
       "caption": "Fee Table: Micropayments fixed fee",
       "column_count": 4,
-      "component_id": "6kHztIeTtsOzf9fbTC0rIJ",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB304",
       "headers": [
         {
@@ -5037,8 +4347,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -5053,15 +4361,9 @@
               "tokens": [
                 {
                   "amount": "2",
-                  "content_type": "cvPricingToken",
                   "currency": "TWD",
-                  "fee_data_key": "2.00 TWD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 2.00 TWD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.00 TWD",
-                  "token_id": "7GuA1g9pzRk7slEsZDYn0n",
-                  "value": null
+                  "raw": "2.00 TWD"
                 }
               ]
             },
@@ -5075,8 +4377,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1JLPcziHgNxwgdwsK6A88o"
+          ]
         },
         {
           "cells": [
@@ -5091,15 +4392,9 @@
               "tokens": [
                 {
                   "amount": "0.08",
-                  "content_type": "cvPricingToken",
                   "currency": "NZD",
-                  "fee_data_key": "0.08 NZD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.08 NZD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.08 NZD",
-                  "token_id": "2hVeVJQZhjt2a6Bv7ejUXW",
-                  "value": null
+                  "raw": "0.08 NZD"
                 }
               ]
             },
@@ -5113,8 +4408,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5ZLXgvJ9IWfnXcBP1FmnD4"
+          ]
         },
         {
           "cells": [
@@ -5129,15 +4423,9 @@
               "tokens": [
                 {
                   "amount": "0.47",
-                  "content_type": "cvPricingToken",
                   "currency": "NOK",
-                  "fee_data_key": "0.47 NOK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.47 NOK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.47 NOK",
-                  "token_id": "688ORw3IxWILGRs61lWAKw",
-                  "value": null
+                  "raw": "0.47 NOK"
                 }
               ]
             },
@@ -5151,8 +4439,7 @@
               "text": "6mbtqoKDbMzc8AJTRHkI03",
               "tokens": []
             }
-          ],
-          "row_id": "SBwkqATRYhggfVd5shfBa"
+          ]
         },
         {
           "cells": [
@@ -5167,15 +4454,9 @@
               "tokens": [
                 {
                   "amount": "2.5",
-                  "content_type": "cvPricingToken",
                   "currency": "PHP",
-                  "fee_data_key": "2.50 PHP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 2.50 PHP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.50 PHP",
-                  "token_id": "4iqQoEkHyk15tC2S1IjCTn",
-                  "value": null
+                  "raw": "2.50 PHP"
                 }
               ]
             },
@@ -5189,8 +4470,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "62njDYTs6aTXyR90TG2qcm"
+          ]
         },
         {
           "cells": [
@@ -5205,15 +4485,9 @@
               "tokens": [
                 {
                   "amount": "0.23",
-                  "content_type": "cvPricingToken",
                   "currency": "PLN",
-                  "fee_data_key": "0.23 PLN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.23 PLN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.23 PLN",
-                  "token_id": "68heH1XNa84rhRHyvLetJ1",
-                  "value": null
+                  "raw": "0.23 PLN"
                 }
               ]
             },
@@ -5227,8 +4501,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3XXjDkDjLY8ZvvtnAfeBge"
+          ]
         },
         {
           "cells": [
@@ -5243,15 +4516,9 @@
               "tokens": [
                 {
                   "amount": "2",
-                  "content_type": "cvPricingToken",
                   "currency": "RUB",
-                  "fee_data_key": "2.00 RUB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 2.00 RUB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2.00 RUB",
-                  "token_id": "1JR0oUdon5Ylt3chkhZ7rN",
-                  "value": null
+                  "raw": "2.00 RUB"
                 }
               ]
             },
@@ -5265,8 +4532,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2sXvWbO0z0a7dnDhXkzqUX"
+          ]
         },
         {
           "cells": [
@@ -5281,15 +4547,9 @@
               "tokens": [
                 {
                   "amount": "0.08",
-                  "content_type": "cvPricingToken",
                   "currency": "SGD",
-                  "fee_data_key": "0.08 SGD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.08 SGD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.08 SGD",
-                  "token_id": "5mva6xF2VZHhmTz2p2XeAS",
-                  "value": null
+                  "raw": "0.08 SGD"
                 }
               ]
             },
@@ -5303,8 +4563,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5kClNhQvEHgrOWbgcWrW1E"
+          ]
         },
         {
           "cells": [
@@ -5319,15 +4578,9 @@
               "tokens": [
                 {
                   "amount": "0.54",
-                  "content_type": "cvPricingToken",
                   "currency": "SEK",
-                  "fee_data_key": "0.54 SEK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.54 SEK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.54 SEK",
-                  "token_id": "63TZnO9HKpxSeCbJKffu0r",
-                  "value": null
+                  "raw": "0.54 SEK"
                 }
               ]
             },
@@ -5341,8 +4594,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6SQLGBv5xWdxusrJf2R1af"
+          ]
         },
         {
           "cells": [
@@ -5357,15 +4609,9 @@
               "tokens": [
                 {
                   "amount": "0.09",
-                  "content_type": "cvPricingToken",
                   "currency": "CHF",
-                  "fee_data_key": "0.09 CHF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.09 CHF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.09 CHF",
-                  "token_id": "bWsMG8NZfYlpLzQ7tB2yd",
-                  "value": null
+                  "raw": "0.09 CHF"
                 }
               ]
             },
@@ -5379,8 +4625,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6fQ3eiTiiC7RljxaOSWvHV"
+          ]
         },
         {
           "cells": [
@@ -5395,15 +4640,9 @@
               "tokens": [
                 {
                   "amount": "1.8",
-                  "content_type": "cvPricingToken",
                   "currency": "THB",
-                  "fee_data_key": "1.80 THB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 1.80 THB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1.80 THB",
-                  "token_id": "6ggBODyTlZDNhQvMKkmNpn",
-                  "value": null
+                  "raw": "1.80 THB"
                 }
               ]
             },
@@ -5417,8 +4656,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5roNN9Zv6ncWWpvfRzhBdx"
+          ]
         },
         {
           "cells": [
@@ -5433,15 +4671,9 @@
               "tokens": [
                 {
                   "amount": "0.05",
-                  "content_type": "cvPricingToken",
                   "currency": "GBP",
-                  "fee_data_key": "0.05 GBP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.05 GBP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.05 GBP",
-                  "token_id": "7gAwUM3hTkcVH3cRpXc52G",
-                  "value": null
+                  "raw": "0.05 GBP"
                 }
               ]
             },
@@ -5455,8 +4687,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3qktKKzaFrutt4shdfYffo"
+          ]
         },
         {
           "cells": [
@@ -5471,15 +4702,9 @@
               "tokens": [
                 {
                   "amount": "0.05",
-                  "content_type": "cvPricingToken",
                   "currency": "USD",
-                  "fee_data_key": "0.05 USD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Micropayments fixed fee - 0.05 USD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "0.05 USD",
-                  "token_id": "2NoF2qH8pKnkDkGdQDAGSt",
-                  "value": null
+                  "raw": "0.05 USD"
                 }
               ]
             },
@@ -5493,23 +4718,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "32fGyyUNUjh5CnpbstznXO"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Micropayments fixed fee"
-      ],
-      "source_order": 8,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB304::8"
+      ]
     },
     {
       "caption": "Fee Table: Standard Dispute Fees",
       "column_count": 4,
-      "component_id": "4LPoTAlDpQMDEMxbfQMVrJ",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB72",
       "headers": [
         {
@@ -5533,8 +4751,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -5549,15 +4765,9 @@
               "tokens": [
                 {
                   "amount": "12",
-                  "content_type": "cvPricingToken",
                   "currency": "AUD",
-                  "fee_data_key": "12.00 AUD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 12.00 AUD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "12.00 AUD",
-                  "token_id": "3tT6xRBgr23OfrLGVSYpkk",
-                  "value": null
+                  "raw": "12.00 AUD"
                 }
               ]
             },
@@ -5571,8 +4781,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "JILFgevmwVuCj6QNlb2V6"
+          ]
         },
         {
           "cells": [
@@ -5587,15 +4796,9 @@
               "tokens": [
                 {
                   "amount": "35",
-                  "content_type": "cvPricingToken",
                   "currency": "BRL",
-                  "fee_data_key": "35.00 BRL",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 35.00 BRL",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "35.00 BRL",
-                  "token_id": "1daXktw7nxNo6xjIOmVyFV",
-                  "value": null
+                  "raw": "35.00 BRL"
                 }
               ]
             },
@@ -5609,8 +4812,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "29LN9VHbSlMiuAWXTWvDPj"
+          ]
         },
         {
           "cells": [
@@ -5625,15 +4827,9 @@
               "tokens": [
                 {
                   "amount": "10",
-                  "content_type": "cvPricingToken",
                   "currency": "CAD",
-                  "fee_data_key": "10.00 CAD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 10.00 CAD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "10.00 CAD",
-                  "token_id": "5fsvrwK9jRGtrN8dZKISzf",
-                  "value": null
+                  "raw": "10.00 CAD"
                 }
               ]
             },
@@ -5647,8 +4843,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "LSalHek81sauBUEojdrF7"
+          ]
         },
         {
           "cells": [
@@ -5663,15 +4858,9 @@
               "tokens": [
                 {
                   "amount": "185",
-                  "content_type": "cvPricingToken",
                   "currency": "CZK",
-                  "fee_data_key": "185.00 CZK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 185.00 CZK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "185.00 CZK",
-                  "token_id": "61m7CcOerRVRDLqZpP3Gq4",
-                  "value": null
+                  "raw": "185.00 CZK"
                 }
               ]
             },
@@ -5685,8 +4874,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "422HSC5dMGNPVbSkqc08sc"
+          ]
         },
         {
           "cells": [
@@ -5701,15 +4889,9 @@
               "tokens": [
                 {
                   "amount": "55",
-                  "content_type": "cvPricingToken",
                   "currency": "DKK",
-                  "fee_data_key": "55.00 DKK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 55.00 DKK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "55.00 DKK",
-                  "token_id": "66qo9QW43nNeIAaoQbVNRE",
-                  "value": null
+                  "raw": "55.00 DKK"
                 }
               ]
             },
@@ -5723,8 +4905,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3RcftGxblovWiTgObD9vGL"
+          ]
         },
         {
           "cells": [
@@ -5739,15 +4920,9 @@
               "tokens": [
                 {
                   "amount": "7",
-                  "content_type": "cvPricingToken",
                   "currency": "EUR",
-                  "fee_data_key": "7.00 EUR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 7.00 EUR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "7.00 EUR",
-                  "token_id": "2OOWvydpwQCOojlZBYkUe",
-                  "value": null
+                  "raw": "7.00 EUR"
                 }
               ]
             },
@@ -5761,8 +4936,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6TZjYAbdOWg1eSHAtZfyDj"
+          ]
         },
         {
           "cells": [
@@ -5777,15 +4951,9 @@
               "tokens": [
                 {
                   "amount": "65",
-                  "content_type": "cvPricingToken",
                   "currency": "HKD",
-                  "fee_data_key": "65.00 HKD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 65.00 HKD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "65.00 HKD",
-                  "token_id": "1DuQEMZ2u6OxzN3MFhL62I",
-                  "value": null
+                  "raw": "65.00 HKD"
                 }
               ]
             },
@@ -5799,8 +4967,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4SoQ5Gp2td1gsKcva0WtUr"
+          ]
         },
         {
           "cells": [
@@ -5815,15 +4982,9 @@
               "tokens": [
                 {
                   "amount": "2450",
-                  "content_type": "cvPricingToken",
                   "currency": "HUF",
-                  "fee_data_key": "2450.00 HUF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 2450.00 HUF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "2450.00 HUF",
-                  "token_id": "2Cxcr1lLUDHoTX7kcO6Fua",
-                  "value": null
+                  "raw": "2450.00 HUF"
                 }
               ]
             },
@@ -5837,8 +4998,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6SOQ1GehVnJGHoRZVbOVTi"
+          ]
         },
         {
           "cells": [
@@ -5853,15 +5013,9 @@
               "tokens": [
                 {
                   "amount": "580",
-                  "content_type": "cvPricingToken",
                   "currency": "INR",
-                  "fee_data_key": "580.00 INR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 580.00 INR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "580.00 INR",
-                  "token_id": "29zAUGYJfYGMuE2t6WpxE8",
-                  "value": null
+                  "raw": "580.00 INR"
                 }
               ]
             },
@@ -5875,8 +5029,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1oQo18MFni5Ol3HEq0IM5T"
+          ]
         },
         {
           "cells": [
@@ -5891,15 +5044,9 @@
               "tokens": [
                 {
                   "amount": "30",
-                  "content_type": "cvPricingToken",
                   "currency": "ILS",
-                  "fee_data_key": "30.00 ILS",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 30.00 ILS",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "30.00 ILS",
-                  "token_id": "6kIyT3oPErpYs4yIUP7WhI",
-                  "value": null
+                  "raw": "30.00 ILS"
                 }
               ]
             },
@@ -5913,8 +5060,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2NiyvO89VTG2QGReGGAMf7"
+          ]
         },
         {
           "cells": [
@@ -5929,15 +5075,9 @@
               "tokens": [
                 {
                   "amount": "870",
-                  "content_type": "cvPricingToken",
                   "currency": "JPY",
-                  "fee_data_key": "870.00 JPY",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 870.00 JPY",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "870.00 JPY",
-                  "token_id": "3d017CI8wOX03o4OBo3SVg",
-                  "value": null
+                  "raw": "870.00 JPY"
                 }
               ]
             },
@@ -5951,8 +5091,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2K8LlvcsP2brlzGwq2AS8u"
+          ]
         },
         {
           "cells": [
@@ -5967,15 +5106,9 @@
               "tokens": [
                 {
                   "amount": "35",
-                  "content_type": "cvPricingToken",
                   "currency": "MYR",
-                  "fee_data_key": "35.00 MYR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 35.00 MYR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "35.00 MYR",
-                  "token_id": "9AjrSVJpd196vSOEaqHpJ",
-                  "value": null
+                  "raw": "35.00 MYR"
                 }
               ]
             },
@@ -5989,8 +5122,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4pjWtErY6uldN3NumOAWO8"
+          ]
         },
         {
           "cells": [
@@ -6005,15 +5137,9 @@
               "tokens": [
                 {
                   "amount": "160",
-                  "content_type": "cvPricingToken",
                   "currency": "MXN",
-                  "fee_data_key": "160.00 MXN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 160.00 MXN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "160.00 MXN",
-                  "token_id": "3xidj3Vit4nir2NLjFJxKr",
-                  "value": null
+                  "raw": "160.00 MXN"
                 }
               ]
             },
@@ -6027,23 +5153,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "HcJf4xXik3FQQR7GKqZWE"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Standard Dispute Fees"
-      ],
-      "source_order": 9,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB72::9"
+      ]
     },
     {
       "caption": "Fee Table: Standard Dispute Fees",
       "column_count": 4,
-      "component_id": "79R9Cteqka82UCT2DNy2Ty",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB295",
       "headers": [
         {
@@ -6067,8 +5186,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -6083,15 +5200,9 @@
               "tokens": [
                 {
                   "amount": "250",
-                  "content_type": "cvPricingToken",
                   "currency": "TWD",
-                  "fee_data_key": "250.00 TWD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 250.00 TWD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "250.00 TWD",
-                  "token_id": "3k9o7dLuG3cifkALIdG8ko",
-                  "value": null
+                  "raw": "250.00 TWD"
                 }
               ]
             },
@@ -6105,8 +5216,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3pmoNVtZC2TEpg1fXmsSRn"
+          ]
         },
         {
           "cells": [
@@ -6121,15 +5231,9 @@
               "tokens": [
                 {
                   "amount": "13",
-                  "content_type": "cvPricingToken",
                   "currency": "NZD",
-                  "fee_data_key": "13.00 NZD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 13.00 NZD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "13.00 NZD",
-                  "token_id": "1fCDagOIwkbLT1UTo5N8y7",
-                  "value": null
+                  "raw": "13.00 NZD"
                 }
               ]
             },
@@ -6143,8 +5247,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6H6zTp3vHDWPn8utc436NP"
+          ]
         },
         {
           "cells": [
@@ -6159,15 +5262,9 @@
               "tokens": [
                 {
                   "amount": "75",
-                  "content_type": "cvPricingToken",
                   "currency": "NOK",
-                  "fee_data_key": "75.00 NOK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 75.00 NOK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "75.00 NOK",
-                  "token_id": "1ZT4SuUK6GtmTutZyF4udF",
-                  "value": null
+                  "raw": "75.00 NOK"
                 }
               ]
             },
@@ -6181,8 +5278,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "7pJM3K5TMoS95IBfktZB4E"
+          ]
         },
         {
           "cells": [
@@ -6197,15 +5293,9 @@
               "tokens": [
                 {
                   "amount": "405",
-                  "content_type": "cvPricingToken",
                   "currency": "PHP",
-                  "fee_data_key": "405.00 PHP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 405.00 PHP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "405.00 PHP",
-                  "token_id": "7meBFWXAbMQrDVCEPoZXRm",
-                  "value": null
+                  "raw": "405.00 PHP"
                 }
               ]
             },
@@ -6219,8 +5309,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "76NgzmyWoyTUzy0s7EWycg"
+          ]
         },
         {
           "cells": [
@@ -6235,15 +5324,9 @@
               "tokens": [
                 {
                   "amount": "30",
-                  "content_type": "cvPricingToken",
                   "currency": "PLN",
-                  "fee_data_key": "30.00 PLN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 30.00 PLN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "30.00 PLN",
-                  "token_id": "5biVqiwk5wKwea4k01U3sf",
-                  "value": null
+                  "raw": "30.00 PLN"
                 }
               ]
             },
@@ -6257,8 +5340,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5cy56CmUNglIO0336vAHRQ"
+          ]
         },
         {
           "cells": [
@@ -6273,15 +5355,9 @@
               "tokens": [
                 {
                   "amount": "600",
-                  "content_type": "cvPricingToken",
                   "currency": "RUB",
-                  "fee_data_key": "600.00 RUB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 600.00 RUB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "600.00 RUB",
-                  "token_id": "4j1aD1iTDhDrYoeWvAEhYb",
-                  "value": null
+                  "raw": "600.00 RUB"
                 }
               ]
             },
@@ -6295,8 +5371,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "458hZc6Pnc131cosUHY3hy"
+          ]
         },
         {
           "cells": [
@@ -6311,15 +5386,9 @@
               "tokens": [
                 {
                   "amount": "11",
-                  "content_type": "cvPricingToken",
                   "currency": "SGD",
-                  "fee_data_key": "11.00 SGD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 11.00 SGD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "11.00 SGD",
-                  "token_id": "Bu8XEVlIMimpre8tfLn26",
-                  "value": null
+                  "raw": "11.00 SGD"
                 }
               ]
             },
@@ -6333,8 +5402,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4GrEVr2WXegMqLnqFMtgFF"
+          ]
         },
         {
           "cells": [
@@ -6349,15 +5417,9 @@
               "tokens": [
                 {
                   "amount": "75",
-                  "content_type": "cvPricingToken",
                   "currency": "SEK",
-                  "fee_data_key": "75.00 SEK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 75.00 SEK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "75.00 SEK",
-                  "token_id": "vR1T9aq2vILkfzsVabC8K",
-                  "value": null
+                  "raw": "75.00 SEK"
                 }
               ]
             },
@@ -6371,8 +5433,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6S850MDjJ8cuQSH8BAq8yS"
+          ]
         },
         {
           "cells": [
@@ -6387,15 +5448,9 @@
               "tokens": [
                 {
                   "amount": "8",
-                  "content_type": "cvPricingToken",
                   "currency": "CHF",
-                  "fee_data_key": "8.00 CHF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 8.00 CHF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "8.00 CHF",
-                  "token_id": "3PFkkfKIHEnCwS0Dm8AVad",
-                  "value": null
+                  "raw": "8.00 CHF"
                 }
               ]
             },
@@ -6409,8 +5464,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5WeCFcWQr0kjzutzUDmdQA"
+          ]
         },
         {
           "cells": [
@@ -6425,15 +5479,9 @@
               "tokens": [
                 {
                   "amount": "250",
-                  "content_type": "cvPricingToken",
                   "currency": "THB",
-                  "fee_data_key": "250.00 THB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 250.00 THB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "250.00 THB",
-                  "token_id": "14SI9jJc1TDVygtG3o00vI",
-                  "value": null
+                  "raw": "250.00 THB"
                 }
               ]
             },
@@ -6447,8 +5495,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6OmjU2ihOsAYmCaA9284Va"
+          ]
         },
         {
           "cells": [
@@ -6463,15 +5510,9 @@
               "tokens": [
                 {
                   "amount": "6",
-                  "content_type": "cvPricingToken",
                   "currency": "GBP",
-                  "fee_data_key": "6.00 GBP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 6.00 GBP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "6.00 GBP",
-                  "token_id": "6re0WkRXlKoCgMrRMTHgiv",
-                  "value": null
+                  "raw": "6.00 GBP"
                 }
               ]
             },
@@ -6485,8 +5526,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2MBtZXhdM8wT6PGBbm2kkj"
+          ]
         },
         {
           "cells": [
@@ -6501,15 +5541,9 @@
               "tokens": [
                 {
                   "amount": "8",
-                  "content_type": "cvPricingToken",
                   "currency": "USD",
-                  "fee_data_key": "8.00 USD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Standard Dispute Fees - 8.00 USD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "8.00 USD",
-                  "token_id": "4wqG6hV8Tj6NYHOoE6BkQh",
-                  "value": null
+                  "raw": "8.00 USD"
                 }
               ]
             },
@@ -6523,23 +5557,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1vX0YdXu8fRTaEJ2YhfR6X"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Standard Dispute Fees"
-      ],
-      "source_order": 10,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB295::10"
+      ]
     },
     {
       "caption": "Fee Table: High Volume Dispute Fees",
       "column_count": 4,
-      "component_id": "184IRuuZSCkDsmMFYbio9J",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB74",
       "headers": [
         {
@@ -6563,8 +5590,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -6579,15 +5604,9 @@
               "tokens": [
                 {
                   "amount": "24",
-                  "content_type": "cvPricingToken",
                   "currency": "AUD",
-                  "fee_data_key": "24.00 AUD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 24.00 AUD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "24.00 AUD",
-                  "token_id": "1jPfp9z5ZW0oNxAH9OVbHH",
-                  "value": null
+                  "raw": "24.00 AUD"
                 }
               ]
             },
@@ -6601,8 +5620,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "37Zg7Us1IAbwQiHag4vKZA"
+          ]
         },
         {
           "cells": [
@@ -6617,15 +5635,9 @@
               "tokens": [
                 {
                   "amount": "70",
-                  "content_type": "cvPricingToken",
                   "currency": "BRL",
-                  "fee_data_key": "70.00 BRL",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 70.00 BRL",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "70.00 BRL",
-                  "token_id": "339rulYRlp6cfv84ZpIxhz",
-                  "value": null
+                  "raw": "70.00 BRL"
                 }
               ]
             },
@@ -6639,8 +5651,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3xC8N0tUEL8fgpu0E4WDQG"
+          ]
         },
         {
           "cells": [
@@ -6655,15 +5666,9 @@
               "tokens": [
                 {
                   "amount": "20",
-                  "content_type": "cvPricingToken",
                   "currency": "CAD",
-                  "fee_data_key": "20.00 CAD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 20.00 CAD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "20.00 CAD",
-                  "token_id": "6T09DUsPfN8hXuNg2dTJ0o",
-                  "value": null
+                  "raw": "20.00 CAD"
                 }
               ]
             },
@@ -6677,8 +5682,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3nfw1is0p29moNLdFTfPKA"
+          ]
         },
         {
           "cells": [
@@ -6693,15 +5697,9 @@
               "tokens": [
                 {
                   "amount": "370",
-                  "content_type": "cvPricingToken",
                   "currency": "CZK",
-                  "fee_data_key": "370.00 CZK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 370.00 CZK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "370.00 CZK",
-                  "token_id": "9wIvIWy6OthdXr6nb0l0y",
-                  "value": null
+                  "raw": "370.00 CZK"
                 }
               ]
             },
@@ -6715,8 +5713,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "01gPlEgjgoYCK7oruXokDy"
+          ]
         },
         {
           "cells": [
@@ -6731,15 +5728,9 @@
               "tokens": [
                 {
                   "amount": "110",
-                  "content_type": "cvPricingToken",
                   "currency": "DKK",
-                  "fee_data_key": "110.00 DKK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 110.00 DKK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "110.00 DKK",
-                  "token_id": "53wgFWsvu2hTTgToBNo9O1",
-                  "value": null
+                  "raw": "110.00 DKK"
                 }
               ]
             },
@@ -6753,8 +5744,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1DNNMdxqWqq0DngrfFugXx"
+          ]
         },
         {
           "cells": [
@@ -6769,15 +5759,9 @@
               "tokens": [
                 {
                   "amount": "14",
-                  "content_type": "cvPricingToken",
                   "currency": "EUR",
-                  "fee_data_key": "14.00 EUR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 14.00 EUR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "14.00 EUR",
-                  "token_id": "6NnU9GVv10yavVCKwqrCHD",
-                  "value": null
+                  "raw": "14.00 EUR"
                 }
               ]
             },
@@ -6791,8 +5775,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "3qa0Xpzh4DnPPcLjFicMc0"
+          ]
         },
         {
           "cells": [
@@ -6807,15 +5790,9 @@
               "tokens": [
                 {
                   "amount": "130",
-                  "content_type": "cvPricingToken",
                   "currency": "HKD",
-                  "fee_data_key": "130.00 HKD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 130.00 HKD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "130.00 HKD",
-                  "token_id": "1QLMnZ1xvAVrBYw4k4OFJy",
-                  "value": null
+                  "raw": "130.00 HKD"
                 }
               ]
             },
@@ -6829,8 +5806,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "65trwSQkHyKNjFYQcfDKbE"
+          ]
         },
         {
           "cells": [
@@ -6845,15 +5821,9 @@
               "tokens": [
                 {
                   "amount": "4900",
-                  "content_type": "cvPricingToken",
                   "currency": "HUF",
-                  "fee_data_key": "4900.00 HUF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 4900.00 HUF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "4900.00 HUF",
-                  "token_id": "5V8GbBC1Nfsltvd1mkdsXi",
-                  "value": null
+                  "raw": "4900.00 HUF"
                 }
               ]
             },
@@ -6867,8 +5837,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4DUk1qlNX0sBaoxjeJ9zKh"
+          ]
         },
         {
           "cells": [
@@ -6883,15 +5852,9 @@
               "tokens": [
                 {
                   "amount": "1160",
-                  "content_type": "cvPricingToken",
                   "currency": "INR",
-                  "fee_data_key": "1160.00 INR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 1160.00 INR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1160.00 INR",
-                  "token_id": "1YcdfK6xpsQW9pT5hNmyDi",
-                  "value": null
+                  "raw": "1160.00 INR"
                 }
               ]
             },
@@ -6905,8 +5868,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "ZuAsKOL3yLJBtYeIkeGTd"
+          ]
         },
         {
           "cells": [
@@ -6921,15 +5883,9 @@
               "tokens": [
                 {
                   "amount": "60",
-                  "content_type": "cvPricingToken",
                   "currency": "ILS",
-                  "fee_data_key": "60.00 ILS",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 60.00 ILS",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "60.00 ILS",
-                  "token_id": "3z7SErVVZm9AY6kJbrZr9V",
-                  "value": null
+                  "raw": "60.00 ILS"
                 }
               ]
             },
@@ -6943,8 +5899,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2V7E3cjBXscnj6mxW5AB9Y"
+          ]
         },
         {
           "cells": [
@@ -6959,15 +5914,9 @@
               "tokens": [
                 {
                   "amount": "1740",
-                  "content_type": "cvPricingToken",
                   "currency": "JPY",
-                  "fee_data_key": "1740.00 JPY",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 1740.00 JPY",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1740.00 JPY",
-                  "token_id": "1z9NmEV7ozrwQ9TsCATgoF",
-                  "value": null
+                  "raw": "1740.00 JPY"
                 }
               ]
             },
@@ -6981,8 +5930,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2EOjf6ecEgGY64wohQo0A7"
+          ]
         },
         {
           "cells": [
@@ -6997,15 +5945,9 @@
               "tokens": [
                 {
                   "amount": "70",
-                  "content_type": "cvPricingToken",
                   "currency": "MYR",
-                  "fee_data_key": "70.00 MYR",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 70.00 MYR",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "70.00 MYR",
-                  "token_id": "1dTvV1r0pEYHxq3UYIFeGa",
-                  "value": null
+                  "raw": "70.00 MYR"
                 }
               ]
             },
@@ -7019,8 +5961,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4p0lkPj4DDUZ317Qf4F5YS"
+          ]
         },
         {
           "cells": [
@@ -7035,15 +5976,9 @@
               "tokens": [
                 {
                   "amount": "320",
-                  "content_type": "cvPricingToken",
                   "currency": "MXN",
-                  "fee_data_key": "320.00 MXN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 320.00 MXN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "320.00 MXN",
-                  "token_id": "6zCdWtdcDMdEjlV3XVIYJV",
-                  "value": null
+                  "raw": "320.00 MXN"
                 }
               ]
             },
@@ -7057,23 +5992,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6ZMhTne0tHHulx1LEgdOoK"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: High Volume Dispute Fees"
-      ],
-      "source_order": 11,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB74::11"
+      ]
     },
     {
       "caption": "Fee Table: High Volume Dispute Fees",
       "column_count": 4,
-      "component_id": "3dCjNzQgNhdF9Pgf3IL6nb",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB292",
       "headers": [
         {
@@ -7097,8 +6025,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -7113,15 +6039,9 @@
               "tokens": [
                 {
                   "amount": "500",
-                  "content_type": "cvPricingToken",
                   "currency": "TWD",
-                  "fee_data_key": "500.00 TWD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 500.00 TWD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "500.00 TWD",
-                  "token_id": "3wcFddFggRAPoFtgn1Do9H",
-                  "value": null
+                  "raw": "500.00 TWD"
                 }
               ]
             },
@@ -7135,8 +6055,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "0gTQ8BlcFXhQAlf4cD3jn"
+          ]
         },
         {
           "cells": [
@@ -7151,15 +6070,9 @@
               "tokens": [
                 {
                   "amount": "26",
-                  "content_type": "cvPricingToken",
                   "currency": "NZD",
-                  "fee_data_key": "26.00 NZD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 26.00 NZD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "26.00 NZD",
-                  "token_id": "7f9m8m7HuywJzJZoWB1OXC",
-                  "value": null
+                  "raw": "26.00 NZD"
                 }
               ]
             },
@@ -7173,8 +6086,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4P8xAE0Op3jE1npVltKPU7"
+          ]
         },
         {
           "cells": [
@@ -7189,15 +6101,9 @@
               "tokens": [
                 {
                   "amount": "150",
-                  "content_type": "cvPricingToken",
                   "currency": "NOK",
-                  "fee_data_key": "150.00 NOK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 150.00 NOK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "150.00 NOK",
-                  "token_id": "1IoRO7F0hCNihppRlsvqMy",
-                  "value": null
+                  "raw": "150.00 NOK"
                 }
               ]
             },
@@ -7211,8 +6117,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "cI024d0KawtAMPSWCKF0v"
+          ]
         },
         {
           "cells": [
@@ -7227,15 +6132,9 @@
               "tokens": [
                 {
                   "amount": "810",
-                  "content_type": "cvPricingToken",
                   "currency": "PHP",
-                  "fee_data_key": "810.00 PHP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 810.00 PHP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "810.00 PHP",
-                  "token_id": "71zPEL2lsVzEMi3m0EDM37",
-                  "value": null
+                  "raw": "810.00 PHP"
                 }
               ]
             },
@@ -7249,8 +6148,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "7HYjqUQJTsI8TwTCpnlAz2"
+          ]
         },
         {
           "cells": [
@@ -7265,15 +6163,9 @@
               "tokens": [
                 {
                   "amount": "60",
-                  "content_type": "cvPricingToken",
                   "currency": "PLN",
-                  "fee_data_key": "60.00 PLN",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 60.00 PLN",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "60.00 PLN",
-                  "token_id": "3lg8O68FsutWxauSaWlXat",
-                  "value": null
+                  "raw": "60.00 PLN"
                 }
               ]
             },
@@ -7287,8 +6179,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6pFSHPiWZDUTNAlQebVNWk"
+          ]
         },
         {
           "cells": [
@@ -7303,15 +6194,9 @@
               "tokens": [
                 {
                   "amount": "1200",
-                  "content_type": "cvPricingToken",
                   "currency": "RUB",
-                  "fee_data_key": "1200.00 RUB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 1200.00 RUB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "1200.00 RUB",
-                  "token_id": "33fjGHyyfc8UYvT86sWQOo",
-                  "value": null
+                  "raw": "1200.00 RUB"
                 }
               ]
             },
@@ -7325,8 +6210,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6TixVWHKohKDLsYla0gkWq"
+          ]
         },
         {
           "cells": [
@@ -7341,15 +6225,9 @@
               "tokens": [
                 {
                   "amount": "22",
-                  "content_type": "cvPricingToken",
                   "currency": "SGD",
-                  "fee_data_key": "22.00 SGD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 22.00 SGD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "22.00 SGD",
-                  "token_id": "6snHlN1Djdx70WZG95tGSi",
-                  "value": null
+                  "raw": "22.00 SGD"
                 }
               ]
             },
@@ -7363,8 +6241,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "6HtKUXMTF12s1hEI7zEG6u"
+          ]
         },
         {
           "cells": [
@@ -7379,15 +6256,9 @@
               "tokens": [
                 {
                   "amount": "150",
-                  "content_type": "cvPricingToken",
                   "currency": "SEK",
-                  "fee_data_key": "150.00 SEK",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 150.00 SEK",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "150.00 SEK",
-                  "token_id": "74fybzvhGOFrLypwwLBHV9",
-                  "value": null
+                  "raw": "150.00 SEK"
                 }
               ]
             },
@@ -7401,8 +6272,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5vHdLI6xAPXNzPVSElsLOi"
+          ]
         },
         {
           "cells": [
@@ -7417,15 +6287,9 @@
               "tokens": [
                 {
                   "amount": "16",
-                  "content_type": "cvPricingToken",
                   "currency": "CHF",
-                  "fee_data_key": "16.00 CHF",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 16.00 CHF",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "16.00 CHF",
-                  "token_id": "wuTMVGFEN9Eik79OOTeJu",
-                  "value": null
+                  "raw": "16.00 CHF"
                 }
               ]
             },
@@ -7439,8 +6303,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "5VJLZGZgbVZKQb9ONTAlRb"
+          ]
         },
         {
           "cells": [
@@ -7455,15 +6318,9 @@
               "tokens": [
                 {
                   "amount": "500",
-                  "content_type": "cvPricingToken",
                   "currency": "THB",
-                  "fee_data_key": "500.00 THB",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 500.00 THB",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "500.00 THB",
-                  "token_id": "3zFhej8v6cFxmHO3Y63DJ4",
-                  "value": null
+                  "raw": "500.00 THB"
                 }
               ]
             },
@@ -7477,8 +6334,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4nagCGskQTuSd2mO7dOAC1"
+          ]
         },
         {
           "cells": [
@@ -7493,15 +6349,9 @@
               "tokens": [
                 {
                   "amount": "12",
-                  "content_type": "cvPricingToken",
                   "currency": "GBP",
-                  "fee_data_key": "12.00 GBP",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 12.00 GBP",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "12.00 GBP",
-                  "token_id": "6emEBbvHv5ZqgG1fSGmS4W",
-                  "value": null
+                  "raw": "12.00 GBP"
                 }
               ]
             },
@@ -7515,8 +6365,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "4mwGyxtD9lSNYiMpQrOeMj"
+          ]
         },
         {
           "cells": [
@@ -7531,15 +6380,9 @@
               "tokens": [
                 {
                   "amount": "16",
-                  "content_type": "cvPricingToken",
                   "currency": "USD",
-                  "fee_data_key": "16.00 USD",
-                  "internal_name": "Rebrand: IN : Merchant Fees : High Volume Dispute Fees - 16.00 USD",
                   "kind": "money",
-                  "operator": null,
-                  "raw": "16.00 USD",
-                  "token_id": "5Hiy8xSvhPVtn6AjBRtkBK",
-                  "value": null
+                  "raw": "16.00 USD"
                 }
               ]
             },
@@ -7553,23 +6396,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1np8atXrFSvlv4ZaF2CcPa"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: High Volume Dispute Fees"
-      ],
-      "source_order": 12,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB292::12"
+      ]
     },
     {
       "caption": "Fee Table: Converting balance and payments received into another currency",
       "column_count": 4,
-      "component_id": "xX9R5NTqhiZplwlcDxr8i",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB79",
       "headers": [
         {
@@ -7593,8 +6429,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -7603,15 +6437,8 @@
               "text": "3.0% above the base exchange rate (to form the transaction exchange rate)",
               "tokens": [
                 {
-                  "amount": null,
-                  "content_type": "cvPricingToken",
-                  "currency": null,
-                  "fee_data_key": "3.0%",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Converting balance and payments received into another currency - 0.03",
                   "kind": "percentage",
-                  "operator": null,
                   "raw": "3.0%",
-                  "token_id": "8MJO9gz9l6gVtUqaajQKT",
                   "value": "3"
                 }
               ]
@@ -7631,23 +6458,16 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "1CzJAfacMubErL5NVfrsMb"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Converting balance and payments received into another currency"
-      ],
-      "source_order": 13,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB79::13"
+      ]
     },
     {
       "caption": "Fee Table: Withdrawing a balance from a business PayPal account",
       "column_count": 4,
-      "component_id": "13Nz7XuKsMIPAHWlgwjfaj",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB82",
       "headers": [
         {
@@ -7671,8 +6491,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -7696,23 +6514,16 @@
               "text": "No Fee (when no currency conversion is involved)",
               "tokens": []
             }
-          ],
-          "row_id": "1ILengPrwxmqdtUeHAKFTk"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Withdrawing a balance from a business PayPal account"
-      ],
-      "source_order": 14,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB82::14"
+      ]
     },
     {
       "caption": "Fee Table: Other Fees",
       "column_count": 4,
-      "component_id": "5ogzmOGyV86PqH5ilks4eq",
-      "component_type": "FeeTable",
-      "declared_column_count": null,
       "document_id": "FEETB324",
       "headers": [
         {
@@ -7736,8 +6547,6 @@
           "tokens": []
         }
       ],
-      "parent_path": [],
-      "reference_id": null,
       "rows": [
         {
           "cells": [
@@ -7756,15 +6565,8 @@
               "text": "250.00",
               "tokens": [
                 {
-                  "amount": null,
-                  "content_type": "cvPricingToken",
-                  "currency": null,
-                  "fee_data_key": "250.00",
-                  "internal_name": "Rebrand: IN : Merchant Fees : Other Fees - 250",
                   "kind": "number",
-                  "operator": null,
                   "raw": "250.00",
-                  "token_id": "1kaczvDi77jXnVp4sj4ZDq",
                   "value": "250"
                 }
               ]
@@ -7774,8 +6576,7 @@
               "text": "",
               "tokens": []
             }
-          ],
-          "row_id": "2G9EXXTFaPjNsCjjPMYyC3"
+          ]
         },
         {
           "cells": [
@@ -7784,25 +6585,17 @@
               "text": "Commercial Transaction Refunds",
               "tokens": []
             }
-          ],
-          "row_id": "01fLIT8gJNNmrZDb6QfZzj"
+          ]
         }
       ],
       "section_path": [
         "Fee Table: Other Fees"
-      ],
-      "source_order": 15,
-      "source_table_ids": [],
-      "table_id": "FeeTable::FEETB324::15"
+      ]
     }
   ],
   "warnings": [
     {
       "code": "row_wider_than_header",
-      "context": {
-        "component_id": "5j3yVmDWGB0rqNMBKn6xC6",
-        "document_id": "FEETB87"
-      },
       "message": "Table FEETB87 has rows with 4 cells but only 2 headers"
     }
   ]
