@@ -1,37 +1,5 @@
 {
   "$defs": {
-    "CommercialFee": {
-      "additionalProperties": false,
-      "description": "Standard commercial transaction fee.",
-      "properties": {
-        "fixed_fee_reference": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Fixed Fee Reference"
-        },
-        "percentage": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Percentage"
-        }
-      },
-      "title": "CommercialFee",
-      "type": "object"
-    },
     "CurrencyConversion": {
       "additionalProperties": false,
       "description": "Currency conversion spread.",
@@ -97,6 +65,26 @@
         "region"
       ],
       "title": "InternationalSurcharge",
+      "type": "object"
+    },
+    "PublicCommercialFee": {
+      "additionalProperties": false,
+      "description": "Consumer-facing commercial fee without internal table references.",
+      "properties": {
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        }
+      },
+      "title": "PublicCommercialFee",
       "type": "object"
     },
     "PublicCoreFeeEntry": {
@@ -195,7 +183,7 @@
         "donations": {
           "anyOf": [
             {
-              "$ref": "#/$defs/CommercialFee"
+              "$ref": "#/$defs/PublicCommercialFee"
             },
             {
               "type": "null"
@@ -206,7 +194,7 @@
         "goods_and_services": {
           "anyOf": [
             {
-              "$ref": "#/$defs/CommercialFee"
+              "$ref": "#/$defs/PublicCommercialFee"
             },
             {
               "type": "null"
@@ -229,7 +217,7 @@
         "micropayments": {
           "anyOf": [
             {
-              "$ref": "#/$defs/CommercialFee"
+              "$ref": "#/$defs/PublicCommercialFee"
             },
             {
               "type": "null"
@@ -240,7 +228,7 @@
         "nonprofit": {
           "anyOf": [
             {
-              "$ref": "#/$defs/CommercialFee"
+              "$ref": "#/$defs/PublicCommercialFee"
             },
             {
               "type": "null"
@@ -251,7 +239,7 @@
         "standard_commercial": {
           "anyOf": [
             {
-              "$ref": "#/$defs/CommercialFee"
+              "$ref": "#/$defs/PublicCommercialFee"
             },
             {
               "type": "null"
@@ -269,7 +257,7 @@
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/core-fees-v2.schema.json",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/core-fees-v3.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Consolidated core fees across all countries.",
@@ -294,7 +282,7 @@
       "title": "Generated At"
     },
     "schema_version": {
-      "default": 2,
+      "default": 3,
       "title": "Schema Version",
       "type": "integer"
     }

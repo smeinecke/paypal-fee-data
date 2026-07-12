@@ -232,7 +232,7 @@
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/manifest-v2.schema.json",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/manifest-v3.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Discovered country manifest.",
@@ -264,7 +264,7 @@
       "type": "array"
     },
     "schema_version": {
-      "default": 2,
+      "default": 3,
       "title": "Schema Version",
       "type": "integer"
     },
