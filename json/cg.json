@@ -100,14 +100,26 @@
     ],
     "currency_conversion_exposed": true,
     "international_surcharge_exposed": true,
-    "international_surcharges": [],
+    "international_surcharges": [
+      {
+        "percentage_points": "3",
+        "region": "GB"
+      },
+      {
+        "percentage_points": "4.4",
+        "region": "OTHER"
+      }
+    ],
+    "standard_commercial": {
+      "percentage": "3.4"
+    },
     "status": "partial"
   },
   "generated_at": null,
   "market": {
     "country_name": "Congo - Brazzaville",
     "iso_country_code": "CG",
-    "locale": "fr_CG",
+    "locale": "en_CG",
     "paypal_market_code": "CG"
   },
   "schema_version": 3

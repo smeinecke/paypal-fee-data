@@ -100,14 +100,26 @@
     ],
     "currency_conversion_exposed": true,
     "international_surcharge_exposed": true,
-    "international_surcharges": [],
+    "international_surcharges": [
+      {
+        "percentage_points": "3",
+        "region": "GB"
+      },
+      {
+        "percentage_points": "4.4",
+        "region": "OTHER"
+      }
+    ],
+    "standard_commercial": {
+      "percentage": "3.4"
+    },
     "status": "partial"
   },
   "generated_at": null,
   "market": {
     "country_name": "Côte d’Ivoire",
     "iso_country_code": "CI",
-    "locale": "fr_CI",
+    "locale": "en_CI",
     "paypal_market_code": "CI"
   },
   "schema_version": 3

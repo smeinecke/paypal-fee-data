@@ -30,10 +30,6 @@
         "currency": "EUR"
       },
       {
-        "amount": "0.3",
-        "currency": "GBP"
-      },
-      {
         "amount": "2.35",
         "currency": "HKD"
       },
@@ -103,7 +99,16 @@
     },
     "currency_conversion_exposed": true,
     "international_surcharge_exposed": true,
-    "international_surcharges": [],
+    "international_surcharges": [
+      {
+        "percentage_points": "1.29",
+        "region": "GB"
+      },
+      {
+        "percentage_points": "1.99",
+        "region": "OTHER"
+      }
+    ],
     "standard_commercial": {
       "percentage": "2.9"
     },
@@ -113,7 +118,7 @@
   "market": {
     "country_name": "Mayotte",
     "iso_country_code": "YT",
-    "locale": "fr_YT",
+    "locale": "en_YT",
     "paypal_market_code": "YT"
   },
   "schema_version": 3

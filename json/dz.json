@@ -1,16 +1,125 @@
 {
   "derived": {
-    "commercial_fixed_fees": [],
-    "currency_conversion_exposed": false,
+    "commercial_fixed_fees": [
+      {
+        "amount": "0.3",
+        "currency": "AUD"
+      },
+      {
+        "amount": "0.6",
+        "currency": "BRL"
+      },
+      {
+        "amount": "0.3",
+        "currency": "CAD"
+      },
+      {
+        "amount": "0.55",
+        "currency": "CHF"
+      },
+      {
+        "amount": "10",
+        "currency": "CZK"
+      },
+      {
+        "amount": "2.6",
+        "currency": "DKK"
+      },
+      {
+        "amount": "0.35",
+        "currency": "EUR"
+      },
+      {
+        "amount": "0.2",
+        "currency": "GBP"
+      },
+      {
+        "amount": "2.35",
+        "currency": "HKD"
+      },
+      {
+        "amount": "90",
+        "currency": "HUF"
+      },
+      {
+        "amount": "1.2",
+        "currency": "ILS"
+      },
+      {
+        "amount": "40",
+        "currency": "JPY"
+      },
+      {
+        "amount": "4",
+        "currency": "MXN"
+      },
+      {
+        "amount": "2",
+        "currency": "MYR"
+      },
+      {
+        "amount": "2.8",
+        "currency": "NOK"
+      },
+      {
+        "amount": "0.45",
+        "currency": "NZD"
+      },
+      {
+        "amount": "15",
+        "currency": "PHP"
+      },
+      {
+        "amount": "1.35",
+        "currency": "PLN"
+      },
+      {
+        "amount": "10",
+        "currency": "RUB"
+      },
+      {
+        "amount": "3.25",
+        "currency": "SEK"
+      },
+      {
+        "amount": "0.5",
+        "currency": "SGD"
+      },
+      {
+        "amount": "11",
+        "currency": "THB"
+      },
+      {
+        "amount": "10",
+        "currency": "TWD"
+      },
+      {
+        "amount": "0.3",
+        "currency": "USD"
+      }
+    ],
+    "currency_conversion_exposed": true,
     "international_surcharge_exposed": true,
-    "international_surcharges": [],
+    "international_surcharges": [
+      {
+        "percentage_points": "3",
+        "region": "GB"
+      },
+      {
+        "percentage_points": "4.4",
+        "region": "OTHER"
+      }
+    ],
+    "standard_commercial": {
+      "percentage": "3.4"
+    },
     "status": "partial"
   },
   "generated_at": null,
   "market": {
     "country_name": "Algeria",
     "iso_country_code": "DZ",
-    "locale": "ar_DZ",
+    "locale": "en_DZ",
     "paypal_market_code": "DZ"
   },
   "schema_version": 3
