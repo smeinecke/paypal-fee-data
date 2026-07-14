@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import contextlib
 import json
 import re
 import sys
@@ -21,11 +22,10 @@ def _load_json(path: Path) -> dict | list:
 def _format_dt(value: str | None) -> str:
     if not value:
         return "—"
-    try:
+    with contextlib.suppress(Exception):
         dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
         return dt.strftime("%Y-%m-%d %H:%M UTC")
-    except Exception:
-        return value
+    return value
 
 
 def _derive_stats(data_dir: Path) -> dict:
@@ -45,31 +45,17 @@ def _derive_stats(data_dir: Path) -> dict:
     rule_categories: set[str] = set()
     for country in core_fees.get("countries", []):
         derived = country.get("derived", {})
-        if derived.get("standard_commercial"):
+        transaction_rules = derived.get("transaction_fee_rules") or []
+        rule_count += len(transaction_rules)
+        for rule in transaction_rules:
+            rule_categories.add(rule.get("id", "unknown"))
+        if derived.get("fixed_fee_schedules"):
+            rule_categories.add("fixed_fee_schedules")
+        if derived.get("international_surcharge_schedules"):
+            rule_categories.add("international_surcharge_schedules")
+        if derived.get("currency_conversion"):
             rule_count += 1
-            rule_categories.add("standard_commercial")
-        if derived.get("international_surcharges"):
-            rule_count += len(derived["international_surcharges"])
-            rule_categories.add("international_surcharge")
-        if derived.get("currency_conversion") or derived.get("currency_conversion_exposed"):
-            if derived.get("currency_conversion"):
-                rule_count += 1
             rule_categories.add("currency_conversion")
-        if derived.get("chargeback") or derived.get("dispute"):
-            rule_count += 1
-            rule_categories.add("chargeback/dispute")
-        if derived.get("micropayments"):
-            rule_count += 1
-            rule_categories.add("micropayments")
-        if derived.get("nonprofit"):
-            rule_count += 1
-            rule_categories.add("nonprofit")
-        if derived.get("donations"):
-            rule_count += 1
-            rule_categories.add("donations")
-        if derived.get("goods_and_services"):
-            rule_count += 1
-            rule_categories.add("goods_and_services")
 
     regions: set[str] = set()
     for market in countries_meta.get("markets", []):
@@ -81,19 +67,15 @@ def _derive_stats(data_dir: Path) -> dict:
     for country in countries:
         updated = country.get("source_updated_at") or country.get("generated_at")
         if updated:
-            try:
+            with contextlib.suppress(Exception):
                 candidate = datetime.fromisoformat(updated.replace("Z", "+00:00"))
                 if latest_update is None or candidate > latest_update:
                     latest_update = candidate
-            except Exception:
-                pass
 
     generated_at = index.get("generated_at") or core_fees.get("generated_at")
     if generated_at and latest_update is None:
-        try:
+        with contextlib.suppress(Exception):
             latest_update = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
-        except Exception:
-            pass
 
     unsupported_count = 0
     if isinstance(unsupported, dict):
