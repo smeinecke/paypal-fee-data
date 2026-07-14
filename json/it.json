@@ -1,23 +1,433 @@
 {
   "derived": {
     "ambiguous_rows": [],
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    "currency_conversion": {
+      "spread_percentage": "3"
+    },
+    "fixed_fee_schedules": {
+      "alternative_payment_methods": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1Ushv3TWoCE4eEEmKF7ph1",
+            "document_id": "FEETB784",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per transazioni con APM (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB784::30"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1Ushv3TWoCE4eEEmKF7ph1",
+            "document_id": "FEETB786",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per transazioni con APM (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB784::30"
+          }
+        ]
+      },
+      "commercial": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.1",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1naqKWYivpJexQ058xmzK7",
+            "document_id": "FEETB639",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni commerciali (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB639::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1naqKWYivpJexQ058xmzK7",
+            "document_id": "FEETB643",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni commerciali (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB639::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6HYX6PkLssq4EXmC82FXPd",
+            "document_id": "FEETB645",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni con codice QR pari o superiori a 10,01 EUR (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB645::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6HYX6PkLssq4EXmC82FXPd",
+            "document_id": "FEETB650",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni con codice QR pari o superiori a 10,01 EUR (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB645::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "KfDwgDQeKjNHQzrqUYq13",
+            "document_id": "FEETB654",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni con codice QR pari o inferiori a 10,00 EUR (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB654::12"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "KfDwgDQeKjNHQzrqUYq13",
+            "document_id": "FEETB655",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni con codice QR pari o inferiori a 10,00 EUR (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB654::12"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3IYd23EmqZRYp0jkqZy5vz",
+            "document_id": "FEETB773",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni a favore di enti benefici (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB773::25"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3IYd23EmqZRYp0jkqZy5vz",
+            "document_id": "FEETB774",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni a favore di enti benefici (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB773::25"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5d76BFbu4JrRs3Vim90aYt",
+            "document_id": "FEETB797",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni effettuate con i servizi PayPal di pagamento online con carta (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB797::35"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5d76BFbu4JrRs3Vim90aYt",
+            "document_id": "FEETB798",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni effettuate con i servizi PayPal di pagamento online con carta (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB797::35"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1aW9mpXhKx19wLTnbpmiY5",
+            "document_id": "FEETB794",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni effettuate con servizi telefonici e con PayPal Pro (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB794::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1aW9mpXhKx19wLTnbpmiY5",
+            "document_id": "FEETB795",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le transazioni effettuate con servizi telefonici e con PayPal Pro (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB794::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7g9uHMLeQO6hd2HSnIBfYH",
+            "document_id": "FEETB820",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per i micropagamenti",
+            "table_id": "FeeTable::FEETB820::49"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7g9uHMLeQO6hd2HSnIBfYH",
+            "document_id": "FEETB823",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per i micropagamenti",
+            "table_id": "FeeTable::FEETB820::49"
+          }
+        ]
+      },
+      "donations": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5WyqQRCmcWJ5ZmX9MGQEdZ",
+            "document_id": "FEETB750",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le donazioni (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB750::18"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5WyqQRCmcWJ5ZmX9MGQEdZ",
+            "document_id": "FEETB753",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa fissa per le donazioni (in base alla valuta ricevuta)",
+            "table_id": "FeeTable::FEETB750::18"
+          }
+        ]
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1BB80HvGy51sHm6oiYQZh6",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa percentuale aggiuntiva per le transazioni commerciali internazionali",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3i7nlxu6DLNhX6bXopE58e",
+            "document_id": "FEETB747",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa di servizio aggiuntiva per i destinatari di transazioni commerciali internazionali nel Regno Unito",
+            "table_id": "FeeTable::FEETB747::3"
+          }
+        ]
+      },
+      "donations": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5fVuYJt0JMMKxvNkouVMOL",
+            "document_id": "FEETB322",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "section_heading": "Tariffario: Tariffa percentuale aggiuntiva per le donazioni internazionali",
+            "table_id": "FeeTable::FEETB322::17"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Pagamento con carta da un utente soggetto alleCondizioni d'uso PayPal per i pagamenti senza conto PayPal",
+        "percentage": "1.2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
+          "document_id": "FEETB16",
+          "original_label": "Pagamento con carta da un utente soggetto alleCondizioni d'uso PayPal per i pagamenti senza conto PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tariffe per i Venditori PayPal",
+          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "row_id": "5phI01kSWnomadp17olv1K",
+          "row_index": 1,
+          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
+          "table_id": "FeeTable::FEETB16::1"
+        }
+      },
       {
         "conditions": {},
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
         "label": "Altro metodo di pagamento (APM)",
         "percentage": "1.2",
         "rate_reference": {
           "reference": "alternative_payment_methods",
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
-            "international_surcharge_schedule": "alternative_payment_methods",
-            "percentage": "1.2"
+            "percentage": "1.2",
+            "source": {
+              "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "5gpstjr77VpIc9mcUmHPYZ",
+              "document_id": "FEETB779",
+              "original_label": "Altri metodi di pagamento (APM) alternativi",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "Tariffe per i Venditori PayPal",
+              "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+              "row_id": "riiKXQdOSLFKN2rYamYns",
+              "row_index": 2,
+              "section_heading": "Tariffario: Ricezione di pagamenti per transazioni nazionali",
+              "table_id": "FeeTable::FEETB779::29"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
+            "document_id": "FEETB16",
+            "original_label": "Altro metodo di pagamento (APM)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tariffe per i Venditori PayPal",
+            "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+            "row_id": "1ZzTodGPRq8NxcXQvGUdij",
+            "row_index": 0,
+            "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
+            "table_id": "FeeTable::FEETB16::1"
           }
         },
         "source": {
@@ -32,106 +442,93 @@
           "row_id": "1ZzTodGPRq8NxcXQvGUdij",
           "row_index": 0,
           "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB16::3"
+          "table_id": "FeeTable::FEETB16::1"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Pagamento con carta da un utente soggetto alleCondizioni d'uso PayPal per i pagamenti senza conto PayPal",
-          "1,20% + tariffa fissa"
-        ],
-        "original_label": "Pagamento con carta da un utente soggetto alleCondizioni d'uso PayPal per i pagamenti senza conto PayPal",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "Donazione",
+        "percentage": "3.4",
         "source": {
           "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
-          "document_id": "FEETB16",
-          "original_label": "Pagamento con carta da un utente soggetto alleCondizioni d'uso PayPal per i pagamenti senza conto PayPal",
+          "component_id": "55EaoHdOvGvXsi38S5TpLp",
+          "document_id": "FEETB320",
+          "original_label": "Donazione",
           "page_id": "business/paypal-business-fees",
           "page_title": "Tariffe per i Venditori PayPal",
           "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "row_id": "5phI01kSWnomadp17olv1K",
+          "row_id": "iDeruMNVXcUlxaTN1eDHg",
+          "row_index": 0,
+          "section_heading": "Tariffario: Tariffa standard per la ricezione di donazioni nazionali",
+          "table_id": "FeeTable::FEETB320::16"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "chargebacks",
+        "international_surcharge_schedule": "commercial",
+        "label": "Strumenti di Protezione dai chargeback",
+        "source": {
+          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2uKUZGh0YH28Kb77BD7sAN",
+          "document_id": "FEETB792",
+          "original_label": "Strumenti di Protezione dai chargeback",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tariffe per i Venditori PayPal",
+          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "row_id": "Wv5XX5lYhZ1ayLrcFsWvFG",
           "row_index": 1,
-          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB16::3"
+          "section_heading": "Tariffario: Altre tariffe per l'utilizzo dei servizi PayPal di pagamento online con carta",
+          "table_id": "FeeTable::FEETB792::43"
         }
       },
       {
-        "normalized_cells": [
-          "Transazioni con codice QR pari o superiori a 10,01 EUR",
-          "0,50% + tariffa fissa"
-        ],
-        "original_label": "Transazioni con codice QR pari o superiori a 10,01 EUR",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Link di pagamento: PayPal Checkout, Paga con Venmo, offerte PayPal Pay Later o pagamento come utente non registrato a PayPal",
+        "percentage": "3.4",
         "source": {
           "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
-          "document_id": "FEETB16",
-          "original_label": "Transazioni con codice QR pari o superiori a 10,01 EUR",
+          "component_id": "a3L9L58jpSndFWh4FgTJfh",
+          "document_id": "FEETB922",
+          "original_label": "Link di pagamento: PayPal Checkout, Paga con Venmo, offerte PayPal Pay Later o pagamento come utente non registrato a PayPal",
           "page_id": "business/paypal-business-fees",
           "page_title": "Tariffe per i Venditori PayPal",
           "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "row_id": "1r6tlAXC7Lmi8iw7E1c766",
-          "row_index": 2,
-          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB16::3"
+          "row_id": "fEakNoVaFdjc236jPwhaBQ",
+          "row_index": 1,
+          "section_heading": "Tariffario: Tariffa standard per la ricezione di transazioni tramite POS di PayPal",
+          "table_id": "FeeTable::FEETB922::44"
         }
       },
       {
-        "normalized_cells": [
-          "Transazioni con codice QR pari o inferiori a 10,00 EUR",
-          "2,00% + tariffa fissa"
-        ],
-        "original_label": "Transazioni con codice QR pari o inferiori a 10,00 EUR",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
-          "document_id": "FEETB16",
-          "original_label": "Transazioni con codice QR pari o inferiori a 10,00 EUR",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tariffe per i Venditori PayPal",
-          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "row_id": "56RDnE32DJsC8b76Z2UTAN",
-          "row_index": 3,
-          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Tutte le altre transazioni commerciali",
-          "3,40% + tariffa fissa"
-        ],
-        "original_label": "Tutte le altre transazioni commerciali",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
-          "document_id": "FEETB16",
-          "original_label": "Tutte le altre transazioni commerciali",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tariffe per i Venditori PayPal",
-          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "row_id": "53saepAU75ot8aUP7wnzUb",
-          "row_index": 4,
-          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Twint, Doku Wallet, bonifico bancario online in Estonia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-          "3,4% + tariffa fissa"
-        ],
-        "original_label": "Twint, Doku Wallet, bonifico bancario online in Estonia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "reason": "no product alias matched",
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods_special",
+        "label": "Twint, Doku Wallet, bonifico bancario online in Estonia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+        "percentage": "3.4",
         "source": {
           "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -144,32 +541,11 @@
           "row_id": "9z35CZAqn6xdTpE0TRJkDH",
           "row_index": 0,
           "section_heading": "Tariffario: Ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB779::31"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Bonifico bancario online in Thailandia, bonifico bancario online in Lettonia, bonifico bancario online in Lituania, Skrill, Ovo Premium, GoPay",
-          "5,49% + tariffa fissa"
-        ],
-        "original_label": "Bonifico bancario online in Thailandia, bonifico bancario online in Lettonia, bonifico bancario online in Lituania, Skrill, Ovo Premium, GoPay",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5gpstjr77VpIc9mcUmHPYZ",
-          "document_id": "FEETB779",
-          "original_label": "Bonifico bancario online in Thailandia, bonifico bancario online in Lettonia, bonifico bancario online in Lituania, Skrill, Ovo Premium, GoPay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tariffe per i Venditori PayPal",
-          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
-          "row_id": "bAbWjf4jUeSdpQnnNhiiad",
-          "row_index": 1,
-          "section_heading": "Tariffario: Ricezione di pagamenti per transazioni nazionali",
-          "table_id": "FeeTable::FEETB779::31"
+          "table_id": "FeeTable::FEETB779::29"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-24T08:09:32.343Z",
   "market": {

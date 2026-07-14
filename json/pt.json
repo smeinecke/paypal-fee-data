@@ -1,49 +1,435 @@
 {
   "derived": {
-    "ambiguous_rows": [
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {
+      "alternative_payment_methods": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "n0hIXHoJJAF2RqBwI6cgq",
+            "document_id": "FEETB64",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações por APM (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB64::23"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "n0hIXHoJJAF2RqBwI6cgq",
+            "document_id": "FEETB280",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações por APM (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB64::23"
+          }
+        ]
+      },
+      "commercial": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.05",
+          "CZK": "1.5",
+          "DKK": "0.35",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "6",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "1.5",
+          "SEK": "0.5",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6LSnXhtPLUTROp7rFZZti6",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6LSnXhtPLUTROp7rFZZti6",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6DxFAzSU7vaN4gFl4Oa3AI",
+            "document_id": "FEETB29",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de código QR de 10,01 EUR e superior (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB29::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6DxFAzSU7vaN4gFl4Oa3AI",
+            "document_id": "FEETB307",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de código QR de 10,01 EUR e superior (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB29::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3yboq24QVssTEX5U2RJOy7",
+            "document_id": "FEETB318",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de código QR de 10,00 EUR e inferior (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB318::12"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3yboq24QVssTEX5U2RJOy7",
+            "document_id": "FEETB319",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de código QR de 10,00 EUR e inferior (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB318::12"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6OXswFiWktMy6Qptu625IJ",
+            "document_id": "FEETB646",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa de micropagamentos",
+            "table_id": "FeeTable::FEETB646::36"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6OXswFiWktMy6Qptu625IJ",
+            "document_id": "FEETB648",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa de micropagamentos",
+            "table_id": "FeeTable::FEETB646::36"
+          }
+        ]
+      },
+      "nonprofit": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5rn7Idr3t0MAyKvoXgxibX",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de instituições de solidariedade (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB38::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5rn7Idr3t0MAyKvoXgxibX",
+            "document_id": "FEETB279",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações de instituições de solidariedade (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB38::17"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7A8TLfZBBTpnSmEAlWmIqE",
+            "document_id": "FEETB51",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações utilizando os Serviços de pagamento com cartão online do PayPal (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB51::28"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7A8TLfZBBTpnSmEAlWmIqE",
+            "document_id": "FEETB281",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão fixa para transações utilizando os Serviços de pagamento com cartão online do PayPal (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB51::28"
+          }
+        ]
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "EEA",
+            "percentage_points": "1.29"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7LPSLDPViOkNncA5PgKsXp",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão percentual adicional para transações comerciais internacionais",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "59Wo9NdJuU5WrsbEzbtucZ",
+            "document_id": "FEETB523",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "section_heading": "Tabela de comissões: Comissão de serviço adicional para destinatários de transações comerciais internacionais baseadas no Reino Unido",
+            "table_id": "FeeTable::FEETB523::3"
+          }
+        ]
+      }
+    },
+    "status": "complete",
+    "transaction_fee_rules": [
       {
-        "candidates": [
-          "invoice_pay_later",
-          "pay_later_consumer"
-        ],
-        "normalized_cells": [
-          "Transferência bancária online na Tailândia, transferência bancária online na Letónia, transferência bancária online na Lituânia, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (com juros para os consumidores)",
-          "5.49% + comissão fixa"
-        ],
-        "original_label": "Transferência bancária online na Tailândia, transferência bancária online na Letónia, transferência bancária online na Lituânia, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (com juros para os consumidores)",
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "Pagamentos com cartão de crédito e débito avançados – Plano tarifário Misto:Tipos de cartão Visa, Mastercard, China Union Pay (CUP), Diners e Discover",
+        "percentage": "1.2",
         "source": {
           "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "22aj31GFwEcVK7FouS2BL7",
-          "document_id": "FEETB325",
-          "original_label": "Transferência bancária online na Tailândia, transferência bancária online na Letónia, transferência bancária online na Lituânia, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (com juros para os consumidores)",
+          "component_id": "2fHeh5GgBMJGmw4c3wvnvP",
+          "document_id": "FEETB33",
+          "original_label": "Pagamentos com cartão de crédito e débito avançados – Plano tarifário Misto:Tipos de cartão Visa, Mastercard, China Union Pay (CUP), Diners e Discover",
           "page_id": "business/paypal-business-fees",
           "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
           "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "eM7rNdLTZrnetNkS5u2KFy",
-          "row_index": 2,
-          "section_heading": "Tabela de comissões: Receber transações nacionais",
-          "table_id": "FeeTable::FEETB325::23"
+          "row_id": "4RvpkmWa67kAkCmQ7ZCuHS",
+          "row_index": 0,
+          "section_heading": "Tabela de comissões: Receber transações nacionais através dos Serviços de pagamento online PayPal",
+          "table_id": "FeeTable::FEETB33::27"
         }
-      }
-    ],
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "partial",
-    "transaction_fee_rules": [
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Pagamento financiado por cartão de um utilizador dos nossos Termos para Pagamentos sem conta PayPal",
+        "percentage": "1.2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
+          "document_id": "FEETB16",
+          "original_label": "Pagamento financiado por cartão de um utilizador dos nossos Termos para Pagamentos sem conta PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "row_id": "4VtSL4ZxiTnDcj9HygxSv",
+          "row_index": 1,
+          "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
+          "table_id": "FeeTable::FEETB16::1"
+        }
+      },
       {
         "conditions": {},
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
         "label": "Meio de pagamento alternativo (APM)",
         "percentage": "1.2",
         "rate_reference": {
           "reference": "alternative_payment_methods",
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
-            "international_surcharge_schedule": "alternative_payment_methods",
-            "percentage": "1.2"
+            "percentage": "1.2",
+            "source": {
+              "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "22aj31GFwEcVK7FouS2BL7",
+              "document_id": "FEETB325",
+              "original_label": "Outros meios de pagamento alternativos (APM)",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+              "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+              "row_id": "2qmQ4Zoy6y9FQGeyjdCnkb",
+              "row_index": 4,
+              "section_heading": "Tabela de comissões: Receber transações nacionais",
+              "table_id": "FeeTable::FEETB325::21"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
+            "document_id": "FEETB16",
+            "original_label": "Meio de pagamento alternativo (APM)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+            "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+            "row_id": "k0P323YQPKUVf92NYYhnB",
+            "row_index": 0,
+            "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
+            "table_id": "FeeTable::FEETB16::1"
           }
         },
         "source": {
@@ -58,106 +444,82 @@
           "row_id": "k0P323YQPKUVf92NYYhnB",
           "row_index": 0,
           "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
-          "table_id": "FeeTable::FEETB16::3"
+          "table_id": "FeeTable::FEETB16::1"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Pagamento financiado por cartão de um utilizador dos nossos Termos para Pagamentos sem conta PayPal",
-          "1,20% + comissão fixa"
-        ],
-        "original_label": "Pagamento financiado por cartão de um utilizador dos nossos Termos para Pagamentos sem conta PayPal",
-        "reason": "no product alias matched",
+        "conditions": {
+          "merchant_approval_required": true
+        },
+        "fixed_fee_schedule": "nonprofit",
+        "id": "nonprofit",
+        "international_surcharge_schedule": "commercial",
+        "label": "Portugal (PT)",
+        "percentage": "1.9",
         "source": {
           "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
-          "document_id": "FEETB16",
-          "original_label": "Pagamento financiado por cartão de um utilizador dos nossos Termos para Pagamentos sem conta PayPal",
+          "component_id": "4rDofxlYx9P6ARAzAnYU40",
+          "document_id": "FEETB59",
+          "original_label": "Portugal (PT)",
           "page_id": "business/paypal-business-fees",
           "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
           "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "4VtSL4ZxiTnDcj9HygxSv",
+          "row_id": "1XnNxoFUvXHFY4ShFmNcDo",
+          "row_index": 0,
+          "section_heading": "Tabela de comissões: Receber transações de instituições de solidariedade nacionais",
+          "table_id": "FeeTable::FEETB59::16"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Micropagamentos nacionais",
+        "percentage": "5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "59wV7BbwGip42wU7Xss3MN",
+          "document_id": "FEETB642",
+          "original_label": "Micropagamentos nacionais",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "row_id": "3K5nH058njNQcEmBW2ORpt",
+          "row_index": 0,
+          "section_heading": "Tabela de comissões: Receber micropagamentos",
+          "table_id": "FeeTable::FEETB642::35"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "chargebacks",
+        "international_surcharge_schedule": "commercial",
+        "label": "Ferramentas de serviços de proteção contra chargebacks",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5A5l9GBi4Xi9H9JDgxR7NA",
+          "document_id": "FEETB78",
+          "original_label": "Ferramentas de serviços de proteção contra chargebacks",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
+          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
+          "row_id": "17WEw6WhMVzd4OM7zo2oo3",
           "row_index": 1,
-          "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
-          "table_id": "FeeTable::FEETB16::3"
+          "section_heading": "Tabela de comissões: Outras comissões pela utilização dos Serviços de pagamento com cartão online do PayPal",
+          "table_id": "FeeTable::FEETB78::32"
         }
       },
       {
-        "normalized_cells": [
-          "Transações de código QR – 10,01 EUR e superior",
-          "0,90% + comissão fixa"
-        ],
-        "original_label": "Transações de código QR – 10,01 EUR e superior",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
-          "document_id": "FEETB16",
-          "original_label": "Transações de código QR – 10,01 EUR e superior",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
-          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "15PjuoefWE4TVSvl8l2wv1",
-          "row_index": 2,
-          "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Transações de código QR – 10,00 EUR e inferior",
-          "1,40% + comissão fixa"
-        ],
-        "original_label": "Transações de código QR – 10,00 EUR e inferior",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
-          "document_id": "FEETB16",
-          "original_label": "Transações de código QR – 10,00 EUR e inferior",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
-          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "1ckRmQjiYw53DUYACVRKUB",
-          "row_index": 3,
-          "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Todas as outras transações comerciais",
-          "2,90% + comissão fixa"
-        ],
-        "original_label": "Todas as outras transações comerciais",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "1T4Bka3D0TsIKTQHvEhb0D",
-          "document_id": "FEETB16",
-          "original_label": "Todas as outras transações comerciais",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
-          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "3XuEGAeda9FnhEuE8DBrNS",
-          "row_index": 4,
-          "section_heading": "Tabela de comissões: Tarifa padrão para receber transações nacionais",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Klarna",
-          "4.99% + comissão fixa"
-        ],
-        "original_label": "Klarna",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Klarna",
+        "percentage": "4.99",
         "source": {
           "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -170,16 +532,28 @@
           "row_id": "fKg6pTZN2nIc0zlz6sLAH2",
           "row_index": 0,
           "section_heading": "Tabela de comissões: Receber transações nacionais",
-          "table_id": "FeeTable::FEETB325::23"
+          "table_id": "FeeTable::FEETB325::21"
         }
       },
       {
-        "normalized_cells": [
-          "Twint, Doku Wallet, transferência bancária online na Estónia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-          "2.9% + comissão fixa"
-        ],
-        "original_label": "Twint, Doku Wallet, transferência bancária online na Estónia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "reason": "no product alias matched",
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods_special",
+        "label": "Twint, Doku Wallet, transferência bancária online na Estónia, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+        "percentage": "2.9",
         "source": {
           "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -192,32 +566,11 @@
           "row_id": "1EqsubxqXZcfyOv6QrauEX",
           "row_index": 1,
           "section_heading": "Tabela de comissões: Receber transações nacionais",
-          "table_id": "FeeTable::FEETB325::23"
-        }
-      },
-      {
-        "normalized_cells": [
-          "FLOA Pay (sem juros para os consumidores)",
-          "6.5% + comissão fixa"
-        ],
-        "original_label": "FLOA Pay (sem juros para os consumidores)",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "22aj31GFwEcVK7FouS2BL7",
-          "document_id": "FEETB325",
-          "original_label": "FLOA Pay (sem juros para os consumidores)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifas Comerciais PayPal - Tarifas para Vendedores",
-          "requested_url": "https://www.paypal.com/pt/business/paypal-business-fees",
-          "row_id": "1ZjMfh6NF3nbWMwaBB9BkC",
-          "row_index": 3,
-          "section_heading": "Tabela de comissões: Receber transações nacionais",
-          "table_id": "FeeTable::FEETB325::23"
+          "table_id": "FeeTable::FEETB325::21"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T09:25:11.059Z",
   "market": {

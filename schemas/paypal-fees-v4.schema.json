@@ -125,9 +125,24 @@
       "type": "object"
     },
     "FixedFeeSchedule": {
-      "additionalProperties": true,
-      "description": "Fixed fees by received currency for a single product schedule.\n\nKeys are ISO 4217 currency codes and values are decimal strings.",
-      "properties": {},
+      "additionalProperties": false,
+      "description": "Fixed fees by received currency for a single product schedule.\n\n``entries`` maps ISO 4217 currency codes to decimal strings.  ``sources``\nrecords the provenance of each contributing table fragment.",
+      "properties": {
+        "entries": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Entries",
+          "type": "object"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
+          "type": "array"
+        }
+      },
       "title": "FixedFeeSchedule",
       "type": "object"
     },
@@ -140,6 +155,13 @@
             "$ref": "#/$defs/InternationalSurchargeScheduleEntry"
           },
           "title": "Entries",
+          "type": "array"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
           "type": "array"
         }
       },
@@ -387,6 +409,17 @@
             }
           ],
           "default": null
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         }
       },
       "required": [
@@ -434,6 +467,17 @@
           ],
           "default": null,
           "title": "Percentage"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         }
       },
       "title": "ResolvedRate",

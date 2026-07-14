@@ -3,56 +3,454 @@
     "ambiguous_rows": [],
     "fixed_fee_schedules": {
       "alternative_payment_methods": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6tLpY5ap2nzetS8gpEwXde",
+            "document_id": "FEETB969",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB969::18"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6tLpY5ap2nzetS8gpEwXde",
+            "document_id": "FEETB960",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB969::18"
+          }
+        ]
       },
       "commercial": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5lpmySZqkO32yUnFPNLiCB",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4yt8ULESLzBbnv4VjN1UlP",
+            "document_id": "FEETB233",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB233::4"
+          }
+        ]
       },
       "donations": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5BvT0ummhLOwjoAnoqDK8D",
+            "document_id": "FEETB25",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
+            "table_id": "FeeTable::FEETB25::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "QewR4ukrfw8ru3paE3zS0",
+            "document_id": "FEETB238",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
+            "table_id": "FeeTable::FEETB238::9"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1PPkZjA8ly8Int8YoeW9vz",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::30"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7ydvgwcySkxwkxLC0zc55K",
+            "document_id": "FEETB309",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB309::31"
+          }
+        ]
+      },
+      "nonprofit": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1IB8CSC3SvVayVe7w66CFf",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB38::14"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "340bRhg30PGMRlCywmEbnk",
+            "document_id": "FEETB314",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB314::15"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4pUTr3h9qxModRWxududZT",
+            "document_id": "FEETB51",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB51::24"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "33197OUcgeu1UvxZHp4NKd",
+            "document_id": "FEETB310",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB310::25"
+          }
+        ]
       }
     },
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    "international_surcharge_schedules": {
+      "alternative_payment_methods": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "2.1"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "12QASYF0nKAbUagzGWoZoW",
+            "document_id": "FEETB976",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international Alternative Payment Method transactions",
+            "table_id": "FeeTable::FEETB976::17"
+          }
+        ]
+      },
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6vmrHS8d8dLgw3RwVXRvt8",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::2"
+          }
+        ]
+      },
+      "donations": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6NGYjwAxLypVk6hoyVoYz",
+            "document_id": "FEETB24",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international donations",
+            "table_id": "FeeTable::FEETB24::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Qgnouj86F4CKoW3NvGWsf",
+            "document_id": "FEETB31",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Standard rate for sending international donations",
+            "table_id": "FeeTable::FEETB31::11"
+          }
+        ]
+      },
+      "nonprofit": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2k2auyudIfhbf9W4kmnGD9",
+            "document_id": "FEETB61",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international charity transactions",
+            "table_id": "FeeTable::FEETB61::13"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6pzQUDNBDQdbu7xXiWPscu",
+            "document_id": "FEETB111",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international charity PayPal Online Card Payment Services transactions",
+            "table_id": "FeeTable::FEETB111::23"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "2.1"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7ex9i2en1aU9LmRzNs2jEe",
+            "document_id": "FEETB71",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international PayPal Online Card Payment Services transactions",
+            "table_id": "FeeTable::FEETB71::22"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
       {
         "conditions": {},
         "fixed_fee_schedule": "online_card_payments",
         "id": "advanced_card_payments",
-        "international_surcharge_schedule": "online_card_payments",
+        "international_surcharge_schedule": "commercial",
         "label": "Advanced Credit and Debit Card Payments",
         "percentage": "1.5",
         "source": {
@@ -67,50 +465,71 @@
           "row_id": "54AApcluqFc33Z6az4Tjee",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::40"
+          "table_id": "FeeTable::FEETB33::20"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Commercial Transactions",
+        "percentage": "2.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4i4vmB7J3bjcWeOpVOho9h",
+          "document_id": "FEETB16",
+          "original_label": "Commercial Transactions",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "row_id": "7AKlDu7aW80AiUwEYwJ46K",
+          "row_index": 0,
+          "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+          "table_id": "FeeTable::FEETB16::1"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
-        "label": "All Other Alternative Payment Methods",
-        "percentage": "1.5",
+        "label": "PaysafeCard",
+        "percentage": "15",
         "source": {
           "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
           "classifier_version": "rules-v1",
           "component_id": "VY8xUjzEMO1dBCsCA9RiP7",
           "document_id": "FEETB967",
-          "original_label": "All Other Alternative Payment Methods",
+          "original_label": "PaysafeCard",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Fees for Sellers (Business)",
           "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "9bim21B7DdTbtqORF2oxbd",
-          "row_index": 3,
+          "row_id": "WAlXrNV99VnbywsGaqi8Se",
+          "row_index": 2,
           "section_heading": "Fee Table: Alternative Payment Method Rates",
-          "table_id": "FeeTable::FEETB967::36"
+          "table_id": "FeeTable::FEETB967::16"
         }
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "qr_code_payments",
         "international_surcharge_schedule": "commercial",
-        "label": "QR code Transactions",
+        "label": "QR Code Transactions",
+        "percentage": "1.2",
         "source": {
           "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "3hLLyRfS0ko0clquSAC4tA",
-          "document_id": "FEETB22",
-          "original_label": "QR code Transactions",
+          "component_id": "4i4vmB7J3bjcWeOpVOho9h",
+          "document_id": "FEETB16",
+          "original_label": "QR Code Transactions",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Fees for Sellers (Business)",
           "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "7eisbUOzNZ7cWraJxGQxQN",
+          "row_id": "7uPZLVlX9jV78ffLKxeaxm",
           "row_index": 1,
-          "section_heading": "Fee Table: Standard rate for receiving domestic donations",
-          "table_id": "FeeTable::FEETB22::26"
+          "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+          "table_id": "FeeTable::FEETB16::1"
         }
       },
       {
@@ -132,14 +551,37 @@
           "row_id": "4bmdkhx7VeptGMw6CCueUM",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic donations",
-          "table_id": "FeeTable::FEETB22::26"
+          "table_id": "FeeTable::FEETB22::6"
+        }
+      },
+      {
+        "conditions": {
+          "merchant_approval_required": true
+        },
+        "fixed_fee_schedule": "nonprofit",
+        "id": "nonprofit",
+        "international_surcharge_schedule": "nonprofit",
+        "label": "Australia (AU)",
+        "percentage": "1.1",
+        "source": {
+          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4CSIpakkBJtrG4kDZFdlAb",
+          "document_id": "FEETB104",
+          "original_label": "Australia (AU)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "row_id": "3lPEF0wOIhPy1aNNvqsu8R",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving domestic charity transactions",
+          "table_id": "FeeTable::FEETB104::12"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
-        "international_surcharge_schedule": "micropayments",
         "label": "Domestic micropayments",
         "percentage": "5",
         "source": {
@@ -154,7 +596,7 @@
           "row_id": "2v6cPNSQFoP1bdsXbmc35I",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving micropayments",
-          "table_id": "FeeTable::FEETB66::10"
+          "table_id": "FeeTable::FEETB66::29"
         }
       },
       {
@@ -176,18 +618,71 @@
           "row_id": "4m3IZeiTYVyp8CGq1QikRy",
           "row_index": 0,
           "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::7"
+          "table_id": "FeeTable::FEETB62::26"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, Estonia Banks, Ovo",
-          "2.9% + fixed fee"
-        ],
-        "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, Estonia Banks, Ovo",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "refunds",
+        "international_surcharge_schedule": "alternative_payment_methods",
+        "label": "Commercial Transaction Refunds",
+        "source": {
+          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "58Fcgb5l4ugNd3ZaCTjLRu",
+          "document_id": "FEETB86",
+          "original_label": "Commercial Transaction Refunds",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "row_id": "4U8uu0beWEwAze7QgpdpjA",
+          "row_index": 1,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB86::39"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "withdrawals",
+        "international_surcharge_schedule": "alternative_payment_methods",
+        "label": "PayPal Payouts",
+        "percentage": "2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "47140F4nQOblunyR41p1lo",
+          "document_id": "FEETB107",
+          "original_label": "PayPal Payouts",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
+          "row_id": "3IdHvhujLsQPDGyK8JSFUP",
+          "row_index": 0,
+          "section_heading": "Fee Table: Sending PayPal Payouts",
+          "table_id": "FeeTable::FEETB107::27"
+        }
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods_special",
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, Estonia Banks, Ovo",
+        "percentage": "2.9",
         "source": {
           "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -200,150 +695,11 @@
           "row_id": "YcLEI7ezgcQe1ziup6PbbX",
           "row_index": 0,
           "section_heading": "Fee Table: Alternative Payment Method Rates",
-          "table_id": "FeeTable::FEETB967::36"
-        }
-      },
-      {
-        "normalized_cells": [
-          "OxxoPay, Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-          "5.49% + fixed fee"
-        ],
-        "original_label": "OxxoPay, Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "VY8xUjzEMO1dBCsCA9RiP7",
-          "document_id": "FEETB967",
-          "original_label": "OxxoPay, Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "4x76SUu7OqkcUfuwHJeSlG",
-          "row_index": 1,
-          "section_heading": "Fee Table: Alternative Payment Method Rates",
-          "table_id": "FeeTable::FEETB967::36"
-        }
-      },
-      {
-        "normalized_cells": [
-          "PaysafeCard",
-          "15% + fixed fee"
-        ],
-        "original_label": "PaysafeCard",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "VY8xUjzEMO1dBCsCA9RiP7",
-          "document_id": "FEETB967",
-          "original_label": "PaysafeCard",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "WAlXrNV99VnbywsGaqi8Se",
-          "row_index": 2,
-          "section_heading": "Fee Table: Alternative Payment Method Rates",
-          "table_id": "FeeTable::FEETB967::36"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Website Payments Pro – Hosted Solution",
-          "1.50% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Website Payments Pro – Hosted Solution",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "cp81JuyswUP3FDHIo9khp",
-          "document_id": "FEETB33",
-          "original_label": "Website Payments Pro – Hosted Solution",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "7H1YDPUvHMi6KtyTp1mykn",
-          "row_index": 1,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::40"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Virtual Terminal",
-          "3.60% +fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Virtual Terminal",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "cp81JuyswUP3FDHIo9khp",
-          "document_id": "FEETB33",
-          "original_label": "Virtual Terminal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "R0uKXV5nvwwFx7ICvlG03",
-          "row_index": 2,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::40"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Website Payments Pro – Hosted Solution",
-          "1.50% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Website Payments Pro – Hosted Solution",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "55icWGf82TcK6efm62nl5p",
-          "document_id": "FEETB34",
-          "original_label": "Website Payments Pro – Hosted Solution",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "1gOBNP2ieDgHKzBBXGaXs8",
-          "row_index": 1,
-          "section_heading": "Fee Table: Charity rates for receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB34::41"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Virtual Terminal",
-          "3.60% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Virtual Terminal",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "55icWGf82TcK6efm62nl5p",
-          "document_id": "FEETB34",
-          "original_label": "Virtual Terminal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/au/business/paypal-business-fees",
-          "row_id": "7e7FlFzmU89VzdNT6kibgO",
-          "row_index": 2,
-          "section_heading": "Fee Table: Charity rates for receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB34::41"
+          "table_id": "FeeTable::FEETB967::16"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-24T06:42:56.088Z",
   "market": {

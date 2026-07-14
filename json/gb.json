@@ -6,47 +6,406 @@
     },
     "fixed_fee_schedules": {
       "alternative_payment_methods": {
-        "CHF": "0.55",
-        "GBP": "0.3",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Qt00MqDVq13W9386kV4ZV",
+            "document_id": "FEETB64",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB64::33"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Qt00MqDVq13W9386kV4ZV",
+            "document_id": "FEETB272",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB64::33"
+          }
+        ]
       },
       "commercial": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "h1vHERdyFHAnPV9GF80Wn",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "h1vHERdyFHAnPV9GF80Wn",
+            "document_id": "FEETB261",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7At3b4pOzLP14eYcqoottD",
+            "document_id": "FEETB103",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 GBP and above (based on currency received)",
+            "table_id": "FeeTable::FEETB103::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7At3b4pOzLP14eYcqoottD",
+            "document_id": "FEETB265",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 GBP and above (based on currency received)",
+            "table_id": "FeeTable::FEETB103::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4oxj7hSoGATukOFAmvPRq",
+            "document_id": "FEETB105",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 GBP and below (based on currency received)",
+            "table_id": "FeeTable::FEETB105::13"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4oxj7hSoGATukOFAmvPRq",
+            "document_id": "FEETB268",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 GBP and below (based on currency received)",
+            "table_id": "FeeTable::FEETB105::13"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5wrP664hLJy6lTHHWB8uQv",
+            "document_id": "FEETB118",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for Website Payments Pro transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB118::42"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5wrP664hLJy6lTHHWB8uQv",
+            "document_id": "FEETB278",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for Website Payments Pro transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB118::42"
+          }
+        ]
       },
       "donations": {
-        "CHF": "0.55",
-        "GBP": "0.3",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2pQB4Q7JXUHu06HM4gjv9r",
+            "document_id": "FEETB25",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
+            "table_id": "FeeTable::FEETB25::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2pQB4Q7JXUHu06HM4gjv9r",
+            "document_id": "FEETB269",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
+            "table_id": "FeeTable::FEETB25::20"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2XTcKwW4whRjMr88USXsWb",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::52"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2XTcKwW4whRjMr88USXsWb",
+            "document_id": "FEETB311",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::52"
+          }
+        ]
+      },
+      "nonprofit": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7pwMOcsYNjpL3OJjzJcVRa",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB38::28"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7pwMOcsYNjpL3OJjzJcVRa",
+            "document_id": "FEETB271",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB38::28"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3eQk0ZTUVVOc8pJs1VqNiX",
+            "document_id": "FEETB112",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB112::38"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3eQk0ZTUVVOc8pJs1VqNiX",
+            "document_id": "FEETB277",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB112::38"
+          }
+        ]
       }
     },
     "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.29"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4FIsWmsBJ3OcvuuwC2GACF",
+            "document_id": "FEETB100",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional service fee for recipients of EEA based international commercial transactions",
+            "table_id": "FeeTable::FEETB100::4"
+          }
+        ]
+      },
       "donations": {
         "entries": [
           {
@@ -57,38 +416,40 @@
             "payer_region": "OTHER",
             "percentage_points": "1.99"
           }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1z2ZDaKeLVeq5IyJg9h62W",
+            "document_id": "FEETB24",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international donations",
+            "table_id": "FeeTable::FEETB24::18"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2dcinubkD7TGNEzquCzdEh",
+            "document_id": "FEETB31",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "section_heading": "Fee Table: Standard rate for sending international donations",
+            "table_id": "FeeTable::FEETB31::25"
+          }
         ]
       }
     },
-    "status": "partial",
+    "status": "complete",
     "transaction_fee_rules": [
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "paypal_checkout",
-        "international_surcharge_schedule": "commercial",
-        "label": "Payment Links: PayPal Checkout, Pay with Venmo, PayPal Pay Later offers, or PayPal Guest Checkout",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "9fbhZwlKyk2eR6Oke61DlO",
-          "document_id": "FEETB893",
-          "original_label": "Payment Links: PayPal Checkout, Pay with Venmo, PayPal Pay Later offers, or PayPal Guest Checkout",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "6yMLgnBwuyvdGtqBqw9FXj",
-          "row_index": 2,
-          "section_heading": "Fee Table: Standard fee for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB893::49"
-        }
-      },
       {
         "conditions": {},
         "fixed_fee_schedule": "online_card_payments",
         "id": "advanced_card_payments",
-        "international_surcharge_schedule": "online_card_payments",
+        "international_surcharge_schedule": "commercial",
         "label": "Advanced Credit and Debit Card Payments - Blended Pricing Fee Structure:Visa, MasterCard, China Union Pay (CUP), Diners and Discover card types",
         "percentage": "1.2",
         "source": {
@@ -103,7 +464,7 @@
           "row_id": "Yl0spXfbKfCGPWPpBjrT4",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
+          "table_id": "FeeTable::FEETB33::37"
         }
       },
       {
@@ -125,22 +486,48 @@
           "row_id": "xSGTGmIK4A5LWdpiLMw4N",
           "row_index": 4,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
         "label": "Alternative Payment Method (APM)",
         "percentage": "1.2",
         "rate_reference": {
           "reference": "alternative_payment_methods",
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
-            "international_surcharge_schedule": "alternative_payment_methods",
-            "percentage": "1.2"
+            "percentage": "1.2",
+            "source": {
+              "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "9MTG1jhTUoBeZIC0RLEDzh",
+              "document_id": "FEETB971",
+              "original_label": "Other Alternative Payment Methods (APM)",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "PayPal Merchant Fees - Seller Fees",
+              "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+              "row_id": "cc8ut6nIusxc79aKPUZPnq",
+              "row_index": 2,
+              "section_heading": "Fee Table: Receiving domestic transactions",
+              "table_id": "FeeTable::FEETB971::32"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4EBwtrktGxxKnjZn00UqVo",
+            "document_id": "FEETB16",
+            "original_label": "Alternative Payment Method (APM)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+            "row_id": "3vSkD6pBV8nva4s970JByS",
+            "row_index": 0,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::2"
           }
         },
         "source": {
@@ -155,7 +542,7 @@
           "row_id": "3vSkD6pBV8nva4s970JByS",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         }
       },
       {
@@ -177,12 +564,11 @@
           "row_id": "148z47kfeLVzwwUUfq18Zq",
           "row_index": 1,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         }
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "qr_code_payments",
         "international_surcharge_schedule": "commercial",
         "label": "QR Code Transactions – 10.01 GBP and above",
@@ -199,7 +585,7 @@
           "row_id": "5SAoAPSpXoorLpZTJzBkeL",
           "row_index": 2,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         }
       },
       {
@@ -221,14 +607,37 @@
           "row_id": "3TV5x2jhQ2kvMIioSGuj2P",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic donations",
-          "table_id": "FeeTable::FEETB22::19"
+          "table_id": "FeeTable::FEETB22::17"
+        }
+      },
+      {
+        "conditions": {
+          "merchant_approval_required": true
+        },
+        "fixed_fee_schedule": "nonprofit",
+        "id": "nonprofit",
+        "international_surcharge_schedule": "commercial",
+        "label": "Charity transactions",
+        "percentage": "1.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "yZO132vK1iCICCadA6cn1",
+          "document_id": "FEETB109",
+          "original_label": "Charity transactions",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "row_id": "20iox9HGyRqQgirf6b1Xnp",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving domestic charity transactions",
+          "table_id": "FeeTable::FEETB109::26"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
-        "international_surcharge_schedule": "micropayments",
         "label": "Domestic micropayments",
         "percentage": "5",
         "source": {
@@ -243,14 +652,14 @@
           "row_id": "zemL7yXA7XTpBVjBPTreD",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving micropayments",
-          "table_id": "FeeTable::FEETB66::53"
+          "table_id": "FeeTable::FEETB66::51"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "online_card_payments",
         "id": "chargebacks",
-        "international_surcharge_schedule": "online_card_payments",
+        "international_surcharge_schedule": "commercial",
         "label": "Chargeback Protection Tools",
         "source": {
           "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
@@ -264,14 +673,77 @@
           "row_id": "eBH0Z8ES5lvdrcnah96bO9",
           "row_index": 3,
           "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::48"
+          "table_id": "FeeTable::FEETB62::46"
         }
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "pos_transactions",
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "refunds",
+        "international_surcharge_schedule": "commercial",
+        "label": "Commercial Transaction Refunds",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6Q3BQs0zBm6OkmtxWh152Z",
+          "document_id": "FEETB86",
+          "original_label": "Commercial Transaction Refunds",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "row_id": "2i8pzPfaPqqdhfgt8HUN5u",
+          "row_index": 1,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB86::72"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "withdrawals",
+        "international_surcharge_schedule": "commercial",
+        "label": "Domestic PayPal Payouts",
+        "percentage": "2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7rw3t51LtpCDJpf9t1vduK",
+          "document_id": "FEETB81",
+          "original_label": "Domestic PayPal Payouts",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "row_id": "4vQkBax9FA9dYTMaY5qlar",
+          "row_index": 0,
+          "section_heading": "Fee Table: Sending PayPal Payouts",
+          "table_id": "FeeTable::FEETB81::48"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Payment Links: PayPal Checkout, Pay with Venmo, PayPal Pay Later offers, or PayPal Guest Checkout",
+        "percentage": "2.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "9fbhZwlKyk2eR6Oke61DlO",
+          "document_id": "FEETB893",
+          "original_label": "Payment Links: PayPal Checkout, Pay with Venmo, PayPal Pay Later offers, or PayPal Guest Checkout",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
+          "row_id": "6yMLgnBwuyvdGtqBqw9FXj",
+          "row_index": 2,
+          "section_heading": "Fee Table: Standard fee for receiving transactions using PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB893::47"
+        }
+      },
+      {
+        "conditions": {},
         "id": "pos_transactions",
-        "international_surcharge_schedule": "pos_transactions",
         "label": "Card Present Transactions",
         "percentage": "1.75",
         "source": {
@@ -286,18 +758,28 @@
           "row_id": "0s3By6Pi6sibGEVPWVpGqw",
           "row_index": 0,
           "section_heading": "Fee Table: Standard fee for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB893::49"
+          "table_id": "FeeTable::FEETB893::47"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Twint, Doku Wallet, Estonia Online Bank Transfer, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-          "2.9% + fixed fee"
-        ],
-        "original_label": "Twint, Doku Wallet, Estonia Online Bank Transfer, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "reason": "no product alias matched",
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods_special",
+        "label": "Twint, Doku Wallet, Estonia Online Bank Transfer, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+        "percentage": "2.9",
         "source": {
           "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -310,270 +792,11 @@
           "row_id": "3NH3FKlmWoYdpUVkfMz2Q4",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic transactions",
-          "table_id": "FeeTable::FEETB971::34"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-          "5.49% + fixed fee"
-        ],
-        "original_label": "Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "9MTG1jhTUoBeZIC0RLEDzh",
-          "document_id": "FEETB971",
-          "original_label": "Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "XbZbSBNwrAIcU7C96jsJyJ",
-          "row_index": 1,
-          "section_heading": "Fee Table: Receiving domestic transactions",
-          "table_id": "FeeTable::FEETB971::34"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Website Payments Pro - Standard PayPal Payment using Express Checkout",
-          "2.9% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Website Payments Pro - Standard PayPal Payment using Express Checkout",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Website Payments Pro - Standard PayPal Payment using Express Checkout",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "2jrMyeudMOX1kCCa8eB3gF",
-          "row_index": 3,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Website Payments Pro - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-          "3.4% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Website Payments Pro - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Website Payments Pro - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "3quxxuPo5rzLP4bF5VEBok",
-          "row_index": 4,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Website Payments Pro - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-          "Interchange Fee + 2.9% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Website Payments Pro - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Website Payments Pro - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "69O86otiNaXGouwmHUZpOr",
-          "row_index": 5,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Virtual Terminal - Standard PayPal Payment using Express Checkout:",
-          "2.9% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Virtual Terminal - Standard PayPal Payment using Express Checkout:",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Virtual Terminal - Standard PayPal Payment using Express Checkout:",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "63zTt1MqTEIYlUziPNQ2ry",
-          "row_index": 6,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Virtual Terminal - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-          "1.2% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Virtual Terminal - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Virtual Terminal - Blended Pricing Fee Structure:Visa, MasterCard or Maestro card types",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "4SYqHFF4byZ1LqpIoc34eb",
-          "row_index": 7,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Virtual Terminal - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-          "Interchange Fee + 1.2% + fixed fee",
-          "",
-          ""
-        ],
-        "original_label": "Virtual Terminal - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "dH6sfGGBO1MATQYpJ6hQq",
-          "document_id": "FEETB33",
-          "original_label": "Virtual Terminal - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "5CLut7jnqaVW73SvHfO3bT",
-          "row_index": 8,
-          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB33::39"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Additional Risk Factors",
-          "If PayPal determines that your Account receives, or is likely to receive a disproportionately higher number of customer complaints, Reversals, Chargebacks, Claims, or other indicators of a serious level of risk, PayPal may increase the percentage components of your Transaction Fees after giving you 30 days prior notice of the increase.",
-          "Up to 5% per transaction",
-          ""
-        ],
-        "original_label": "Additional Risk Factors",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "6XPcDzhIC0TMmOWfyukJrS",
-          "document_id": "FEETB62",
-          "original_label": "Additional Risk Factors",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "4YUrFqrAy7UxdyLTYJVuwH",
-          "row_index": 0,
-          "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::48"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Failure to implement Express Checkout",
-          "If you do not implement Express Checkout as required, the percentage components of your Transaction Fees may increase after giving you 30 days prior notice. (Website Payments Pro & Virtual Terminal)",
-          "0.5% per transaction",
-          ""
-        ],
-        "original_label": "Failure to implement Express Checkout",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "6XPcDzhIC0TMmOWfyukJrS",
-          "document_id": "FEETB62",
-          "original_label": "Failure to implement Express Checkout",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "216XIplDz7dTPtTTRtqJLb",
-          "row_index": 4,
-          "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::48"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Manual Card Entry Transactions*(*subject to service availability)",
-          "3.4% + 0.20 GBP",
-          "",
-          ""
-        ],
-        "original_label": "Manual Card Entry Transactions*(*subject to service availability)",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "9fbhZwlKyk2eR6Oke61DlO",
-          "document_id": "FEETB893",
-          "original_label": "Manual Card Entry Transactions*(*subject to service availability)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "ZFHri0GdD6beMJZIJ3tNSs",
-          "row_index": 1,
-          "section_heading": "Fee Table: Standard fee for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB893::49"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Payment Links: Standard Credit and Debit Card Payments, Apple Pay, or other third-party wallets",
-          "1.2% + 0.30 GBP"
-        ],
-        "original_label": "Payment Links: Standard Credit and Debit Card Payments, Apple Pay, or other third-party wallets",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "9fbhZwlKyk2eR6Oke61DlO",
-          "document_id": "FEETB893",
-          "original_label": "Payment Links: Standard Credit and Debit Card Payments, Apple Pay, or other third-party wallets",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees - Seller Fees",
-          "requested_url": "https://www.paypal.com/gb/business/paypal-business-fees",
-          "row_id": "91m015HSjzGfiYMjirXSk3",
-          "row_index": 3,
-          "section_heading": "Fee Table: Standard fee for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB893::49"
+          "table_id": "FeeTable::FEETB971::32"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-29T00:20:14.855Z",
   "market": {

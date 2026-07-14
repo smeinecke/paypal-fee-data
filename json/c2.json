@@ -1,30 +1,218 @@
 {
   "derived": {
     "ambiguous_rows": [],
+    "currency_conversion": {
+      "spread_percentage": "4"
+    },
     "fixed_fee_schedules": {
       "commercial": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "9KGDoPTlOoWeMiS7nz1MPR",
+            "document_id": "FEETB895",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB895::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "9KGDoPTlOoWeMiS7nz1MPR",
+            "document_id": "FEETB896",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB895::2"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "f5tp2gtav11dTg2ZGm1gwe",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "f5tp2gtav11dTg2ZGm1gwe",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Y4J6DyWN1x0afUtuWM9KKr",
+            "document_id": "FEETB887",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services (based on currency received)",
+            "table_id": "FeeTable::FEETB887::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Y4J6DyWN1x0afUtuWM9KKr",
+            "document_id": "FEETB888",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for PayPal Online Card Payment Services (based on currency received)",
+            "table_id": "FeeTable::FEETB887::5"
+          }
+        ]
       }
     },
-    "international_surcharge_schedules": {},
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "4.4"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Zlor8l0Va4Ze7ai1aGJ7ml",
+            "document_id": "FEETB16",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB16::1"
+          }
+        ]
+      }
+    },
     "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "Advanced Credit and Debit Card Payments",
+        "percentage": "4.1",
+        "source": {
+          "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5lstEpRiSGlblwKyH2FvzB",
+          "document_id": "FEETB71",
+          "original_label": "Advanced Credit and Debit Card Payments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+          "row_id": "03DOOCVpifbeIC3fe6t6r7",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving international transactions using PayPal Online Card Payment Services",
+          "table_id": "FeeTable::FEETB71::4"
+        }
+      },
+      {
+        "conditions": {},
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
-        "international_surcharge_schedule": "micropayments",
         "label": "Other International micropayments",
         "percentage": "6",
         "source": {
@@ -39,14 +227,14 @@
           "row_id": "0GOkGmFqvQwerJv6Ldfd5I",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving micropayments",
-          "table_id": "FeeTable::FEETB66::12"
+          "table_id": "FeeTable::FEETB66::10"
         }
       },
       {
         "conditions": {},
         "fixed_fee_schedule": "online_card_payments",
         "id": "chargebacks",
-        "international_surcharge_schedule": "online_card_payments",
+        "international_surcharge_schedule": "commercial",
         "label": "Chargeback Protection Services",
         "percentage": "0.7",
         "source": {
@@ -61,58 +249,53 @@
           "row_id": "2URvQoR6Q6jcscmSHJzNYQ",
           "row_index": 2,
           "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::9"
-        }
-      }
-    ],
-    "unclassified_fee_rows": [
-      {
-        "normalized_cells": [
-          "Additional Risk Factors",
-          "If PayPal determines that your Account receives, or is likely to receive a disproportionately higher number of customer complaints, reversals, chargebacks, claims, or other indicators of a serious level of risk, PayPal may increase the percentage components of your Transaction Fees after giving you 30 days prior notice of the increase.",
-          "Up to 5.00% per transaction"
-        ],
-        "original_label": "Additional Risk Factors",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "WEw2shVIokTfJPJYzmCCF5",
-          "document_id": "FEETB62",
-          "original_label": "Additional Risk Factors",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
-          "row_id": "XaRj9YiQIa8agvZ00QbC0U",
-          "row_index": 0,
-          "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::9"
+          "table_id": "FeeTable::FEETB62::7"
         }
       },
       {
-        "normalized_cells": [
-          "Failure to use PayPal Payment Button",
-          "If you do not use PayPal Payment Button as required, the percentage components of your Transaction Fees may increase after giving you 30 days prior notice.",
-          "1.00% per transaction"
-        ],
-        "original_label": "Failure to use PayPal Payment Button",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "refunds",
+        "international_surcharge_schedule": "commercial",
+        "label": "Commercial Transaction Refunds",
         "source": {
           "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "WEw2shVIokTfJPJYzmCCF5",
-          "document_id": "FEETB62",
-          "original_label": "Failure to use PayPal Payment Button",
+          "component_id": "4Ix1THDi2t5fvmGiy4e1d7",
+          "document_id": "FEETB324",
+          "original_label": "Commercial Transaction Refunds",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Fees for Sellers (Business)",
           "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
-          "row_id": "7rH3NnqCvpXdhMcKh8b9oj",
-          "row_index": 1,
-          "section_heading": "Fee Table: Other fees for using PayPal Online Card Payment Services",
-          "table_id": "FeeTable::FEETB62::9"
+          "row_id": "4oY1R6q0ThMbIPegKj5G4T",
+          "row_index": 3,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::26"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "withdrawals",
+        "international_surcharge_schedule": "commercial",
+        "label": "Bank Return on Withdrawal/Transfer out of PayPal",
+        "source": {
+          "canonical_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4Ix1THDi2t5fvmGiy4e1d7",
+          "document_id": "FEETB324",
+          "original_label": "Bank Return on Withdrawal/Transfer out of PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/c2/business/paypal-business-fees",
+          "row_id": "8c0ksBplMbGfwExSpB8b1Y",
+          "row_index": 0,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::26"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T02:03:24.649Z",
   "market": {

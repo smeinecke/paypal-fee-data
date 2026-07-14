@@ -4,15 +4,313 @@
     "currency_conversion": {
       "spread_percentage": "3"
     },
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    "fixed_fee_schedules": {
+      "commercial": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.1",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2w6DgZSeDD6UTczxZQ4ZL4",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje komercyjne (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2w6DgZSeDD6UTczxZQ4ZL4",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje komercyjne (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6wCgvN2mJKYZTDUai3IFOU",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje na rzecz organizacji charytatywnych (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB38::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6wCgvN2mJKYZTDUai3IFOU",
+            "document_id": "FEETB279",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje na rzecz organizacji charytatywnych (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB38::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4dWLtRwM3zv0MImP3KgKQh",
+            "document_id": "FEETB64",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje dokonywane z wykorzystaniem Alternatywnych form płatności (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB64::21"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4dWLtRwM3zv0MImP3KgKQh",
+            "document_id": "FEETB280",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje dokonywane z wykorzystaniem Alternatywnych form płatności (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB64::21"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5xwisaO2Qor3pEHe2dXnAS",
+            "document_id": "FEETB51",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje w ramach Usług płatności online kartą w systemie PayPal (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB51::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5xwisaO2Qor3pEHe2dXnAS",
+            "document_id": "FEETB281",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za transakcje w ramach Usług płatności online kartą w systemie PayPal (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB51::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3gBH1OQBmEhvrkjWNOAhaz",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za mikropłatności",
+            "table_id": "FeeTable::FEETB69::34"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3gBH1OQBmEhvrkjWNOAhaz",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za mikropłatności",
+            "table_id": "FeeTable::FEETB69::34"
+          }
+        ]
+      },
+      "donations": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4QxGY6eiuBnY5mkazxd3fh",
+            "document_id": "FEETB25",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za darowizny (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB25::10"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4QxGY6eiuBnY5mkazxd3fh",
+            "document_id": "FEETB270",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Opłata stała za darowizny (zależnie od waluty otrzymanych środków)",
+            "table_id": "FeeTable::FEETB25::10"
+          }
+        ]
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4houWuxX2OnOdYhfAzpdVM",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Dodatkowa opłata procentowa za międzynarodowe transakcje komercyjne",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6DGwy9zdMoymKVJenQHsuy",
+            "document_id": "FEETB530",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Dodatkowa opłata za usługę obowiązująca odbiorców w przypadku międzynarodowych transakcji handlowych dokonywanych przez nadawców będących rezydentami Wielkiej Brytanii",
+            "table_id": "FeeTable::FEETB530::3"
+          }
+        ]
+      },
+      "donations": {
+        "entries": [
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7j3SMrnPTksca55JDXLCvD",
+            "document_id": "FEETB24",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+            "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+            "section_heading": "Tabela opłat: Dodatkowa opłata procentowa za darowizny międzynarodowe",
+            "table_id": "FeeTable::FEETB24::9"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
       {
         "conditions": {},
-        "fixed_fee_schedule": "alternative_payment_methods",
+        "fixed_fee_schedule": "commercial",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "Zaawansowane płatności kartą kredytową i debetową— struktura opłat uśrednionych (Blended):Karty typu Visa, Mastercard, China Union Pay (CUP), Diners I Discover",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5SXmRTC17adDCe7Sh76VDN",
+          "document_id": "FEETB33",
+          "original_label": "Zaawansowane płatności kartą kredytową i debetową— struktura opłat uśrednionych (Blended):Karty typu Visa, Mastercard, China Union Pay (CUP), Diners I Discover",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "4xQF7njjluBKP8hLUlIn2k",
+          "row_index": 0,
+          "section_heading": "Tabela opłat: Odbieranie płatności w ramach transakcji krajowych przy użyciu Usług płatności online kartą w systemie PayPal",
+          "table_id": "FeeTable::FEETB33::25"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
+          "document_id": "FEETB16",
+          "original_label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "23JRYWBOJByJD3yjDmDbvB",
+          "row_index": 1,
+          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB16::1"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
         "label": "Alternatywna forma płatności (APM)",
         "source": {
           "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
@@ -26,56 +324,87 @@
           "row_id": "HU6mxH4YmQw3RqefIe0Gv",
           "row_index": 0,
           "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
-          "table_id": "FeeTable::FEETB16::3"
-        }
-      }
-    ],
-    "unclassified_fee_rows": [
-      {
-        "normalized_cells": [
-          "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
-          "1,90% + opłata stała"
-        ],
-        "original_label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
-          "document_id": "FEETB16",
-          "original_label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
-          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
-          "row_id": "23JRYWBOJByJD3yjDmDbvB",
-          "row_index": 1,
-          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
-          "table_id": "FeeTable::FEETB16::3"
+          "table_id": "FeeTable::FEETB16::1"
         }
       },
       {
-        "normalized_cells": [
-          "Wszystkie inne transakcje komercyjne",
-          "2,90% + opłata stała"
-        ],
-        "original_label": "Wszystkie inne transakcje komercyjne",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "micropayments",
+        "label": "Mikropłatności krajowe",
+        "percentage": "5",
         "source": {
           "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
-          "document_id": "FEETB16",
-          "original_label": "Wszystkie inne transakcje komercyjne",
+          "component_id": "5S85vhtdlLi78ZyV0F0MDf",
+          "document_id": "FEETB66",
+          "original_label": "Mikropłatności krajowe",
           "page_id": "business/paypal-business-fees",
           "page_title": "Konto dla firm - opłaty za transakcje i usługi",
           "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
-          "row_id": "Kwfl8JJ2z4xwz0pS4S8SD",
-          "row_index": 2,
-          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
-          "table_id": "FeeTable::FEETB16::3"
+          "row_id": "1wEsqUoo3NXI4BHbIfdmjp",
+          "row_index": 0,
+          "section_heading": "Tabela opłat: Odbieranie mikropłatności",
+          "table_id": "FeeTable::FEETB66::33"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Klarna",
+        "percentage": "4.99",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5qOXiR6HZiZEHZWYQnnc33",
+          "document_id": "FEETB325",
+          "original_label": "Klarna",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "bQrHvYRlImtdokC1T4WyYu",
+          "row_index": 1,
+          "section_heading": "Tabela opłat: Odbieranie płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB325::19"
+        }
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "commercial",
+        "id": "alternative_payment_methods_special",
+        "label": "Blik",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5qOXiR6HZiZEHZWYQnnc33",
+          "document_id": "FEETB325",
+          "original_label": "Blik",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "13bw7viJ3Pclzz6DiB0VjH",
+          "row_index": 0,
+          "section_heading": "Tabela opłat: Odbieranie płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB325::19"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T09:24:27.212Z",
   "market": {

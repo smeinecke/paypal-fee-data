@@ -1,10 +1,206 @@
 {
   "derived": {
     "ambiguous_rows": [],
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "unclassified",
-    "transaction_fee_rules": [],
+    "currency_conversion": {
+      "spread_percentage": "3.5"
+    },
+    "fixed_fee_schedules": {
+      "commercial": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7nr4RHFhZCnLPKT1n12TQ9",
+            "document_id": "FEETB410",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB410::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7nr4RHFhZCnLPKT1n12TQ9",
+            "document_id": "FEETB512",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB410::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7nr4RHFhZCnLPKT1n12TQ9",
+            "document_id": "FEETB814",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB410::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7nr4RHFhZCnLPKT1n12TQ9",
+            "document_id": "FEETB816",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa para transações comerciais (com base na moeda recebida)",
+            "table_id": "FeeTable::FEETB410::3"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3RlB8Zmsa6wqfHhz6h5ODL",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa de Micropagamentos",
+            "table_id": "FeeTable::FEETB69::14"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3RlB8Zmsa6wqfHhz6h5ODL",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa fixa de Micropagamentos",
+            "table_id": "FeeTable::FEETB69::14"
+          }
+        ]
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.61"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6QJ8YFePPOCVVZIKzhu9kO",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifas e taxas do PayPal para Vendedores",
+            "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+            "section_heading": "Tabela de taxas: Tarifa adicional baseada em porcentagem para transações comerciais internacionais",
+            "table_id": "FeeTable::FEETB91::2"
+          }
+        ]
+      }
+    },
+    "status": "complete",
+    "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Transações Comerciais",
+        "percentage": "4.79",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1Kh1wXMSQMU7cxkehsVK8Z",
+          "document_id": "FEETB16",
+          "original_label": "Transações Comerciais",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "4e8ZMIweI4qf8DSwtpdM15",
+          "row_index": 0,
+          "section_heading": "Tabela de taxas: Tarifa padrão para recebimento de transações domésticas",
+          "table_id": "FeeTable::FEETB16::1"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Micropagamentos domésticos e micropagamentos por Produtos Digitais",
+        "percentage": "9.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "349hoDlsIMLHB9CnEo88nK",
+          "document_id": "FEETB66",
+          "original_label": "Micropagamentos domésticos e micropagamentos por Produtos Digitais",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "58eoi3qCvgvlOCdHzpWX1X",
+          "row_index": 0,
+          "section_heading": "Tabela de taxas: Receber Micropagamentos",
+          "table_id": "FeeTable::FEETB66::13"
+        }
+      }
+    ],
     "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T01:26:47.467Z",

@@ -1,49 +1,635 @@
 {
   "derived": {
-    "ambiguous_rows": [
-      {
-        "candidates": [
-          "invoice_pay_later",
-          "pay_later_consumer"
-        ],
-        "normalized_cells": [
-          "Online bankovní převod v Thajsku, online bankovní převod v Lotyšsku, online bankovní převod v Litvě, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (úročené pro spotřebitele)",
-          "5,49 % + pevný poplatek"
-        ],
-        "original_label": "Online bankovní převod v Thajsku, online bankovní převod v Lotyšsku, online bankovní převod v Litvě, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (úročené pro spotřebitele)",
-        "source": {
-          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "72rXrIvY5n7qyoqAtbtXqO",
-          "document_id": "FEETB414",
-          "original_label": "Online bankovní převod v Thajsku, online bankovní převod v Lotyšsku, online bankovní převod v Litvě, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (úročené pro spotřebitele)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees",
-          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "4JOdonCRt7eeIJQ5AmP5Sa",
-          "row_index": 2,
-          "section_heading": "Tabulka poplatků : Přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB414::32"
-        }
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {
+      "commercial": {
+        "entries": {
+          "AED": "10",
+          "AFN": "262.5",
+          "ALL": "276",
+          "AMD": "1",
+          "ANG": "4",
+          "AOA": "1",
+          "ARS": "8",
+          "AUD": "3.5",
+          "AWG": "5",
+          "AZN": "4.5",
+          "BAM": "4",
+          "BBD": "5",
+          "BDT": "220",
+          "BGN": "3.5",
+          "BHD": "1",
+          "BIF": "4",
+          "BMD": "3",
+          "BND": "3",
+          "BOB": "17",
+          "BRL": "4.5",
+          "BSD": "3",
+          "BTN": "178",
+          "BWP": "27",
+          "BZD": "5",
+          "CAD": "3",
+          "CDF": "4",
+          "CHF": "3.5",
+          "CLP": "1",
+          "CNY": "17",
+          "COP": "8",
+          "CRC": "1",
+          "CVE": "249",
+          "CZK": "55",
+          "DJF": "444",
+          "DKK": "15",
+          "DOP": "133",
+          "DZD": "300",
+          "EGP": "40",
+          "ERN": "37.5",
+          "ETB": "80",
+          "EUR": "2",
+          "FJD": "5",
+          "FKP": "2",
+          "GBP": "1.5",
+          "GEL": "7",
+          "GHS": "15.5",
+          "GIP": "1.5",
+          "GMD": "128",
+          "GNF": "23",
+          "GTQ": "19",
+          "GYD": "522",
+          "HKD": "20",
+          "HNL": "62",
+          "HTG": "250",
+          "HUF": "500",
+          "IDR": "23",
+          "ILS": "11",
+          "INR": "100",
+          "IQD": "3",
+          "ISK": "170",
+          "JMD": "335",
+          "JOD": "2",
+          "JPY": "300",
+          "KES": "252",
+          "KGS": "225",
+          "KHR": "10",
+          "KMF": "1",
+          "KRW": "2",
+          "KWD": "2.5",
+          "KYD": "2",
+          "KZT": "943",
+          "LAK": "22",
+          "LBP": "3",
+          "LKR": "454",
+          "LRD": "375",
+          "LSL": "40",
+          "MAD": "24",
+          "MDL": "44",
+          "MGA": "9",
+          "MKD": "139",
+          "MMK": "4",
+          "MNT": "6",
+          "MOP": "20",
+          "MRU": "90",
+          "MUR": "92",
+          "MVR": "39",
+          "MWK": "1",
+          "MXN": "30",
+          "MYR": "8",
+          "MZN": "200",
+          "NAD": "36",
+          "NGN": "906",
+          "NIO": "85",
+          "NOK": "16",
+          "NPR": "286",
+          "NZD": "4",
+          "OMR": "1",
+          "PAB": "2.5",
+          "PEN": "8",
+          "PGK": "9",
+          "PHP": "100",
+          "PKR": "450",
+          "PLN": "8",
+          "PYG": "16",
+          "QAR": "9",
+          "RON": "6",
+          "RSD": "265",
+          "RUB": "150",
+          "RWF": "2",
+          "SAR": "9",
+          "SBD": "21",
+          "SCR": "34",
+          "SEK": "18",
+          "SGD": "4",
+          "SHP": "2",
+          "SLL": "24",
+          "SOS": "1",
+          "SRD": "19",
+          "STN": "55",
+          "SZL": "36",
+          "THB": "90",
+          "TJS": "26",
+          "TMT": "10",
+          "TND": "7.5",
+          "TOP": "6",
+          "TRY": "35",
+          "TTD": "17",
+          "TWD": "87.5",
+          "TZS": "5",
+          "UAH": "61",
+          "UGX": "9",
+          "USD": "2.5",
+          "UYU": "50",
+          "UZS": "30",
+          "VES": "15",
+          "VND": "57",
+          "VUV": "291",
+          "WST": "7",
+          "XAF": "1",
+          "XCD": "7",
+          "XOF": "1",
+          "YER": "626",
+          "ZAR": "20",
+          "ZMW": "55"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5vDg9lGmbkl12Y0uqhSJfd",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za obchodní transakce (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB354::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5vDg9lGmbkl12Y0uqhSJfd",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za obchodní transakce (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB354::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2yZUdgaAORMBdjXnCDd0QQ",
+            "document_id": "FEETB368",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce prostřednictvím kódů QR – 10,01 EUR a více (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB368::10"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5hKwguhxTjV9qM7CITswXr",
+            "document_id": "FEETB370",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce prostřednictvím kódů QR – 10,01 EUR a více (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB370::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "d79qoRsbNkxGcPbCLac1Y",
+            "document_id": "FEETB371",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce prostřednictvím kódů QR – 10,00 EUR a méně (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB371::14"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "d79qoRsbNkxGcPbCLac1Y",
+            "document_id": "FEETB374",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce prostřednictvím kódů QR – 10,00 EUR a méně (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB371::14"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "s9oMmNuQs56IGe1gJRkGY",
+            "document_id": "FEETB416",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce hrazené alternativním způsobem platby (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB416::32"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2VNoHIIGgJ4FwUhritRA6p",
+            "document_id": "FEETB419",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce hrazené alternativním způsobem platby (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB419::33"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "l9uRsfbuDwsw2yebgqRCy",
+            "document_id": "FEETB345",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: CY, EE, LI, LT, LV, MT, SK a SM – pevný poplatek za výběr na kartu",
+            "table_id": "FeeTable::FEETB345::69"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "l9uRsfbuDwsw2yebgqRCy",
+            "document_id": "FEETB335",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: CY, EE, LI, LT, LV, MT, SK a SM – pevný poplatek za výběr na kartu",
+            "table_id": "FeeTable::FEETB345::69"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "l9uRsfbuDwsw2yebgqRCy",
+            "document_id": "FEETB334",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: CY, EE, LI, LT, LV, MT, SK a SM – pevný poplatek za výběr na kartu",
+            "table_id": "FeeTable::FEETB345::69"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "l9uRsfbuDwsw2yebgqRCy",
+            "document_id": "FEETB333",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: CY, EE, LI, LT, LV, MT, SK a SM – pevný poplatek za výběr na kartu",
+            "table_id": "FeeTable::FEETB345::69"
+          }
+        ]
+      },
+      "donations": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2Aacp9EpA7rKfAgYuMfZ9M",
+            "document_id": "FEETB386",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za příspěvky (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB386::19"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2Aacp9EpA7rKfAgYuMfZ9M",
+            "document_id": "FEETB392",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za příspěvky (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB386::19"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6iwm5qOWtnTdS7NJ34XkyI",
+            "document_id": "FEETB348",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za mikroplatby",
+            "table_id": "FeeTable::FEETB348::46"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6iwm5qOWtnTdS7NJ34XkyI",
+            "document_id": "FEETB349",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za mikroplatby",
+            "table_id": "FeeTable::FEETB348::46"
+          }
+        ]
+      },
+      "nonprofit": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2vty4D5wX9AIZPboxQyS6W",
+            "document_id": "FEETB408",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za charitativní transakce (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB408::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2vty4D5wX9AIZPboxQyS6W",
+            "document_id": "FEETB411",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za charitativní transakce (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB408::26"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6tP4t1HI6FIiA73uBpHPKC",
+            "document_id": "FEETB440",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce hrazené prostřednictvím služeb PayPal pro online platby kartou (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB440::37"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6tP4t1HI6FIiA73uBpHPKC",
+            "document_id": "FEETB441",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Pevný poplatek za transakce hrazené prostřednictvím služeb PayPal pro online platby kartou (na základě přijaté měny)",
+            "table_id": "FeeTable::FEETB440::37"
+          }
+        ]
       }
-    ],
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3jCpmJeAus7wf1YuE8IkQr",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Dodatečný procentní poplatek za mezinárodní obchodní transakce",
+            "table_id": "FeeTable::FEETB533::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "743Jh41hG1z4XbVIxaXrxr",
+            "document_id": "FEETB537",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Poplatek za další služby pro příjemce mezinárodních obchodních transakcí se sídlem ve Velké Británii",
+            "table_id": "FeeTable::FEETB537::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "enETQTSlyiTfmtze7TmPuE",
+            "document_id": "FEETB940",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků : Přijímání mezinárodních transakcí",
+            "table_id": "FeeTable::FEETB940::31"
+          }
+        ]
+      },
+      "donations": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2udobHlv8cTd0V7zsclN30",
+            "document_id": "FEETB384",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "section_heading": "Tabulka poplatků: Dodatečný procentní poplatek za mezinárodní příspěvky",
+            "table_id": "FeeTable::FEETB384::18"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
       {
         "conditions": {},
-        "fixed_fee_schedule": "alternative_payment_methods",
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Kartou hrazená platba prováděná uživatelem, pro kterého platí podmínky naší služby Platby bez účtu PayPal",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4Bh7eUePZrVB08W5PF7xvX",
+          "document_id": "FEETB359",
+          "original_label": "Kartou hrazená platba prováděná uživatelem, pro kterého platí podmínky naší služby Platby bez účtu PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees",
+          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+          "row_id": "7bELhCZdZFoKFBrOdbSgSE",
+          "row_index": 1,
+          "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
+          "table_id": "FeeTable::FEETB359::3"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
         "id": "alternative_payment_methods",
-        "international_surcharge_schedule": "alternative_payment_methods",
         "label": "Alternativní způsob platby (APM)",
         "percentage": "1.9",
         "rate_reference": {
           "reference": "alternative_payment_methods",
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
-            "international_surcharge_schedule": "alternative_payment_methods",
-            "percentage": "1.9"
+            "percentage": "1.9",
+            "source": {
+              "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "72rXrIvY5n7qyoqAtbtXqO",
+              "document_id": "FEETB414",
+              "original_label": "Jiný alternativní způsob platby (APM)",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "PayPal Merchant Fees",
+              "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+              "row_id": "01BSgEodKS7rbfiNmGuKDA",
+              "row_index": 4,
+              "section_heading": "Tabulka poplatků : Přijímání vnitrostátních transakcí",
+              "table_id": "FeeTable::FEETB414::30"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4Bh7eUePZrVB08W5PF7xvX",
+            "document_id": "FEETB359",
+            "original_label": "Alternativní způsob platby (APM)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
+            "row_id": "7wZxOmJs6l6zdtTC8XprT7",
+            "row_index": 0,
+            "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
+            "table_id": "FeeTable::FEETB359::3"
           }
         },
         "source": {
@@ -58,106 +644,37 @@
           "row_id": "7wZxOmJs6l6zdtTC8XprT7",
           "row_index": 0,
           "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB359::5"
+          "table_id": "FeeTable::FEETB359::3"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Kartou hrazená platba prováděná uživatelem, pro kterého platí podmínky naší služby Platby bez účtu PayPal",
-          "1,9 % + pevný poplatek"
-        ],
-        "original_label": "Kartou hrazená platba prováděná uživatelem, pro kterého platí podmínky naší služby Platby bez účtu PayPal",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "chargebacks",
+        "international_surcharge_schedule": "commercial",
+        "label": "Nástroje služeb ochrany proti chargebackům",
         "source": {
           "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "4Bh7eUePZrVB08W5PF7xvX",
-          "document_id": "FEETB359",
-          "original_label": "Kartou hrazená platba prováděná uživatelem, pro kterého platí podmínky naší služby Platby bez účtu PayPal",
+          "component_id": "2lIchkIyqHUnVDsGtsMYC8",
+          "document_id": "FEETB442",
+          "original_label": "Nástroje služeb ochrany proti chargebackům",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Merchant Fees",
           "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "7bELhCZdZFoKFBrOdbSgSE",
+          "row_id": "ffI3SbyaQ54ceVqwoxpA2G",
           "row_index": 1,
-          "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB359::5"
+          "section_heading": "Tabulka poplatků: Další poplatky za používání služeb PayPal pro online platby kartou",
+          "table_id": "FeeTable::FEETB442::41"
         }
       },
       {
-        "normalized_cells": [
-          "Transakce pomocí kódu QR – 10,01 EUR a více pro CY, CZ, EE, GR, LV, MT, SI a SK",
-          "0,9 % + pevný poplatek"
-        ],
-        "original_label": "Transakce pomocí kódu QR – 10,01 EUR a více pro CY, CZ, EE, GR, LV, MT, SI a SK",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4Bh7eUePZrVB08W5PF7xvX",
-          "document_id": "FEETB359",
-          "original_label": "Transakce pomocí kódu QR – 10,01 EUR a více pro CY, CZ, EE, GR, LV, MT, SI a SK",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees",
-          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "53T3ad1zxdRIU9K3VPLLli",
-          "row_index": 2,
-          "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB359::5"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Transakce pomocí kódu QR – 10,00 EUR a méně pro CY, CZ, EE, GR, LV, MT, SI a SK",
-          "1,4 % + pevný poplatek"
-        ],
-        "original_label": "Transakce pomocí kódu QR – 10,00 EUR a méně pro CY, CZ, EE, GR, LV, MT, SI a SK",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4Bh7eUePZrVB08W5PF7xvX",
-          "document_id": "FEETB359",
-          "original_label": "Transakce pomocí kódu QR – 10,00 EUR a méně pro CY, CZ, EE, GR, LV, MT, SI a SK",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees",
-          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "69Y0bqui11J2FXWTXZT0EO",
-          "row_index": 3,
-          "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB359::5"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Všechny ostatní obchodní transakce",
-          "3,4 % + pevný poplatek"
-        ],
-        "original_label": "Všechny ostatní obchodní transakce",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4Bh7eUePZrVB08W5PF7xvX",
-          "document_id": "FEETB359",
-          "original_label": "Všechny ostatní obchodní transakce",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees",
-          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "2KkyGSVXXLwPGfSsBw8UcI",
-          "row_index": 4,
-          "section_heading": "Tabulka poplatků: Standardní sazba za přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB359::5"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Alternativní způsob platby (pouze Klarna)",
-          "4,99 % + pevný poplatek"
-        ],
-        "original_label": "Alternativní způsob platby (pouze Klarna)",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Alternativní způsob platby (pouze Klarna)",
+        "percentage": "4.99",
         "source": {
           "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -170,54 +687,44 @@
           "row_id": "7Dqpz6J9mxiai0gtAzuOFo",
           "row_index": 0,
           "section_heading": "Tabulka poplatků : Přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB414::32"
+          "table_id": "FeeTable::FEETB414::30"
         }
       },
       {
-        "normalized_cells": [
-          "Twint, Doku Wallet, online bankovní převod v Estonsku, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-          "3,4 % + pevný poplatek"
-        ],
-        "original_label": "Twint, Doku Wallet, online bankovní převod v Estonsku, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "reason": "no product alias matched",
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "commercial",
+        "id": "alternative_payment_methods_special",
+        "label": "Česká republika (CZ)",
         "source": {
           "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "72rXrIvY5n7qyoqAtbtXqO",
-          "document_id": "FEETB414",
-          "original_label": "Twint, Doku Wallet, online bankovní převod v Estonsku, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+          "component_id": "32yFJNpT896ocGL0iLVO1d",
+          "document_id": "FEETB356",
+          "original_label": "Česká republika (CZ)",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Merchant Fees",
           "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "YUrNUeIyqB9cJquXTVR8FB",
-          "row_index": 1,
-          "section_heading": "Tabulka poplatků : Přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB414::32"
-        }
-      },
-      {
-        "normalized_cells": [
-          "FLOA Pay (bezúročné pro spotřebitele)",
-          "6,5 % + pevný poplatek"
-        ],
-        "original_label": "FLOA Pay (bezúročné pro spotřebitele)",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "72rXrIvY5n7qyoqAtbtXqO",
-          "document_id": "FEETB414",
-          "original_label": "FLOA Pay (bezúročné pro spotřebitele)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Merchant Fees",
-          "requested_url": "https://www.paypal.com/cz/business/paypal-business-fees",
-          "row_id": "b6sFiU23wWcdHO8zUbWDCK",
-          "row_index": 3,
-          "section_heading": "Tabulka poplatků : Přijímání vnitrostátních transakcí",
-          "table_id": "FeeTable::FEETB414::32"
+          "row_id": "5eEw333lLnhfjOCCeCABUK",
+          "row_index": 2,
+          "section_heading": "Tabulka poplatků: Seznam trhů/regionů",
+          "table_id": "FeeTable::FEETB356::1"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T07:28:07.761Z",
   "market": {

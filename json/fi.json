@@ -1,41 +1,417 @@
 {
   "derived": {
     "ambiguous_rows": [],
-    "fixed_fee_schedules": {},
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    "fixed_fee_schedules": {
+      "alternative_payment_methods": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4VqVOExsARuLhrOIYTkz8e",
+            "document_id": "FEETB612",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: VMT-tapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB612::21"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4VqVOExsARuLhrOIYTkz8e",
+            "document_id": "FEETB613",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: VMT-tapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB612::21"
+          }
+        ]
+      },
+      "commercial": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4Z668WXEitbdbNM1cwBMNM",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4Z668WXEitbdbNM1cwBMNM",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "71dHBcQEYq5UyCZddEI6xo",
+            "document_id": "FEETB29",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB29::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "71dHBcQEYq5UyCZddEI6xo",
+            "document_id": "FEETB307",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB29::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "324h5zdRig1EstUBglCWrv",
+            "document_id": "FEETB625",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB625::12"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "324h5zdRig1EstUBglCWrv",
+            "document_id": "FEETB626",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB625::12"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5eXQRhQiBTLnn9bZsWXFTB",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Hyväntekeväisyystapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB38::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5eXQRhQiBTLnn9bZsWXFTB",
+            "document_id": "FEETB279",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Hyväntekeväisyystapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB38::15"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4OHSqNIyvIw5XMr7vOy1PU",
+            "document_id": "FEETB618",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Mikromaksuja koskeva kiinteä palkkio",
+            "table_id": "FeeTable::FEETB618::36"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4OHSqNIyvIw5XMr7vOy1PU",
+            "document_id": "FEETB620",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Mikromaksuja koskeva kiinteä palkkio",
+            "table_id": "FeeTable::FEETB618::36"
+          }
+        ]
+      },
+      "online_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4bW5972f86hLabBs8iYECO",
+            "document_id": "FEETB617",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kiinteä palkkio PayPalin verkkokorttimaksupalvelutapahtumista (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB617::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4bW5972f86hLabBs8iYECO",
+            "document_id": "FEETB616",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kiinteä palkkio PayPalin verkkokorttimaksupalvelutapahtumista (vastaanotetun valuutan mukaan)",
+            "table_id": "FeeTable::FEETB617::26"
+          }
+        ]
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z4MN5fChzii7Zxk8phoYJ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kansainvälisten kaupallisten tapahtumien prosenttiperusteinen lisäpalkkio",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "d3ZfdQvquSEbmc8CfAsZhu",
+            "document_id": "FEETB950",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "section_heading": "Palkkiotaulukko: Kansainvälisten tapahtumien vastaanottaminen",
+            "table_id": "FeeTable::FEETB950::20"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
       {
         "conditions": {},
         "fixed_fee_schedule": "commercial",
-        "id": "paypal_checkout",
+        "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
-        "label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
-        "percentage": "3.4",
+        "label": "Kortilla rahoitettu maksu maksuehtojemme käyttäjältä,jolla ei ole PayPal-tiliä.",
+        "percentage": "1.9",
         "source": {
           "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
-          "document_id": "FEETB925",
-          "original_label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
+          "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+          "document_id": "FEETB16",
+          "original_label": "Kortilla rahoitettu maksu maksuehtojemme käyttäjältä,jolla ei ole PayPal-tiliä.",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
           "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "89RzGdom4NnfD0eFaXdIa1",
+          "row_id": "2d8ZpnmdWeZjlFjeYA2iSS",
           "row_index": 1,
-          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::33"
+          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+          "table_id": "FeeTable::FEETB16::1"
         }
-      }
-    ],
-    "unclassified_fee_rows": [
+      },
       {
-        "normalized_cells": [
-          "Kortti fyysisesti läsnä -tapahtumat",
-          "1,95 %"
-        ],
-        "original_label": "Kortti fyysisesti läsnä -tapahtumat",
-        "reason": "no product alias matched",
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Verkkopankki",
+        "percentage": "1.2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "FC88UYiB6uszdfnw04zpU",
+          "document_id": "FEETB30",
+          "original_label": "Verkkopankki",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "6RF72b4g5wViFHLtbUj2Vg",
+          "row_index": 0,
+          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
+          "table_id": "FeeTable::FEETB30::19"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Kotimaiset mikromaksut",
+        "percentage": "5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6RSyloQfqz7FS1SZWvRKgO",
+          "document_id": "FEETB66",
+          "original_label": "Kotimaiset mikromaksut",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "2UoO8ww5tBdNl395lgogzk",
+          "row_index": 0,
+          "section_heading": "Palkkiotaulukko: Mikromaksujen vastaanottaminen",
+          "table_id": "FeeTable::FEETB66::35"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "pay_later_consumer",
+        "international_surcharge_schedule": "commercial",
+        "label": "Vain Klarna",
+        "percentage": "2.99",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "FC88UYiB6uszdfnw04zpU",
+          "document_id": "FEETB30",
+          "original_label": "Vain Klarna",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "bgdiZcSwj5yd3YXY0UUWD2",
+          "row_index": 1,
+          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
+          "table_id": "FeeTable::FEETB30::19"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "pos_transactions",
+        "label": "Kortti fyysisesti läsnä -tapahtumat",
+        "percentage": "1.95",
         "source": {
           "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -48,32 +424,45 @@
           "row_id": "09Tqw7eEXapdjndWce8LoR",
           "row_index": 0,
           "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::33"
+          "table_id": "FeeTable::FEETB925::31"
         }
       },
       {
-        "normalized_cells": [
-          "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
-          "1,9 % + 0,35 EUR"
-        ],
-        "original_label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
-        "reason": "no product alias matched",
+        "conditions": {
+          "payment_methods": [
+            "thai_online_bank_transfer",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "skrill",
+            "ovo_premium",
+            "gopay",
+            "blik_pay_later",
+            "kredivo",
+            "floa_pay",
+            "scalapay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods_special",
+        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+        "percentage": "3.4",
         "source": {
           "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
-          "document_id": "FEETB925",
-          "original_label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
+          "component_id": "FC88UYiB6uszdfnw04zpU",
+          "document_id": "FEETB30",
+          "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
           "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "dhwQP37chfIeha2Hv0y3XF",
+          "row_id": "esBkDueYZlVab9whTeb1ew",
           "row_index": 2,
-          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::33"
+          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
+          "table_id": "FeeTable::FEETB30::19"
         }
       }
-    ]
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T09:22:17.810Z",
   "market": {

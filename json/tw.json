@@ -1,30 +1,165 @@
 {
   "derived": {
     "ambiguous_rows": [],
+    "currency_conversion": {
+      "spread_percentage": "4"
+    },
     "fixed_fee_schedules": {
       "commercial": {
-        "CHF": "0.55",
-        "GBP": "0.2",
-        "NOK": "2.8",
-        "NZD": "0.45",
-        "PHP": "15",
-        "PLN": "1.35",
-        "RUB": "10",
-        "SEK": "3.25",
-        "SGD": "0.5",
-        "THB": "11",
-        "TWD": "10",
-        "USD": "0.3"
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "386GxO8g5bkxAYNOfIGsLk",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "386GxO8g5bkxAYNOfIGsLk",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::2"
+          }
+        ]
+      },
+      "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5BjXGtWoshPEf2qTXtBy1A",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5BjXGtWoshPEf2qTXtBy1A",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ]
       }
     },
-    "international_surcharge_schedules": {},
-    "status": "partial",
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "4.4"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5xbmVAm4Aaa220zD6Ir8zX",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB91::1"
+          }
+        ]
+      }
+    },
+    "status": "complete",
     "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "paypal_checkout",
+        "international_surcharge_schedule": "commercial",
+        "label": "Transferring crypto to another PayPal or Venmo account",
+        "source": {
+          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7SKqsvZRkWJbCuDZzNk0KX",
+          "document_id": "FEETB987",
+          "original_label": "Transferring crypto to another PayPal or Venmo account",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "row_id": "ftRjdnJ0ZiiboudacY1fRS",
+          "row_index": 1,
+          "section_heading": "Fee Table: Transferring a cryptocurrency",
+          "table_id": "FeeTable::FEETB987::7"
+        }
+      },
       {
         "conditions": {},
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
-        "international_surcharge_schedule": "micropayments",
         "label": "International micropayments",
         "percentage": "6",
         "source": {
@@ -39,7 +174,50 @@
           "row_id": "BvmcpU34rGmdubR6gJ5eL",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving micropayments",
-          "table_id": "FeeTable::FEETB627::12"
+          "table_id": "FeeTable::FEETB627::10"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "refunds",
+        "international_surcharge_schedule": "commercial",
+        "label": "Commercial Transaction Refunds",
+        "source": {
+          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3JF4DqWjefA7kBqeoMrIed",
+          "document_id": "FEETB324",
+          "original_label": "Commercial Transaction Refunds",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "row_id": "2ZxdeT4Uyoskj979pJldXT",
+          "row_index": 2,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::25"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "withdrawals",
+        "international_surcharge_schedule": "commercial",
+        "label": "PayPal Payouts",
+        "percentage": "2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3K0WX6B9wBCExXjuORW8U6",
+          "document_id": "FEETB81",
+          "original_label": "PayPal Payouts",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "row_id": "1Rb6HxSnVTwaZE8d7kgooY",
+          "row_index": 0,
+          "section_heading": "Fee Table: Sending PayPal Payouts",
+          "table_id": "FeeTable::FEETB81::8"
         }
       }
     ],
