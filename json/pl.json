@@ -1,23 +1,81 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
-      {
-        "amount": "2",
-        "currency": "MYR"
-      }
-    ],
+    "ambiguous_rows": [],
     "currency_conversion": {
       "spread_percentage": "3"
     },
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
+    "fixed_fee_schedules": {},
+    "international_surcharge_schedules": {},
+    "status": "partial",
+    "transaction_fee_rules": [
       {
-        "percentage_points": "1.29",
-        "region": "GB"
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "international_surcharge_schedule": "alternative_payment_methods",
+        "label": "Alternatywna forma płatności (APM)",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
+          "document_id": "FEETB16",
+          "original_label": "Alternatywna forma płatności (APM)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "HU6mxH4YmQw3RqefIe0Gv",
+          "row_index": 0,
+          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB16::3"
+        }
       }
     ],
-    "status": "partial"
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
+          "1,90% + opłata stała"
+        ],
+        "original_label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
+          "document_id": "FEETB16",
+          "original_label": "Płatność kartą w ramach Warunków korzystania z płatności bez zakładania konta PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "23JRYWBOJByJD3yjDmDbvB",
+          "row_index": 1,
+          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Wszystkie inne transakcje komercyjne",
+          "2,90% + opłata stała"
+        ],
+        "original_label": "Wszystkie inne transakcje komercyjne",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "61Qgjk2ln52TEuv5Oc9Xuo",
+          "document_id": "FEETB16",
+          "original_label": "Wszystkie inne transakcje komercyjne",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Konto dla firm - opłaty za transakcje i usługi",
+          "requested_url": "https://www.paypal.com/pl/business/paypal-business-fees",
+          "row_id": "Kwfl8JJ2z4xwz0pS4S8SD",
+          "row_index": 2,
+          "section_heading": "Tabela opłat: Standardowa stawka za odbiór płatności w ramach transakcji krajowych",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      }
+    ]
   },
   "generated_at": "2025-09-25T09:24:27.212Z",
   "market": {
@@ -26,5 +84,5 @@
     "locale": "pl_PL",
     "paypal_market_code": "PL"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

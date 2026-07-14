@@ -1,0 +1,613 @@
+{
+  "$defs": {
+    "AmbiguousFeeRow": {
+      "additionalProperties": false,
+      "description": "A fee row with multiple equally confident product classifications.",
+      "properties": {
+        "candidates": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidates",
+          "type": "array"
+        },
+        "normalized_cells": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Normalized Cells",
+          "type": "array"
+        },
+        "original_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Label"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "AmbiguousFeeRow",
+      "type": "object"
+    },
+    "CurrencyConversion": {
+      "additionalProperties": false,
+      "description": "Currency conversion spread.",
+      "properties": {
+        "spread_percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spread Percentage"
+        }
+      },
+      "title": "CurrencyConversion",
+      "type": "object"
+    },
+    "DerivedFeeResult": {
+      "additionalProperties": false,
+      "description": "Derived product-specific fee rules, schedules, and diagnostics.",
+      "properties": {
+        "ambiguous_rows": {
+          "items": {
+            "$ref": "#/$defs/AmbiguousFeeRow"
+          },
+          "title": "Ambiguous Rows",
+          "type": "array"
+        },
+        "currency_conversion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CurrencyConversion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "fixed_fee_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/FixedFeeSchedule"
+          },
+          "title": "Fixed Fee Schedules",
+          "type": "object"
+        },
+        "international_surcharge_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/InternationalSurchargeSchedule"
+          },
+          "title": "International Surcharge Schedules",
+          "type": "object"
+        },
+        "status": {
+          "default": "unclassified",
+          "title": "Status",
+          "type": "string"
+        },
+        "transaction_fee_rules": {
+          "items": {
+            "$ref": "#/$defs/TransactionFeeRule"
+          },
+          "title": "Transaction Fee Rules",
+          "type": "array"
+        },
+        "unclassified_fee_rows": {
+          "items": {
+            "$ref": "#/$defs/UnclassifiedFeeRow"
+          },
+          "title": "Unclassified Fee Rows",
+          "type": "array"
+        }
+      },
+      "title": "DerivedFeeResult",
+      "type": "object"
+    },
+    "FixedFeeSchedule": {
+      "additionalProperties": true,
+      "description": "Fixed fees by received currency for a single product schedule.\n\nKeys are ISO 4217 currency codes and values are decimal strings.",
+      "properties": {},
+      "title": "FixedFeeSchedule",
+      "type": "object"
+    },
+    "InternationalSurchargeSchedule": {
+      "additionalProperties": false,
+      "description": "International surcharge schedule for a single product or product family.",
+      "properties": {
+        "entries": {
+          "items": {
+            "$ref": "#/$defs/InternationalSurchargeScheduleEntry"
+          },
+          "title": "Entries",
+          "type": "array"
+        }
+      },
+      "title": "InternationalSurchargeSchedule",
+      "type": "object"
+    },
+    "InternationalSurchargeScheduleEntry": {
+      "additionalProperties": false,
+      "description": "One region entry in an international surcharge schedule.",
+      "properties": {
+        "payer_region": {
+          "title": "Payer Region",
+          "type": "string"
+        },
+        "percentage_points": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage Points"
+        }
+      },
+      "required": [
+        "payer_region"
+      ],
+      "title": "InternationalSurchargeScheduleEntry",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "description": "Source metadata for a derived rule or schedule.",
+      "properties": {
+        "canonical_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Url"
+        },
+        "classifier_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Classifier Version"
+        },
+        "component_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Id"
+        },
+        "document_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Document Id"
+        },
+        "original_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Label"
+        },
+        "page_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Id"
+        },
+        "page_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Title"
+        },
+        "requested_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requested Url"
+        },
+        "row_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Id"
+        },
+        "row_index": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Index"
+        },
+        "section_heading": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Section Heading"
+        },
+        "table_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Table Id"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "PublicCoreFeeEntry": {
+      "additionalProperties": false,
+      "description": "A single country's confidently derived core fees (public).",
+      "properties": {
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
+          "type": "string"
+        },
+        "derived": {
+          "$ref": "#/$defs/DerivedFeeResult"
+        },
+        "derived_status": {
+          "title": "Derived Status",
+          "type": "string"
+        },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
+        },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paypal_market_code",
+        "derived_status",
+        "derived",
+        "country_code"
+      ],
+      "title": "PublicCoreFeeEntry",
+      "type": "object"
+    },
+    "RateReference": {
+      "additionalProperties": false,
+      "description": "Explicit reference from one fee row to another fee section or product.",
+      "properties": {
+        "reference": {
+          "title": "Reference",
+          "type": "string"
+        },
+        "resolved_rate": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResolvedRate"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "reference"
+      ],
+      "title": "RateReference",
+      "type": "object"
+    },
+    "ResolvedRate": {
+      "additionalProperties": false,
+      "description": "A fee rate resolved from a reference to another table or product.",
+      "properties": {
+        "fixed_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fixed Fee Schedule"
+        },
+        "international_surcharge_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "International Surcharge Schedule"
+        },
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        }
+      },
+      "title": "ResolvedRate",
+      "type": "object"
+    },
+    "TransactionFeeRule": {
+      "additionalProperties": false,
+      "description": "A single product-specific transaction fee rule.",
+      "properties": {
+        "conditions": {
+          "additionalProperties": true,
+          "title": "Conditions",
+          "type": "object"
+        },
+        "fixed_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fixed Fee Schedule"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "international_surcharge_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "International Surcharge Schedule"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        },
+        "rate_reference": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/RateReference"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "TransactionFeeRule",
+      "type": "object"
+    },
+    "UnclassifiedFeeRow": {
+      "additionalProperties": false,
+      "description": "A fee row that could not be confidently classified.",
+      "properties": {
+        "normalized_cells": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Normalized Cells",
+          "type": "array"
+        },
+        "original_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Label"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "UnclassifiedFeeRow",
+      "type": "object"
+    }
+  },
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/core-fees-v4.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Consolidated core fees across all countries.",
+  "properties": {
+    "countries": {
+      "items": {
+        "$ref": "#/$defs/PublicCoreFeeEntry"
+      },
+      "title": "Countries",
+      "type": "array"
+    },
+    "generated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Generated At"
+    },
+    "schema_version": {
+      "default": 4,
+      "title": "Schema Version",
+      "type": "integer"
+    }
+  },
+  "title": "CoreFees",
+  "type": "object"
+}

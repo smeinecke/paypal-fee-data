@@ -1,110 +1,79 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {},
+    "international_surcharge_schedules": {},
+    "status": "partial",
+    "transaction_fee_rules": [
       {
-        "amount": "0.3",
-        "currency": "AUD"
-      },
-      {
-        "amount": "0.6",
-        "currency": "BRL"
-      },
-      {
-        "amount": "0.3",
-        "currency": "CAD"
-      },
-      {
-        "amount": "0.55",
-        "currency": "CHF"
-      },
-      {
-        "amount": "10",
-        "currency": "CZK"
-      },
-      {
-        "amount": "2.6",
-        "currency": "DKK"
-      },
-      {
-        "amount": "0.35",
-        "currency": "EUR"
-      },
-      {
-        "amount": "0.2",
-        "currency": "GBP"
-      },
-      {
-        "amount": "2.35",
-        "currency": "HKD"
-      },
-      {
-        "amount": "90",
-        "currency": "HUF"
-      },
-      {
-        "amount": "1.2",
-        "currency": "ILS"
-      },
-      {
-        "amount": "40",
-        "currency": "JPY"
-      },
-      {
-        "amount": "4",
-        "currency": "MXN"
-      },
-      {
-        "amount": "2",
-        "currency": "MYR"
-      },
-      {
-        "amount": "2.8",
-        "currency": "NOK"
-      },
-      {
-        "amount": "0.45",
-        "currency": "NZD"
-      },
-      {
-        "amount": "15",
-        "currency": "PHP"
-      },
-      {
-        "amount": "1.35",
-        "currency": "PLN"
-      },
-      {
-        "amount": "10",
-        "currency": "RUB"
-      },
-      {
-        "amount": "3.25",
-        "currency": "SEK"
-      },
-      {
-        "amount": "0.5",
-        "currency": "SGD"
-      },
-      {
-        "amount": "11",
-        "currency": "THB"
-      },
-      {
-        "amount": "10",
-        "currency": "TWD"
-      },
-      {
-        "amount": "0.3",
-        "currency": "USD"
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "paypal_checkout",
+        "international_surcharge_schedule": "commercial",
+        "label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
+          "document_id": "FEETB925",
+          "original_label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "89RzGdom4NnfD0eFaXdIa1",
+          "row_index": 1,
+          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
+          "table_id": "FeeTable::FEETB925::33"
+        }
       }
     ],
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [],
-    "standard_commercial": {
-      "percentage": "3.4"
-    },
-    "status": "partial"
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "Kortti fyysisesti läsnä -tapahtumat",
+          "1,95 %"
+        ],
+        "original_label": "Kortti fyysisesti läsnä -tapahtumat",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
+          "document_id": "FEETB925",
+          "original_label": "Kortti fyysisesti läsnä -tapahtumat",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "09Tqw7eEXapdjndWce8LoR",
+          "row_index": 0,
+          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
+          "table_id": "FeeTable::FEETB925::33"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
+          "1,9 % + 0,35 EUR"
+        ],
+        "original_label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
+          "document_id": "FEETB925",
+          "original_label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+          "row_id": "dhwQP37chfIeha2Hv0y3XF",
+          "row_index": 2,
+          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
+          "table_id": "FeeTable::FEETB925::33"
+        }
+      }
+    ]
   },
   "generated_at": "2025-09-25T09:22:17.810Z",
   "market": {
@@ -113,5 +82,5 @@
     "locale": "fi_FI",
     "paypal_market_code": "FI"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

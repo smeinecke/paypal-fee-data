@@ -1,126 +1,116 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
-      {
-        "amount": "0.3",
-        "currency": "AUD"
-      },
-      {
-        "amount": "0.6",
-        "currency": "BRL"
-      },
-      {
-        "amount": "0.3",
-        "currency": "CAD"
-      },
-      {
-        "amount": "0.55",
-        "currency": "CHF"
-      },
-      {
-        "amount": "10",
-        "currency": "CZK"
-      },
-      {
-        "amount": "2.6",
-        "currency": "DKK"
-      },
-      {
-        "amount": "0.35",
-        "currency": "EUR"
-      },
-      {
-        "amount": "0.2",
-        "currency": "GBP"
-      },
-      {
-        "amount": "2.35",
-        "currency": "HKD"
-      },
-      {
-        "amount": "90",
-        "currency": "HUF"
-      },
-      {
-        "amount": "1.2",
-        "currency": "ILS"
-      },
-      {
-        "amount": "40",
-        "currency": "JPY"
-      },
-      {
-        "amount": "4",
-        "currency": "MXN"
-      },
-      {
-        "amount": "2",
-        "currency": "MYR"
-      },
-      {
-        "amount": "2.8",
-        "currency": "NOK"
-      },
-      {
-        "amount": "0.45",
-        "currency": "NZD"
-      },
-      {
-        "amount": "15",
-        "currency": "PHP"
-      },
-      {
-        "amount": "1.35",
-        "currency": "PLN"
-      },
-      {
-        "amount": "10",
-        "currency": "RUB"
-      },
-      {
-        "amount": "3.25",
-        "currency": "SEK"
-      },
-      {
-        "amount": "0.5",
-        "currency": "SGD"
-      },
-      {
-        "amount": "11",
-        "currency": "THB"
-      },
-      {
-        "amount": "10",
-        "currency": "TWD"
-      },
-      {
-        "amount": "0.3",
-        "currency": "USD"
-      }
-    ],
+    "ambiguous_rows": [],
     "currency_conversion": {
       "spread_percentage": "4"
     },
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
-      {
-        "percentage_points": "1.29",
-        "region": "EEA"
+    "fixed_fee_schedules": {
+      "commercial": {
+        "CHF": "0.05",
+        "GBP": "0.05",
+        "NOK": "0.47",
+        "NZD": "0.08",
+        "PHP": "2.5",
+        "PLN": "0.23",
+        "RUB": "1.5",
+        "SEK": "0.5",
+        "SGD": "0.08",
+        "THB": "1.8",
+        "TWD": "2",
+        "USD": "0.05"
       },
-      {
-        "percentage_points": "1.29",
-        "region": "GB"
+      "micropayments": {
+        "CHF": "0.09",
+        "GBP": "0.05",
+        "NOK": "0.47",
+        "NZD": "0.08",
+        "PHP": "2.5",
+        "PLN": "0.23",
+        "RUB": "2",
+        "SEK": "0.54",
+        "SGD": "0.08",
+        "THB": "1.8",
+        "TWD": "2",
+        "USD": "0.05"
       },
+      "nonprofit": {
+        "CHF": "0.55",
+        "GBP": "0.2",
+        "NOK": "2.8",
+        "NZD": "0.45",
+        "PHP": "15",
+        "PLN": "1.35",
+        "RUB": "10",
+        "SEK": "3.25",
+        "SGD": "0.5",
+        "THB": "11",
+        "TWD": "10",
+        "USD": "0.3"
+      }
+    },
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          }
+        ]
+      }
+    },
+    "status": "partial",
+    "transaction_fee_rules": [
       {
-        "percentage_points": "1.99",
-        "region": "OTHER"
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "international_surcharge_schedule": "micropayments",
+        "label": "Inländische Mikrozahlungen",
+        "percentage": "5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "40i6a0vuMqxTot7D3ozH7T",
+          "document_id": "FEETB395",
+          "original_label": "Inländische Mikrozahlungen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "14azzcOeQ89okzkDoutf7z",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Empfangen von Mikrozahlungen",
+          "table_id": "FeeTable::FEETB395::16"
+        }
       }
     ],
-    "standard_commercial": {
-      "percentage": "3.4"
-    },
-    "status": "complete"
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "Schweiz (CH)",
+          "1,90% + Festgebühr"
+        ],
+        "original_label": "Schweiz (CH)",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "xqoUe70jeGp2bENrMxIhH",
+          "document_id": "FEETB367",
+          "original_label": "Schweiz (CH)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "5YevuLY1I2sQOt3FHPoU5V",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen für gemeinnützige Organisationen",
+          "table_id": "FeeTable::FEETB367::11"
+        }
+      }
+    ]
   },
   "generated_at": "2025-09-25T02:08:12.168Z",
   "market": {
@@ -129,5 +119,5 @@
     "locale": "de_CH",
     "paypal_market_code": "CH"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

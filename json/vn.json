@@ -1,115 +1,49 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
-      {
-        "amount": "0.3",
-        "currency": "AUD"
-      },
-      {
-        "amount": "0.6",
-        "currency": "BRL"
-      },
-      {
-        "amount": "0.3",
-        "currency": "CAD"
-      },
-      {
-        "amount": "0.55",
-        "currency": "CHF"
-      },
-      {
-        "amount": "10",
-        "currency": "CZK"
-      },
-      {
-        "amount": "2.6",
-        "currency": "DKK"
-      },
-      {
-        "amount": "0.35",
-        "currency": "EUR"
-      },
-      {
-        "amount": "0.2",
-        "currency": "GBP"
-      },
-      {
-        "amount": "2.35",
-        "currency": "HKD"
-      },
-      {
-        "amount": "90",
-        "currency": "HUF"
-      },
-      {
-        "amount": "1.2",
-        "currency": "ILS"
-      },
-      {
-        "amount": "40",
-        "currency": "JPY"
-      },
-      {
-        "amount": "4",
-        "currency": "MXN"
-      },
-      {
-        "amount": "2",
-        "currency": "MYR"
-      },
-      {
-        "amount": "2.8",
-        "currency": "NOK"
-      },
-      {
-        "amount": "0.45",
-        "currency": "NZD"
-      },
-      {
-        "amount": "15",
-        "currency": "PHP"
-      },
-      {
-        "amount": "1.35",
-        "currency": "PLN"
-      },
-      {
-        "amount": "10",
-        "currency": "RUB"
-      },
-      {
-        "amount": "3.25",
-        "currency": "SEK"
-      },
-      {
-        "amount": "0.5",
-        "currency": "SGD"
-      },
-      {
-        "amount": "11",
-        "currency": "THB"
-      },
-      {
-        "amount": "10",
-        "currency": "TWD"
-      },
-      {
-        "amount": "0.3",
-        "currency": "USD"
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {
+      "commercial": {
+        "CHF": "0.55",
+        "GBP": "0.2",
+        "NOK": "2.8",
+        "NZD": "0.45",
+        "PHP": "15",
+        "PLN": "1.35",
+        "RUB": "10",
+        "SEK": "3.25",
+        "SGD": "0.5",
+        "THB": "11",
+        "TWD": "10",
+        "USD": "0.3"
       }
-    ],
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
-      {
-        "percentage_points": "4.4",
-        "region": "OTHER"
-      }
-    ],
-    "standard_commercial": {
-      "percentage": "2"
     },
-    "status": "partial"
+    "international_surcharge_schedules": {},
+    "status": "partial",
+    "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "international_surcharge_schedule": "micropayments",
+        "label": "Other International micropayments",
+        "percentage": "6",
+        "source": {
+          "canonical_url": "https://www.paypal.com/vn/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7626BEpepM4f2MelkejQP1",
+          "document_id": "FEETB638",
+          "original_label": "Other International micropayments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/vn/business/paypal-business-fees",
+          "row_id": "27gp0EKHmqpgIm4M63fsPB",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB638::8"
+        }
+      }
+    ],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-29T00:21:54.234Z",
   "market": {
@@ -118,5 +52,5 @@
     "locale": "en_VN",
     "paypal_market_code": "VN"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

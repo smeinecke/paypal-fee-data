@@ -1,126 +1,18 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
-      {
-        "amount": "0.3",
-        "currency": "AUD"
-      },
-      {
-        "amount": "0.6",
-        "currency": "BRL"
-      },
-      {
-        "amount": "0.3",
-        "currency": "CAD"
-      },
-      {
-        "amount": "0.55",
-        "currency": "CHF"
-      },
-      {
-        "amount": "10",
-        "currency": "CZK"
-      },
-      {
-        "amount": "2.6",
-        "currency": "DKK"
-      },
-      {
-        "amount": "0.35",
-        "currency": "EUR"
-      },
-      {
-        "amount": "0.2",
-        "currency": "GBP"
-      },
-      {
-        "amount": "2.35",
-        "currency": "HKD"
-      },
-      {
-        "amount": "90",
-        "currency": "HUF"
-      },
-      {
-        "amount": "1.2",
-        "currency": "ILS"
-      },
-      {
-        "amount": "40",
-        "currency": "JPY"
-      },
-      {
-        "amount": "4",
-        "currency": "MXN"
-      },
-      {
-        "amount": "2",
-        "currency": "MYR"
-      },
-      {
-        "amount": "2.8",
-        "currency": "NOK"
-      },
-      {
-        "amount": "0.45",
-        "currency": "NZD"
-      },
-      {
-        "amount": "15",
-        "currency": "PHP"
-      },
-      {
-        "amount": "1.35",
-        "currency": "PLN"
-      },
-      {
-        "amount": "10",
-        "currency": "RUB"
-      },
-      {
-        "amount": "3.25",
-        "currency": "SEK"
-      },
-      {
-        "amount": "0.5",
-        "currency": "SGD"
-      },
-      {
-        "amount": "11",
-        "currency": "THB"
-      },
-      {
-        "amount": "10",
-        "currency": "TWD"
-      },
-      {
-        "amount": "0.3",
-        "currency": "USD"
-      }
-    ],
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
-      {
-        "percentage_points": "3",
-        "region": "GB"
-      },
-      {
-        "percentage_points": "4.4",
-        "region": "OTHER"
-      }
-    ],
-    "standard_commercial": {
-      "percentage": "3.4"
-    },
-    "status": "partial"
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {},
+    "international_surcharge_schedules": {},
+    "status": "unclassified",
+    "transaction_fee_rules": [],
+    "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-24T06:39:14.254Z",
+  "generated_at": "2025-09-24T07:27:33.300Z",
   "market": {
     "country_name": "Comoros",
     "iso_country_code": "KM",
-    "locale": "en_KM",
+    "locale": "fr_KM",
     "paypal_market_code": "KM"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

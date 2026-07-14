@@ -1,18 +1,113 @@
 {
   "derived": {
-    "commercial_fixed_fees": [],
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {
+      "commercial": {
+        "AUD": "0.3",
+        "BRL": "0.6",
+        "CAD": "0.3",
+        "CHF": "0.55",
+        "CZK": "10",
+        "DKK": "2.6",
+        "EUR": "0.35",
+        "GBP": "0.2",
+        "HKD": "2.35",
+        "HUF": "90",
+        "ILS": "1.2",
+        "JPY": "40",
+        "MXN": "4",
+        "MYR": "2",
+        "NOK": "2.8",
+        "NZD": "0.45",
+        "PHP": "15",
+        "PLN": "1.35",
+        "RUB": "10",
+        "SEK": "3.25",
+        "SGD": "0.5",
+        "THB": "11",
+        "TWD": "10",
+        "USD": "0.3"
+      }
+    },
+    "international_surcharge_schedules": {
+      "online_card_payments": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "0.5"
+          }
+        ]
+      }
+    },
+    "status": "partial",
+    "transaction_fee_rules": [
       {
-        "percentage_points": "0.5",
-        "region": "OTHER"
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "online_card_payments",
+        "label": "Advanced Credit and Debit Card Payments",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4YJzT7m8vE494ITXPIycwx",
+          "document_id": "FEETB455",
+          "original_label": "Advanced Credit and Debit Card Payments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "5hfMnw6h2CBV5DBKZQy4HK",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+          "table_id": "FeeTable::FEETB455::6"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "international_surcharge_schedule": "micropayments",
+        "label": "Domestic micropayments",
+        "percentage": "5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7pbeBiXZFSckzMCimaLiMk",
+          "document_id": "FEETB66",
+          "original_label": "Domestic micropayments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "5DeGZHuM4iRHzMf6GUoFPU",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB66::12"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "chargebacks",
+        "international_surcharge_schedule": "online_card_payments",
+        "label": "Chargeback Protection Tools",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1CM2ZkLj4d8oOd94kvimDy",
+          "document_id": "FEETB873",
+          "original_label": "Chargeback Protection Tools",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "Xu0hwqEoDEIbc7mbBPhjli",
+          "row_index": 0,
+          "section_heading": "Fee Table:  Other fees for using PayPal Online Card Payment Services",
+          "table_id": "FeeTable::FEETB873::9"
+        }
       }
     ],
-    "standard_commercial": {
-      "percentage": "3.9"
-    },
-    "status": "partial"
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-24T08:00:34.079Z",
   "market": {
@@ -21,5 +116,5 @@
     "locale": "en_HK",
     "paypal_market_code": "HK"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

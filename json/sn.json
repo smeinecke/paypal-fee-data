@@ -1,119 +1,130 @@
 {
   "derived": {
-    "commercial_fixed_fees": [
-      {
-        "amount": "0.3",
-        "currency": "AUD"
-      },
-      {
-        "amount": "0.6",
-        "currency": "BRL"
-      },
-      {
-        "amount": "0.3",
-        "currency": "CAD"
-      },
-      {
-        "amount": "0.55",
-        "currency": "CHF"
-      },
-      {
-        "amount": "10",
-        "currency": "CZK"
-      },
-      {
-        "amount": "2.6",
-        "currency": "DKK"
-      },
-      {
-        "amount": "0.35",
-        "currency": "EUR"
-      },
-      {
-        "amount": "0.2",
-        "currency": "GBP"
-      },
-      {
-        "amount": "2.35",
-        "currency": "HKD"
-      },
-      {
-        "amount": "90",
-        "currency": "HUF"
-      },
-      {
-        "amount": "1.2",
-        "currency": "ILS"
-      },
-      {
-        "amount": "40",
-        "currency": "JPY"
-      },
-      {
-        "amount": "4",
-        "currency": "MXN"
-      },
-      {
-        "amount": "2",
-        "currency": "MYR"
-      },
-      {
-        "amount": "2.8",
-        "currency": "NOK"
-      },
-      {
-        "amount": "0.45",
-        "currency": "NZD"
-      },
-      {
-        "amount": "15",
-        "currency": "PHP"
-      },
-      {
-        "amount": "1.35",
-        "currency": "PLN"
-      },
-      {
-        "amount": "10",
-        "currency": "RUB"
-      },
-      {
-        "amount": "3.25",
-        "currency": "SEK"
-      },
-      {
-        "amount": "0.5",
-        "currency": "SGD"
-      },
-      {
-        "amount": "11",
-        "currency": "THB"
-      },
-      {
-        "amount": "10",
-        "currency": "TWD"
-      },
-      {
-        "amount": "0.3",
-        "currency": "USD"
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {
+      "commercial": {
+        "AED": "20",
+        "CHF": "6.5",
+        "CNY": "35",
+        "GBP": "3",
+        "IDR": "46000",
+        "KRW": "5830",
+        "KZT": "1887",
+        "LKR": "907",
+        "MNT": "13735",
+        "RSD": "530",
+        "RUB": "150",
+        "RWF": "5000",
+        "SAR": "19",
+        "SBD": "41",
+        "SCR": "68",
+        "SEK": "35",
+        "SGD": "8",
+        "SHP": "4",
+        "SOS": "2898",
+        "SRD": "37",
+        "STN": "110",
+        "THB": "200",
+        "TJS": "52",
+        "TMT": "20",
+        "TND": "13",
+        "TRY": "70",
+        "TTD": "34",
+        "TZS": "11520",
+        "UGX": "18388",
+        "USD": "5",
+        "UZS": "60000",
+        "VES": "30000000",
+        "VUV": "582",
+        "WST": "13",
+        "YER": "1252",
+        "ZMW": "107.5"
       }
-    ],
-    "currency_conversion_exposed": true,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [
-      {
-        "percentage_points": "3",
-        "region": "GB"
-      },
-      {
-        "percentage_points": "4.4",
-        "region": "OTHER"
-      }
-    ],
-    "standard_commercial": {
-      "percentage": "3.4"
     },
-    "status": "partial"
+    "international_surcharge_schedules": {
+      "commercial": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "1.29"
+          }
+        ]
+      }
+    },
+    "status": "partial",
+    "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "chargebacks",
+        "international_surcharge_schedule": "online_card_payments",
+        "label": "Chargeback Protection Tools",
+        "source": {
+          "canonical_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "f1u0v9gdQ9SdZuMIaOp7vb",
+          "document_id": "FEETB918",
+          "original_label": "Chargeback Protection Tools",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Businesses",
+          "requested_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "row_id": "WiPljgfZ2Fde9UUbqkgCyu",
+          "row_index": 0,
+          "section_heading": "Fee Table : Other fees for using PayPal Online Card Payment Services",
+          "table_id": "FeeTable::FEETB918::20"
+        }
+      }
+    ],
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "AG, AI, AN, AR, AW, BB, BM, BZ, CL, CO, CR, DM, DO, EC, FK, GD, GT, GY, HN, JM, KN, KY, LC, MS, NI, PA, PE, PY, SR, SV, TC, TT, UY, VC, VE, & VG",
+          "Domestic & International micropayments",
+          "6.50% + micropayments fixed fee",
+          ""
+        ],
+        "original_label": "AG, AI, AN, AR, AW, BB, BM, BZ, CL, CO, CR, DM, DO, EC, FK, GD, GT, GY, HN, JM, KN, KY, LC, MS, NI, PA, PE, PY, SR, SV, TC, TT, UY, VC, VE, & VG",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5uV7zStRspqXVec7MR4lIr",
+          "document_id": "FEETB66",
+          "original_label": "AG, AI, AN, AR, AW, BB, BM, BZ, CL, CO, CR, DM, DO, EC, FK, GD, GT, GY, HN, JM, KN, KY, LC, MS, NI, PA, PE, PY, SR, SV, TC, TT, UY, VC, VE, & VG",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Businesses",
+          "requested_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "row_id": "5X9B9jByGxqE4vCRKGHjll",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB66::29"
+        }
+      },
+      {
+        "normalized_cells": [
+          "ID & PH",
+          "International micropayments",
+          "6.00% + micropayments fixed fee",
+          ""
+        ],
+        "original_label": "ID & PH",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7JMgQRc4SrnzpsSganenLe",
+          "document_id": "FEETB148",
+          "original_label": "ID & PH",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Businesses",
+          "requested_url": "https://www.paypal.com/sn/business/paypal-business-fees",
+          "row_id": "6Y62vTVSjUvu3vTz1w568x",
+          "row_index": 2,
+          "section_heading": "Fee Table: Receiving micropayments for digital goods",
+          "table_id": "FeeTable::FEETB148::30"
+        }
+      }
+    ]
   },
   "generated_at": "2025-09-24T06:39:14.254Z",
   "market": {
@@ -122,5 +133,5 @@
     "locale": "en_SN",
     "paypal_market_code": "SN"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

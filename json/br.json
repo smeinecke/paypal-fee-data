@@ -1,10 +1,11 @@
 {
   "derived": {
-    "commercial_fixed_fees": [],
-    "currency_conversion_exposed": false,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [],
-    "status": "partial"
+    "ambiguous_rows": [],
+    "fixed_fee_schedules": {},
+    "international_surcharge_schedules": {},
+    "status": "unclassified",
+    "transaction_fee_rules": [],
+    "unclassified_fee_rows": []
   },
   "generated_at": "2025-09-25T01:26:47.467Z",
   "market": {
@@ -13,5 +14,5 @@
     "locale": "pt_BR",
     "paypal_market_code": "BR"
   },
-  "schema_version": 3
+  "schema_version": 4
 }

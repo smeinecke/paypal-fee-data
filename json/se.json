@@ -1,13 +1,377 @@
 {
   "derived": {
-    "commercial_fixed_fees": [],
-    "currency_conversion_exposed": false,
-    "international_surcharge_exposed": true,
-    "international_surcharges": [],
-    "standard_commercial": {
-      "percentage": "3.4"
-    },
-    "status": "partial"
+    "ambiguous_rows": [
+      {
+        "candidates": [
+          "invoice_pay_later",
+          "pay_later_consumer"
+        ],
+        "normalized_cells": [
+          "Banköverföring online från thailändsk bank, banköverföring online från lettisk bank, banköverföring online från litauisk bank, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (räntebärande för konsumenter)",
+          "5,49 % + fast avgift"
+        ],
+        "original_label": "Banköverföring online från thailändsk bank, banköverföring online från lettisk bank, banköverföring online från litauisk bank, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (räntebärande för konsumenter)",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5imFidSzLzjgOGVJdM0cgi",
+          "document_id": "FEETB24",
+          "original_label": "Banköverföring online från thailändsk bank, banköverföring online från lettisk bank, banköverföring online från litauisk bank, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (räntebärande för konsumenter)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "Vyt5VZLu6aibrhQhIMQzws",
+          "row_index": 3,
+          "section_heading": "Avgiftstabell: Ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB24::27"
+        }
+      }
+    ],
+    "fixed_fee_schedules": {},
+    "international_surcharge_schedules": {},
+    "status": "partial",
+    "transaction_fee_rules": [
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "paypal_checkout",
+        "international_surcharge_schedule": "commercial",
+        "label": "Betalningslänkar: PayPal Checkout, betala med Venmo, betala senare med PayPal eller PayPals gästbetalningar",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "VqQHrE22b9WdNZw94g5fxI",
+          "document_id": "FEETB927",
+          "original_label": "Betalningslänkar: PayPal Checkout, betala med Venmo, betala senare med PayPal eller PayPals gästbetalningar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "ekA7mMGDmRfd8HKunWaYAA",
+          "row_index": 2,
+          "section_heading": "Avgiftstabell: Standardavgift för mottagna transaktioner med PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB927::37"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "international_surcharge_schedule": "alternative_payment_methods",
+        "label": "Alternativ betalningsmetod (APM)",
+        "percentage": "1.9",
+        "rate_reference": {
+          "reference": "alternative_payment_methods",
+          "resolved_rate": {
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "international_surcharge_schedule": "alternative_payment_methods",
+            "percentage": "1.9"
+          }
+        },
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6rIkyDVQQ6GIGpKFRiURAo",
+          "document_id": "FEETB16",
+          "original_label": "Alternativ betalningsmetod (APM)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "58vIPssuJXDxWainZVOuyp",
+          "row_index": 0,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "Donation",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7JLfzvsUWfTATWPqdi0n1w",
+          "document_id": "FEETB320",
+          "original_label": "Donation",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "uXFDAOa7i8F18tlNzAgzO",
+          "row_index": 0,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska donationer",
+          "table_id": "FeeTable::FEETB320::18"
+        }
+      }
+    ],
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "Kortfinansierad betalning från en användare av våra Villkor för betalningar utan ett PayPal-konto",
+          "1,90 % + fast avgift"
+        ],
+        "original_label": "Kortfinansierad betalning från en användare av våra Villkor för betalningar utan ett PayPal-konto",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6rIkyDVQQ6GIGpKFRiURAo",
+          "document_id": "FEETB16",
+          "original_label": "Kortfinansierad betalning från en användare av våra Villkor för betalningar utan ett PayPal-konto",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "3Pzs69CIpM44dVUvu6hRbg",
+          "row_index": 1,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Transaktioner för QR-kod – 10,01 EUR och uppåt",
+          "0,90 % + fast avgift"
+        ],
+        "original_label": "Transaktioner för QR-kod – 10,01 EUR och uppåt",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6rIkyDVQQ6GIGpKFRiURAo",
+          "document_id": "FEETB16",
+          "original_label": "Transaktioner för QR-kod – 10,01 EUR och uppåt",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "5xgQuz4fCkktKxfqij8T0e",
+          "row_index": 2,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Transaktioner med QR-kod – 10,00 EUR och lägre",
+          "1,40 % + fast avgift"
+        ],
+        "original_label": "Transaktioner med QR-kod – 10,00 EUR och lägre",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6rIkyDVQQ6GIGpKFRiURAo",
+          "document_id": "FEETB16",
+          "original_label": "Transaktioner med QR-kod – 10,00 EUR och lägre",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "2K6vDQ0B9UaVX67q0Dtdin",
+          "row_index": 3,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Alla andra kommersiella transaktioner",
+          "3,40 % + fast avgift"
+        ],
+        "original_label": "Alla andra kommersiella transaktioner",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6rIkyDVQQ6GIGpKFRiURAo",
+          "document_id": "FEETB16",
+          "original_label": "Alla andra kommersiella transaktioner",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "1qmwSZTwp4fICVruoBMmAG",
+          "row_index": 4,
+          "section_heading": "Avgiftstabell: Standardtaxa för att ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Storbritannien",
+          "1,29 %"
+        ],
+        "original_label": "Storbritannien",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6MIOqjIVBp92ww09yJOla",
+          "document_id": "FEETB322",
+          "original_label": "Storbritannien",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "4PfIUX9gB4K6G8vvgdnQMk",
+          "row_index": 1,
+          "section_heading": "Avgiftstabell: Ytterligare procentbaserad avgift för internationella donationer",
+          "table_id": "FeeTable::FEETB322::19"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Alla andra marknader",
+          "1,99 %"
+        ],
+        "original_label": "Alla andra marknader",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6MIOqjIVBp92ww09yJOla",
+          "document_id": "FEETB322",
+          "original_label": "Alla andra marknader",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "7zzFXbi3k8UYQcPlRmpkGw",
+          "row_index": 2,
+          "section_heading": "Avgiftstabell: Ytterligare procentbaserad avgift för internationella donationer",
+          "table_id": "FeeTable::FEETB322::19"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Klarna",
+          "2,99 % + fast avgift"
+        ],
+        "original_label": "Klarna",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5imFidSzLzjgOGVJdM0cgi",
+          "document_id": "FEETB24",
+          "original_label": "Klarna",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "92zBqfcSgFNcmXGvkXdJZ9",
+          "row_index": 0,
+          "section_heading": "Avgiftstabell: Ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB24::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Swish",
+          "0,99 % + 3,25 SEK"
+        ],
+        "original_label": "Swish",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5imFidSzLzjgOGVJdM0cgi",
+          "document_id": "FEETB24",
+          "original_label": "Swish",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "3My9l5beMSceooUSbQ7SxU",
+          "row_index": 1,
+          "section_heading": "Avgiftstabell: Ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB24::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Twint, Doku Wallet, banköverföring från estnisk bank, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+          "3,4 % + fast avgift"
+        ],
+        "original_label": "Twint, Doku Wallet, banköverföring från estnisk bank, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5imFidSzLzjgOGVJdM0cgi",
+          "document_id": "FEETB24",
+          "original_label": "Twint, Doku Wallet, banköverföring från estnisk bank, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "2E91t0eBmwIakznBTrWJ8r",
+          "row_index": 2,
+          "section_heading": "Avgiftstabell: Ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB24::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "FLOA Pay (räntefritt för konsumenter)",
+          "6,5 % + fast avgift"
+        ],
+        "original_label": "FLOA Pay (räntefritt för konsumenter)",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5imFidSzLzjgOGVJdM0cgi",
+          "document_id": "FEETB24",
+          "original_label": "FLOA Pay (räntefritt för konsumenter)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "63fqqD4Z3GAbYW9C4rBFTF",
+          "row_index": 4,
+          "section_heading": "Avgiftstabell: Ta emot inhemska transaktioner",
+          "table_id": "FeeTable::FEETB24::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Aktuella korttransaktioner",
+          "1,85 %"
+        ],
+        "original_label": "Aktuella korttransaktioner",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "VqQHrE22b9WdNZw94g5fxI",
+          "document_id": "FEETB927",
+          "original_label": "Aktuella korttransaktioner",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "f5ScxvBdcUsdF4K2plHy8V",
+          "row_index": 0,
+          "section_heading": "Avgiftstabell: Standardavgift för mottagna transaktioner med PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB927::37"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Betalningslänkar: Standardbetalningar med kredit- och betalkort, Apple Pay eller andra e-plånböcker för tredje part",
+          "1,9 % + 3,25 SEK"
+        ],
+        "original_label": "Betalningslänkar: Standardbetalningar med kredit- och betalkort, Apple Pay eller andra e-plånböcker för tredje part",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "VqQHrE22b9WdNZw94g5fxI",
+          "document_id": "FEETB927",
+          "original_label": "Betalningslänkar: Standardbetalningar med kredit- och betalkort, Apple Pay eller andra e-plånböcker för tredje part",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals avgifter för företag – säljavgifter",
+          "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+          "row_id": "8zHdqy8jow4as29xSBVcsS",
+          "row_index": 3,
+          "section_heading": "Avgiftstabell: Standardavgift för mottagna transaktioner med PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB927::37"
+        }
+      }
+    ]
   },
   "generated_at": "2025-09-25T09:28:05.216Z",
   "market": {
@@ -16,5 +380,5 @@
     "locale": "sv_SE",
     "paypal_market_code": "SE"
   },
-  "schema_version": 3
+  "schema_version": 4
 }
