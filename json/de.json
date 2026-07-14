@@ -1,9 +1,63 @@
 {
+  "cms_updated_at": "2025-09-14T23:07:54.269Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 1,
+      "extracted_apm_methods": 6,
+      "fixed_fee_entries": 168,
+      "ignored": 68,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 16,
+      "missing_required_schedules": 0,
+      "reference_sources": 2,
+      "reference_targets": 2,
+      "transaction_rules": 23,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "diagnostics": [
+      {
+        "normalized_key": "EEA",
+        "schedule_id": "commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5SLocofm64ESkAACA3u4Ui",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Prozentuale Zusatzgebühr für internationale geschäftliche Transaktionen",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "eTkFXXTyk6YAwiM6Zh2ho",
+            "document_id": "FEETB382",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
+            "table_id": "FeeTable::FEETB382::4"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0",
+          "1.29"
+        ]
+      }
+    ],
     "fixed_fee_schedules": {
       "alternative_payment_methods": {
         "entries": {
@@ -370,6 +424,1570 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "SEPA-Lastschrift",
+          "0,35 EUR  pro Transaktion (Standardabrechnung)0,40 EUR  pro Transaktion (sofortige Abrechnung)"
+        ],
+        "original_label": "SEPA-Lastschrift",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5b2trexRFFnYVmvjH7Xv0V",
+          "document_id": "FEETB479",
+          "original_label": "SEPA-Lastschrift",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3JdwdBm7DmYGomOgyW447V",
+          "row_index": 3,
+          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+          "table_id": "FeeTable::FEETB479::30"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Sonstige Zahlungen",
+          "Es gelten die Gebühren für geschäftliche Transaktionen"
+        ],
+        "original_label": "Sonstige Zahlungen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5b2trexRFFnYVmvjH7Xv0V",
+          "document_id": "FEETB479",
+          "original_label": "Sonstige Zahlungen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "27C7SxJfG54SOVOOk7U0QB",
+          "row_index": 4,
+          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+          "table_id": "FeeTable::FEETB479::30"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Afghanischer Afghani",
+          "25 AFN",
+          "1.050 AFN"
+        ],
+        "original_label": "Afghanischer Afghani",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Afghanischer Afghani",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "14uF6YRtSGnaPuOqsQpYOd",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Armenischer Dram",
+          "135 AMD",
+          "4430 AMD"
+        ],
+        "original_label": "Armenischer Dram",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Armenischer Dram",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "YLkf1YdGLEU9Il1yrcmjh",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Australische Dollar",
+          "0,39 AUD",
+          "15 AUD"
+        ],
+        "original_label": "Australische Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Australische Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7C1ghyC6vy2Yn5cpM5G6t2",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Aserbaidschanischer Manat",
+          "0,49 AZN",
+          "19 AZN"
+        ],
+        "original_label": "Aserbaidschanischer Manat",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Aserbaidschanischer Manat",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5OcLYNJpjSdTD5oUwo93xV",
+          "row_index": 3,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Bahrainischer Dinar",
+          "0,09 BHD",
+          "4,29 BHD"
+        ],
+        "original_label": "Bahrainischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Bahrainischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "a07ztfrRskoj1GcW1gcjo",
+          "row_index": 4,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Bangladesch-Taka",
+          "22 BDT",
+          "880 BDT"
+        ],
+        "original_label": "Bangladesch-Taka",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Bangladesch-Taka",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4A39RViSesOxuttKX0npGF",
+          "row_index": 5,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Belizischer Dollar",
+          "0,59 BZD",
+          "23 BZD"
+        ],
+        "original_label": "Belizischer Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Belizischer Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "hCIE7Fg4JwgW0KBP4un5l",
+          "row_index": 6,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Bulgarischer Lew",
+          "0,49 BGN",
+          "19 BGN"
+        ],
+        "original_label": "Bulgarischer Lew",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Bulgarischer Lew",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "gaqPox40RMDX0ygXR6l1a",
+          "row_index": 7,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Kanadische Dollar",
+          "0,39 CAD",
+          "14,39 CAD"
+        ],
+        "original_label": "Kanadische Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Kanadische Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1qGJkjZ9Ya7AgnsE16fR1C",
+          "row_index": 8,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "CFA-Franc",
+          "164 XOF",
+          "6570 XOF"
+        ],
+        "original_label": "CFA-Franc",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "CFA-Franc",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "Oiw2X67ExWclKDvYMf4ZC",
+          "row_index": 9,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Tschechische Kronen",
+          "6,19 CZK",
+          "247 CZK"
+        ],
+        "original_label": "Tschechische Kronen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Tschechische Kronen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "39l3WpsFYkht9wlypgi7d3",
+          "row_index": 10,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dänische Kronen",
+          "1,89 DKK",
+          "74 DKK"
+        ],
+        "original_label": "Dänische Kronen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Dänische Kronen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3HzXY0tBMf1RYCOgu4lXFq",
+          "row_index": 11,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Eritreische Nakfa",
+          "3,75 ERN",
+          "150 ERN"
+        ],
+        "original_label": "Eritreische Nakfa",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Eritreische Nakfa",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "6iTBrfHaF3tE2agmOUhKYu",
+          "row_index": 12,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Euro",
+          "0,25 EUR",
+          "10 EUR"
+        ],
+        "original_label": "Euro",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Euro",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1dXow8FgRvdunhFLYN92lo",
+          "row_index": 13,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Ghanaischer Cedi",
+          "1,55 GHS",
+          "62,50 GHS"
+        ],
+        "original_label": "Ghanaischer Cedi",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Ghanaischer Cedi",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4bns5wzWxOkRXtm1H1DP2f",
+          "row_index": 14,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Haitianischer Gourde",
+          "25 HTG",
+          "1.000 HTG"
+        ],
+        "original_label": "Haitianischer Gourde",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Haitianischer Gourde",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1oTrPtFLNZEWmQMJ1cdU0r",
+          "row_index": 15,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Hongkong-Dollar",
+          "2,19 HKD",
+          "88 HKD"
+        ],
+        "original_label": "Hongkong-Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Hongkong-Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2yQceXRrCiW6tfKS5uJ7a9",
+          "row_index": 16,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Ungarische Forint",
+          "91 HUF",
+          "3654 HUF"
+        ],
+        "original_label": "Ungarische Forint",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Ungarische Forint",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2jj4RYM0OtScmaCIkvrOEz",
+          "row_index": 17,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Irakischer Dinar",
+          "365 IQD",
+          "14.500 IQD"
+        ],
+        "original_label": "Irakischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Irakischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "6DY1vDzNcXHc2FEb48d8lN",
+          "row_index": 18,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Israelische Schekel",
+          "0,89 ILS",
+          "35 ILS"
+        ],
+        "original_label": "Israelische Schekel",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Israelische Schekel",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3qibqOHGbaBbJV8yeYChc9",
+          "row_index": 19,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Japanische Yen",
+          "32 JPY",
+          "1304 JPY"
+        ],
+        "original_label": "Japanische Yen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Japanische Yen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "25mwGVQhH9zjmxTUBXYXdI",
+          "row_index": 20,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Jordanischer Dinar",
+          "0,19 JOD",
+          "7,99 JOD"
+        ],
+        "original_label": "Jordanischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Jordanischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2Vci1YLKAM4Z945mFuonco",
+          "row_index": 21,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Kuwaitischer Dinar",
+          "0,09 KWD",
+          "keine Höchstgebühr"
+        ],
+        "original_label": "Kuwaitischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Kuwaitischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4KagzXk1JpXUuy4YKum2Uu",
+          "row_index": 22,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Kirgisischer Som",
+          "24 KGS",
+          "955 KGS"
+        ],
+        "original_label": "Kirgisischer Som",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Kirgisischer Som",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1m0t2IWwLbUYRcsJ1U5ZVl",
+          "row_index": 23,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Libanesisches Pfund",
+          "380 LBP",
+          "15.250 LBP"
+        ],
+        "original_label": "Libanesisches Pfund",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Libanesisches Pfund",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5N0FfQ53hL0y1vpfnO5LDv",
+          "row_index": 24,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Lesothischer Loti",
+          "4 LSL",
+          "160 LSL"
+        ],
+        "original_label": "Lesothischer Loti",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Lesothischer Loti",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4Z5t55qXOi1Cii4wu9FWi7",
+          "row_index": 25,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Liberianischer Dollar",
+          "37,50 LRD",
+          "1.500 LRD"
+        ],
+        "original_label": "Liberianischer Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Liberianischer Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4svcKhOrl5bAN7pSZQp2nJ",
+          "row_index": 26,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Macau-Pataca",
+          "2 MOP",
+          "80 MOP"
+        ],
+        "original_label": "Macau-Pataca",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Macau-Pataca",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1wVwRGf5DlBwx1ljKxb4Yq",
+          "row_index": 27,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Malaysische Ringgit",
+          "1,19 MYR",
+          "47 MYR"
+        ],
+        "original_label": "Malaysische Ringgit",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Malaysische Ringgit",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "67aui5yW2GYWphLQsfmS59",
+          "row_index": 28,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Mauretanische Ouguiya",
+          "9 MRU",
+          "360 MRU"
+        ],
+        "original_label": "Mauretanische Ouguiya",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Mauretanische Ouguiya",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4xrFPNxFbFV7GjCO5JUA8Z",
+          "row_index": 29,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Mexikanische Pesos",
+          "5,79 MXN",
+          "231 MXN"
+        ],
+        "original_label": "Mexikanische Pesos",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Mexikanische Pesos",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "41zztZQqirMQeEOKAlPOFo",
+          "row_index": 30,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Mosambik-Metical",
+          "18 MZN",
+          "720 MZN"
+        ],
+        "original_label": "Mosambik-Metical",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Mosambik-Metical",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4SxHpGwNCWwsKlUTHcqmBB",
+          "row_index": 31,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Myanmarischer Kyat",
+          "450 MMK",
+          "18.000 MMK"
+        ],
+        "original_label": "Myanmarischer Kyat",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Myanmarischer Kyat",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5NvItLwf1zKwskYdl9xFcf",
+          "row_index": 32,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Neuseeland-Dollar",
+          "0,39 NZD",
+          "16 NZD"
+        ],
+        "original_label": "Neuseeland-Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Neuseeland-Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7CTrJxxaXDWa3YeSXXgUZF",
+          "row_index": 33,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Norwegische Kronen",
+          "2,49 NOK",
+          "99 NOK"
+        ],
+        "original_label": "Norwegische Kronen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Norwegische Kronen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3CvuokkgDJdWEMjGy3bZlF",
+          "row_index": 34,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Omanischer Rial",
+          "0,09 OMR",
+          "4,39 OMR"
+        ],
+        "original_label": "Omanischer Rial",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Omanischer Rial",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2xKsNVzETfgbpBbFv91XCs",
+          "row_index": 35,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Pakistanische Rupie",
+          "45 PKR",
+          "1.800 PKR"
+        ],
+        "original_label": "Pakistanische Rupie",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Pakistanische Rupie",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "iWyP0DaK68WqySswRq9M3",
+          "row_index": 36,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Philippinische Peso",
+          "14 PHP",
+          "577 PHP"
+        ],
+        "original_label": "Philippinische Peso",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Philippinische Peso",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "tMf9PlOxErXbpzAKchsWd",
+          "row_index": 37,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Polnische Zloty",
+          "1,09 PLN",
+          "45 PLN"
+        ],
+        "original_label": "Polnische Zloty",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Polnische Zloty",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5q9JspIbqXbHe95cFhsqi3",
+          "row_index": 38,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Katar-Rial",
+          "0,99 QAR",
+          "40 QAR"
+        ],
+        "original_label": "Katar-Rial",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Katar-Rial",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3KBkuXUeHvntgemdq2Iwjp",
+          "row_index": 39,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Rumänischer Leu",
+          "1,19 RON",
+          "49 RON"
+        ],
+        "original_label": "Rumänischer Leu",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Rumänischer Leu",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7eSByNWI59EqWHlvMBrMd2",
+          "row_index": 40,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Russische Rubel",
+          "21 RUB",
+          "849 RUB"
+        ],
+        "original_label": "Russische Rubel",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Russische Rubel",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1gtENVLZLtlk6BocpWbehq",
+          "row_index": 41,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Ruandischer Franc",
+          "282 RWF",
+          "11,300 RWF"
+        ],
+        "original_label": "Ruandischer Franc",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Ruandischer Franc",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2jmeg899aVpGLhdZCux1RK",
+          "row_index": 42,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Salvadorianischer Colón",
+          "2,25 SVC",
+          "90 SVC"
+        ],
+        "original_label": "Salvadorianischer Colón",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Salvadorianischer Colón",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "j6I5WRbPM80ulflArszHH",
+          "row_index": 43,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "São Tomé und Príncipe Dobra",
+          "5,50 STN",
+          "220 STN"
+        ],
+        "original_label": "São Tomé und Príncipe Dobra",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "São Tomé und Príncipe Dobra",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "6ngysRYdtDJGAIzarevNGD",
+          "row_index": 44,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Serbischer Dinar",
+          "30 RSD",
+          "1172 RSD"
+        ],
+        "original_label": "Serbischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Serbischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "xwPCeamjVn74jJfYBhghP",
+          "row_index": 45,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Singapur-Dollar",
+          "0,39 SGD",
+          "15 SGD"
+        ],
+        "original_label": "Singapur-Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Singapur-Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4cc7TsA1m7UfCWNGz6091r",
+          "row_index": 46,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Südafrikanischer Rand",
+          "4,49 ZAR",
+          "180 ZAR"
+        ],
+        "original_label": "Südafrikanischer Rand",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Südafrikanischer Rand",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "4joVYYCJZ30NqK1Vwi6ia4",
+          "row_index": 47,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Sri-Lanka-Rupie",
+          "57 LKR",
+          "2280 LKR"
+        ],
+        "original_label": "Sri-Lanka-Rupie",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Sri-Lanka-Rupie",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "3Av619s7ZkvZxqkhlLfT3A",
+          "row_index": 48,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Schwedische Kronen",
+          "2,59 SEK",
+          "102 SEK"
+        ],
+        "original_label": "Schwedische Kronen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Schwedische Kronen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2SUcwxAu8SSeaZuXCAonL6",
+          "row_index": 49,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Thailändische Baht",
+          "9,39 THB",
+          "376 THB"
+        ],
+        "original_label": "Thailändische Baht",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Thailändische Baht",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "27xYzJNVVZ12qVx9gPkY6C",
+          "row_index": 50,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Tunesischer Dinar",
+          "0,79 TND",
+          "32 TND"
+        ],
+        "original_label": "Tunesischer Dinar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Tunesischer Dinar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1XaqetfwfrxLBAcK6kfz9n",
+          "row_index": 51,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Türkische Lira",
+          "3,50 TRY",
+          "140 TRY"
+        ],
+        "original_label": "Türkische Lira",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Türkische Lira",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1LovY9XQIJI0Ovf3Dj94sp",
+          "row_index": 52,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Turkmenistan-Manat",
+          "1 TMT",
+          "40 TMT"
+        ],
+        "original_label": "Turkmenistan-Manat",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Turkmenistan-Manat",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7x28p5uO6Pw8LDfRTjILLL",
+          "row_index": 53,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Uganda-Schilling",
+          "1008 UGX",
+          "40,357 UGX"
+        ],
+        "original_label": "Uganda-Schilling",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Uganda-Schilling",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2sNy83mSCDBWZTZxq05k4P",
+          "row_index": 54,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "VAE-Dirham",
+          "0,99 AED",
+          "40 AED"
+        ],
+        "original_label": "VAE-Dirham",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "VAE-Dirham",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1kr9iULuUlyVq1Mk0GCBPw",
+          "row_index": 55,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Britisches Pfund",
+          "0,19 GBP",
+          "8 GBP"
+        ],
+        "original_label": "Britisches Pfund",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Britisches Pfund",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7xs9FDm0ZrExFaKFP2Ps6B",
+          "row_index": 56,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "US-Dollar",
+          "0,29 USD",
+          "11 USD"
+        ],
+        "original_label": "US-Dollar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "US-Dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "2iLHjK8PWCBSxKEXy0DlpM",
+          "row_index": 57,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Usbekistan-Som",
+          "3.000 UZS",
+          "120.000 UZS"
+        ],
+        "original_label": "Usbekistan-Som",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Usbekistan-Som",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1wGLlvb5ddmcEsVjLSh7qG",
+          "row_index": 58,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Venezolanischer Bolivar",
+          "1,29 VES",
+          "52 VES"
+        ],
+        "original_label": "Venezolanischer Bolivar",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Venezolanischer Bolivar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "63JVFcpYon14nrNAhSubh7",
+          "row_index": 59,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Sambischer Kwacha",
+          "4,69 ZMW",
+          "189 ZMW"
+        ],
+        "original_label": "Sambischer Kwacha",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Sambischer Kwacha",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "1dujMJImdbg4sllkIu6fez",
+          "row_index": 60,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+          "Diese Gebühr wird berechnet, wenn eine Entnahme/Abbuchung von PayPal fehlschlägt, da falsche Bankkontoinformationen oder Lieferdaten angegeben wurden.",
+          "PayPal erhebt eine Gebühr in Höhe des Betrags, der PayPal von Ihrem Kreditinstitut in Rechnung gestellt wird."
+        ],
+        "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7x5JkeQhToAHB0HIpCwLs9",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Kredit- und Debitkarte",
+          "Rückbuchungen oder fehlgeschlagene Lastschriftzahlungen",
+          "PayPal erhebt eine Gebühr in Höhe des Betrags, der PayPal von Ihrem Kreditinstitut in Rechnung gestellt wird."
+        ],
+        "original_label": "Kredit- und Debitkarte",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "Kredit- und Debitkarte",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "w0ONfIFJpZ2chhW15MQK5",
+          "row_index": 3,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Inaktive PayPal-Konten",
+          "Als Inaktivitätsgebühr wird die niedrigere der nachstehend aufgeführten Gebühren oder das in Ihrem Konto verbliebene Guthaben berechnet.",
+          "Weitere Informationen finden Sie in der folgenden Gebührentabelle für inaktive PayPal-Konten."
+        ],
+        "original_label": "Inaktive PayPal-Konten",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "Inaktive PayPal-Konten",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "6qioZTgdX5qUKuLTqlydiM",
+          "row_index": 4,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Anforderung von Unterlagen",
+          "Diese Gebühr gilt für Anforderungen von Informationen im Zusammenhang mit dem Rechtfertigungsgrund für die Ablehnung Ihres Zahlungsauftrags. Wir berechnen keine Dokumentengebühr für Unterlagen, die im Zusammenhang mit gutgläubigen Meldungen zu einem Fehler in Ihrem PayPal-Konto angefordert werden.",
+          "12,00 EUR (pro Artikel)"
+        ],
+        "original_label": "Anforderung von Unterlagen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "Anforderung von Unterlagen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5IeoqNZbuIhVW6UGTdOCkY",
+          "row_index": 5,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      },
+      {
+        "normalized_cells": [
+          "DE Business Debit Card – BargeldabbuchungDie Nutzung der DE Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der DE PayPal Business Debit Mastercard durch Sie.",
+          "Diese Gebühr gilt für Bargeldabhebungen an einem Geldautomat (innerhalb und außerhalb Deutschlands). Der Geldautomatenanbieter kann zusätzliche Gebühren erheben.",
+          "2,00 EUR (pro Transaktion)"
+        ],
+        "original_label": "DE Business Debit Card – BargeldabbuchungDie Nutzung der DE Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der DE PayPal Business Debit Mastercard durch Sie.",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "DE Business Debit Card – BargeldabbuchungDie Nutzung der DE Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der DE PayPal Business Debit Mastercard durch Sie.",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5IpQjPM4gcJKxMSAwH8iZS",
+          "row_index": 6,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -515,7 +2133,7 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
@@ -574,6 +2192,7 @@
             "fixed_fee_schedule": "online_card_payments",
             "international_surcharge_schedule": "commercial",
             "percentage": "2.99",
+            "rule_id": "advanced_card_payments",
             "source": {
               "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
               "classifier_version": "rules-v1",
@@ -621,6 +2240,71 @@
       },
       {
         "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen (Spenden)",
+        "percentage": "2.49",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5b2trexRFFnYVmvjH7Xv0V",
+          "document_id": "FEETB479",
+          "original_label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen (Spenden)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7nz5N3WV8QnS4qtXRwazi6",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+          "table_id": "FeeTable::FEETB479::30"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "eTerminal-Zahlungen",
+        "percentage": "3.39",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5b2trexRFFnYVmvjH7Xv0V",
+          "document_id": "FEETB479",
+          "original_label": "eTerminal-Zahlungen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "0PfHwbfHyNrcBcxyCYbNv6",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+          "table_id": "FeeTable::FEETB479::30"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Alle anderen Währungen",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1PlmfmTATBTVLyGXFSM97m",
+          "document_id": "FEETB546",
+          "original_label": "Alle anderen Währungen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "5feP6LJib3dt7ApuA9fMbm",
+          "row_index": 61,
+          "section_heading": "Gebührentabelle: Mindest- und Höchstgebühren",
+          "table_id": "FeeTable::FEETB546::54"
+        }
+      },
+      {
+        "conditions": {},
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -652,6 +2336,7 @@
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
             "percentage": "2.99",
+            "rule_id": "alternative_payment_methods",
             "source": {
               "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
               "classifier_version": "rules-v1",
@@ -695,7 +2380,39 @@
           "row_index": 1,
           "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandstransaktionen",
           "table_id": "FeeTable::FEETB16::1"
-        }
+        },
+        "variant_id": "default"
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "gopay",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "ovo_premium",
+            "skrill",
+            "thai_online_bank_transfer"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
+        "percentage": "5.49",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5d5LpUG29eqRwWktmzAyG6",
+          "document_id": "FEETB421",
+          "original_label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "YTrd81sCEtadjVr8R5gmZH",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB421::25"
+        },
+        "variant_id": "special"
       },
       {
         "conditions": {},
@@ -743,6 +2460,27 @@
       },
       {
         "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "invoice_pay_later",
+        "international_surcharge_schedule": "commercial",
+        "label": "Rechnungskauf mit Ratepay - Rückzahlung",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "57DcVloAmp3VtoPuAhgOgt",
+          "document_id": "FEETB560",
+          "original_label": "Rechnungskauf mit Ratepay - Rückzahlung",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "jFO776codnmiMCF1X1e4M",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB560::56"
+        }
+      },
+      {
+        "conditions": {},
         "id": "qr_code_payments",
         "international_surcharge_schedule": "commercial",
         "label": "QR-Code-Transaktionen",
@@ -760,6 +2498,47 @@
           "row_index": 4,
           "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandstransaktionen",
           "table_id": "FeeTable::FEETB16::1"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "qr_code_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "QR-Code-Transaktionen",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "73nsZXEoxkvCGBZZeEw83o",
+          "document_id": "FEETB417",
+          "original_label": "QR-Code-Transaktionen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "7qsmz3gGNggIL1yoPTRsfb",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen für gemeinnützige Organisationen",
+          "table_id": "FeeTable::FEETB417::19"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "PayPal-Spendenaktionen (nicht aufgeführte Spendenaktionen)",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "582lharmhPWZ37ymaVR8y5",
+          "document_id": "FEETB391",
+          "original_label": "PayPal-Spendenaktionen (nicht aufgeführte Spendenaktionen)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "6wDSwexdaOPMUR8hQnmW0W",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
+          "table_id": "FeeTable::FEETB391::13"
         }
       },
       {
@@ -831,9 +2610,7 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "online_card_payments",
         "id": "chargebacks",
-        "international_surcharge_schedule": "commercial",
         "label": "Rückabwicklung geschäftlicher Transaktionen",
         "source": {
           "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
@@ -875,6 +2652,26 @@
       {
         "conditions": {},
         "id": "pos_transactions",
+        "label": "Manuelle Karteneingabetransaktion *(* sofern der Service verfügbar ist)",
+        "percentage": "2.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "cgLyFxG7xK2chg0VKX0MYr",
+          "document_id": "FEETB893",
+          "original_label": "Manuelle Karteneingabetransaktion *(* sofern der Service verfügbar ist)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "VrntqOzlHpwaxSvcasY9sd",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Standardgebühren für den Empfang von Transaktionen mit PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB893::36"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "pos_transactions",
         "label": "Transaktionen mit präsenter Karte",
         "percentage": "1.39",
         "source": {
@@ -893,48 +2690,35 @@
         }
       },
       {
-        "conditions": {
-          "payment_methods": [
-            "thai_online_bank_transfer",
-            "latvian_online_bank_transfer",
-            "lithuanian_online_bank_transfer",
-            "skrill",
-            "ovo_premium",
-            "gopay",
-            "blik_pay_later",
-            "kredivo",
-            "floa_pay",
-            "scalapay"
-          ]
-        },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods_special",
-        "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
-        "percentage": "5.49",
+        "conditions": {},
+        "id": "pos_transactions",
+        "label": "Zahlungslinks: Standard-Kredit- und Debitkartenzahlungen, Apple Pay oder andere Wallets von Drittanbietern",
+        "percentage": "2.99",
         "source": {
           "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "5d5LpUG29eqRwWktmzAyG6",
-          "document_id": "FEETB421",
-          "original_label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
+          "component_id": "cgLyFxG7xK2chg0VKX0MYr",
+          "document_id": "FEETB893",
+          "original_label": "Zahlungslinks: Standard-Kredit- und Debitkartenzahlungen, Apple Pay oder andere Wallets von Drittanbietern",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Händler - und Verkäufergebühren",
           "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
-          "row_id": "YTrd81sCEtadjVr8R5gmZH",
-          "row_index": 0,
-          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB421::25"
+          "row_id": "5MTureqIMalcDiM2sTn3A7",
+          "row_index": 3,
+          "section_heading": "Gebührentabelle: Standardgebühren für den Empfang von Transaktionen mit PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB893::36"
         }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-14T23:07:54.269Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Germany",
     "iso_country_code": "DE",
     "locale": "de_DE",
     "paypal_market_code": "DE"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-14T23:07:54.269Z"
 }

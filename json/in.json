@@ -1,9 +1,28 @@
 {
+  "cms_updated_at": "2025-09-24T08:08:14.769Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 0,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 50,
+      "ignored": 0,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 1,
+      "missing_required_schedules": 0,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 3,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "diagnostics": [],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
@@ -112,6 +131,7 @@
         ]
       }
     },
+    "ignored_rows": [],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -160,9 +180,7 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "refunds",
-        "international_surcharge_schedule": "commercial",
         "label": "Commercial Transaction Refunds",
         "source": {
           "canonical_url": "https://www.paypal.com/in/business/paypal-business-fees",
@@ -181,9 +199,7 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "withdrawals",
-        "international_surcharge_schedule": "commercial",
         "label": "Bank Return on Withdrawal/Transfer out of PayPal",
         "source": {
           "canonical_url": "https://www.paypal.com/in/business/paypal-business-fees",
@@ -203,12 +219,13 @@
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-24T08:08:14.769Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "India",
     "iso_country_code": "IN",
     "locale": "en_IN",
     "paypal_market_code": "IN"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-24T08:08:14.769Z"
 }

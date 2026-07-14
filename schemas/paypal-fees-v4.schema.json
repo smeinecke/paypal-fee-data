@@ -45,6 +45,84 @@
       "title": "AmbiguousFeeRow",
       "type": "object"
     },
+    "CoverageSummary": {
+      "additionalProperties": false,
+      "description": "Summary of how every source row was classified.",
+      "properties": {
+        "ambiguous": {
+          "default": 0,
+          "title": "Ambiguous",
+          "type": "integer"
+        },
+        "conflicts": {
+          "default": 0,
+          "title": "Conflicts",
+          "type": "integer"
+        },
+        "extracted_apm_methods": {
+          "default": 0,
+          "title": "Extracted Apm Methods",
+          "type": "integer"
+        },
+        "fixed_fee_entries": {
+          "default": 0,
+          "title": "Fixed Fee Entries",
+          "type": "integer"
+        },
+        "ignored": {
+          "default": 0,
+          "title": "Ignored",
+          "type": "integer"
+        },
+        "inherited_schedules": {
+          "default": 0,
+          "title": "Inherited Schedules",
+          "type": "integer"
+        },
+        "international_surcharge_entries": {
+          "default": 0,
+          "title": "International Surcharge Entries",
+          "type": "integer"
+        },
+        "missing_required_schedules": {
+          "default": 0,
+          "title": "Missing Required Schedules",
+          "type": "integer"
+        },
+        "reference_sources": {
+          "default": 0,
+          "title": "Reference Sources",
+          "type": "integer"
+        },
+        "reference_targets": {
+          "default": 0,
+          "title": "Reference Targets",
+          "type": "integer"
+        },
+        "transaction_rules": {
+          "default": 0,
+          "title": "Transaction Rules",
+          "type": "integer"
+        },
+        "unclassified": {
+          "default": 0,
+          "title": "Unclassified",
+          "type": "integer"
+        },
+        "unknown_apm_methods": {
+          "default": 0,
+          "title": "Unknown Apm Methods",
+          "type": "integer"
+        },
+        "unresolved_references": {
+          "default": 0,
+          "title": "Unresolved References",
+          "type": "integer"
+        }
+      },
+      "title": "CoverageSummary",
+      "type": "object"
+    },
     "CurrencyConversion": {
       "additionalProperties": false,
       "description": "Currency conversion spread.",
@@ -76,6 +154,17 @@
           "title": "Ambiguous Rows",
           "type": "array"
         },
+        "coverage_summary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CoverageSummary"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "currency_conversion": {
           "anyOf": [
             {
@@ -87,12 +176,26 @@
           ],
           "default": null
         },
+        "diagnostics": {
+          "items": {
+            "$ref": "#/$defs/Diagnostic"
+          },
+          "title": "Diagnostics",
+          "type": "array"
+        },
         "fixed_fee_schedules": {
           "additionalProperties": {
             "$ref": "#/$defs/FixedFeeSchedule"
           },
           "title": "Fixed Fee Schedules",
           "type": "object"
+        },
+        "ignored_rows": {
+          "items": {
+            "$ref": "#/$defs/UnclassifiedFeeRow"
+          },
+          "title": "Ignored Rows",
+          "type": "array"
         },
         "international_surcharge_schedules": {
           "additionalProperties": {
@@ -122,6 +225,151 @@
         }
       },
       "title": "DerivedFeeResult",
+      "type": "object"
+    },
+    "Diagnostic": {
+      "additionalProperties": false,
+      "description": "A structured classifier diagnostic.\n\nDiagnostics capture data-quality events such as missing schedules, schedule\nconflicts, or unrecognized payment-method aliases. The meaning of a\ndiagnostic is determined by ``type``; only the relevant fields are populated.",
+      "properties": {
+        "expected_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expected Schedule"
+        },
+        "inherited_from": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inherited From"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "message": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Message"
+        },
+        "normalized_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Normalized Key"
+        },
+        "payment_method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Payment Method"
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
+        "schedule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Schedule Id"
+        },
+        "schedule_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Schedule Type"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "values": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Values"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "Diagnostic",
       "type": "object"
     },
     "FixedFeeSchedule": {
@@ -468,6 +716,18 @@
           "default": null,
           "title": "Percentage"
         },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
         "source": {
           "anyOf": [
             {
@@ -485,7 +745,7 @@
     },
     "TransactionFeeRule": {
       "additionalProperties": false,
-      "description": "A single product-specific transaction fee rule.",
+      "description": "A single product-specific transaction fee rule.\n\n``id`` identifies the payment product family. ``variant_id`` distinguishes\nmultiple legitimate pricing variants for the same product (e.g. special\nversus default alternative payment methods). Both fields participate in\nthe stable rule identity key.",
       "properties": {
         "conditions": {
           "additionalProperties": true,
@@ -565,6 +825,18 @@
             }
           ],
           "default": null
+        },
+        "variant_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variant Id"
         }
       },
       "required": [
@@ -629,6 +901,30 @@
   "additionalProperties": false,
   "description": "Compact public consumer-facing country fee result.",
   "properties": {
+    "cms_updated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cms Updated At"
+    },
+    "crawled_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Crawled At"
+    },
     "derived": {
       "$ref": "#/$defs/DerivedFeeResult"
     },
@@ -651,6 +947,18 @@
       "default": 4,
       "title": "Schema Version",
       "type": "integer"
+    },
+    "source_updated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Updated At"
     }
   },
   "required": [

@@ -1,9 +1,3104 @@
 {
+  "cms_updated_at": "2025-09-24T08:03:57.036Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 50,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 120,
+      "ignored": 3,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 3,
+      "missing_required_schedules": 1,
+      "reference_sources": 1,
+      "reference_targets": 1,
+      "transaction_rules": 12,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "diagnostics": [
+      {
+        "normalized_key": "EEA",
+        "schedule_id": "commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "76K0jy342DRXdDgz9nYYCG",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7zGxBnyIdLSpP5wwASd0D2",
+            "document_id": "FEETB114",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Feetable: Additional service charges for recipients of UK based international commercial transactions",
+            "table_id": "FeeTable::FEETB114::3"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0",
+          "1.29"
+        ]
+      },
+      {
+        "normalized_key": "AUD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "BRL",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.6",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "CAD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "CZK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "DKK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.6",
+          "0.7"
+        ]
+      },
+      {
+        "normalized_key": "EUR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.35",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "HKD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.35",
+          "0.8"
+        ]
+      },
+      {
+        "normalized_key": "HUF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "90",
+          "30"
+        ]
+      },
+      {
+        "normalized_key": "ILS",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.2",
+          "0.4"
+        ]
+      },
+      {
+        "normalized_key": "JPY",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "40",
+          "12"
+        ]
+      },
+      {
+        "normalized_key": "MYR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2",
+          "0.7"
+        ]
+      },
+      {
+        "normalized_key": "MXN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "4",
+          "2"
+        ]
+      },
+      {
+        "normalized_key": "TWD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "NZD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.45",
+          "0.15"
+        ]
+      },
+      {
+        "normalized_key": "NOK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.8",
+          "1"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "5"
+        ]
+      },
+      {
+        "normalized_key": "PLN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.35",
+          "0.5"
+        ]
+      },
+      {
+        "normalized_key": "RUB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "SGD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.5",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "SEK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "3.25",
+          "1"
+        ]
+      },
+      {
+        "normalized_key": "CHF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.55",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "THB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "11",
+          "4"
+        ]
+      },
+      {
+        "normalized_key": "GBP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "USD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "AUD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "BRL",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.6",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "CAD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "CZK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.5"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "2.5"
+        ]
+      },
+      {
+        "normalized_key": "DKK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.6",
+          "0.35"
+        ]
+      },
+      {
+        "normalized_key": "EUR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.35",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "HKD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.35",
+          "0.39"
+        ]
+      },
+      {
+        "normalized_key": "HUF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "90",
+          "15"
+        ]
+      },
+      {
+        "normalized_key": "ILS",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "JPY",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "40",
+          "6"
+        ]
+      },
+      {
+        "normalized_key": "MYR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "MXN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "4",
+          "0.55"
+        ]
+      },
+      {
+        "normalized_key": "TWD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.5"
+        ]
+      },
+      {
+        "normalized_key": "NZD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.45",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "NOK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.8",
+          "0.47"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "2.5"
+        ]
+      },
+      {
+        "normalized_key": "PLN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.35",
+          "0.23"
+        ]
+      },
+      {
+        "normalized_key": "RUB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.5"
+        ]
+      },
+      {
+        "normalized_key": "SGD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.5",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "SEK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "3.25",
+          "0.5"
+        ]
+      },
+      {
+        "normalized_key": "CHF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.55",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "THB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "11",
+          "1.8"
+        ]
+      },
+      {
+        "normalized_key": "GBP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "USD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "34xSghsuRbCyKKrt5Bxdmv",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "72pZSeCvET1j0Nmyne44Py",
+            "document_id": "FEETB243",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB243::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2jvTncxJ8AxeipVV2EQnsf",
+            "document_id": "FEETB101",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB101::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1B0BYKPwfuNP76uUG8FwgO",
+            "document_id": "FEETB247",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR Code transactions 10.01 EUR and above (based on currency received)",
+            "table_id": "FeeTable::FEETB247::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6jcK9wA9LVQCKbkFgMLQOX",
+            "document_id": "FEETB106",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB106::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5F47wN0Dex9G1dASI8FnCw",
+            "document_id": "FEETB245",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for QR code transactions 10.00 EUR and below (based on currency received)",
+            "table_id": "FeeTable::FEETB245::9"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "expected_schedule": "nonprofit",
+        "rule_id": "nonprofit",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6vts9fqytuiLjfNzxjClh1",
+            "document_id": "FEETB104",
+            "original_label": "Ireland (IE)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees - Seller Fees",
+            "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+            "row_id": "5qK8QmhwP72QxAj8VgaLtp",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic charity transactions",
+            "table_id": "FeeTable::FEETB104::10"
+          }
+        ],
+        "type": "missing_required_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "alternative_payment_methods": {
         "entries": {
@@ -59,30 +3154,30 @@
       },
       "commercial": {
         "entries": {
-          "AUD": "0.05",
-          "BRL": "0.1",
-          "CAD": "0.05",
-          "CHF": "0.05",
-          "CZK": "1.5",
-          "DKK": "0.35",
-          "EUR": "0.05",
-          "GBP": "0.05",
-          "HKD": "0.39",
-          "HUF": "15",
-          "ILS": "0.2",
-          "JPY": "6",
-          "MXN": "0.55",
-          "MYR": "0.2",
-          "NOK": "0.47",
-          "NZD": "0.08",
-          "PHP": "2.5",
-          "PLN": "0.23",
-          "RUB": "1.5",
-          "SEK": "0.5",
-          "SGD": "0.08",
-          "THB": "1.8",
-          "TWD": "1.5",
-          "USD": "0.05"
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
         },
         "sources": [
           {
@@ -310,6 +3405,80 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "Other Payments",
+          "Commercial Transaction rates apply",
+          "",
+          ""
+        ],
+        "original_label": "Other Payments",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7c4jf7fUN2f69IYelIipJA",
+          "document_id": "FEETB33",
+          "original_label": "Other Payments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "5FnyyFpO1lyawIqzQvIbQ",
+          "row_index": 2,
+          "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Card Payment Services",
+          "table_id": "FeeTable::FEETB33::16"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Credit Card and Debit Card Confirmation(s)",
+          "Some users, in order to increase their sending limit or as PayPal may determine, may be charged a Credit Card and Debit Card Link and Confirmation fee. This amount will be refunded when you successfully complete the credit card or debit card verification process.",
+          "See Credit Card and Debit Card Link and Confirmation Table below.",
+          ""
+        ],
+        "original_label": "Credit Card and Debit Card Confirmation(s)",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "220JZNcokMTh4QxPPh35fg",
+          "document_id": "FEETB86",
+          "original_label": "Credit Card and Debit Card Confirmation(s)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "3hPavXKB631umuUzMZ3lfz",
+          "row_index": 2,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB86::30"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Records Request",
+          "This fee will apply for requests of information relating to why we had reasonable justification to refuse your payment order. We will not charge you for records requested in connection with your good-faith assertion of an error in your PayPal account.",
+          "12.00 EUR (per item)",
+          ""
+        ],
+        "original_label": "Records Request",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "220JZNcokMTh4QxPPh35fg",
+          "document_id": "FEETB86",
+          "original_label": "Records Request",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "5xaHI1T0YGoPv1IenThdH0",
+          "row_index": 3,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB86::30"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -352,7 +3521,7 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
@@ -409,6 +3578,7 @@
           "resolved_rate": {
             "fixed_fee_schedule": "alternative_payment_methods",
             "percentage": "1.2",
+            "rule_id": "alternative_payment_methods",
             "source": {
               "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
               "classifier_version": "rules-v1",
@@ -452,7 +3622,8 @@
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
           "table_id": "FeeTable::FEETB56::1"
-        }
+        },
+        "variant_id": "default"
       },
       {
         "conditions": {},
@@ -498,12 +3669,32 @@
         }
       },
       {
+        "conditions": {},
+        "id": "qr_code_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "QR code Transactions – 10.00 EUR and below",
+        "percentage": "1.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6yC3VagP3PL9ReoHPGLK9R",
+          "document_id": "FEETB56",
+          "original_label": "QR code Transactions – 10.00 EUR and below",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "7xpFWGj8ub6qhXkSsM45Xh",
+          "row_index": 3,
+          "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+          "table_id": "FeeTable::FEETB56::1"
+        }
+      },
+      {
         "conditions": {
           "merchant_approval_required": true
         },
         "fixed_fee_schedule": "nonprofit",
         "id": "nonprofit",
-        "international_surcharge_schedule": "commercial",
         "label": "Ireland (IE)",
         "percentage": "1.9",
         "source": {
@@ -544,9 +3735,28 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "alternative_payment_methods",
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Other International micropayments",
+        "percentage": "6",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4Pspqo8sot62idnWkHKqDz",
+          "document_id": "FEETB66",
+          "original_label": "Other International micropayments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "2g6yONa0aGea7ZaHbJ2PHM",
+          "row_index": 2,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB66::21"
+        }
+      },
+      {
+        "conditions": {},
         "id": "refunds",
-        "international_surcharge_schedule": "commercial",
         "label": "Commercial Transaction Refunds",
         "source": {
           "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
@@ -565,9 +3775,26 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "alternative_payment_methods",
         "id": "withdrawals",
-        "international_surcharge_schedule": "commercial",
+        "label": "Bank Return on Withdrawal/Transfer out of PayPal",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "220JZNcokMTh4QxPPh35fg",
+          "document_id": "FEETB86",
+          "original_label": "Bank Return on Withdrawal/Transfer out of PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Merchant Fees - Seller Fees",
+          "requested_url": "https://www.paypal.com/ie/business/paypal-business-fees",
+          "row_id": "5st8XhnJBaNMELZycj1iRS",
+          "row_index": 0,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB86::30"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "withdrawals",
         "label": "Domestic PayPal Payouts",
         "percentage": "2",
         "source": {
@@ -588,12 +3815,13 @@
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-24T08:03:57.036Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Ireland",
     "iso_country_code": "IE",
     "locale": "en_IE",
     "paypal_market_code": "IE"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-24T08:03:57.036Z"
 }

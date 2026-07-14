@@ -1,9 +1,28 @@
 {
+  "cms_updated_at": "2025-09-25T01:26:47.467Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 0,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 48,
+      "ignored": 3,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 1,
+      "missing_required_schedules": 0,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 3,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3.5"
     },
+    "diagnostics": [],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
@@ -132,6 +151,75 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "Recebíveis via Pix",
+          "Aplicam-se taxas de recebíveis via Pix"
+        ],
+        "original_label": "Recebíveis via Pix",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1Kh1wXMSQMU7cxkehsVK8Z",
+          "document_id": "FEETB16",
+          "original_label": "Recebíveis via Pix",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "9rzqcYyEDvPe26bs6rLml0",
+          "row_index": 2,
+          "section_heading": "Tabela de taxas: Tarifa padrão para recebimento de transações domésticas",
+          "table_id": "FeeTable::FEETB16::1"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Transações de doação",
+          "Tarifas de transação comercial se aplicam"
+        ],
+        "original_label": "Transações de doação",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4uGTWCmEtfBrcqyPiEfY71",
+          "document_id": "FEETB448",
+          "original_label": "Transações de doação",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "IUyuRRVJYKRhaRoqS8wbl",
+          "row_index": 0,
+          "section_heading": "Tabela de taxas: Recebimento de transações internacionais de instituição de caridade",
+          "table_id": "FeeTable::FEETB448::6"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Conta bancária",
+          "Padrão",
+          "Sem Tarifas"
+        ],
+        "original_label": "Conta bancária",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1QPZ66JTrSM6xE7bRGDTXA",
+          "document_id": "FEETB476",
+          "original_label": "Conta bancária",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "6NvCbeYOM0zTTHnzgDGeMA",
+          "row_index": 0,
+          "section_heading": "Tabela de taxas: Transferir um saldo de uma Conta Comercial com Saldo",
+          "table_id": "FeeTable::FEETB476::24"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -155,7 +243,7 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
@@ -199,16 +287,38 @@
           "section_heading": "Tabela de taxas: Receber Micropagamentos",
           "table_id": "FeeTable::FEETB66::13"
         }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Micropagamentos internacionais e micropagamentos por Produtos Digitais",
+        "percentage": "10.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "349hoDlsIMLHB9CnEo88nK",
+          "document_id": "FEETB66",
+          "original_label": "Micropagamentos internacionais e micropagamentos por Produtos Digitais",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifas e taxas do PayPal para Vendedores",
+          "requested_url": "https://www.paypal.com/br/business/paypal-business-fees",
+          "row_id": "4MqE9LcMriaMLV6alZ1bks",
+          "row_index": 1,
+          "section_heading": "Tabela de taxas: Receber Micropagamentos",
+          "table_id": "FeeTable::FEETB66::13"
+        }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-25T01:26:47.467Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Brazil",
     "iso_country_code": "BR",
     "locale": "pt_BR",
     "paypal_market_code": "BR"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-25T01:26:47.467Z"
 }

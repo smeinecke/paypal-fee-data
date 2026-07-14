@@ -1,9 +1,1414 @@
 {
+  "cms_updated_at": "2025-09-29T00:18:57.327Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
-    "currency_conversion": {
-      "spread_percentage": "4"
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 24,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 24,
+      "ignored": 1,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 0,
+      "missing_required_schedules": 2,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 1,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
     },
+    "diagnostics": [
+      {
+        "normalized_key": "AUD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "BRL",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.6",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "CAD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "CZK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.67"
+        ]
+      },
+      {
+        "normalized_key": "DKK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.6",
+          "0.43"
+        ]
+      },
+      {
+        "normalized_key": "EUR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.35",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "HKD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.35",
+          "0.39"
+        ]
+      },
+      {
+        "normalized_key": "HUF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "90",
+          "15"
+        ]
+      },
+      {
+        "normalized_key": "ILS",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "JPY",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "40",
+          "7"
+        ]
+      },
+      {
+        "normalized_key": "MYR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "MXN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "4",
+          "0.55"
+        ]
+      },
+      {
+        "normalized_key": "TWD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "2"
+        ]
+      },
+      {
+        "normalized_key": "NZD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.45",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "NOK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.8",
+          "0.47"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "2.5"
+        ]
+      },
+      {
+        "normalized_key": "PLN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.35",
+          "0.23"
+        ]
+      },
+      {
+        "normalized_key": "RUB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "2"
+        ]
+      },
+      {
+        "normalized_key": "SGD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.5",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "SEK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "3.25",
+          "0.54"
+        ]
+      },
+      {
+        "normalized_key": "CHF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.55",
+          "0.09"
+        ]
+      },
+      {
+        "normalized_key": "THB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "11",
+          "1.8"
+        ]
+      },
+      {
+        "normalized_key": "GBP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.2",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "USD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
+            "table_id": "FeeTable::FEETB18::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "section_heading": "費用表: 小額付款固定費用",
+            "table_id": "FeeTable::FEETB69::11"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "expected_schedule": "commercial",
+        "rule_id": "paypal_checkout",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Y4n9sIdwYWgaiKlASPVD65",
+            "document_id": "FEETB987",
+            "original_label": "提領加密貨幣到另一PayPal 或 Venmo 帳戶",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "row_id": "0Miy86ZpD3ybqU374WuArz",
+            "row_index": 1,
+            "section_heading": "提領加密貨幣",
+            "table_id": "FeeTable::FEETB987::7"
+          }
+        ],
+        "type": "missing_required_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "rule_id": "paypal_checkout",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Y4n9sIdwYWgaiKlASPVD65",
+            "document_id": "FEETB987",
+            "original_label": "提領加密貨幣到另一PayPal 或 Venmo 以外的地址",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
+            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+            "row_id": "YfTeaC4fXxddWy2TGcVj0w",
+            "row_index": 2,
+            "section_heading": "提領加密貨幣",
+            "table_id": "FeeTable::FEETB987::7"
+          }
+        ],
+        "type": "missing_required_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
@@ -36,199 +1441,107 @@
           {
             "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "386GxO8g5bkxAYNOfIGsLk",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
             "document_id": "FEETB18",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
             "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
             "table_id": "FeeTable::FEETB18::2"
           },
           {
             "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "386GxO8g5bkxAYNOfIGsLk",
+            "component_id": "3VeT8rtCsuAbggFKZumCBY",
             "document_id": "FEETB306",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
             "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "section_heading": "費用表:商業交易的固定費用（視收到的貨幣而定）",
             "table_id": "FeeTable::FEETB18::2"
-          }
-        ]
-      },
-      "micropayments": {
-        "entries": {
-          "AUD": "0.05",
-          "BRL": "0.1",
-          "CAD": "0.05",
-          "CHF": "0.09",
-          "CZK": "1.67",
-          "DKK": "0.43",
-          "EUR": "0.05",
-          "GBP": "0.05",
-          "HKD": "0.39",
-          "HUF": "15",
-          "ILS": "0.2",
-          "JPY": "7",
-          "MXN": "0.55",
-          "MYR": "0.2",
-          "NOK": "0.47",
-          "NZD": "0.08",
-          "PHP": "2.5",
-          "PLN": "0.23",
-          "RUB": "2",
-          "SEK": "0.54",
-          "SGD": "0.08",
-          "THB": "1.8",
-          "TWD": "2",
-          "USD": "0.05"
-        },
-        "sources": [
+          },
           {
             "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "5BjXGtWoshPEf2qTXtBy1A",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
             "document_id": "FEETB69",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
             "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "section_heading": "Fee Table: Micropayments fixed fee",
+            "section_heading": "費用表: 小額付款固定費用",
             "table_id": "FeeTable::FEETB69::11"
           },
           {
             "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "5BjXGtWoshPEf2qTXtBy1A",
+            "component_id": "3ctCrI3LNieFdzEgPVHqnM",
             "document_id": "FEETB304",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "賣家的 PayPal 費用（商業帳戶）",
             "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "section_heading": "Fee Table: Micropayments fixed fee",
+            "section_heading": "費用表: 小額付款固定費用",
             "table_id": "FeeTable::FEETB69::11"
           }
         ]
       }
     },
-    "international_surcharge_schedules": {
-      "commercial": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "4.4"
-          }
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "接收加密貨幣提領",
+          "無需手續費"
         ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5xbmVAm4Aaa220zD6Ir8zX",
-            "document_id": "FEETB91",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-            "section_heading": "Fee Table: Receiving international transactions",
-            "table_id": "FeeTable::FEETB91::1"
-          }
-        ]
+        "original_label": "接收加密貨幣提領",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "Y4n9sIdwYWgaiKlASPVD65",
+          "document_id": "FEETB987",
+          "original_label": "接收加密貨幣提領",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "賣家的 PayPal 費用（商業帳戶）",
+          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
+          "row_id": "AFZDCeXbDP7fmyRtfUohMB",
+          "row_index": 0,
+          "section_heading": "提領加密貨幣",
+          "table_id": "FeeTable::FEETB987::7"
+        }
       }
-    },
-    "status": "complete",
+    ],
+    "international_surcharge_schedules": {},
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
         "fixed_fee_schedule": "commercial",
         "id": "paypal_checkout",
-        "international_surcharge_schedule": "commercial",
-        "label": "Transferring crypto to another PayPal or Venmo account",
+        "label": "提領加密貨幣到另一PayPal 或 Venmo 帳戶",
         "source": {
           "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "7SKqsvZRkWJbCuDZzNk0KX",
+          "component_id": "Y4n9sIdwYWgaiKlASPVD65",
           "document_id": "FEETB987",
-          "original_label": "Transferring crypto to another PayPal or Venmo account",
+          "original_label": "提領加密貨幣到另一PayPal 或 Venmo 帳戶",
           "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
+          "page_title": "賣家的 PayPal 費用（商業帳戶）",
           "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "row_id": "ftRjdnJ0ZiiboudacY1fRS",
+          "row_id": "0Miy86ZpD3ybqU374WuArz",
           "row_index": 1,
-          "section_heading": "Fee Table: Transferring a cryptocurrency",
+          "section_heading": "提領加密貨幣",
           "table_id": "FeeTable::FEETB987::7"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "International micropayments",
-        "percentage": "6",
-        "source": {
-          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "Q27vRAJb8jXiovt1kGY5D",
-          "document_id": "FEETB627",
-          "original_label": "International micropayments",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "row_id": "BvmcpU34rGmdubR6gJ5eL",
-          "row_index": 0,
-          "section_heading": "Fee Table: Receiving micropayments",
-          "table_id": "FeeTable::FEETB627::10"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "refunds",
-        "international_surcharge_schedule": "commercial",
-        "label": "Commercial Transaction Refunds",
-        "source": {
-          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3JF4DqWjefA7kBqeoMrIed",
-          "document_id": "FEETB324",
-          "original_label": "Commercial Transaction Refunds",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "row_id": "2ZxdeT4Uyoskj979pJldXT",
-          "row_index": 2,
-          "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::25"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "withdrawals",
-        "international_surcharge_schedule": "commercial",
-        "label": "PayPal Payouts",
-        "percentage": "2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3K0WX6B9wBCExXjuORW8U6",
-          "document_id": "FEETB81",
-          "original_label": "PayPal Payouts",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/tw/business/paypal-business-fees",
-          "row_id": "1Rb6HxSnVTwaZE8d7kgooY",
-          "row_index": 0,
-          "section_heading": "Fee Table: Sending PayPal Payouts",
-          "table_id": "FeeTable::FEETB81::8"
         }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-05-28T02:01:57.346Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Taiwan",
     "iso_country_code": "TW",
-    "locale": "en_TW",
+    "locale": "zh_TW",
     "paypal_market_code": "TW"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-29T00:18:57.327Z"
 }

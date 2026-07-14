@@ -1,36 +1,3294 @@
 {
+  "cms_updated_at": "2025-09-25T02:08:12.168Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 48,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 72,
+      "ignored": 2,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 3,
+      "missing_required_schedules": 1,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 7,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "diagnostics": [
+      {
+        "normalized_key": "AUD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "BRL",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.6",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "CAD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "CZK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "DKK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.6",
+          "0.7"
+        ]
+      },
+      {
+        "normalized_key": "EUR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.35",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "HKD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.35",
+          "0.8"
+        ]
+      },
+      {
+        "normalized_key": "HUF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "90",
+          "30"
+        ]
+      },
+      {
+        "normalized_key": "ILS",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.2",
+          "0.4"
+        ]
+      },
+      {
+        "normalized_key": "JPY",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "40",
+          "12"
+        ]
+      },
+      {
+        "normalized_key": "MYR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2",
+          "0.7"
+        ]
+      },
+      {
+        "normalized_key": "MXN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "4",
+          "2"
+        ]
+      },
+      {
+        "normalized_key": "TWD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "NZD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.45",
+          "0.15"
+        ]
+      },
+      {
+        "normalized_key": "NOK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.8",
+          "1"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "5"
+        ]
+      },
+      {
+        "normalized_key": "PLN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.35",
+          "0.5"
+        ]
+      },
+      {
+        "normalized_key": "RUB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "3"
+        ]
+      },
+      {
+        "normalized_key": "SGD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.5",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "SEK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "3.25",
+          "1"
+        ]
+      },
+      {
+        "normalized_key": "CHF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.55",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "THB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "11",
+          "4"
+        ]
+      },
+      {
+        "normalized_key": "GBP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.2",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "USD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "AUD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "BRL",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.6",
+          "0.1"
+        ]
+      },
+      {
+        "normalized_key": "CAD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "CZK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.5"
+        ]
+      },
+      {
+        "normalized_key": "DKK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.6",
+          "0.35"
+        ]
+      },
+      {
+        "normalized_key": "EUR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.35",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "HKD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.35",
+          "0.39"
+        ]
+      },
+      {
+        "normalized_key": "HUF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "90",
+          "15"
+        ]
+      },
+      {
+        "normalized_key": "ILS",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "JPY",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "40",
+          "6"
+        ]
+      },
+      {
+        "normalized_key": "MYR",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2",
+          "0.2"
+        ]
+      },
+      {
+        "normalized_key": "MXN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "4",
+          "0.55"
+        ]
+      },
+      {
+        "normalized_key": "TWD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "2"
+        ]
+      },
+      {
+        "normalized_key": "NZD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.45",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "NOK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "2.8",
+          "0.47"
+        ]
+      },
+      {
+        "normalized_key": "PHP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "15",
+          "2.5"
+        ]
+      },
+      {
+        "normalized_key": "PLN",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "1.35",
+          "0.23"
+        ]
+      },
+      {
+        "normalized_key": "RUB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "10",
+          "1.5"
+        ]
+      },
+      {
+        "normalized_key": "SGD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.5",
+          "0.08"
+        ]
+      },
+      {
+        "normalized_key": "SEK",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "3.25",
+          "0.5"
+        ]
+      },
+      {
+        "normalized_key": "CHF",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.55",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "THB",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "11",
+          "1.8"
+        ]
+      },
+      {
+        "normalized_key": "GBP",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.2",
+          "0.05"
+        ]
+      },
+      {
+        "normalized_key": "USD",
+        "schedule_id": "commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB527",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "69iqW1HJx6cL3Jm92epvbk",
+            "document_id": "FEETB528",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr bei geschäftlichen Transaktionen (auf Basis der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB527::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB535",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4jUBtiB8NV1NjPBvVeB1Yj",
+            "document_id": "FEETB542",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über mindestens 10,01 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB535::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB544",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1sx7CTp4aFf6qQSq0TYVQh",
+            "document_id": "FEETB545",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 CHF (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB544::7"
+          }
+        ],
+        "type": "conflicting_schedule_entry",
+        "values": [
+          "0.3",
+          "0.05"
+        ]
+      },
+      {
+        "expected_schedule": "nonprofit",
+        "rule_id": "nonprofit",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "xqoUe70jeGp2bENrMxIhH",
+            "document_id": "FEETB367",
+            "original_label": "Schweiz (CH)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+            "row_id": "5YevuLY1I2sQOt3FHPoU5V",
+            "row_index": 0,
+            "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen für gemeinnützige Organisationen",
+            "table_id": "FeeTable::FEETB367::9"
+          }
+        ],
+        "type": "missing_required_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
-          "AUD": "0.05",
-          "BRL": "0.1",
-          "CAD": "0.05",
-          "CHF": "0.05",
-          "CZK": "1.5",
-          "DKK": "0.35",
-          "EUR": "0.05",
-          "GBP": "0.05",
-          "HKD": "0.39",
-          "HUF": "15",
-          "ILS": "0.2",
-          "JPY": "6",
-          "MXN": "0.55",
-          "MYR": "0.2",
-          "NOK": "0.47",
-          "NZD": "0.08",
-          "PHP": "2.5",
-          "PLN": "0.23",
-          "RUB": "1.5",
-          "SEK": "0.5",
-          "SGD": "0.08",
-          "THB": "1.8",
-          "TWD": "2",
-          "USD": "0.05"
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
         },
         "sources": [
           {
@@ -206,6 +3464,54 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+          "Diese Gebühr wird berechnet, wenn eine Entnahme/Abbuchung von PayPal fehlschlägt, da falsche Bankkontoinformationen oder Lieferdaten angegeben wurden.",
+          "5.00 CHF"
+        ],
+        "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2F0jlqydM8QqRQx0l6s2by",
+          "document_id": "FEETB547",
+          "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "4QyEAywS9OAL8OWLMwJeBQ",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB547::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Anforderung von Unterlagen",
+          "Diese Gebühr gilt für die Anforderung von Informationen über die Gründe für die Ablehnung Ihres Zahlungsauftrags. Wir berechnen keine Gebühr für die Anforderung von Unterlagen im Zusammenhang mit einer in gutem Glauben vorgenommenen Meldung eines Fehlers in Ihrem PayPal-Konto.",
+          "12.00 CHF (pro Artikel)"
+        ],
+        "original_label": "Anforderung von Unterlagen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2F0jlqydM8QqRQx0l6s2by",
+          "document_id": "FEETB547",
+          "original_label": "Anforderung von Unterlagen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "4alqiwWRosWz2zPgzQ76S",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Sonstige Gebühren",
+          "table_id": "FeeTable::FEETB547::27"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -237,7 +3543,7 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
@@ -257,6 +3563,27 @@
           "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
           "row_id": "7B7kIUYwv8EOJunVc8qZaf",
           "row_index": 0,
+          "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB357::1"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "qr_code_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "QR-Code-Transaktionen – höchstens 10 CHF",
+        "percentage": "1.7",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7eits5kTKqw558ipswiCLE",
+          "document_id": "FEETB357",
+          "original_label": "QR-Code-Transaktionen – höchstens 10 CHF",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "1PZjqwusJH5RU3do3r4rBZ",
+          "row_index": 2,
           "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
           "table_id": "FeeTable::FEETB357::1"
         }
@@ -288,7 +3615,6 @@
         },
         "fixed_fee_schedule": "nonprofit",
         "id": "nonprofit",
-        "international_surcharge_schedule": "commercial",
         "label": "Schweiz (CH)",
         "percentage": "1.9",
         "source": {
@@ -329,9 +3655,28 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Sonstige internationale Mikrozahlungen",
+        "percentage": "5.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "40i6a0vuMqxTot7D3ozH7T",
+          "document_id": "FEETB395",
+          "original_label": "Sonstige internationale Mikrozahlungen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
+          "row_id": "5hAsqApsKfp6AXjwa9PXQl",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Empfangen von Mikrozahlungen",
+          "table_id": "FeeTable::FEETB395::14"
+        }
+      },
+      {
+        "conditions": {},
         "id": "chargebacks",
-        "international_surcharge_schedule": "commercial",
         "label": "Rückabwicklung einer geschäftlichen Transaktion",
         "source": {
           "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
@@ -347,49 +3692,17 @@
           "section_heading": "Gebührentabelle: Sonstige Gebühren",
           "table_id": "FeeTable::FEETB547::27"
         }
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "thai_online_bank_transfer",
-            "latvian_online_bank_transfer",
-            "lithuanian_online_bank_transfer",
-            "skrill",
-            "ovo_premium",
-            "gopay",
-            "blik_pay_later",
-            "kredivo",
-            "floa_pay",
-            "scalapay"
-          ]
-        },
-        "fixed_fee_schedule": "commercial",
-        "id": "alternative_payment_methods_special",
-        "label": "Czech Tschechische Republik",
-        "source": {
-          "canonical_url": "https://www.paypal.com/ch/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "6OiE1Vk3ZVk4Qz4LQoR5dE",
-          "document_id": "FEETB102",
-          "original_label": "Czech Tschechische Republik",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/ch/business/paypal-business-fees",
-          "row_id": "NxbOhYfbDlEfWxc72SF9W",
-          "row_index": 46,
-          "section_heading": "feetable-Market Code Table",
-          "table_id": "FeeTable::FEETB102::29"
-        }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-25T02:08:12.168Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Switzerland",
     "iso_country_code": "CH",
     "locale": "de_CH",
     "paypal_market_code": "CH"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-25T02:08:12.168Z"
 }

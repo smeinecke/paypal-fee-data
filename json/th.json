@@ -1,9 +1,25 @@
 {
+  "cms_updated_at": "2025-09-28T23:37:17.105Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
-    "currency_conversion": {
-      "spread_percentage": "4"
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 0,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 48,
+      "ignored": 0,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 0,
+      "missing_required_schedules": 0,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 1,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
     },
+    "diagnostics": [],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
@@ -36,23 +52,23 @@
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "54QDdViAzB0rgoChQT6SUY",
+            "component_id": "A2Sint6tDp2jdvYjyIWaH",
             "document_id": "FEETB18",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
             "table_id": "FeeTable::FEETB18::2"
           },
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "54QDdViAzB0rgoChQT6SUY",
+            "component_id": "A2Sint6tDp2jdvYjyIWaH",
             "document_id": "FEETB306",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
             "table_id": "FeeTable::FEETB18::2"
           }
         ]
@@ -88,123 +104,63 @@
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "3U8hbsrN0QT2QdxxFmGVPj",
+            "component_id": "7rQ0oGJmRJzBGJC5GitDK3",
             "document_id": "FEETB69",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "section_heading": "Fee Table: Micropayments fixed fee",
+            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
             "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "3U8hbsrN0QT2QdxxFmGVPj",
+            "component_id": "7rQ0oGJmRJzBGJC5GitDK3",
             "document_id": "FEETB304",
             "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
+            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "section_heading": "Fee Table: Micropayments fixed fee",
+            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
             "table_id": "FeeTable::FEETB69::7"
           }
         ]
       }
     },
+    "ignored_rows": [],
     "international_surcharge_schedules": {},
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "Within Thailand (TH) Commercial Transactions",
-        "percentage": "3.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "47FlrvUjRiGHRMpLLo8D2h",
-          "document_id": "FEETB16",
-          "original_label": "Within Thailand (TH) Commercial Transactions",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "row_id": "2ExUpywh1F1b8KykJZuf3s",
-          "row_index": 0,
-          "section_heading": "Fee Table: Receiving transactions",
-          "table_id": "FeeTable::FEETB16::1"
-        }
-      },
       {
         "conditions": {},
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
-        "label": "International micropayments",
+        "label": "Micropayment ระหว่างประเทศ",
         "percentage": "6",
         "source": {
           "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "4LdbB5jdqXCkUkHUw6S3Lk",
+          "component_id": "4iQ8s85rr5sW1yEuY2o7E5",
           "document_id": "FEETB66",
-          "original_label": "International micropayments",
+          "original_label": "Micropayment ระหว่างประเทศ",
           "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
+          "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
           "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "row_id": "4VAeD6OMW2Tak5PzzkDSRO",
+          "row_id": "30gSHtI9ALdXEs2mKFJYFV",
           "row_index": 0,
-          "section_heading": "Fee Table: Receiving micropayments",
+          "section_heading": "ตารางค่าธรรมเนียม: การรับ Micropayment",
           "table_id": "FeeTable::FEETB66::6"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "refunds",
-        "label": "Commercial Transaction Refunds",
-        "source": {
-          "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4EsZKxhuiVtSeMjOx4ZNAA",
-          "document_id": "FEETB324",
-          "original_label": "Commercial Transaction Refunds",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "row_id": "1uggUT1SX8NEUKydcHIrzI",
-          "row_index": 2,
-          "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::18"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "withdrawals",
-        "label": "PayPal Payouts",
-        "percentage": "2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3EdBI1AXtEw3L63rlWz8Zw",
-          "document_id": "FEETB81",
-          "original_label": "PayPal Payouts",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Fees for Sellers (Business)",
-          "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "row_id": "1Lde7Emy5j9rXcW96a6RPa",
-          "row_index": 0,
-          "section_heading": "Fee Table: Sending PayPal Payouts",
-          "table_id": "FeeTable::FEETB81::4"
         }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-29T00:18:07.310Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Thailand",
     "iso_country_code": "TH",
-    "locale": "en_TH",
+    "locale": "th_TH",
     "paypal_market_code": "TH"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-28T23:37:17.105Z"
 }

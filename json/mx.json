@@ -1,9 +1,337 @@
 {
+  "cms_updated_at": "2025-09-25T07:29:45.873Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 0,
+      "extracted_apm_methods": 8,
+      "fixed_fee_entries": 72,
+      "ignored": 26,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 1,
+      "missing_required_schedules": 1,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 12,
+      "unclassified": 0,
+      "unknown_apm_methods": 13,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "4"
     },
+    "diagnostics": [
+      {
+        "label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+        "payment_method": "Transferencia bancaria en línea de Tailandia",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "ATjz0vVXvsVfNvF2ScafsG",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+        "payment_method": "transferencia bancaria en línea de Letonia",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "ATjz0vVXvsVfNvF2ScafsG",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+        "payment_method": "transferencia bancaria en línea de Lituania",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "ATjz0vVXvsVfNvF2ScafsG",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "Doku",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "DragonPay",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "FIUU Cash",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "Jenius Pay",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "LinkAja",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "Oxxo Pay",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "Paysera",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "payment_method": "bancos de Estonia",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "PaysafeCard",
+        "payment_method": "PaysafeCard",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "PaysafeCard",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "9BRJLQ4cFm7dvZNbavIyZe",
+            "row_index": 3,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "label": "Todas las otras formas de pago alternativas",
+        "payment_method": "Todas las otras formas de pago alternativas",
+        "rule_id": "alternative_payment_methods",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+            "document_id": "FEETB974",
+            "original_label": "Todas las otras formas de pago alternativas",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "0kPqOd8HLf5emeUL33HpNP",
+            "row_index": 4,
+            "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+            "table_id": "FeeTable::FEETB974::16"
+          }
+        ],
+        "type": "unknown_apm_method"
+      },
+      {
+        "expected_schedule": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3R0psTytIzfVtuOSj1Cr6W",
+            "document_id": "FEETB324",
+            "original_label": "Confirmación de tarjetas de crédito y débito",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "3t2HetFEoo4UOVxNygYFCr",
+            "row_index": 2,
+            "section_heading": "Tabla de tarifas: Otras comisiones",
+            "table_id": "FeeTable::FEETB324::27"
+          }
+        ],
+        "type": "missing_required_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "alternative_payment_methods": {
         "entries": {
@@ -206,6 +534,581 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "Devolución del banco por retiro o transferencia fuera de PayPal",
+          "Esta comisión se cobra cuando un usuario realiza un retiro o transferencia desde una cuenta PayPal y se produce un error porque la información proporcionada sobre la cuenta bancaria o la entrega es incorrecta.",
+          "Sin comisión",
+          ""
+        ],
+        "original_label": "Devolución del banco por retiro o transferencia fuera de PayPal",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3R0psTytIzfVtuOSj1Cr6W",
+          "document_id": "FEETB324",
+          "original_label": "Devolución del banco por retiro o transferencia fuera de PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "itfgn7OYQTtzsVh9ZSh0r",
+          "row_index": 0,
+          "section_heading": "Tabla de tarifas: Otras comisiones",
+          "table_id": "FeeTable::FEETB324::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Reembolsos de transacciones comerciales"
+        ],
+        "original_label": "Reembolsos de transacciones comerciales",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3R0psTytIzfVtuOSj1Cr6W",
+          "document_id": "FEETB324",
+          "original_label": "Reembolsos de transacciones comerciales",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "tqcAgq0rHhUnixGv5cgDh",
+          "row_index": 1,
+          "section_heading": "Tabla de tarifas: Otras comisiones",
+          "table_id": "FeeTable::FEETB324::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar australiano",
+          "2.00 AUD"
+        ],
+        "original_label": "Dólar australiano",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Dólar australiano",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "3J8NqbYUasdcSqHIyFAeKa",
+          "row_index": 0,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Real brasileño",
+          "4.00 BRL"
+        ],
+        "original_label": "Real brasileño",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Real brasileño",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "22FlCjcAb4vG6BCrJlpfTY",
+          "row_index": 1,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar canadiense",
+          "2.45 CAD"
+        ],
+        "original_label": "Dólar canadiense",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Dólar canadiense",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "d3rZ7JbSyoymRjWqYLUvH",
+          "row_index": 2,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Corona checa",
+          "50.00 CZK"
+        ],
+        "original_label": "Corona checa",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Corona checa",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "3MiExvz8coYAr5Wpo04Kru",
+          "row_index": 3,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Corona danesa",
+          "12.50 DKK"
+        ],
+        "original_label": "Corona danesa",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Corona danesa",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "w4i2OlvUS3EWe7m1P8rmB",
+          "row_index": 4,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Euro",
+          "1.50 EUR"
+        ],
+        "original_label": "Euro",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Euro",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "FKbLnFPhGZhY29LE2gZUg",
+          "row_index": 5,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar de Hong Kong",
+          "15.00 HKD"
+        ],
+        "original_label": "Dólar de Hong Kong",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Dólar de Hong Kong",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "3mX0y5dy4ZIfqZ9gC1YoMX",
+          "row_index": 6,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Forinto húngaro",
+          "400.00 HUF"
+        ],
+        "original_label": "Forinto húngaro",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Forinto húngaro",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "1371lVl8c3CYpiAaYeViLr",
+          "row_index": 7,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Nuevo séquel israelí",
+          "8.00 ILS"
+        ],
+        "original_label": "Nuevo séquel israelí",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Nuevo séquel israelí",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "22xzHUpl7SYidaZH5YcrBd",
+          "row_index": 8,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Yen japonés",
+          "200.00 JPY"
+        ],
+        "original_label": "Yen japonés",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Yen japonés",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "2mYo2o0ZeRRBFM3skwKOnD",
+          "row_index": 9,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Ringit malayo",
+          "10.00 MYR"
+        ],
+        "original_label": "Ringit malayo",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Ringit malayo",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "1H8BCzmrfxiBLlYOSoSnW2",
+          "row_index": 10,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Peso mexicano",
+          "20.00 MXN"
+        ],
+        "original_label": "Peso mexicano",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3mZorDYpBvQJLxYTHbUdoi",
+          "document_id": "FEETB756",
+          "original_label": "Peso mexicano",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "2EaOv0apOKBCDHISVECSrf",
+          "row_index": 11,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Nuevo dólar taiwanés",
+          "70.00 TWD"
+        ],
+        "original_label": "Nuevo dólar taiwanés",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Nuevo dólar taiwanés",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "1x4fTVamfylhoe68ixo8JS",
+          "row_index": 12,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar neozelandés",
+          "3.00 NZD"
+        ],
+        "original_label": "Dólar neozelandés",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Dólar neozelandés",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "15kOVFFTfjnv2XiKRYWxh4",
+          "row_index": 13,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Corona noruega",
+          "15.00 NOK"
+        ],
+        "original_label": "Corona noruega",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Corona noruega",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "lqjQ5FYQJvqn7mcG360DY",
+          "row_index": 14,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Peso filipino",
+          "100.00 PHP"
+        ],
+        "original_label": "Peso filipino",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Peso filipino",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "2yAsShvqdzTTLkC70KnYzy",
+          "row_index": 15,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Esloti polaco",
+          "6.50 PLN"
+        ],
+        "original_label": "Esloti polaco",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Esloti polaco",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "qhPs0x1feuHvckEsGbu2q",
+          "row_index": 16,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Rublo ruso",
+          "60.00 RUB"
+        ],
+        "original_label": "Rublo ruso",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Rublo ruso",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "28Ohz2ZB7JEefenUU2e0w5",
+          "row_index": 17,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar de Singapur",
+          "3.00 SGD"
+        ],
+        "original_label": "Dólar de Singapur",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Dólar de Singapur",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "66eYeFCDJGykYXAB8fBZSR",
+          "row_index": 18,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Corona sueca",
+          "15.00 SEK"
+        ],
+        "original_label": "Corona sueca",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Corona sueca",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "tp7w3XtSvriabqxEAklBJ",
+          "row_index": 19,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Franco suizo",
+          "3.00 CHF"
+        ],
+        "original_label": "Franco suizo",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Franco suizo",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "6ez4OxzV6GEkS2i6rfQvMA",
+          "row_index": 20,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Bat tailandés",
+          "70.00 THB"
+        ],
+        "original_label": "Bat tailandés",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Bat tailandés",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "39CAkIxD9ylVAABSfHtiG9",
+          "row_index": 21,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Libra esterlina del Reino Unido",
+          "1.00 GBP"
+        ],
+        "original_label": "Libra esterlina del Reino Unido",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Libra esterlina del Reino Unido",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "3UCUykmxazgRFG1urnlqW7",
+          "row_index": 22,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Dólar estadounidense",
+          "1.95 USD"
+        ],
+        "original_label": "Dólar estadounidense",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pD49pO6xTCiN6AVqt3FgQ",
+          "document_id": "FEETB758",
+          "original_label": "Dólar estadounidense",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "54DRVmcc5J061aVIFYfSzD",
+          "row_index": 23,
+          "section_heading": "Tabla de tarifas: Tabla de asociación y confirmación de tarjetas de crédito y débito",
+          "table_id": "FeeTable::FEETB756::28"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -229,11 +1132,10 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "advanced_card_payments",
         "international_surcharge_schedule": "commercial",
         "label": "Confirmación de tarjetas de crédito y débito",
@@ -250,6 +1152,50 @@
           "row_index": 2,
           "section_heading": "Tabla de tarifas: Otras comisiones",
           "table_id": "FeeTable::FEETB324::27"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "México (MX)",
+        "percentage": "2.95",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6Cg2zBAl5aub7BxyqrOqDa",
+          "document_id": "FEETB59",
+          "original_label": "México (MX)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "7DuagNPV3B8QWcm6ycSFHv",
+          "row_index": 0,
+          "section_heading": "Tabla de tarifas: Recepción de transacciones nacionales por parte de organizaciones benéficas",
+          "table_id": "FeeTable::FEETB59::6"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "commercial",
+        "label": "Pagos Avanzados con Tarjeta de Crédito y Débito",
+        "percentage": "3.55",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "agjZFHLu0J3y3fZbC3E3n",
+          "document_id": "FEETB742",
+          "original_label": "Pagos Avanzados con Tarjeta de Crédito y Débito",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "WmCY1vFTfu4OMZ53IAOXz",
+          "row_index": 0,
+          "section_heading": "Tabla de tarifas: Recepción de transacciones nacionales con Pagos Avanzados con Tarjeta de Crédito y Débito",
+          "table_id": "FeeTable::FEETB742::12"
         }
       },
       {
@@ -293,6 +1239,133 @@
           "row_index": 3,
           "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
           "table_id": "FeeTable::FEETB974::16"
+        },
+        "variant_id": "default"
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Todas las otras formas de pago alternativas",
+        "percentage": "3.55",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+          "document_id": "FEETB974",
+          "original_label": "Todas las otras formas de pago alternativas",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "0kPqOd8HLf5emeUL33HpNP",
+          "row_index": 4,
+          "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+          "table_id": "FeeTable::FEETB974::16"
+        },
+        "variant_id": "default"
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "blik_pay_later",
+            "floa_pay",
+            "gopay",
+            "kredivo",
+            "ovo_premium",
+            "skrill"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+        "percentage": "5.49",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+          "document_id": "FEETB974",
+          "original_label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "ATjz0vVXvsVfNvF2ScafsG",
+          "row_index": 0,
+          "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+          "table_id": "FeeTable::FEETB974::16"
+        },
+        "variant_id": "special"
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "floa_pay"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "FLOA Pay (sin intereses para los consumidores)",
+        "percentage": "6.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+          "document_id": "FEETB974",
+          "original_label": "FLOA Pay (sin intereses para los consumidores)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "VzOmc9SKwpBdq8vOC8e3aW",
+          "row_index": 1,
+          "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+          "table_id": "FeeTable::FEETB974::16"
+        },
+        "variant_id": "special"
+      },
+      {
+        "conditions": {
+          "payment_methods": [
+            "ovo_premium"
+          ]
+        },
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+        "percentage": "3.95",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
+          "document_id": "FEETB974",
+          "original_label": "Doku, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, bancos de Estonia, Ovo, Oxxo Pay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "WGcLrvXHBOpbmp6FPDdI5S",
+          "row_index": 2,
+          "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
+          "table_id": "FeeTable::FEETB974::16"
+        },
+        "variant_id": "special"
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Micropagos internacionales para bienes digitales",
+        "percentage": "5.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "FSo4xBW971misLMEl0xtN",
+          "document_id": "FEETB66",
+          "original_label": "Micropagos internacionales para bienes digitales",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal para Empresas",
+          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+          "row_id": "5oAYYhrwfCgBAJGfav4LLe",
+          "row_index": 1,
+          "section_heading": "Tabla de tarifas: Recepción de micropagos",
+          "table_id": "FeeTable::FEETB66::19"
         }
       },
       {
@@ -335,50 +1408,17 @@
           "section_heading": "Tabla de tarifas: Comisión estándar por recibir transacciones mediante Punto de venta de PayPal",
           "table_id": "FeeTable::FEETB938::10"
         }
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "thai_online_bank_transfer",
-            "latvian_online_bank_transfer",
-            "lithuanian_online_bank_transfer",
-            "skrill",
-            "ovo_premium",
-            "gopay",
-            "blik_pay_later",
-            "kredivo",
-            "floa_pay",
-            "scalapay"
-          ]
-        },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods_special",
-        "label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
-        "percentage": "5.49",
-        "source": {
-          "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "AUhHUp3y5ZzeOSwvqMKAzN",
-          "document_id": "FEETB974",
-          "original_label": "Transferencia bancaria en línea de Tailandia, transferencia bancaria en línea de Letonia, transferencia bancaria en línea de Lituania, Skrill, Ovo Premium, GoPay, Blik Pay Later, Kredivo, FLOA Pay (con intereses para los consumidores)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal para Empresas",
-          "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-          "row_id": "ATjz0vVXvsVfNvF2ScafsG",
-          "row_index": 0,
-          "section_heading": "Tabla de tarifas: Comisiones por métodos de pago alternativos",
-          "table_id": "FeeTable::FEETB974::16"
-        }
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-25T07:29:45.873Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Mexico",
     "iso_country_code": "MX",
     "locale": "es_MX",
     "paypal_market_code": "MX"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-25T07:29:45.873Z"
 }

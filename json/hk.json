@@ -1,9 +1,28 @@
 {
+  "cms_updated_at": "2025-09-24T08:00:34.079Z",
+  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
+    "coverage_summary": {
+      "ambiguous": 0,
+      "conflicts": 0,
+      "extracted_apm_methods": 0,
+      "fixed_fee_entries": 72,
+      "ignored": 3,
+      "inherited_schedules": 0,
+      "international_surcharge_entries": 2,
+      "missing_required_schedules": 0,
+      "reference_sources": 0,
+      "reference_targets": 0,
+      "transaction_rules": 10,
+      "unclassified": 0,
+      "unknown_apm_methods": 0,
+      "unresolved_references": 0
+    },
     "currency_conversion": {
       "spread_percentage": "3"
     },
+    "diagnostics": [],
     "fixed_fee_schedules": {
       "commercial": {
         "entries": {
@@ -140,6 +159,78 @@
         ]
       }
     },
+    "ignored_rows": [
+      {
+        "normalized_cells": [
+          "All Other Payment Transactions",
+          "Commercial Transaction rates apply"
+        ],
+        "original_label": "All Other Payment Transactions",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4YJzT7m8vE494ITXPIycwx",
+          "document_id": "FEETB455",
+          "original_label": "All Other Payment Transactions",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "36ctXmV1GHJ2tnfnviysuF",
+          "row_index": 1,
+          "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+          "table_id": "FeeTable::FEETB455::4"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Credit Card and Debit Card Confirmation(s)",
+          "Some users, in order to increase their sending limit or as PayPal may determine, may be charged a credit card and debit card link and confirmation fee. This amount will be refunded when you successfully complete the credit card or debit card verification process.",
+          "See Credit Card and Debit Card Link and Confirmation Table below.",
+          ""
+        ],
+        "original_label": "Credit Card and Debit Card Confirmation(s)",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2xtlhwadzbVhKi5ncd9vwX",
+          "document_id": "FEETB324",
+          "original_label": "Credit Card and Debit Card Confirmation(s)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "4QEPGf1iwGSzMGqRxVCEXW",
+          "row_index": 1,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::24"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Records Request",
+          "This fee will apply for requests of information relating to why we had reasonable justification to refuse your payment order. We will not charge you for records requested in connection with your good-faith assertion of an error in your PayPal account.",
+          "60.00 HKD (per item)",
+          ""
+        ],
+        "original_label": "Records Request",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2xtlhwadzbVhKi5ncd9vwX",
+          "document_id": "FEETB324",
+          "original_label": "Records Request",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "v9tCvDKmuhPwihpyuprVz",
+          "row_index": 3,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::24"
+        }
+      }
+    ],
     "international_surcharge_schedules": {
       "commercial": {
         "entries": [
@@ -184,7 +275,7 @@
         ]
       }
     },
-    "status": "complete",
+    "status": "partial",
     "transaction_fee_rules": [
       {
         "conditions": {},
@@ -274,9 +365,49 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "online_card_payments",
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Domestic micropayments for Digital Goods",
+        "percentage": "5.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7pbeBiXZFSckzMCimaLiMk",
+          "document_id": "FEETB66",
+          "original_label": "Domestic micropayments for Digital Goods",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "3QTA6qTs7BF8mPns8tnYPB",
+          "row_index": 1,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB66::10"
+        }
+      },
+      {
+        "conditions": {},
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Other International micropayments",
+        "percentage": "6",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7pbeBiXZFSckzMCimaLiMk",
+          "document_id": "FEETB66",
+          "original_label": "Other International micropayments",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "18aLh33iirsCiUPedAA8iO",
+          "row_index": 2,
+          "section_heading": "Fee Table: Receiving micropayments",
+          "table_id": "FeeTable::FEETB66::10"
+        }
+      },
+      {
+        "conditions": {},
         "id": "chargebacks",
-        "international_surcharge_schedule": "online_card_payments",
         "label": "Chargeback Protection Tools",
         "source": {
           "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -295,9 +426,7 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "refunds",
-        "international_surcharge_schedule": "commercial",
         "label": "Commercial Transaction Refunds",
         "source": {
           "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -316,9 +445,26 @@
       },
       {
         "conditions": {},
-        "fixed_fee_schedule": "commercial",
         "id": "withdrawals",
-        "international_surcharge_schedule": "commercial",
+        "label": "Bank Return on Withdrawal/Transfer out of PayPal",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2xtlhwadzbVhKi5ncd9vwX",
+          "document_id": "FEETB324",
+          "original_label": "Bank Return on Withdrawal/Transfer out of PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "2vnyXJJcOADt2gHHgv2qoO",
+          "row_index": 0,
+          "section_heading": "Fee Table: Other Fees",
+          "table_id": "FeeTable::FEETB324::24"
+        }
+      },
+      {
+        "conditions": {},
+        "id": "withdrawals",
         "label": "Domestic PayPal Payouts",
         "percentage": "2",
         "source": {
@@ -339,12 +485,13 @@
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2025-09-24T08:00:34.079Z",
+  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Hong Kong SAR China",
     "iso_country_code": "HK",
     "locale": "en_HK",
     "paypal_market_code": "HK"
   },
-  "schema_version": 4
+  "schema_version": 4,
+  "source_updated_at": "2025-09-24T08:00:34.079Z"
 }

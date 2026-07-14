@@ -21,6 +21,18 @@
           "title": "Country Code",
           "type": "string"
         },
+        "crawled_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Crawled At"
+        },
         "data_url": {
           "title": "Data Url",
           "type": "string"
