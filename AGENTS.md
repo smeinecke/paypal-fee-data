@@ -22,9 +22,16 @@ under the output root.
   - `_PRODUCT_ALIASES` for product-name matching in row cells.
   - `fixed_fee_keywords` and `international_surcharge_keywords` for identifying
     fixed-fee and international surcharge tables.
-  - Dangling schedule references are cleared (set to `None`) when neither the
-    requested product-specific schedule nor the general `commercial` schedule
-    exists.
+  - Schedule references are explicit: `_FIXED_FEE_SCHEDULE_FOR` and
+    `_INTERNATIONAL_SURCHARGE_SCHEDULE_FOR` declare which schedule each product
+    uses, and `_*_INHERITANCE` maps declare where a schedule is inherited from
+    another product family. Missing or inherited schedules are reported as
+    diagnostics in `DerivedFeeResult.diagnostics`; there is no implicit fallback
+    to a different schedule family.
+  - APM method extraction is token-based (`_extract_apm_methods`). The German
+    `alternative_payment_methods` special row is split into a `variant_id`
+    `special` rule with `conditions.payment_methods` and a default `variant_id`
+    `default` rule.
 
 ## Current data status
 
