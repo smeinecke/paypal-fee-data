@@ -6,7 +6,7 @@ the `crawler/` submodule that produces it.
 ## Key commands
 
 - Run crawler tests: `cd crawler && uv run pytest tests/ -q`
-- Regenerate all country data: `cd crawler && uv run python -m paypal_fee_crawler.cli crawl --output .. --max-workers 3 --request-delay 0.5 --no-fail-on-regression --allow-country-drop`
+- Regenerate all country data: `cd crawler && uv run paypal-fee-crawler crawl --output .. --max-workers 8 --timeout 20`
 - Update README stats after regeneration: `cd .. && uv run python scripts/generate_readme.py`
 
 ## Output layout
@@ -37,11 +37,10 @@ under the output root.
 
 After the latest regeneration the dataset is:
 
-- 195 complete, 4 partial, 1 unclassified
-- 1,618 core fee rules across all countries
+- 1 complete, 194 partial, 5 unclassified
+- 4,051 core fee rules across all countries
 - 1 unsupported country
 
-The remaining unclassified market is typically `US` (page layout differs from the
-CMS table-based structure). The few partial markets are usually locales where a
-standard commercial rate table is absent and rates are embedded in a
+The remaining unclassified and partial markets are usually locales where a
+standard commercial rate table is absent or rates are embedded in a
 market-specific hero or prose section.

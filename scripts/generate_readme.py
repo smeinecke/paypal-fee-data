@@ -65,7 +65,7 @@ def _derive_stats(data_dir: Path) -> dict:
 
     latest_update = None
     for country in countries:
-        updated = country.get("source_updated_at") or country.get("generated_at")
+        updated = country.get("crawled_at") or country.get("generated_at")
         if updated:
             with contextlib.suppress(Exception):
                 candidate = datetime.fromisoformat(updated.replace("Z", "+00:00"))
