@@ -1,24 +1,118 @@
 {
   "$defs": {
-    "AmbiguousFeeRow": {
+    "CoreFeeDerived": {
       "additionalProperties": false,
-      "description": "A fee row with multiple equally confident product classifications.",
+      "description": "Compact derived fee result for core-fees.json.",
       "properties": {
-        "candidates": {
+        "currency_conversion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CurrencyConversion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "fixed_fee_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/CoreFeeFixedFeeSchedule"
+          },
+          "title": "Fixed Fee Schedules",
+          "type": "object"
+        },
+        "international_surcharge_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/CoreFeeInternationalSurchargeSchedule"
+          },
+          "title": "International Surcharge Schedules",
+          "type": "object"
+        },
+        "maximum_fee_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/CoreFeeFixedFeeSchedule"
+          },
+          "title": "Maximum Fee Schedules",
+          "type": "object"
+        },
+        "status": {
+          "default": "unclassified",
+          "title": "Status",
+          "type": "string"
+        },
+        "transaction_fee_rules": {
           "items": {
+            "$ref": "#/$defs/CoreFeeRule"
+          },
+          "title": "Transaction Fee Rules",
+          "type": "array"
+        }
+      },
+      "title": "CoreFeeDerived",
+      "type": "object"
+    },
+    "CoreFeeFixedFeeSchedule": {
+      "additionalProperties": false,
+      "description": "Compact fixed fee schedule used in core-fees.json (no provenance).",
+      "properties": {
+        "entries": {
+          "additionalProperties": {
             "type": "string"
           },
-          "title": "Candidates",
-          "type": "array"
-        },
-        "normalized_cells": {
+          "title": "Entries",
+          "type": "object"
+        }
+      },
+      "title": "CoreFeeFixedFeeSchedule",
+      "type": "object"
+    },
+    "CoreFeeInternationalSurchargeSchedule": {
+      "additionalProperties": false,
+      "description": "Compact international surcharge schedule used in core-fees.json (no provenance).",
+      "properties": {
+        "entries": {
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/InternationalSurchargeScheduleEntry"
           },
-          "title": "Normalized Cells",
+          "title": "Entries",
           "type": "array"
+        }
+      },
+      "title": "CoreFeeInternationalSurchargeSchedule",
+      "type": "object"
+    },
+    "CoreFeeRateReference": {
+      "additionalProperties": false,
+      "description": "Compact rate reference without provenance.",
+      "properties": {
+        "reference": {
+          "title": "Reference",
+          "type": "string"
         },
-        "original_label": {
+        "resolved_rate": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CoreFeeResolvedRate"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "reference"
+      ],
+      "title": "CoreFeeRateReference",
+      "type": "object"
+    },
+    "CoreFeeResolvedRate": {
+      "additionalProperties": false,
+      "description": "Compact resolved rate without provenance.",
+      "properties": {
+        "fixed_fee_schedule": {
           "anyOf": [
             {
               "type": "string"
@@ -28,129 +122,173 @@
             }
           ],
           "default": null,
-          "title": "Original Label"
+          "title": "Fixed Fee Schedule"
         },
-        "source": {
+        "international_surcharge_schedule": {
           "anyOf": [
             {
-              "$ref": "#/$defs/Provenance"
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "International Surcharge Schedule"
+        },
+        "maximum_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maximum Fee Schedule"
+        },
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        }
+      },
+      "title": "CoreFeeResolvedRate",
+      "type": "object"
+    },
+    "CoreFeeRule": {
+      "additionalProperties": false,
+      "description": "Compact transaction fee rule used in core-fees.json (no provenance).",
+      "properties": {
+        "calculation_status": {
+          "default": "calculable",
+          "title": "Calculation Status",
+          "type": "string"
+        },
+        "conditions": {
+          "additionalProperties": true,
+          "title": "Conditions",
+          "type": "object"
+        },
+        "fee_components": {
+          "items": {
+            "$ref": "#/$defs/FeeComponent"
+          },
+          "title": "Fee Components",
+          "type": "array"
+        },
+        "fixed_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fixed Fee Schedule"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "international_surcharge_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "International Surcharge Schedule"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "maximum_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maximum Fee Schedule"
+        },
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        },
+        "rate_reference": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CoreFeeRateReference"
             },
             {
               "type": "null"
             }
           ],
           "default": null
+        },
+        "variant_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variant Id"
         }
       },
-      "title": "AmbiguousFeeRow",
-      "type": "object"
-    },
-    "CoverageSummary": {
-      "additionalProperties": false,
-      "description": "Summary of how every source row was classified.",
-      "properties": {
-        "ambiguous": {
-          "default": 0,
-          "title": "Ambiguous",
-          "type": "integer"
-        },
-        "ambiguous_identities": {
-          "default": 0,
-          "title": "Ambiguous Identities",
-          "type": "integer"
-        },
-        "calculable_rules": {
-          "default": 0,
-          "title": "Calculable Rules",
-          "type": "integer"
-        },
-        "conflicts": {
-          "default": 0,
-          "title": "Conflicts",
-          "type": "integer"
-        },
-        "direct_fixed_fees": {
-          "default": 0,
-          "title": "Direct Fixed Fees",
-          "type": "integer"
-        },
-        "extracted_apm_methods": {
-          "default": 0,
-          "title": "Extracted Apm Methods",
-          "type": "integer"
-        },
-        "fixed_fee_entries": {
-          "default": 0,
-          "title": "Fixed Fee Entries",
-          "type": "integer"
-        },
-        "ignored": {
-          "default": 0,
-          "title": "Ignored",
-          "type": "integer"
-        },
-        "inherited_schedules": {
-          "default": 0,
-          "title": "Inherited Schedules",
-          "type": "integer"
-        },
-        "international_surcharge_entries": {
-          "default": 0,
-          "title": "International Surcharge Entries",
-          "type": "integer"
-        },
-        "missing_required_schedules": {
-          "default": 0,
-          "title": "Missing Required Schedules",
-          "type": "integer"
-        },
-        "non_calculable_rules": {
-          "default": 0,
-          "title": "Non Calculable Rules",
-          "type": "integer"
-        },
-        "reference_sources": {
-          "default": 0,
-          "title": "Reference Sources",
-          "type": "integer"
-        },
-        "reference_targets": {
-          "default": 0,
-          "title": "Reference Targets",
-          "type": "integer"
-        },
-        "transaction_rules": {
-          "default": 0,
-          "title": "Transaction Rules",
-          "type": "integer"
-        },
-        "unclassified": {
-          "default": 0,
-          "title": "Unclassified",
-          "type": "integer"
-        },
-        "unknown_apm_methods": {
-          "default": 0,
-          "title": "Unknown Apm Methods",
-          "type": "integer"
-        },
-        "unresolved_nested_references": {
-          "default": 0,
-          "title": "Unresolved Nested References",
-          "type": "integer"
-        },
-        "unresolved_references": {
-          "default": 0,
-          "title": "Unresolved References",
-          "type": "integer"
-        },
-        "unsupported_fee_shapes": {
-          "default": 0,
-          "title": "Unsupported Fee Shapes",
-          "type": "integer"
-        }
-      },
-      "title": "CoverageSummary",
+      "required": [
+        "id"
+      ],
+      "title": "CoreFeeRule",
       "type": "object"
     },
     "CurrencyConversion": {
@@ -171,235 +309,6 @@
         }
       },
       "title": "CurrencyConversion",
-      "type": "object"
-    },
-    "DerivedFeeResult": {
-      "additionalProperties": false,
-      "description": "Derived product-specific fee rules, schedules, and diagnostics.",
-      "properties": {
-        "ambiguous_rows": {
-          "items": {
-            "$ref": "#/$defs/AmbiguousFeeRow"
-          },
-          "title": "Ambiguous Rows",
-          "type": "array"
-        },
-        "coverage_summary": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CoverageSummary"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "currency_conversion": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CurrencyConversion"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "diagnostics": {
-          "items": {
-            "$ref": "#/$defs/Diagnostic"
-          },
-          "title": "Diagnostics",
-          "type": "array"
-        },
-        "fixed_fee_schedules": {
-          "additionalProperties": {
-            "$ref": "#/$defs/FixedFeeSchedule"
-          },
-          "title": "Fixed Fee Schedules",
-          "type": "object"
-        },
-        "ignored_rows": {
-          "items": {
-            "$ref": "#/$defs/UnclassifiedFeeRow"
-          },
-          "title": "Ignored Rows",
-          "type": "array"
-        },
-        "international_surcharge_schedules": {
-          "additionalProperties": {
-            "$ref": "#/$defs/InternationalSurchargeSchedule"
-          },
-          "title": "International Surcharge Schedules",
-          "type": "object"
-        },
-        "status": {
-          "default": "unclassified",
-          "title": "Status",
-          "type": "string"
-        },
-        "transaction_fee_rules": {
-          "items": {
-            "$ref": "#/$defs/TransactionFeeRule"
-          },
-          "title": "Transaction Fee Rules",
-          "type": "array"
-        },
-        "unclassified_fee_rows": {
-          "items": {
-            "$ref": "#/$defs/UnclassifiedFeeRow"
-          },
-          "title": "Unclassified Fee Rows",
-          "type": "array"
-        }
-      },
-      "title": "DerivedFeeResult",
-      "type": "object"
-    },
-    "Diagnostic": {
-      "additionalProperties": false,
-      "description": "A structured classifier diagnostic.\n\nDiagnostics capture data-quality events such as missing schedules, schedule\nconflicts, or unrecognized payment-method aliases. The meaning of a\ndiagnostic is determined by ``type``; only the relevant fields are populated.",
-      "properties": {
-        "expected_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Expected Schedule"
-        },
-        "inherited_from": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Inherited From"
-        },
-        "label": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Label"
-        },
-        "message": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Message"
-        },
-        "normalized_key": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Normalized Key"
-        },
-        "payment_method": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Payment Method"
-        },
-        "rule_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Rule Id"
-        },
-        "schedule_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Schedule Id"
-        },
-        "schedule_type": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Schedule Type"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
-          "type": "array"
-        },
-        "type": {
-          "title": "Type",
-          "type": "string"
-        },
-        "values": {
-          "anyOf": [
-            {
-              "items": {
-                "type": "string"
-              },
-              "type": "array"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Values"
-        }
-      },
-      "required": [
-        "type"
-      ],
-      "title": "Diagnostic",
       "type": "object"
     },
     "FeeComponent": {
@@ -477,50 +386,6 @@
       "title": "FeeComponent",
       "type": "object"
     },
-    "FixedFeeSchedule": {
-      "additionalProperties": false,
-      "description": "Fixed fees by received currency for a single product schedule.\n\n``entries`` maps ISO 4217 currency codes to decimal strings.  ``sources``\nrecords the provenance of each contributing table fragment.",
-      "properties": {
-        "entries": {
-          "additionalProperties": {
-            "type": "string"
-          },
-          "title": "Entries",
-          "type": "object"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
-          "type": "array"
-        }
-      },
-      "title": "FixedFeeSchedule",
-      "type": "object"
-    },
-    "InternationalSurchargeSchedule": {
-      "additionalProperties": false,
-      "description": "International surcharge schedule for a single product or product family.",
-      "properties": {
-        "entries": {
-          "items": {
-            "$ref": "#/$defs/InternationalSurchargeScheduleEntry"
-          },
-          "title": "Entries",
-          "type": "array"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
-          "type": "array"
-        }
-      },
-      "title": "InternationalSurchargeSchedule",
-      "type": "object"
-    },
     "InternationalSurchargeScheduleEntry": {
       "additionalProperties": false,
       "description": "One region entry in an international surcharge schedule.",
@@ -548,158 +413,6 @@
       "title": "InternationalSurchargeScheduleEntry",
       "type": "object"
     },
-    "Provenance": {
-      "additionalProperties": false,
-      "description": "Source metadata for a derived rule or schedule.",
-      "properties": {
-        "canonical_url": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Canonical Url"
-        },
-        "classifier_version": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Classifier Version"
-        },
-        "component_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Component Id"
-        },
-        "document_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Document Id"
-        },
-        "original_label": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Original Label"
-        },
-        "page_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Page Id"
-        },
-        "page_title": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Page Title"
-        },
-        "requested_url": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Requested Url"
-        },
-        "row_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Row Id"
-        },
-        "row_index": {
-          "anyOf": [
-            {
-              "type": "integer"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Row Index"
-        },
-        "section_heading": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Section Heading"
-        },
-        "table_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Table Id"
-        }
-      },
-      "title": "Provenance",
-      "type": "object"
-    },
     "PublicCoreFeeEntry": {
       "additionalProperties": false,
       "description": "A single country's confidently derived core fees (public).",
@@ -710,7 +423,7 @@
           "type": "string"
         },
         "derived": {
-          "$ref": "#/$defs/DerivedFeeResult"
+          "$ref": "#/$defs/CoreFeeDerived"
         },
         "derived_status": {
           "title": "Derived Status",
@@ -740,274 +453,6 @@
         "country_code"
       ],
       "title": "PublicCoreFeeEntry",
-      "type": "object"
-    },
-    "RateReference": {
-      "additionalProperties": false,
-      "description": "Explicit reference from one fee row to another fee section or product.",
-      "properties": {
-        "reference": {
-          "title": "Reference",
-          "type": "string"
-        },
-        "resolved_rate": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/ResolvedRate"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        }
-      },
-      "required": [
-        "reference"
-      ],
-      "title": "RateReference",
-      "type": "object"
-    },
-    "ResolvedRate": {
-      "additionalProperties": false,
-      "description": "A fee rate resolved from a reference to another table or product.",
-      "properties": {
-        "fixed_fee_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Fixed Fee Schedule"
-        },
-        "international_surcharge_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "International Surcharge Schedule"
-        },
-        "percentage": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Percentage"
-        },
-        "rule_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Rule Id"
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        }
-      },
-      "title": "ResolvedRate",
-      "type": "object"
-    },
-    "TransactionFeeRule": {
-      "additionalProperties": false,
-      "description": "A single product-specific transaction fee rule.\n\n``id`` identifies the payment product family. ``variant_id`` distinguishes\nmultiple legitimate pricing variants for the same product (e.g. special\nversus default alternative payment methods). Both fields participate in\nthe stable rule identity key.\n\n``calculation_status`` describes whether and how the rule can be used by a\nfee calculator. ``calculable`` rules carry at least one usable fee\ncomponent; other states preserve source rows for review without exposing\nthem as ready-to-use rates.",
-      "properties": {
-        "calculation_status": {
-          "default": "calculable",
-          "title": "Calculation Status",
-          "type": "string"
-        },
-        "conditions": {
-          "additionalProperties": true,
-          "title": "Conditions",
-          "type": "object"
-        },
-        "fee_components": {
-          "items": {
-            "$ref": "#/$defs/FeeComponent"
-          },
-          "title": "Fee Components",
-          "type": "array"
-        },
-        "fixed_fee_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Fixed Fee Schedule"
-        },
-        "id": {
-          "title": "Id",
-          "type": "string"
-        },
-        "international_surcharge_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "International Surcharge Schedule"
-        },
-        "label": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Label"
-        },
-        "percentage": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Percentage"
-        },
-        "rate_reference": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/RateReference"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "variant_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Variant Id"
-        }
-      },
-      "required": [
-        "id"
-      ],
-      "title": "TransactionFeeRule",
-      "type": "object"
-    },
-    "UnclassifiedFeeRow": {
-      "additionalProperties": false,
-      "description": "A fee row that could not be confidently classified.",
-      "properties": {
-        "normalized_cells": {
-          "items": {
-            "type": "string"
-          },
-          "title": "Normalized Cells",
-          "type": "array"
-        },
-        "original_label": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Original Label"
-        },
-        "reason": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Reason"
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        }
-      },
-      "title": "UnclassifiedFeeRow",
       "type": "object"
     }
   },

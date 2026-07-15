@@ -99,6 +99,11 @@
           "title": "International Surcharge Entries",
           "type": "integer"
         },
+        "maximum_fee_entries": {
+          "default": 0,
+          "title": "Maximum Fee Entries",
+          "type": "integer"
+        },
         "missing_required_schedules": {
           "default": 0,
           "title": "Missing Required Schedules",
@@ -232,6 +237,13 @@
             "$ref": "#/$defs/InternationalSurchargeSchedule"
           },
           "title": "International Surcharge Schedules",
+          "type": "object"
+        },
+        "maximum_fee_schedules": {
+          "additionalProperties": {
+            "$ref": "#/$defs/FixedFeeSchedule"
+          },
+          "title": "Maximum Fee Schedules",
           "type": "object"
         },
         "status": {
@@ -809,6 +821,18 @@
           "default": null,
           "title": "International Surcharge Schedule"
         },
+        "maximum_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maximum Fee Schedule"
+        },
         "percentage": {
           "anyOf": [
             {
@@ -908,6 +932,18 @@
           ],
           "default": null,
           "title": "Label"
+        },
+        "maximum_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maximum Fee Schedule"
         },
         "percentage": {
           "anyOf": [

@@ -37,9 +37,9 @@ under the output root.
 
 After the latest regeneration the dataset is:
 
-- 1 complete, 194 partial, 5 unclassified
-- 4,051 core fee rules across all countries
-- 1 unsupported country
+- 1 complete, 184 partial, 15 unclassified
+- 1,266 core fee rules across all countries
+- 0 unsupported countries
 
 The remaining unclassified and partial markets are usually locales where a
 standard commercial rate table is absent or rates are embedded in a
