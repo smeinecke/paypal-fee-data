@@ -1,27 +1,26 @@
 {
-  "cms_updated_at": "2025-09-24T07:28:52.139Z",
-  "crawled_at": "2026-07-15T15:03:12.649668",
+  "crawled_at": "2026-07-15T18:59:44.460808",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 26,
+      "calculable_rules": 14,
       "conflicts": 25,
-      "direct_fixed_fees": 1,
-      "extracted_apm_methods": 4,
-      "fixed_fee_entries": 144,
-      "ignored": 7,
-      "inherited_schedules": 17,
+      "direct_fixed_fees": 0,
+      "extracted_apm_methods": 10,
+      "fixed_fee_entries": 216,
+      "ignored": 14,
+      "inherited_schedules": 0,
       "international_surcharge_entries": 1,
-      "missing_required_schedules": 17,
-      "non_calculable_rules": 0,
-      "reference_sources": 0,
-      "reference_targets": 0,
-      "transaction_rules": 26,
-      "unclassified": 0,
-      "unknown_apm_methods": 31,
-      "unresolved_nested_references": 0,
+      "missing_required_schedules": 13,
+      "non_calculable_rules": 1,
+      "reference_sources": 1,
+      "reference_targets": 1,
+      "transaction_rules": 15,
+      "unclassified": 5,
+      "unknown_apm_methods": 23,
+      "unresolved_nested_references": 1,
       "unresolved_references": 0,
       "unsupported_fee_shapes": 0
     },
@@ -43,7 +42,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -54,7 +53,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -65,7 +64,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -76,7 +75,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -99,7 +98,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -110,7 +109,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -121,7 +120,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -132,7 +131,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -155,7 +154,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -166,7 +165,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -177,7 +176,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -188,7 +187,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -211,7 +210,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -222,7 +221,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -233,7 +232,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -244,7 +243,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -267,7 +266,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -278,7 +277,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -289,7 +288,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -300,7 +299,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -323,7 +322,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -334,7 +333,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -345,7 +344,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -356,7 +355,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -379,7 +378,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -390,7 +389,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -401,7 +400,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -412,7 +411,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -435,7 +434,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -446,7 +445,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -457,7 +456,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -468,7 +467,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -491,7 +490,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -502,7 +501,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -513,7 +512,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -524,7 +523,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -547,7 +546,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -558,7 +557,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -569,7 +568,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -580,7 +579,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -603,7 +602,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -614,7 +613,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -625,7 +624,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -636,7 +635,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -659,7 +658,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -670,7 +669,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -681,7 +680,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -692,7 +691,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -715,7 +714,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -726,7 +725,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -737,7 +736,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -748,7 +747,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -771,7 +770,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -782,7 +781,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -793,7 +792,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -804,7 +803,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -827,7 +826,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -838,7 +837,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -849,7 +848,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -860,7 +859,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -883,7 +882,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -894,7 +893,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -905,7 +904,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -916,7 +915,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -939,7 +938,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -950,7 +949,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -961,7 +960,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -972,7 +971,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -995,7 +994,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1006,7 +1005,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1017,7 +1016,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1028,7 +1027,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1051,7 +1050,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1062,7 +1061,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1073,7 +1072,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1084,7 +1083,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1107,7 +1106,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1118,7 +1117,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1129,7 +1128,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1140,7 +1139,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1163,7 +1162,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1174,7 +1173,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1185,7 +1184,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1196,7 +1195,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1219,7 +1218,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1230,7 +1229,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1241,7 +1240,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1252,7 +1251,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1275,7 +1274,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1286,7 +1285,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1297,7 +1296,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1308,7 +1307,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1331,7 +1330,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1342,7 +1341,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1353,7 +1352,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1364,7 +1363,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1387,7 +1386,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB25::3"
+            "table_id": "FeeTable::FEETB25::5"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1398,7 +1397,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB224::4"
+            "table_id": "FeeTable::FEETB224::6"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1409,7 +1408,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
-            "table_id": "FeeTable::FEETB38::18"
+            "table_id": "FeeTable::FEETB38::20"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -1420,7 +1419,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
-            "table_id": "FeeTable::FEETB228::19"
+            "table_id": "FeeTable::FEETB228::21"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1446,7 +1445,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1468,7 +1467,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1490,7 +1489,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1512,7 +1511,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1534,7 +1533,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1556,7 +1555,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1578,7 +1577,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1600,7 +1599,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1622,7 +1621,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1644,7 +1643,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1666,7 +1665,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1688,7 +1687,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1710,7 +1709,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1732,7 +1731,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1754,7 +1753,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1776,7 +1775,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1798,7 +1797,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1820,7 +1819,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1842,139 +1841,7 @@
             "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "Airtel",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "NaverPay",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "NuPay",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "Pago Efectivo",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "PicPay",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "payment_method": "TrueMoney",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Virement bancaire en ligne en Thaïlande, virement bancaire en ligne en Lettonie, virement bancaire en ligne en Lituanie, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -1996,7 +1863,7 @@
             "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
             "row_index": 1,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -2018,7 +1885,7 @@
             "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
             "row_index": 1,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -2040,51 +1907,7 @@
             "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
             "row_index": 1,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Mercado Pago, ShopeePay",
-        "payment_method": "Mercado Pago",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Mercado Pago, ShopeePay",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "XzE6S4Wmhi5dH30Q4CacyI",
-            "row_index": 2,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Mercado Pago, ShopeePay",
-        "payment_method": "ShopeePay",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "46KWIBtojNcoumDWjYDNOJ",
-            "document_id": "FEETB414",
-            "original_label": "Mercado Pago, ShopeePay",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "XzE6S4Wmhi5dH30Q4CacyI",
-            "row_index": 2,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
@@ -2106,81 +1929,13 @@
             "row_id": "6nF3auEtFDCoeT1gsBQi8n",
             "row_index": 3,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-            "table_id": "FeeTable::FEETB414::12"
+            "table_id": "FeeTable::FEETB414::14"
           }
         ],
         "type": "unknown_apm_method"
       },
       {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
-            "document_id": "FEETB16",
-            "original_label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "AfkaBYWT4YwiDxw9cTG4y",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-            "table_id": "FeeTable::FEETB16::1"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
-            "document_id": "FEETB16",
-            "original_label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "AfkaBYWT4YwiDxw9cTG4y",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-            "table_id": "FeeTable::FEETB16::1"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
-            "document_id": "FEETB16",
-            "original_label": "Toutes les autres transactions commerciales",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "1ZaytaSJzieuFTDs3I85DL",
-            "row_index": 4,
-            "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-            "table_id": "FeeTable::FEETB16::1"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "other_commercial",
         "rule_id": "other_commercial",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2196,81 +1951,13 @@
             "row_id": "1ZaytaSJzieuFTDs3I85DL",
             "row_index": 4,
             "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-            "table_id": "FeeTable::FEETB16::1"
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5jEuvu86kIWKz6uNMp3G1q",
-            "document_id": "FEETB104",
-            "original_label": "France",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "587JpJlGlwr6J1jD7DjxvV",
-            "row_index": 0,
-            "section_heading": "Grille tarifaire: Réception de transactions nationales impliquant des associations caritatives",
-            "table_id": "FeeTable::FEETB104::9"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5jEuvu86kIWKz6uNMp3G1q",
-            "document_id": "FEETB104",
-            "original_label": "France",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "587JpJlGlwr6J1jD7DjxvV",
-            "row_index": 0,
-            "section_heading": "Grille tarifaire: Réception de transactions nationales impliquant des associations caritatives",
-            "table_id": "FeeTable::FEETB104::9"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements par carte bancaire avancés - Structure tarifaire regroupée :Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "1YivbsjX4NXoLdE4ctbAW9",
-            "row_index": 0,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2286,36 +1973,13 @@
             "row_id": "1YivbsjX4NXoLdE4ctbAW9",
             "row_index": 0,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus :Cartes Visa, Mastercard, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "oDDiWV9SC72JmGSBVaX4H",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2331,36 +1995,13 @@
             "row_id": "oDDiWV9SC72JmGSBVaX4H",
             "row_index": 1,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "3sm8jTMVN3yI27BlP0ogh9",
-            "row_index": 2,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2376,36 +2017,13 @@
             "row_id": "3sm8jTMVN3yI27BlP0ogh9",
             "row_index": 2,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements par carte bancaire avancésCarte American Express",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "6rkeiuFFRMkujLLuFswUGE",
-            "row_index": 3,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2421,36 +2039,13 @@
             "row_id": "6rkeiuFFRMkujLLuFswUGE",
             "row_index": 3,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements eTerminal - Structure tarifaire regroupée:Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga ou autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "3vDvt9rHHQyapyi4HXR3kD",
-            "row_index": 4,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2466,36 +2061,13 @@
             "row_id": "3vDvt9rHHQyapyi4HXR3kD",
             "row_index": 4,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard ou autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "2Z5vzCThehYBR9rGzxrKO2",
-            "row_index": 5,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2511,36 +2083,13 @@
             "row_id": "2Z5vzCThehYBR9rGzxrKO2",
             "row_index": 5,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "aTSb8wJsRzOTzv8XB4FuR",
-            "row_index": 6,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2556,36 +2105,13 @@
             "row_id": "aTSb8wJsRzOTzv8XB4FuR",
             "row_index": 6,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements PayPal solution hébergée - Structure tarifaire regroupée:Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga, autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "2f23MCg9HpNRPFUBcUSKNB",
-            "row_index": 7,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2601,36 +2127,13 @@
             "row_id": "2f23MCg9HpNRPFUBcUSKNB",
             "row_index": 7,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard, autre carte bancaire",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "1g8UYfJfNLiQql9wr4g8W8",
-            "row_index": 8,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2646,36 +2149,13 @@
             "row_id": "1g8UYfJfNLiQql9wr4g8W8",
             "row_index": 8,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "online_card_payments",
-        "inherited_from": "online_card_payments",
-        "rule_id": "advanced_card_payments",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "67uqR1PPQCL0ER7kMF6CR",
-            "document_id": "FEETB162",
-            "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "383qcxsfFsh0BBrwXAj15n",
-            "row_index": 9,
-            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "advanced_card_payments",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2691,126 +2171,35 @@
             "row_id": "383qcxsfFsh0BBrwXAj15n",
             "row_index": 9,
             "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-            "table_id": "FeeTable::FEETB162::15"
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Transactions par carte",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "aXMMF979Hg9fVhFAPP4th5",
-            "row_index": 0,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "other_commercial",
         "rule_id": "other_commercial",
         "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Transactions par carte",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Autres paiements",
             "page_id": "business/paypal-business-fees",
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "aXMMF979Hg9fVhFAPP4th5",
-            "row_index": 0,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
+            "row_id": "4Dd2wmVATNfW44rayJlbIT",
+            "row_index": 11,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "WiHHX0GiKHfeQRdADtxKJK",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "WiHHX0GiKHfeQRdADtxKJK",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "paypal_checkout",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Liens de paiement: PayPal Checkout, Payer avec Venmo, offres Paiement différé PayPal ou Paiement sans compte PayPal",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "3CEfbivFj7PejkTRtnsLP0",
-            "row_index": 2,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "paypal_checkout",
         "rule_id": "paypal_checkout",
         "schedule_type": "international_surcharge",
         "sources": [
@@ -2826,58 +2215,186 @@
             "row_id": "3CEfbivFj7PejkTRtnsLP0",
             "row_index": 2,
             "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
+            "table_id": "FeeTable::FEETB893::23"
           }
         ],
         "type": "missing_required_schedule"
       },
       {
-        "expected_schedule": "commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Tarifs - Frais PayPal pour les marchands",
-            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "cmFdhnaEvKVfNPPootajGB",
-            "row_index": 3,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
+        "expected_schedule": "other_commercial",
         "rule_id": "other_commercial",
         "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-            "document_id": "FEETB893",
-            "original_label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Autres paiements",
             "page_id": "business/paypal-business-fees",
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-            "row_id": "cmFdhnaEvKVfNPPootajGB",
-            "row_index": 3,
-            "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-            "table_id": "FeeTable::FEETB893::21"
+            "row_id": "4Dd2wmVATNfW44rayJlbIT",
+            "row_index": 11,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
           }
         ],
-        "type": "missing_required_schedule"
+        "type": "unresolved_nested_reference"
+      },
+      {
+        "label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus :Cartes Visa, Mastercard, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
+        "rule_id": "advanced_card_payments",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus :Cartes Visa, Mastercard, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "oDDiWV9SC72JmGSBVaX4H",
+            "row_index": 1,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "3sm8jTMVN3yI27BlP0ogh9",
+            "row_index": 2,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard ou autre carte bancaire",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "2Z5vzCThehYBR9rGzxrKO2",
+            "row_index": 5,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "aTSb8wJsRzOTzv8XB4FuR",
+            "row_index": 6,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard, autre carte bancaire",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "1g8UYfJfNLiQql9wr4g8W8",
+            "row_index": 8,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "383qcxsfFsh0BBrwXAj15n",
+            "row_index": 9,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          }
+        ],
+        "type": "conflicting_rule_identity",
+        "values": [
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"1.2\"}",
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"2.9\"}",
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"3.2\"}",
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"2.9\"}",
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"2.1\"}",
+          "{\"fixed_fee_schedule\": \"advanced_card_payments\", \"international_surcharge_schedule\": null, \"percentage\": \"2.9\"}"
+        ]
       }
     ],
     "fixed_fee_schedules": {
+      "advanced_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "iSiEHdOgvxnNfvcqZLvGP",
+            "document_id": "FEETB230",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des services de paiement par carte en ligne PayPal (selon la devise cible)",
+            "table_id": "FeeTable::FEETB230::18"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "iSiEHdOgvxnNfvcqZLvGP",
+            "document_id": "FEETB231",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des services de paiement par carte en ligne PayPal (selon la devise cible)",
+            "table_id": "FeeTable::FEETB230::18"
+          }
+        ]
+      },
       "alternative_payment_methods": {
         "entries": {
           "AUD": "0.3",
@@ -2915,7 +2432,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant un Autre moyen de paiement (selon la devise cible)",
-            "table_id": "FeeTable::FEETB65::13"
+            "table_id": "FeeTable::FEETB65::15"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -2926,7 +2443,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant un Autre moyen de paiement (selon la devise cible)",
-            "table_id": "FeeTable::FEETB232::14"
+            "table_id": "FeeTable::FEETB232::16"
           }
         ]
       },
@@ -2967,7 +2484,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB25::3"
+            "table_id": "FeeTable::FEETB25::5"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -2978,7 +2495,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB224::4"
+            "table_id": "FeeTable::FEETB224::6"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -2989,7 +2506,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
-            "table_id": "FeeTable::FEETB38::18"
+            "table_id": "FeeTable::FEETB38::20"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3000,7 +2517,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
-            "table_id": "FeeTable::FEETB228::19"
+            "table_id": "FeeTable::FEETB228::21"
           }
         ]
       },
@@ -3041,7 +2558,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les micropaiements",
-            "table_id": "FeeTable::FEETB163::26"
+            "table_id": "FeeTable::FEETB163::28"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3052,7 +2569,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les micropaiements",
-            "table_id": "FeeTable::FEETB163::26"
+            "table_id": "FeeTable::FEETB163::28"
           }
         ]
       },
@@ -3093,7 +2610,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des associations caritatives (selon la devise cible)",
-            "table_id": "FeeTable::FEETB240::10"
+            "table_id": "FeeTable::FEETB240::12"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3104,7 +2621,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des associations caritatives (selon la devise cible)",
-            "table_id": "FeeTable::FEETB240::10"
+            "table_id": "FeeTable::FEETB240::12"
           }
         ]
       },
@@ -3145,7 +2662,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des services de paiement par carte en ligne PayPal (selon la devise cible)",
-            "table_id": "FeeTable::FEETB230::16"
+            "table_id": "FeeTable::FEETB230::18"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3156,7 +2673,155 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions impliquant des services de paiement par carte en ligne PayPal (selon la devise cible)",
-            "table_id": "FeeTable::FEETB230::16"
+            "table_id": "FeeTable::FEETB230::18"
+          }
+        ]
+      },
+      "other_commercial": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "bWFw5ea1IS5aXRUiD8w5g",
+            "document_id": "FEETB25",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
+            "table_id": "FeeTable::FEETB25::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6dY6SZuivykS69hx2Uey5A",
+            "document_id": "FEETB224",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
+            "table_id": "FeeTable::FEETB224::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2AEaKw0TcfHkIzcya4xdEX",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
+            "table_id": "FeeTable::FEETB38::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "GTU1jlSYBhqU4IlbfOdMY",
+            "document_id": "FEETB228",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
+            "table_id": "FeeTable::FEETB228::21"
+          }
+        ]
+      },
+      "paypal_checkout": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.3",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "bWFw5ea1IS5aXRUiD8w5g",
+            "document_id": "FEETB25",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
+            "table_id": "FeeTable::FEETB25::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6dY6SZuivykS69hx2Uey5A",
+            "document_id": "FEETB224",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
+            "table_id": "FeeTable::FEETB224::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2AEaKw0TcfHkIzcya4xdEX",
+            "document_id": "FEETB38",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
+            "table_id": "FeeTable::FEETB38::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "GTU1jlSYBhqU4IlbfOdMY",
+            "document_id": "FEETB228",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Commission fixe sur les services eTerminal et les transactions PayPal Intégral Évolution (selon la devise cible)",
+            "table_id": "FeeTable::FEETB228::21"
           }
         ]
       },
@@ -3197,7 +2862,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB69::5"
+            "table_id": "FeeTable::FEETB69::7"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3208,7 +2873,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code supérieures ou égales à 10,01 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB227::6"
+            "table_id": "FeeTable::FEETB227::8"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3219,7 +2884,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           },
           {
             "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
@@ -3230,7 +2895,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe pour les transactions par QR code inférieures ou égales à 10,00 EUR (selon la devise cible)",
-            "table_id": "FeeTable::FEETB256::7"
+            "table_id": "FeeTable::FEETB256::9"
           }
         ]
       }
@@ -3255,7 +2920,29 @@
           "row_id": "6pzLIX4DsOIY5ObDRyyOZV",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::1"
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Mercado Pago, ShopeePay",
+          "{{merchantFees.domesticTransactionApmMercadoPagoRatePercent}} + frais fixes"
+        ],
+        "original_label": "Mercado Pago, ShopeePay",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "46KWIBtojNcoumDWjYDNOJ",
+          "document_id": "FEETB414",
+          "original_label": "Mercado Pago, ShopeePay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "XzE6S4Wmhi5dH30Q4CacyI",
+          "row_index": 2,
+          "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
+          "table_id": "FeeTable::FEETB414::14"
         }
       },
       {
@@ -3279,29 +2966,7 @@
           "row_id": "1yDw5JAvY1yLKoy1F2FbMC",
           "row_index": 10,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Autres paiements",
-          "Taux des transactions commerciales"
-        ],
-        "original_label": "Autres paiements",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Autres paiements",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "4Dd2wmVATNfW44rayJlbIT",
-          "row_index": 11,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         }
       },
       {
@@ -3324,7 +2989,7 @@
           "row_id": "56KyJAQ5oqqPsFFHaDdpNb",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Autres frais sur l'utilisation des services de paiement par carte en ligne PayPal",
-          "table_id": "FeeTable::FEETB148::20"
+          "table_id": "FeeTable::FEETB148::22"
         }
       },
       {
@@ -3345,7 +3010,7 @@
           "row_id": "4a1Bb1B4DyZb9SLUmfqh8J",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Autres frais sur l'utilisation des services de paiement par carte en ligne PayPal",
-          "table_id": "FeeTable::FEETB148::20"
+          "table_id": "FeeTable::FEETB148::22"
         }
       },
       {
@@ -3366,7 +3031,7 @@
           "row_id": "78KbOx5I27nasVgbC84659",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Autres frais sur l'utilisation des services de paiement par carte en ligne PayPal",
-          "table_id": "FeeTable::FEETB148::20"
+          "table_id": "FeeTable::FEETB148::22"
         }
       },
       {
@@ -3389,7 +3054,172 @@
           "row_id": "1nPlewjIH328xYXkun26e2",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Autres frais sur l'utilisation des services de paiement par carte en ligne PayPal",
-          "table_id": "FeeTable::FEETB148::20"
+          "table_id": "FeeTable::FEETB148::22"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Annulation bancaire sur un transfert ou un virement effectué à partir d'un compte PayPal",
+          "Ces frais sont prélevés lorsqu'un transfert ou virement effectué à partir d'un compte PayPal, à l'initiative d'un utilisateur, échoue en raison de coordonnées bancaires ou de livraison erronées.",
+          "3,00 EUR",
+          ""
+        ],
+        "original_label": "Annulation bancaire sur un transfert ou un virement effectué à partir d'un compte PayPal",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Annulation bancaire sur un transfert ou un virement effectué à partir d'un compte PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "7dnUuAgFaj1AloMDoIXylo",
+          "row_index": 0,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Remboursement de transaction commerciale"
+        ],
+        "original_label": "Remboursement de transaction commerciale",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Remboursement de transaction commerciale",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "3ZZQs9B1eWoXJjlE4qMvUZ",
+          "row_index": 1,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Confirmation de carte de crédit ou de débit",
+          "Dans certains cas déterminés par PayPal ou pour augmenter des limites de paiement, des frais d'enregistrement et de confirmation de carte de crédit ou de débit peuvent être prélevés. Le montant correspondant est remboursé dès que la procédure de confirmation de la carte est finalisée.",
+          "Voir le tableau Enregistrement et confirmation de carte de crédit ou de débit ci-après.",
+          ""
+        ],
+        "original_label": "Confirmation de carte de crédit ou de débit",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Confirmation de carte de crédit ou de débit",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "5BnCfaH4N268rDMzMU47SP",
+          "row_index": 2,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Compte PayPal inactif",
+          "Les frais d'inactivité seront inférieurs au montant indiqué ci-dessous ou au solde restant sur votre compte.",
+          "Reportez-vous au tableau Frais appliqués en cas d'inactivité d'un compte PayPal ci-dessous.",
+          ""
+        ],
+        "original_label": "Compte PayPal inactif",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Compte PayPal inactif",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "AHW4F0mVO4GZDVvR6eh17",
+          "row_index": 3,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Demande de registre",
+          "Lorsque nous rejetons un ordre de paiement que vous avez effectué, vous pouvez demander un complément d'information afin d'en connaître la raison. Cette demande de registre fait l'objet de frais. Nous ne prélevons pas de frais pour les demandes de registres en lien avec une erreur sur votre compte PayPal dès lors que cette erreur est signalée en toute bonne foi.",
+          "12,00 EUR (par unité)",
+          ""
+        ],
+        "original_label": "Demande de registre",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Demande de registre",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "u3bFpVMn0cYE3aIXGkAoS",
+          "row_index": 4,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Annulation ou échec de paiement par prélèvement bancaire",
+          "Dans cette situation, les frais prélevés dépendent des pertes subies par PayPal. Vous êtes en droit de prouver que nos pertes étaient inférieures au montant de la commission.",
+          "3,00 EUR",
+          ""
+        ],
+        "original_label": "Annulation ou échec de paiement par prélèvement bancaire",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Annulation ou échec de paiement par prélèvement bancaire",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "23QWXTsF9niYTIglvvSTWb",
+          "row_index": 5,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Business Debit Card pour la France – Frais de retrait d'espècesL'utilisation de la carte de débit professionnelle pour la France doit répondre à des critères d'éligibilité, doit faire l'objet d'une demande, et est soumise à l'approbation de PayPal et à votre acceptation desconditions du Contrat de titulaire de carte PayPal Business Debit Mastercard pour la France.",
+          "Les frais s'appliquent aux retraits d'espèces à un distributeur automatique de billets (en France et à l'étranger). Les fournisseurs de distributeurs automatiques de billets peuvent facturer des frais supplémentaires.",
+          "2,00 EUR (par transaction)",
+          ""
+        ],
+        "original_label": "Business Debit Card pour la France – Frais de retrait d'espècesL'utilisation de la carte de débit professionnelle pour la France doit répondre à des critères d'éligibilité, doit faire l'objet d'une demande, et est soumise à l'approbation de PayPal et à votre acceptation desconditions du Contrat de titulaire de carte PayPal Business Debit Mastercard pour la France.",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2IG3F7pk8PeswU6QIOngtp",
+          "document_id": "FEETB62",
+          "original_label": "Business Debit Card pour la France – Frais de retrait d'espècesL'utilisation de la carte de débit professionnelle pour la France doit répondre à des critères d'éligibilité, doit faire l'objet d'une demande, et est soumise à l'approbation de PayPal et à votre acceptation desconditions du Contrat de titulaire de carte PayPal Business Debit Mastercard pour la France.",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "1vNYZZHEHpyAI9sZIOYkJS",
+          "row_index": 6,
+          "section_heading": "Grille tarifaire: Autres frais",
+          "table_id": "FeeTable::FEETB62::43"
         }
       }
     ],
@@ -3411,7 +3241,7 @@
             "page_title": "Tarifs - Frais PayPal pour les marchands",
             "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais de service supplémentaires pour les destinataires de transactions commerciales internationales en provenance du Royaume-Uni",
-            "table_id": "FeeTable::FEETB114::2"
+            "table_id": "FeeTable::FEETB114::4"
           }
         ]
       }
@@ -3427,11 +3257,11 @@
             "value": "2.9"
           },
           {
-            "schedule_id": "commercial",
+            "schedule_id": "paypal_checkout",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "commercial",
+        "fixed_fee_schedule": "paypal_checkout",
         "id": "paypal_checkout",
         "label": "Liens de paiement: PayPal Checkout, Payer avec Venmo, offres Paiement différé PayPal ou Paiement sans compte PayPal",
         "percentage": "2.9",
@@ -3447,7 +3277,7 @@
           "row_id": "3CEfbivFj7PejkTRtnsLP0",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-          "table_id": "FeeTable::FEETB893::21"
+          "table_id": "FeeTable::FEETB893::23"
         },
         "variant_id": "venmo"
       },
@@ -3462,11 +3292,11 @@
             "value": "3.5"
           },
           {
-            "schedule_id": "online_card_payments",
+            "schedule_id": "advanced_card_payments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "online_card_payments",
+        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
         "label": "Paiements par carte bancaire avancésCarte American Express",
         "percentage": "3.5",
@@ -3482,7 +3312,7 @@
           "row_id": "6rkeiuFFRMkujLLuFswUGE",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "american_express"
       },
@@ -3499,11 +3329,11 @@
             "value": "3.4"
           },
           {
-            "schedule_id": "online_card_payments",
+            "schedule_id": "advanced_card_payments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "online_card_payments",
+        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
         "label": "Paiements eTerminal - Structure tarifaire regroupée:Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga ou autre carte bancaire",
         "percentage": "3.4",
@@ -3519,7 +3349,7 @@
           "row_id": "3vDvt9rHHQyapyi4HXR3kD",
           "row_index": 4,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "eterminal"
       },
@@ -3534,11 +3364,11 @@
             "value": "1.2"
           },
           {
-            "schedule_id": "online_card_payments",
+            "schedule_id": "advanced_card_payments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "online_card_payments",
+        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
         "label": "Paiements par carte bancaire avancés - Structure tarifaire regroupée :Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
         "percentage": "1.2",
@@ -3554,174 +3384,19 @@
           "row_id": "1YivbsjX4NXoLdE4ctbAW9",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "flat_rate"
       },
       {
-        "calculation_status": "calculable",
+        "calculation_status": "incomplete",
         "conditions": {
           "pricing_plan": "interchange_plus",
           "transaction_region": "domestic"
         },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.9"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "383qcxsfFsh0BBrwXAj15n",
-          "row_index": 9,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "interchange_plus",
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.1"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard, autre carte bancaire",
-        "percentage": "2.1",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Paiements PayPal solution hébergée - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard, autre carte bancaire",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "1g8UYfJfNLiQql9wr4g8W8",
-          "row_index": 8,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "interchange_plus",
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.9"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "aTSb8wJsRzOTzv8XB4FuR",
-          "row_index": 6,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "interchange_plus",
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "3.2"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard ou autre carte bancaire",
-        "percentage": "3.2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Paiements eTerminal - Structure tarifaire Interchange Plus:Cartes Visa, Mastercard ou autre carte bancaire",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "2Z5vzCThehYBR9rGzxrKO2",
-          "row_index": 5,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "interchange_plus",
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.2"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
+        "fee_components": [],
         "id": "advanced_card_payments",
         "label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus :Cartes Visa, Mastercard, China UnionPay (CUP), Diners, Discover et autre carte bancaire",
-        "percentage": "1.2",
         "source": {
           "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -3734,43 +3409,7 @@
           "row_id": "oDDiWV9SC72JmGSBVaX4H",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "interchange_plus",
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.9"
-          },
-          {
-            "schedule_id": "online_card_payments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "67uqR1PPQCL0ER7kMF6CR",
-          "document_id": "FEETB162",
-          "original_label": "Paiements par carte bancaire avancés - Structure tarifaire Interchange Plus:Cartes Cofidis, Cetelem ou Cofinoga",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "3sm8jTMVN3yI27BlP0ogh9",
-          "row_index": 2,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "interchange_plus"
       },
@@ -3785,11 +3424,11 @@
             "value": "2.3"
           },
           {
-            "schedule_id": "online_card_payments",
+            "schedule_id": "advanced_card_payments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "online_card_payments",
+        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
         "label": "Paiements PayPal solution hébergée - Structure tarifaire regroupée:Cartes Visa, Mastercard, Cofidis, Cetelem, Cofinoga, autre carte bancaire",
         "percentage": "2.3",
@@ -3805,7 +3444,7 @@
           "row_id": "2f23MCg9HpNRPFUBcUSKNB",
           "row_index": 7,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
-          "table_id": "FeeTable::FEETB162::15"
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "payments_pro"
       },
@@ -3817,199 +3456,70 @@
         "fee_components": [
           {
             "type": "percentage",
-            "value": "1.2"
-          },
-          {
-            "schedule_id": "commercial",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
-        "percentage": "1.2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
-          "document_id": "FEETB16",
-          "original_label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "AfkaBYWT4YwiDxw9cTG4y",
-          "row_index": 1,
-          "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::1"
-        },
-        "variant_id": "card_funded"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.4"
-          },
-          {
-            "schedule_id": "commercial",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "France",
-        "percentage": "1.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5jEuvu86kIWKz6uNMp3G1q",
-          "document_id": "FEETB104",
-          "original_label": "France",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "587JpJlGlwr6J1jD7DjxvV",
-          "row_index": 0,
-          "section_heading": "Grille tarifaire: Réception de transactions nationales impliquant des associations caritatives",
-          "table_id": "FeeTable::FEETB104::9"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
             "value": "2.9"
           },
           {
-            "schedule_id": "commercial",
+            "schedule_id": "other_commercial",
             "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "Toutes les autres transactions commerciales",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
-          "document_id": "FEETB16",
-          "original_label": "Toutes les autres transactions commerciales",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "1ZaytaSJzieuFTDs3I85DL",
-          "row_index": 4,
-          "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::1"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.2"
           },
           {
-            "schedule_id": "commercial",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
-        "percentage": "1.2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-          "document_id": "FEETB893",
-          "original_label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "cmFdhnaEvKVfNPPootajGB",
-          "row_index": 3,
-          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-          "table_id": "FeeTable::FEETB893::21"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.75"
-          },
-          {
-            "schedule_id": "commercial",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "label": "Transactions par carte",
-        "percentage": "1.75",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-          "document_id": "FEETB893",
-          "original_label": "Transactions par carte",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "aXMMF979Hg9fVhFAPP4th5",
-          "row_index": 0,
-          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-          "table_id": "FeeTable::FEETB893::21"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
+            "type": "resolved_percentage",
             "value": "2.9"
-          },
-          {
-            "schedule_id": "commercial",
-            "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "commercial",
+        "fixed_fee_schedule": "other_commercial",
         "id": "other_commercial",
-        "label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
+        "label": "Autres paiements",
         "percentage": "2.9",
+        "rate_reference": {
+          "reference": "other_commercial",
+          "resolved_rate": {
+            "fixed_fee_schedule": "other_commercial",
+            "percentage": "2.9",
+            "rule_id": "other_commercial",
+            "source": {
+              "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
+              "document_id": "FEETB16",
+              "original_label": "Toutes les autres transactions commerciales",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "Tarifs - Frais PayPal pour les marchands",
+              "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+              "row_id": "1ZaytaSJzieuFTDs3I85DL",
+              "row_index": 4,
+              "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
+              "table_id": "FeeTable::FEETB16::3"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "67uqR1PPQCL0ER7kMF6CR",
+            "document_id": "FEETB162",
+            "original_label": "Autres paiements",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Tarifs - Frais PayPal pour les marchands",
+            "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+            "row_id": "4Dd2wmVATNfW44rayJlbIT",
+            "row_index": 11,
+            "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+            "table_id": "FeeTable::FEETB162::17"
+          }
+        },
         "source": {
           "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
-          "document_id": "FEETB893",
-          "original_label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
+          "component_id": "67uqR1PPQCL0ER7kMF6CR",
+          "document_id": "FEETB162",
+          "original_label": "Autres paiements",
           "page_id": "business/paypal-business-fees",
           "page_title": "Tarifs - Frais PayPal pour les marchands",
           "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "WiHHX0GiKHfeQRdADtxKJK",
-          "row_index": 1,
-          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
-          "table_id": "FeeTable::FEETB893::21"
+          "row_id": "4Dd2wmVATNfW44rayJlbIT",
+          "row_index": 11,
+          "section_heading": "Grille tarifaire: Recevoir des transactions nationales en utilisant les services de paiement en ligne PayPal",
+          "table_id": "FeeTable::FEETB162::17"
         },
         "variant_id": "standard"
       },
@@ -4044,37 +3554,7 @@
           "row_id": "6nF3auEtFDCoeT1gsBQi8n",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-          "table_id": "FeeTable::FEETB414::12"
-        },
-        "variant_id": "default"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Mercado Pago, ShopeePay",
-        "source": {
-          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "46KWIBtojNcoumDWjYDNOJ",
-          "document_id": "FEETB414",
-          "original_label": "Mercado Pago, ShopeePay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Tarifs - Frais PayPal pour les marchands",
-          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
-          "row_id": "XzE6S4Wmhi5dH30Q4CacyI",
-          "row_index": 2,
-          "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-          "table_id": "FeeTable::FEETB414::12"
+          "table_id": "FeeTable::FEETB414::14"
         },
         "variant_id": "default"
       },
@@ -4082,9 +3562,15 @@
         "calculation_status": "calculable",
         "conditions": {
           "payment_methods": [
+            "airtel",
             "gopay",
+            "naver_pay",
+            "nupay",
             "ovo_premium",
-            "skrill"
+            "pago_efectivo",
+            "picpay",
+            "skrill",
+            "true_money"
           ],
           "transaction_region": "domestic"
         },
@@ -4114,7 +3600,7 @@
           "row_id": "fRbH6vf2SoEfVRQQ9aXFrX",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-          "table_id": "FeeTable::FEETB414::12"
+          "table_id": "FeeTable::FEETB414::14"
         },
         "variant_id": "special"
       },
@@ -4152,7 +3638,7 @@
           "row_id": "ehvvRiA8oXOdeTEFbCpDBs",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Recevoir des transactions nationales",
-          "table_id": "FeeTable::FEETB414::12"
+          "table_id": "FeeTable::FEETB414::14"
         },
         "variant_id": "special"
       },
@@ -4182,7 +3668,7 @@
           "row_id": "5m6MpepgZFUgjIZPVTDQw3",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::1"
+          "table_id": "FeeTable::FEETB16::3"
         },
         "variant_id": "above_threshold"
       },
@@ -4212,7 +3698,7 @@
           "row_id": "DuBgafbNP8AVkK0G1evkG",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::1"
+          "table_id": "FeeTable::FEETB16::3"
         },
         "variant_id": "below_threshold"
       },
@@ -4247,7 +3733,7 @@
           "row_id": "5miQViILOKBOsnh9McVtMN",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Réception de micropaiements",
-          "table_id": "FeeTable::FEETB66::25"
+          "table_id": "FeeTable::FEETB66::27"
         },
         "variant_id": "international"
       },
@@ -4280,7 +3766,7 @@
           "row_id": "4hf5egyW94emQEF1lX8kkK",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Réception de micropaiements",
-          "table_id": "FeeTable::FEETB66::25"
+          "table_id": "FeeTable::FEETB66::27"
         },
         "variant_id": "standard"
       },
@@ -4307,14 +3793,129 @@
           "page_title": "Tarifs - Frais PayPal pour les marchands",
           "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
           "section_heading": "Grille tarifaire: Frais de service supplémentaires pour les destinataires de transactions commerciales internationales en provenance du Royaume-Uni",
-          "table_id": "FeeTable::FEETB114::2"
+          "table_id": "FeeTable::FEETB114::4"
         },
         "variant_id": "standard"
       }
     ],
-    "unclassified_fee_rows": []
+    "unclassified_fee_rows": [
+      {
+        "normalized_cells": [
+          "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
+          "1,20 % + commission fixe"
+        ],
+        "original_label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2xLvyCmmk0z7qmX4r8Kiui",
+          "document_id": "FEETB16",
+          "original_label": "Paiement approvisionné par carte provenant d'un utilisateur de nos Conditions relatives aux paiements sans passer par un compte PayPal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "AfkaBYWT4YwiDxw9cTG4y",
+          "row_index": 1,
+          "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
+          "table_id": "FeeTable::FEETB16::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "France",
+          "1,40 % + frais fixes"
+        ],
+        "original_label": "France",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5jEuvu86kIWKz6uNMp3G1q",
+          "document_id": "FEETB104",
+          "original_label": "France",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "587JpJlGlwr6J1jD7DjxvV",
+          "row_index": 0,
+          "section_heading": "Grille tarifaire: Réception de transactions nationales impliquant des associations caritatives",
+          "table_id": "FeeTable::FEETB104::11"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Transactions par carte",
+          "1,75 %",
+          "",
+          ""
+        ],
+        "original_label": "Transactions par carte",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
+          "document_id": "FEETB893",
+          "original_label": "Transactions par carte",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "aXMMF979Hg9fVhFAPP4th5",
+          "row_index": 0,
+          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
+          "table_id": "FeeTable::FEETB893::23"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
+          "2,9 % + 0,35 EUR",
+          "",
+          ""
+        ],
+        "original_label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
+          "document_id": "FEETB893",
+          "original_label": "Transactions par saisie manuelle de carte (* sous réserve de la disponibilité du service)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "WiHHX0GiKHfeQRdADtxKJK",
+          "row_index": 1,
+          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
+          "table_id": "FeeTable::FEETB893::23"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
+          "1,2 % + 0,35 EUR"
+        ],
+        "original_label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
+        "reason": "no product alias matched",
+        "source": {
+          "canonical_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "ZvkiLYEjyPvbm55d3czx9L",
+          "document_id": "FEETB893",
+          "original_label": "Liens de paiement: Paiements standard par carte bancaire, Apple Pay ou autres portefeuilles tiers",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tarifs - Frais PayPal pour les marchands",
+          "requested_url": "https://www.paypal.com/gp/business/paypal-business-fees",
+          "row_id": "cmFdhnaEvKVfNPPootajGB",
+          "row_index": 3,
+          "section_heading": "Grille tarifaire: Frais standard pour la réception de transactions via PayPal POS",
+          "table_id": "FeeTable::FEETB893::23"
+        }
+      }
+    ]
   },
-  "generated_at": "2026-07-15T15:03:12.649668",
+  "generated_at": "2026-07-15T18:59:44.460808",
   "market": {
     "country_name": "Guadeloupe",
     "iso_country_code": "GP",

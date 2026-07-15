@@ -1,6 +1,5 @@
 {
-  "cms_updated_at": "2025-09-24T08:10:39.754Z",
-  "crawled_at": "2026-07-15T15:03:12.649668",
+  "crawled_at": "2026-07-15T18:59:44.460808",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -11,110 +10,21 @@
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 0,
       "fixed_fee_entries": 0,
-      "ignored": 1,
+      "ignored": 3,
       "inherited_schedules": 0,
       "international_surcharge_entries": 0,
-      "missing_required_schedules": 4,
-      "non_calculable_rules": 2,
+      "missing_required_schedules": 0,
+      "non_calculable_rules": 0,
       "reference_sources": 0,
       "reference_targets": 0,
-      "transaction_rules": 2,
+      "transaction_rules": 0,
       "unclassified": 0,
       "unknown_apm_methods": 0,
       "unresolved_nested_references": 0,
       "unresolved_references": 0,
       "unsupported_fee_shapes": 0
     },
-    "diagnostics": [
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "paypal_checkout",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "XsA3DX7CbXSaxQush3ckpM",
-            "document_id": "FEETB991",
-            "original_label": "تحويل عملة مشفّرة إلى حساب آخر على PayPal أو Venmo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "رسوم PayPal للبائعين (النشاط التجاري)",
-            "requested_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "row_id": "9hjBFO3BMQTfIAadja3HNi",
-            "row_index": 1,
-            "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-            "table_id": "FeeTable::FEETB991::11"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "paypal_checkout",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "XsA3DX7CbXSaxQush3ckpM",
-            "document_id": "FEETB991",
-            "original_label": "تحويل عملة مشفّرة إلى حساب آخر على PayPal أو Venmo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "رسوم PayPal للبائعين (النشاط التجاري)",
-            "requested_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "row_id": "9hjBFO3BMQTfIAadja3HNi",
-            "row_index": 1,
-            "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-            "table_id": "FeeTable::FEETB991::11"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "paypal_checkout",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "XsA3DX7CbXSaxQush3ckpM",
-            "document_id": "FEETB991",
-            "original_label": "تحويل عملة مشفّرة إلى عنوان خارج نطاق PayPal أو Venmo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "رسوم PayPal للبائعين (النشاط التجاري)",
-            "requested_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "row_id": "Av8EZe2R7t3c6zh86x0vOb",
-            "row_index": 2,
-            "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-            "table_id": "FeeTable::FEETB991::11"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "commercial",
-        "rule_id": "paypal_checkout",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "XsA3DX7CbXSaxQush3ckpM",
-            "document_id": "FEETB991",
-            "original_label": "تحويل عملة مشفّرة إلى عنوان خارج نطاق PayPal أو Venmo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "رسوم PayPal للبائعين (النشاط التجاري)",
-            "requested_url": "https://www.paypal.com/sa/business/paypal-business-fees",
-            "row_id": "Av8EZe2R7t3c6zh86x0vOb",
-            "row_index": 2,
-            "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-            "table_id": "FeeTable::FEETB991::11"
-          }
-        ],
-        "type": "missing_required_schedule"
-      }
-    ],
+    "diagnostics": [],
     "fixed_fee_schedules": {},
     "ignored_rows": [
       {
@@ -136,19 +46,16 @@
           "row_id": "8w3fbIn7MVYbx7EMJm7hBg",
           "row_index": 0,
           "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-          "table_id": "FeeTable::FEETB991::11"
+          "table_id": "FeeTable::FEETB991::13"
         }
-      }
-    ],
-    "international_surcharge_schedules": {},
-    "status": "partial",
-    "transaction_fee_rules": [
+      },
       {
-        "calculation_status": "incomplete",
-        "conditions": {},
-        "fee_components": [],
-        "id": "paypal_checkout",
-        "label": "تحويل عملة مشفّرة إلى حساب آخر على PayPal أو Venmo",
+        "normalized_cells": [
+          "تحويل عملة مشفّرة إلى حساب آخر على PayPal أو Venmo",
+          "بلا رسوم"
+        ],
+        "original_label": "تحويل عملة مشفّرة إلى حساب آخر على PayPal أو Venmo",
+        "reason": "no rate or reference",
         "source": {
           "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -161,16 +68,16 @@
           "row_id": "9hjBFO3BMQTfIAadja3HNi",
           "row_index": 1,
           "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-          "table_id": "FeeTable::FEETB991::11"
-        },
-        "variant_id": "venmo"
+          "table_id": "FeeTable::FEETB991::13"
+        }
       },
       {
-        "calculation_status": "incomplete",
-        "conditions": {},
-        "fee_components": [],
-        "id": "paypal_checkout",
-        "label": "تحويل عملة مشفّرة إلى عنوان خارج نطاق PayPal أو Venmo",
+        "normalized_cells": [
+          "تحويل عملة مشفّرة إلى عنوان خارج نطاق PayPal أو Venmo",
+          "سيُفرَض عليك رسم لشبكة العملة المشفّرة، قابل للدفع بالعملة المشفّرة التي تحوّلها، والذي يختلف حسب العملة.  لمعرفة تفاصيل رسم الشبكة،، راجِع \"شروط وأحكام العملات المشفّرة على PayPal\".  سنعرض رسم الشبكة هذا قبل أن تحوّل أي عملات مشفّرة مباشرةً."
+        ],
+        "original_label": "تحويل عملة مشفّرة إلى عنوان خارج نطاق PayPal أو Venmo",
+        "reason": "no rate or reference",
         "source": {
           "canonical_url": "https://www.paypal.com/sa/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -183,14 +90,16 @@
           "row_id": "Av8EZe2R7t3c6zh86x0vOb",
           "row_index": 2,
           "section_heading": "جدول الرسوم: تحويل عملة مشفّرة",
-          "table_id": "FeeTable::FEETB991::11"
-        },
-        "variant_id": "venmo"
+          "table_id": "FeeTable::FEETB991::13"
+        }
       }
     ],
+    "international_surcharge_schedules": {},
+    "status": "unclassified",
+    "transaction_fee_rules": [],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-15T15:03:12.649668",
+  "generated_at": "2026-07-15T18:59:44.460808",
   "market": {
     "country_name": "Saudi Arabia",
     "iso_country_code": "SA",

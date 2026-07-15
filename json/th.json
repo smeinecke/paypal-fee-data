@@ -1,12 +1,11 @@
 {
-  "cms_updated_at": "2025-09-28T23:37:17.105Z",
-  "crawled_at": "2026-07-15T15:03:12.649668",
+  "crawled_at": "2026-07-15T18:59:44.460808",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 2,
+      "calculable_rules": 1,
       "conflicts": 0,
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 0,
@@ -18,7 +17,7 @@
       "non_calculable_rules": 0,
       "reference_sources": 0,
       "reference_targets": 0,
-      "transaction_rules": 2,
+      "transaction_rules": 1,
       "unclassified": 0,
       "unknown_apm_methods": 0,
       "unresolved_nested_references": 0,
@@ -64,7 +63,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
-            "table_id": "FeeTable::FEETB18::2"
+            "table_id": "FeeTable::FEETB18::4"
           },
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
@@ -75,7 +74,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
-            "table_id": "FeeTable::FEETB18::2"
+            "table_id": "FeeTable::FEETB18::4"
           }
         ]
       },
@@ -116,7 +115,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
-            "table_id": "FeeTable::FEETB69::7"
+            "table_id": "FeeTable::FEETB69::9"
           },
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
@@ -127,7 +126,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
-            "table_id": "FeeTable::FEETB69::7"
+            "table_id": "FeeTable::FEETB69::9"
           }
         ]
       }
@@ -165,47 +164,14 @@
           "row_id": "30gSHtI9ALdXEs2mKFJYFV",
           "row_index": 0,
           "section_heading": "ตารางค่าธรรมเนียม: การรับ Micropayment",
-          "table_id": "FeeTable::FEETB66::6"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "6"
-          },
-          {
-            "schedule_id": "micropayments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Micropayment ระหว่างประเทศสำหรับสินค้าดิจิทัล",
-        "percentage": "6",
-        "source": {
-          "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4iQ8s85rr5sW1yEuY2o7E5",
-          "document_id": "FEETB66",
-          "original_label": "Micropayment ระหว่างประเทศสำหรับสินค้าดิจิทัล",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
-          "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-          "row_id": "75EX6CTibhiAS9rV4CALYj",
-          "row_index": 1,
-          "section_heading": "ตารางค่าธรรมเนียม: การรับ Micropayment",
-          "table_id": "FeeTable::FEETB66::6"
+          "table_id": "FeeTable::FEETB66::8"
         },
         "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-15T15:03:12.649668",
+  "generated_at": "2026-07-15T18:59:44.460808",
   "market": {
     "country_name": "Thailand",
     "iso_country_code": "TH",
