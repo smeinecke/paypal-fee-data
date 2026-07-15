@@ -54,9 +54,24 @@
           "title": "Ambiguous",
           "type": "integer"
         },
+        "ambiguous_identities": {
+          "default": 0,
+          "title": "Ambiguous Identities",
+          "type": "integer"
+        },
+        "calculable_rules": {
+          "default": 0,
+          "title": "Calculable Rules",
+          "type": "integer"
+        },
         "conflicts": {
           "default": 0,
           "title": "Conflicts",
+          "type": "integer"
+        },
+        "direct_fixed_fees": {
+          "default": 0,
+          "title": "Direct Fixed Fees",
           "type": "integer"
         },
         "extracted_apm_methods": {
@@ -89,6 +104,11 @@
           "title": "Missing Required Schedules",
           "type": "integer"
         },
+        "non_calculable_rules": {
+          "default": 0,
+          "title": "Non Calculable Rules",
+          "type": "integer"
+        },
         "reference_sources": {
           "default": 0,
           "title": "Reference Sources",
@@ -114,9 +134,19 @@
           "title": "Unknown Apm Methods",
           "type": "integer"
         },
+        "unresolved_nested_references": {
+          "default": 0,
+          "title": "Unresolved Nested References",
+          "type": "integer"
+        },
         "unresolved_references": {
           "default": 0,
           "title": "Unresolved References",
+          "type": "integer"
+        },
+        "unsupported_fee_shapes": {
+          "default": 0,
+          "title": "Unsupported Fee Shapes",
           "type": "integer"
         }
       },
@@ -370,6 +400,81 @@
         "type"
       ],
       "title": "Diagnostic",
+      "type": "object"
+    },
+    "FeeComponent": {
+      "additionalProperties": false,
+      "description": "One calculable fee component for a transaction rule.\n\nComponents can represent a percentage, a direct fixed monetary amount, or a\nreference to a schedule.  The ``type`` field determines which other fields\nare meaningful.",
+      "properties": {
+        "amount": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Amount"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency"
+        },
+        "operator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Operator"
+        },
+        "schedule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Schedule Id"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "FeeComponent",
       "type": "object"
     },
     "FixedFeeSchedule": {
@@ -745,12 +850,24 @@
     },
     "TransactionFeeRule": {
       "additionalProperties": false,
-      "description": "A single product-specific transaction fee rule.\n\n``id`` identifies the payment product family. ``variant_id`` distinguishes\nmultiple legitimate pricing variants for the same product (e.g. special\nversus default alternative payment methods). Both fields participate in\nthe stable rule identity key.",
+      "description": "A single product-specific transaction fee rule.\n\n``id`` identifies the payment product family. ``variant_id`` distinguishes\nmultiple legitimate pricing variants for the same product (e.g. special\nversus default alternative payment methods). Both fields participate in\nthe stable rule identity key.\n\n``calculation_status`` describes whether and how the rule can be used by a\nfee calculator. ``calculable`` rules carry at least one usable fee\ncomponent; other states preserve source rows for review without exposing\nthem as ready-to-use rates.",
       "properties": {
+        "calculation_status": {
+          "default": "calculable",
+          "title": "Calculation Status",
+          "type": "string"
+        },
         "conditions": {
           "additionalProperties": true,
           "title": "Conditions",
           "type": "object"
+        },
+        "fee_components": {
+          "items": {
+            "$ref": "#/$defs/FeeComponent"
+          },
+          "title": "Fee Components",
+          "type": "array"
         },
         "fixed_fee_schedule": {
           "anyOf": [

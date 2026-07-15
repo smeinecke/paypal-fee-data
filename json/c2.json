@@ -1,22 +1,29 @@
 {
   "cms_updated_at": "2025-09-25T01:29:41.655Z",
+  "crawled_at": "2026-07-15T11:05:09.565903",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
+      "ambiguous_identities": 0,
+      "calculable_rules": 0,
       "conflicts": 0,
+      "direct_fixed_fees": 0,
       "extracted_apm_methods": 0,
       "fixed_fee_entries": 0,
       "ignored": 0,
       "inherited_schedules": 0,
       "international_surcharge_entries": 0,
       "missing_required_schedules": 0,
+      "non_calculable_rules": 0,
       "reference_sources": 0,
       "reference_targets": 0,
       "transaction_rules": 0,
       "unclassified": 0,
       "unknown_apm_methods": 0,
-      "unresolved_references": 0
+      "unresolved_nested_references": 0,
+      "unresolved_references": 0,
+      "unsupported_fee_shapes": 0
     },
     "diagnostics": [],
     "fixed_fee_schedules": {},
@@ -26,6 +33,7 @@
     "transaction_fee_rules": [],
     "unclassified_fee_rows": []
   },
+  "generated_at": "2026-07-15T11:05:09.565903",
   "market": {
     "country_name": "China",
     "iso_country_code": "CN",

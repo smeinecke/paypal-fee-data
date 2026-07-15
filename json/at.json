@@ -1,566 +1,125 @@
 {
   "cms_updated_at": "2025-09-24T06:41:16.291Z",
+  "crawled_at": "2026-07-15T11:05:09.565903",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
-      "conflicts": 12,
+      "ambiguous_identities": 0,
+      "calculable_rules": 18,
+      "conflicts": 0,
+      "direct_fixed_fees": 0,
       "extracted_apm_methods": 6,
-      "fixed_fee_entries": 143,
-      "ignored": 7,
-      "inherited_schedules": 0,
+      "fixed_fee_entries": 179,
+      "ignored": 2,
+      "inherited_schedules": 8,
       "international_surcharge_entries": 5,
       "missing_required_schedules": 1,
+      "non_calculable_rules": 1,
       "reference_sources": 1,
       "reference_targets": 1,
-      "transaction_rules": 15,
+      "transaction_rules": 19,
       "unclassified": 0,
       "unknown_apm_methods": 0,
-      "unresolved_references": 0
+      "unresolved_nested_references": 0,
+      "unresolved_references": 0,
+      "unsupported_fee_shapes": 0
     },
     "currency_conversion": {
       "spread_percentage": "3"
     },
     "diagnostics": [
       {
-        "normalized_key": "AUD",
-        "schedule_id": "commercial",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "guest_checkout",
         "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
+            "component_id": "2besSyQ080qKVoAV9XFhqS",
+            "document_id": "FEETB16",
+            "original_label": "Zahlung mit der Kreditkarte eines Nutzers unserer Bedingungen für Zahlungen ohne PayPal-Konto",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
+            "row_id": "5HGjHEims0qd2mXDWJqgnq",
+            "row_index": 1,
+            "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "0.3",
-          "0.05"
-        ]
+        "type": "inherited_schedule"
       },
       {
-        "normalized_key": "BRL",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "guest_checkout",
+        "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
+            "component_id": "2besSyQ080qKVoAV9XFhqS",
+            "document_id": "FEETB16",
+            "original_label": "Zahlung mit der Kreditkarte eines Nutzers unserer Bedingungen für Zahlungen ohne PayPal-Konto",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
+            "row_id": "5HGjHEims0qd2mXDWJqgnq",
+            "row_index": 1,
+            "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "0.6",
-          "0.1"
-        ]
+        "type": "inherited_schedule"
       },
       {
-        "normalized_key": "CAD",
-        "schedule_id": "commercial",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
         "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
+            "component_id": "2besSyQ080qKVoAV9XFhqS",
+            "document_id": "FEETB16",
+            "original_label": "Alle sonstigen geschäftlichen Transaktionen",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
+            "row_id": "6WazhJCpIVd2sDoY5uYYOI",
+            "row_index": 4,
+            "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "0.3",
-          "0.05"
-        ]
+        "type": "inherited_schedule"
       },
       {
-        "normalized_key": "CZK",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
+            "component_id": "2besSyQ080qKVoAV9XFhqS",
+            "document_id": "FEETB16",
+            "original_label": "Alle sonstigen geschäftlichen Transaktionen",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
+            "row_id": "6WazhJCpIVd2sDoY5uYYOI",
+            "row_index": 4,
+            "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "10",
-          "1.5"
-        ]
-      },
-      {
-        "normalized_key": "DKK",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "2.6",
-          "0.35"
-        ]
-      },
-      {
-        "normalized_key": "EUR",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "0.35",
-          "0.05"
-        ]
-      },
-      {
-        "normalized_key": "HKD",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "2.35",
-          "0.39"
-        ]
-      },
-      {
-        "normalized_key": "HUF",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "90",
-          "15"
-        ]
-      },
-      {
-        "normalized_key": "ILS",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "1.2",
-          "0.2"
-        ]
-      },
-      {
-        "normalized_key": "JPY",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "40",
-          "6"
-        ]
-      },
-      {
-        "normalized_key": "MYR",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "2",
-          "0.2"
-        ]
-      },
-      {
-        "normalized_key": "MXN",
-        "schedule_id": "commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB354",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "x9EnIVMTEGiR0KQwh474Y",
-            "document_id": "FEETB363",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "4",
-          "0.55"
-        ]
+        "type": "inherited_schedule"
       },
       {
         "expected_schedule": "nonprofit",
@@ -579,10 +138,102 @@
             "row_id": "1QdQJMc1cFMB8Wq4E1fnmB",
             "row_index": 0,
             "section_heading": "Gebührentabelle: Inlandstransaktionen für gemeinnützige Organisationen empfangen",
-            "table_id": "FeeTable::FEETB452::18"
+            "table_id": "FeeTable::FEETB452::20"
           }
         ],
         "type": "missing_required_schedule"
+      },
+      {
+        "expected_schedule": "online_card_payments",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
+            "document_id": "FEETB33",
+            "original_label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "row_id": "n2MiSsNkyDB723LInDpTm",
+            "row_index": 0,
+            "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+            "table_id": "FeeTable::FEETB33::30"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
+            "document_id": "FEETB33",
+            "original_label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "row_id": "n2MiSsNkyDB723LInDpTm",
+            "row_index": 0,
+            "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+            "table_id": "FeeTable::FEETB33::30"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "online_card_payments",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
+            "document_id": "FEETB33",
+            "original_label": "eTerminal-Zahlungen",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "row_id": "67MHO6t6NcZdSQkioziht5",
+            "row_index": 1,
+            "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+            "table_id": "FeeTable::FEETB33::30"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
+            "document_id": "FEETB33",
+            "original_label": "eTerminal-Zahlungen",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "row_id": "67MHO6t6NcZdSQkioziht5",
+            "row_index": 1,
+            "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+            "table_id": "FeeTable::FEETB33::30"
+          }
+        ],
+        "type": "inherited_schedule"
       }
     ],
     "fixed_fee_schedules": {
@@ -623,7 +274,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB483::24"
+            "table_id": "FeeTable::FEETB483::26"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -634,7 +285,59 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für APM-Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB502::25"
+            "table_id": "FeeTable::FEETB502::27"
+          }
+        ]
+      },
+      "chargebacks": {
+        "entries": {
+          "AUD": "22",
+          "BRL": "35",
+          "CAD": "20",
+          "CHF": "22",
+          "CZK": "400",
+          "DKK": "120",
+          "EUR": "16",
+          "GBP": "14",
+          "HKD": "155",
+          "HUF": "4",
+          "ILS": "75",
+          "JPY": "1",
+          "MXN": "250",
+          "MYR": "65",
+          "NOK": "125",
+          "NZD": "28",
+          "PHP": "900",
+          "PLN": "65",
+          "RUB": "640",
+          "SEK": "150",
+          "SGD": "28",
+          "THB": "650",
+          "TWD": "625",
+          "USD": "20"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KsxKtVOQLAyJ5c3JY1DhH",
+            "document_id": "FEETB70",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Rückbuchungsgebühren",
+            "table_id": "FeeTable::FEETB70::43"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KsxKtVOQLAyJ5c3JY1DhH",
+            "document_id": "FEETB305",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Rückbuchungsgebühren",
+            "table_id": "FeeTable::FEETB70::43"
           }
         ]
       },
@@ -674,7 +377,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
+            "table_id": "FeeTable::FEETB354::6"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -685,18 +388,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für geschäftliche Transaktionen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB354::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
-            "document_id": "FEETB407",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB407::8"
+            "table_id": "FeeTable::FEETB354::6"
           }
         ]
       },
@@ -737,7 +429,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)",
-            "table_id": "FeeTable::FEETB430::14"
+            "table_id": "FeeTable::FEETB430::16"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -748,7 +440,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Spenden (basierend auf der erhaltenen Währung)",
-            "table_id": "FeeTable::FEETB431::15"
+            "table_id": "FeeTable::FEETB431::17"
           }
         ]
       },
@@ -789,7 +481,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Mikrozahlungen",
-            "table_id": "FeeTable::FEETB69::37"
+            "table_id": "FeeTable::FEETB69::39"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -800,7 +492,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Mikrozahlungen",
-            "table_id": "FeeTable::FEETB69::37"
+            "table_id": "FeeTable::FEETB69::39"
           }
         ]
       },
@@ -841,7 +533,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB456::19"
+            "table_id": "FeeTable::FEETB456::21"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -852,7 +544,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Transaktionen für gemeinnützige Organisationen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB463::20"
+            "table_id": "FeeTable::FEETB463::22"
           }
         ]
       },
@@ -893,7 +585,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB506::29"
+            "table_id": "FeeTable::FEETB506::31"
           },
           {
             "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
@@ -904,7 +596,36 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Festgebühr für Transaktionen mit PayPal-Diensten für Online-Kartenzahlungen (basierend auf der empfangenen Währung)",
-            "table_id": "FeeTable::FEETB506::29"
+            "table_id": "FeeTable::FEETB506::31"
+          }
+        ]
+      },
+      "qr_code_payments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CZK": "1.5",
+          "DKK": "0.35",
+          "EUR": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "6",
+          "MXN": "0.55",
+          "MYR": "0.2"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4ORn4uxJ7L1BfLIReXRXR4",
+            "document_id": "FEETB407",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Festgebühr für QR-Code-Transaktionen über höchstens 10 EUR (basierend auf der empfangenen Währung)",
+            "table_id": "FeeTable::FEETB407::10"
           }
         ]
       }
@@ -929,7 +650,7 @@
           "row_id": "5Y3It24bBG4Y3Gwx5heFbY",
           "row_index": 2,
           "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
-          "table_id": "FeeTable::FEETB33::28"
+          "table_id": "FeeTable::FEETB33::30"
         }
       },
       {
@@ -953,127 +674,7 @@
           "row_id": "4BLHc77erd2jK4IRusisGZ",
           "row_index": 3,
           "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
-          "table_id": "FeeTable::FEETB33::28"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
-          "Diese Gebühr wird berechnet, wenn eine Entnahme/Abbuchung von PayPal fehlschlägt, da falsche Bankkontoinformationen oder Lieferdaten angegeben wurden.",
-          "PayPal erhebt eine Gebühr in Höhe des Betrags, der PayPal von Ihrem Kreditinstitut in Rechnung gestellt wird.",
-          ""
-        ],
-        "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "Rücklastschrift bei Entnahme/Abbuchung von PayPal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "75Nwlue0kK1NyNxcidh8GH",
-          "row_index": 0,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Kredit- und Debitkarte",
-          "Rückbuchungen oder fehlgeschlagene Lastschriftzahlungen",
-          "PayPal erhebt eine Gebühr in Höhe des Betrags, der PayPal von Ihrem Kreditinstitut in Rechnung gestellt wird.",
-          ""
-        ],
-        "original_label": "Kredit- und Debitkarte",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "Kredit- und Debitkarte",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "D1l70aRqZgzTggkFHPn9o",
-          "row_index": 2,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Inaktive PayPal-Konten",
-          "Als Inaktivitätsgebühr wird die niedrigere der nachstehend aufgeführten Gebühren oder das in Ihrem Konto verbliebene Guthaben berechnet.",
-          "Weitere Informationen finden Sie in der folgenden Gebührentabelle für inaktive PayPal-Konten.",
-          ""
-        ],
-        "original_label": "Inaktive PayPal-Konten",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "Inaktive PayPal-Konten",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "PbTCEeOpuIJGdFCfU9Xmg",
-          "row_index": 3,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Anforderung von Unterlagen",
-          "Diese Gebühr gilt für Anforderungen von Informationen im Zusammenhang mit dem Rechtfertigungsgrund für die Ablehnung Ihres Zahlungsauftrags. Wir berechnen keine Dokumentengebühr für Unterlagen, die im Zusammenhang mit gutgläubigen Meldungen zu einem Fehler in Ihrem PayPal-Konto angefordert werden.",
-          "12,00 EUR (pro Artikel)",
-          ""
-        ],
-        "original_label": "Anforderung von Unterlagen",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "Anforderung von Unterlagen",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "1WbsacEPLF949np3dl3Grj",
-          "row_index": 4,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
-        }
-      },
-      {
-        "normalized_cells": [
-          "PayPal Business Debit Mastercard – AbbuchungsgebührDie Nutzung der Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der PayPal Business Debit Mastercard durch Sie.",
-          "Diese Gebühr gilt für Bargeldabhebungen an einem Geldautomat (innerhalb und außerhalb Österreichs). Der Geldautomatenanbieter kann zusätzliche Gebühren erheben.",
-          "2 EUR (pro Transaktion)",
-          ""
-        ],
-        "original_label": "PayPal Business Debit Mastercard – AbbuchungsgebührDie Nutzung der Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der PayPal Business Debit Mastercard durch Sie.",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "PayPal Business Debit Mastercard – AbbuchungsgebührDie Nutzung der Business Debit Card ist abhängig von der Berechtigung, dem Antrag, der Genehmigung durch PayPal und der Annahme der Bestimmungen der Bedingungen für Karteninhaber der PayPal Business Debit Mastercard durch Sie.",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "2blJqXlvcHS3tCXoWekW8d",
-          "row_index": 5,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
+          "table_id": "FeeTable::FEETB33::30"
         }
       }
     ],
@@ -1087,10 +688,6 @@
           {
             "payer_region": "OTHER",
             "percentage_points": "1.99"
-          },
-          {
-            "payer_region": "EEA",
-            "percentage_points": "1.29"
           }
         ],
         "sources": [
@@ -1103,18 +700,7 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Prozentuale Zusatzgebühr für internationale geschäftliche Transaktionen",
-            "table_id": "FeeTable::FEETB91::2"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5Z4cbtmXjye9OCgrwnU3el",
-            "document_id": "FEETB158",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Händler - und Verkäufergebühren",
-            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-            "section_heading": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
-            "table_id": "FeeTable::FEETB158::3"
+            "table_id": "FeeTable::FEETB91::4"
           }
         ]
       },
@@ -1139,7 +725,28 @@
             "page_title": "PayPal Händler - und Verkäufergebühren",
             "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
             "section_heading": "Gebührentabelle: Zusätzliche prozentuale Gebühr für internationale Spenden",
-            "table_id": "FeeTable::FEETB429::13"
+            "table_id": "FeeTable::FEETB429::15"
+          }
+        ]
+      },
+      "recipient_service": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "1.29"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Z4cbtmXjye9OCgrwnU3el",
+            "document_id": "FEETB158",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Händler - und Verkäufergebühren",
+            "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+            "section_heading": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
+            "table_id": "FeeTable::FEETB158::5"
           }
         ]
       }
@@ -1147,28 +754,26 @@
     "status": "partial",
     "transaction_fee_rules": [
       {
-        "conditions": {},
-        "fixed_fee_schedule": "online_card_payments",
-        "id": "advanced_card_payments",
-        "international_surcharge_schedule": "commercial",
-        "label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
-          "document_id": "FEETB33",
-          "original_label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "n2MiSsNkyDB723LInDpTm",
-          "row_index": 0,
-          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
-          "table_id": "FeeTable::FEETB33::28"
-        }
-      },
-      {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "authorization_channel": "terminal",
+          "point_of_sale": true,
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.7"
+          },
+          {
+            "schedule_id": "online_card_payments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "online_card_payments",
         "id": "advanced_card_payments",
         "international_surcharge_schedule": "commercial",
@@ -1186,11 +791,64 @@
           "row_id": "67MHO6t6NcZdSQkioziht5",
           "row_index": 1,
           "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
-          "table_id": "FeeTable::FEETB33::28"
-        }
+          "table_id": "FeeTable::FEETB33::30"
+        },
+        "variant_id": "eterminal"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "online_card_payments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "online_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "commercial",
+        "label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5Co60fhuJdpf1uk8S1GzAJ",
+          "document_id": "FEETB33",
+          "original_label": "Zahlungen mit Kredit- und Debitkarten mit erweiterten Funktionen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "n2MiSsNkyDB723LInDpTm",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Empfang von Inlandstransaktionen über die PayPal-Dienste für Online-Zahlungen",
+          "table_id": "FeeTable::FEETB33::30"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -1208,11 +866,64 @@
           "row_id": "6WazhJCpIVd2sDoY5uYYOI",
           "row_index": 4,
           "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "standard"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Alle anderen alternativen Zahlungsmethoden",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "6lgiOSsEdPZrlLwaLlLWSG",
+          "document_id": "FEETB481",
+          "original_label": "Alle anderen alternativen Zahlungsmethoden",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "2jp6XVtbRAsCJYpCh5Xjdm",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB481::25"
+        },
+        "variant_id": "default"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "resolved_percentage",
+            "value": "3.4"
+          }
+        ],
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
         "label": "Alternative Zahlungsmethode (APM)",
@@ -1235,7 +946,7 @@
               "row_id": "2jp6XVtbRAsCJYpCh5Xjdm",
               "row_index": 1,
               "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
-              "table_id": "FeeTable::FEETB481::23"
+              "table_id": "FeeTable::FEETB481::25"
             }
           },
           "source": {
@@ -1250,7 +961,7 @@
             "row_id": "1tgd0XPg3NRyBaYY8RgNbX",
             "row_index": 0,
             "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-            "table_id": "FeeTable::FEETB16::1"
+            "table_id": "FeeTable::FEETB16::3"
           }
         },
         "source": {
@@ -1265,11 +976,12 @@
           "row_id": "1tgd0XPg3NRyBaYY8RgNbX",
           "row_index": 0,
           "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB16::1"
+          "table_id": "FeeTable::FEETB16::3"
         },
         "variant_id": "default"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {
           "payment_methods": [
             "gopay",
@@ -1278,8 +990,19 @@
             "ovo_premium",
             "skrill",
             "thai_online_bank_transfer"
-          ]
+          ],
+          "transaction_region": "domestic"
         },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "5.49"
+          },
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          }
+        ],
         "fixed_fee_schedule": "alternative_payment_methods",
         "id": "alternative_payment_methods",
         "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
@@ -1296,12 +1019,29 @@
           "row_id": "6jFuvpgcRHrf6m88XPeavV",
           "row_index": 0,
           "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB481::23"
+          "table_id": "FeeTable::FEETB481::25"
         },
         "variant_id": "special"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "guest_checkout",
         "international_surcharge_schedule": "commercial",
@@ -1319,54 +1059,26 @@
           "row_id": "5HGjHEims0qd2mXDWJqgnq",
           "row_index": 1,
           "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "standard"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "amount": {
+            "operator": "gt",
+            "value": "10.01"
+          },
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.2"
+          }
+        ],
         "id": "qr_code_payments",
-        "international_surcharge_schedule": "commercial",
-        "label": "QR-Code-Transaktionen in Höhe von mindestens 10,01 EUR",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4DEjENRigzfRA9Dz6QEvnv",
-          "document_id": "FEETB423",
-          "original_label": "QR-Code-Transaktionen in Höhe von mindestens 10,01 EUR",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "5uaEXemdOz7e1BiESbaXgM",
-          "row_index": 1,
-          "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
-          "table_id": "FeeTable::FEETB423::12"
-        }
-      },
-      {
-        "conditions": {},
-        "id": "qr_code_payments",
-        "international_surcharge_schedule": "commercial",
-        "label": "QR-Code-Transaktionen – bis zu 10 EUR",
-        "percentage": "1.7",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2besSyQ080qKVoAV9XFhqS",
-          "document_id": "FEETB16",
-          "original_label": "QR-Code-Transaktionen – bis zu 10 EUR",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "1F3hRXLHe94UnBzuJxnEhv",
-          "row_index": 3,
-          "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB16::1"
-        }
-      },
-      {
-        "conditions": {},
-        "id": "qr_code_payments",
-        "international_surcharge_schedule": "commercial",
         "label": "QR-Code-Transaktionen – mindestens 10,01 EUR",
         "percentage": "1.2",
         "source": {
@@ -1381,11 +1093,59 @@
           "row_id": "7knw5tdyeSAg22JLe5Ve4b",
           "row_index": 2,
           "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "above_threshold"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "amount": {
+            "operator": "lt",
+            "value": "10"
+          },
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.7"
+          }
+        ],
+        "id": "qr_code_payments",
+        "label": "QR-Code-Transaktionen – bis zu 10 EUR",
+        "percentage": "1.7",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2besSyQ080qKVoAV9XFhqS",
+          "document_id": "FEETB16",
+          "original_label": "QR-Code-Transaktionen – bis zu 10 EUR",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "1F3hRXLHe94UnBzuJxnEhv",
+          "row_index": 3,
+          "section_heading": "Gebührentabelle: Standardgebühr für den Empfang von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "below_threshold"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "donations",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "donations",
         "id": "donations",
         "international_surcharge_schedule": "donations",
@@ -1402,11 +1162,134 @@
           "row_id": "Ofde0V4RpVcLhOENsQL2e",
           "row_index": 3,
           "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
-          "table_id": "FeeTable::FEETB423::12"
-        }
+          "table_id": "FeeTable::FEETB423::14"
+        },
+        "variant_id": "campaign"
       },
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "donations",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "PayPal-Spendenaktionen (nicht aufgeführte Spendenaktionen)",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4DEjENRigzfRA9Dz6QEvnv",
+          "document_id": "FEETB423",
+          "original_label": "PayPal-Spendenaktionen (nicht aufgeführte Spendenaktionen)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "1UXXpywg6mLVZhP8ie4vuK",
+          "row_index": 4,
+          "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
+          "table_id": "FeeTable::FEETB423::14"
+        },
+        "variant_id": "campaign"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "donations",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "QR-Code-Transaktionen in Höhe von mindestens 10,01 EUR",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4DEjENRigzfRA9Dz6QEvnv",
+          "document_id": "FEETB423",
+          "original_label": "QR-Code-Transaktionen in Höhe von mindestens 10,01 EUR",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "5uaEXemdOz7e1BiESbaXgM",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
+          "table_id": "FeeTable::FEETB423::14"
+        },
+        "variant_id": "campaign"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "donations",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "donations",
+        "id": "donations",
+        "international_surcharge_schedule": "donations",
+        "label": "QR-Code-Transaktionen – bis zu 10 EUR",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4DEjENRigzfRA9Dz6QEvnv",
+          "document_id": "FEETB423",
+          "original_label": "QR-Code-Transaktionen – bis zu 10 EUR",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "row_id": "1HeCqI3xi4FkjCStIHFGjx",
+          "row_index": 2,
+          "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
+          "table_id": "FeeTable::FEETB423::14"
+        },
+        "variant_id": "campaign"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "donations",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "donations",
         "id": "donations",
         "international_surcharge_schedule": "donations",
@@ -1424,13 +1307,29 @@
           "row_id": "3tUNNvsCu9Gn6VL1gw34Qv",
           "row_index": 0,
           "section_heading": "Gebührentabelle: Standardgebühr beim Empfang von Inlandsspenden",
-          "table_id": "FeeTable::FEETB423::12"
-        }
+          "table_id": "FeeTable::FEETB423::14"
+        },
+        "variant_id": "standard"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {
-          "merchant_approval_required": true
+          "applies_to_markets": [
+            "AT"
+          ],
+          "merchant_approval_required": true,
+          "transaction_region": "domestic"
         },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.9"
+          },
+          {
+            "schedule_id": "nonprofit",
+            "type": "fixed_fee_schedule"
+          }
+        ],
         "fixed_fee_schedule": "nonprofit",
         "id": "nonprofit",
         "label": "Österreich (AT)",
@@ -1447,32 +1346,25 @@
           "row_id": "1QdQJMc1cFMB8Wq4E1fnmB",
           "row_index": 0,
           "section_heading": "Gebührentabelle: Inlandstransaktionen für gemeinnützige Organisationen empfangen",
-          "table_id": "FeeTable::FEETB452::18"
-        }
+          "table_id": "FeeTable::FEETB452::20"
+        },
+        "variant_id": "standard"
       },
       {
-        "conditions": {},
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Inländische Mikrozahlungen",
-        "percentage": "5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2v8WqdNGR3h1Ca9AwI3FL3",
-          "document_id": "FEETB526",
-          "original_label": "Inländische Mikrozahlungen",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "4WSugEPcpWWyfsAJYSDxqZ",
-          "row_index": 0,
-          "section_heading": "Gebührentabelle: Mikrozahlungen empfangen",
-          "table_id": "FeeTable::FEETB526::36"
-        }
-      },
-      {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "international"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "5.5"
+          },
+          {
+            "schedule_id": "micropayments",
+            "type": "fixed_fee_schedule"
+          }
+        ],
         "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
         "label": "Internationale Mikrozahlungen",
@@ -1489,31 +1381,93 @@
           "row_id": "2cbp32kgmnXhWG1TBJbUZS",
           "row_index": 1,
           "section_heading": "Gebührentabelle: Mikrozahlungen empfangen",
-          "table_id": "FeeTable::FEETB526::36"
-        }
+          "table_id": "FeeTable::FEETB526::38"
+        },
+        "variant_id": "international"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {},
-        "id": "chargebacks",
-        "label": "Rückabwicklung geschäftlicher Transaktionen",
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "5"
+          },
+          {
+            "schedule_id": "micropayments",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Inländische Mikrozahlungen",
+        "percentage": "5",
         "source": {
           "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "5tH36SzJPVZVrVqR00mhDf",
-          "document_id": "FEETB324",
-          "original_label": "Rückabwicklung geschäftlicher Transaktionen",
+          "component_id": "2v8WqdNGR3h1Ca9AwI3FL3",
+          "document_id": "FEETB526",
+          "original_label": "Inländische Mikrozahlungen",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Händler - und Verkäufergebühren",
           "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
-          "row_id": "1LxvQ3q8j1oXFQJv25O9NQ",
-          "row_index": 1,
-          "section_heading": "Gebührentabelle: Sonstige Gebühren",
-          "table_id": "FeeTable::FEETB324::49"
-        }
+          "row_id": "4WSugEPcpWWyfsAJYSDxqZ",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Mikrozahlungen empfangen",
+          "table_id": "FeeTable::FEETB526::38"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "incomplete",
+        "conditions": {},
+        "fee_components": [],
+        "id": "chargebacks",
+        "label": "Gebührentabelle: Rückbuchungsgebühren",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5KsxKtVOQLAyJ5c3JY1DhH",
+          "document_id": "FEETB70",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "section_heading": "Gebührentabelle: Rückbuchungsgebühren",
+          "table_id": "FeeTable::FEETB70::43"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "recipient_location": "GB"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "recipient_service",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "id": "recipient_service",
+        "international_surcharge_schedule": "recipient_service",
+        "label": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
+        "source": {
+          "canonical_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5Z4cbtmXjye9OCgrwnU3el",
+          "document_id": "FEETB158",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/at/business/paypal-business-fees",
+          "section_heading": "Gebührentabelle: Zusätzliche Servicegebühr für in Großbritannien ansässige Empfänger von internationalen geschäftlichen Transaktionen",
+          "table_id": "FeeTable::FEETB158::5"
+        },
+        "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
+  "generated_at": "2026-07-15T11:05:09.565903",
   "market": {
     "country_name": "Austria",
     "iso_country_code": "AT",

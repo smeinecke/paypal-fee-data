@@ -1,22 +1,29 @@
 {
   "cms_updated_at": "2025-09-25T09:22:17.810Z",
+  "crawled_at": "2026-07-15T11:05:09.565903",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
+      "ambiguous_identities": 0,
+      "calculable_rules": 5,
       "conflicts": 49,
-      "extracted_apm_methods": 10,
+      "direct_fixed_fees": 0,
+      "extracted_apm_methods": 0,
       "fixed_fee_entries": 96,
-      "ignored": 2,
-      "inherited_schedules": 0,
+      "ignored": 1,
+      "inherited_schedules": 10,
       "international_surcharge_entries": 3,
       "missing_required_schedules": 0,
+      "non_calculable_rules": 0,
       "reference_sources": 0,
       "reference_targets": 0,
-      "transaction_rules": 17,
+      "transaction_rules": 5,
       "unclassified": 0,
-      "unknown_apm_methods": 10,
-      "unresolved_references": 0
+      "unknown_apm_methods": 0,
+      "unresolved_nested_references": 0,
+      "unresolved_references": 0,
+      "unsupported_fee_shapes": 0
     },
     "diagnostics": [
       {
@@ -33,7 +40,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -44,7 +51,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -55,7 +62,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -66,7 +73,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -89,7 +96,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -100,7 +107,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -111,7 +118,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -122,7 +129,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -145,7 +152,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -156,7 +163,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -167,7 +174,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -178,7 +185,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -201,7 +208,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -212,7 +219,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -223,7 +230,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -234,7 +241,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -257,7 +264,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -268,7 +275,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -279,7 +286,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -290,7 +297,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -313,7 +320,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -324,7 +331,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -335,7 +342,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -346,7 +353,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -369,7 +376,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -380,7 +387,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -391,7 +398,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -402,7 +409,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -425,7 +432,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -436,7 +443,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -447,7 +454,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -458,7 +465,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -481,7 +488,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -492,7 +499,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -503,7 +510,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -514,7 +521,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -537,7 +544,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -548,7 +555,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -559,7 +566,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -570,7 +577,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -593,7 +600,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -604,7 +611,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -615,7 +622,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -626,7 +633,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -649,7 +656,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -660,7 +667,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -671,7 +678,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -682,7 +689,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -705,7 +712,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -716,7 +723,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -727,7 +734,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -738,7 +745,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -761,7 +768,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -772,7 +779,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -783,7 +790,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -794,7 +801,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -817,7 +824,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -828,7 +835,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -839,7 +846,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -850,7 +857,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -873,7 +880,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -884,7 +891,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -895,7 +902,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -906,7 +913,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -929,7 +936,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -940,7 +947,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -951,7 +958,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -962,7 +969,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -985,7 +992,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -996,7 +1003,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1007,7 +1014,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1018,7 +1025,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1041,7 +1048,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1052,7 +1059,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1063,7 +1070,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1074,7 +1081,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1097,7 +1104,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1108,7 +1115,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1119,7 +1126,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1130,7 +1137,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1153,7 +1160,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1164,7 +1171,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1175,7 +1182,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1186,7 +1193,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1209,7 +1216,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1220,7 +1227,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1231,7 +1238,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1242,7 +1249,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1265,7 +1272,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1276,7 +1283,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1287,7 +1294,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1298,7 +1305,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1321,7 +1328,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1332,7 +1339,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1343,7 +1350,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1354,7 +1361,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1377,7 +1384,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1388,7 +1395,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1399,7 +1406,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1410,7 +1417,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1421,7 +1428,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1432,7 +1439,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1455,7 +1462,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1466,7 +1473,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1477,7 +1484,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1488,7 +1495,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1499,7 +1506,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1510,7 +1517,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1533,7 +1540,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1544,7 +1551,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1555,7 +1562,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1566,7 +1573,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1577,7 +1584,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1588,7 +1595,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1611,7 +1618,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1622,7 +1629,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1633,7 +1640,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1644,7 +1651,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1655,7 +1662,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1666,7 +1673,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1689,7 +1696,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1700,7 +1707,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1711,7 +1718,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1722,7 +1729,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1733,7 +1740,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1744,7 +1751,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1767,7 +1774,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1778,7 +1785,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1789,7 +1796,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1800,7 +1807,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1811,7 +1818,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1822,7 +1829,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1845,7 +1852,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1856,7 +1863,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1867,7 +1874,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1878,7 +1885,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1889,7 +1896,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1900,7 +1907,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -1923,7 +1930,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1934,7 +1941,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1945,7 +1952,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1956,7 +1963,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1967,7 +1974,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -1978,7 +1985,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2001,7 +2008,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2012,7 +2019,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2023,7 +2030,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2034,7 +2041,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2045,7 +2052,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2056,7 +2063,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2079,7 +2086,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2090,7 +2097,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2101,7 +2108,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2112,7 +2119,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2123,7 +2130,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2134,7 +2141,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2157,7 +2164,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2168,7 +2175,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2179,7 +2186,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2190,7 +2197,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2201,7 +2208,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2212,7 +2219,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2235,7 +2242,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2246,7 +2253,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2257,7 +2264,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2268,7 +2275,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2279,7 +2286,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2290,7 +2297,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2313,7 +2320,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2324,7 +2331,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2335,7 +2342,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2346,7 +2353,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2357,7 +2364,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2368,7 +2375,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2391,7 +2398,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2402,7 +2409,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2413,7 +2420,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2424,7 +2431,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2435,7 +2442,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2446,7 +2453,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2469,7 +2476,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2480,7 +2487,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2491,7 +2498,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2502,7 +2509,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2513,7 +2520,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2524,7 +2531,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2547,7 +2554,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2558,7 +2565,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2569,7 +2576,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2580,7 +2587,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2591,7 +2598,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2602,7 +2609,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2625,7 +2632,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2636,7 +2643,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2647,7 +2654,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2658,7 +2665,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2669,7 +2676,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2680,7 +2687,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2703,7 +2710,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2714,7 +2721,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2725,7 +2732,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2736,7 +2743,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2747,7 +2754,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2758,7 +2765,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2781,7 +2788,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2792,7 +2799,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2803,7 +2810,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2814,7 +2821,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2825,7 +2832,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2836,7 +2843,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2859,7 +2866,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2870,7 +2877,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2881,7 +2888,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2892,7 +2899,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2903,7 +2910,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2914,7 +2921,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -2937,7 +2944,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2948,7 +2955,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2959,7 +2966,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2970,7 +2977,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2981,7 +2988,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -2992,7 +2999,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -3015,7 +3022,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3026,7 +3033,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3037,7 +3044,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3048,7 +3055,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3059,7 +3066,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3070,7 +3077,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -3093,7 +3100,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3104,7 +3111,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3115,7 +3122,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3126,7 +3133,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3137,7 +3144,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3148,7 +3155,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -3171,7 +3178,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3182,7 +3189,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3193,7 +3200,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3204,7 +3211,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3215,7 +3222,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3226,7 +3233,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -3249,7 +3256,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kansainvälisten kaupallisten tapahtumien prosenttiperusteinen lisäpalkkio",
-            "table_id": "FeeTable::FEETB91::2"
+            "table_id": "FeeTable::FEETB91::4"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3260,7 +3267,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kansainvälisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB950::20"
+            "table_id": "FeeTable::FEETB950::22"
           }
         ],
         "type": "conflicting_schedule_entry",
@@ -3270,224 +3277,234 @@
         ]
       },
       {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "Doku Wallet",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "Kortilla rahoitettu maksu maksuehtojemme käyttäjältä,jolla ei ole PayPal-tiliä.",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
-            "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "row_id": "2d8ZpnmdWeZjlFjeYA2iSS",
+            "row_index": 1,
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "DragonPay",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "Kortilla rahoitettu maksu maksuehtojemme käyttäjältä,jolla ei ole PayPal-tiliä.",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
-            "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "row_id": "2d8ZpnmdWeZjlFjeYA2iSS",
+            "row_index": 1,
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "Jenius Pay",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "QR-kooditapahtumat – 10,01 EUR tai enemmän",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
+            "row_id": "5uAFQYifIJsV8pkBuSnpBh",
             "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "LinkAja",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "QR-kooditapahtumat – 10,01 EUR tai enemmän",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
+            "row_id": "5uAFQYifIJsV8pkBuSnpBh",
             "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "Paysera",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "QR-kooditapahtumat – 10,00 EUR tai vähemmän",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
-            "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "Twint",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
-            "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "payment_method": "Viron verkkopankkisiirto",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "esBkDueYZlVab9whTeb1ew",
-            "row_index": 2,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
-          }
-        ],
-        "type": "unknown_apm_method"
-      },
-      {
-        "label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-        "payment_method": "Latvian verkkopankkisiirto",
-        "rule_id": "alternative_payment_methods",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "AHeM3J8PBaCfTf4nusBc5a",
+            "row_id": "1WqGyLvQN7kx7dbUzVdNyt",
             "row_index": 3,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-        "payment_method": "Liettuan verkkopankkisiirto",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "QR-kooditapahtumat – 10,00 EUR tai vähemmän",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "AHeM3J8PBaCfTf4nusBc5a",
+            "row_id": "1WqGyLvQN7kx7dbUzVdNyt",
             "row_index": 3,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
       },
       {
-        "label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-        "payment_method": "Thaimaan verkkopankkisiirto",
-        "rule_id": "alternative_payment_methods",
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "FC88UYiB6uszdfnw04zpU",
-            "document_id": "FEETB30",
-            "original_label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "Kaikki muut kaupalliset tapahtumat",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-            "row_id": "AHeM3J8PBaCfTf4nusBc5a",
-            "row_index": 3,
-            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB30::19"
+            "row_id": "25beahUCN3Z6HizRxB2K8B",
+            "row_index": 4,
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ],
-        "type": "unknown_apm_method"
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "Ky44QvqBrENe3JsdvUQLQ",
+            "document_id": "FEETB16",
+            "original_label": "Kaikki muut kaupalliset tapahtumat",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "row_id": "25beahUCN3Z6HizRxB2K8B",
+            "row_index": 4,
+            "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7KKKI266ujYQpDFsd8Qyzm",
+            "document_id": "FEETB32",
+            "original_label": "Suomi (FI)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "row_id": "sZQK8fa9QtIrOyXPWJZth",
+            "row_index": 0,
+            "section_heading": "Palkkiotaulukko: Kotimaisten hyväntekeväisyystapahtumien vastaanottaminen",
+            "table_id": "FeeTable::FEETB32::16"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7KKKI266ujYQpDFsd8Qyzm",
+            "document_id": "FEETB32",
+            "original_label": "Suomi (FI)",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
+            "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
+            "row_id": "sZQK8fa9QtIrOyXPWJZth",
+            "row_index": 0,
+            "section_heading": "Palkkiotaulukko: Kotimaisten hyväntekeväisyystapahtumien vastaanottaminen",
+            "table_id": "FeeTable::FEETB32::16"
+          }
+        ],
+        "type": "inherited_schedule"
       }
     ],
     "fixed_fee_schedules": {
@@ -3528,7 +3545,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: VMT-tapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB612::21"
+            "table_id": "FeeTable::FEETB612::23"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3539,7 +3556,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: VMT-tapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB612::21"
+            "table_id": "FeeTable::FEETB612::23"
           }
         ]
       },
@@ -3580,7 +3597,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3591,7 +3608,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio kaupallisista tapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB18::4"
+            "table_id": "FeeTable::FEETB18::6"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3602,7 +3619,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3613,7 +3630,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,01 EUR tai enemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB29::8"
+            "table_id": "FeeTable::FEETB29::10"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3624,7 +3641,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3635,7 +3652,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: QR-kooditapahtumien kiinteä palkkio, kun summa on 10,00 EUR tai vähemmän (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB625::12"
+            "table_id": "FeeTable::FEETB625::14"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3646,7 +3663,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Hyväntekeväisyystapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB38::15"
+            "table_id": "FeeTable::FEETB38::17"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3657,7 +3674,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Hyväntekeväisyystapahtumien kiinteä palkkio (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB38::15"
+            "table_id": "FeeTable::FEETB38::17"
           }
         ]
       },
@@ -3698,7 +3715,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Mikromaksuja koskeva kiinteä palkkio",
-            "table_id": "FeeTable::FEETB618::36"
+            "table_id": "FeeTable::FEETB618::38"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3709,7 +3726,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Mikromaksuja koskeva kiinteä palkkio",
-            "table_id": "FeeTable::FEETB618::36"
+            "table_id": "FeeTable::FEETB618::38"
           }
         ]
       },
@@ -3750,7 +3767,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio PayPalin verkkokorttimaksupalvelutapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB617::26"
+            "table_id": "FeeTable::FEETB617::28"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3761,7 +3778,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kiinteä palkkio PayPalin verkkokorttimaksupalvelutapahtumista (vastaanotetun valuutan mukaan)",
-            "table_id": "FeeTable::FEETB617::26"
+            "table_id": "FeeTable::FEETB617::28"
           }
         ]
       }
@@ -3786,29 +3803,7 @@
           "row_id": "1xpGWRGfR8x8nZFCDXGZe3",
           "row_index": 0,
           "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
-          "table_id": "FeeTable::FEETB16::1"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Muut maksut",
-          "Kaupallisten tapahtumien hintoja sovelletaan"
-        ],
-        "original_label": "Muut maksut",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2Gf0UyG9WG6vEejDSPiw3K",
-          "document_id": "FEETB22",
-          "original_label": "Muut maksut",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "6qob7AEcQLpmFi9OfPMHA",
-          "row_index": 4,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen PayPalin verkkokorttimaksupalvelujen avulla",
-          "table_id": "FeeTable::FEETB22::25"
+          "table_id": "FeeTable::FEETB16::3"
         }
       }
     ],
@@ -3838,7 +3833,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kansainvälisten kaupallisten tapahtumien prosenttiperusteinen lisäpalkkio",
-            "table_id": "FeeTable::FEETB91::2"
+            "table_id": "FeeTable::FEETB91::4"
           },
           {
             "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
@@ -3849,7 +3844,7 @@
             "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
             "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
             "section_heading": "Palkkiotaulukko: Kansainvälisten tapahtumien vastaanottaminen",
-            "table_id": "FeeTable::FEETB950::20"
+            "table_id": "FeeTable::FEETB950::22"
           }
         ]
       }
@@ -3857,29 +3852,64 @@
     "status": "partial",
     "transaction_fee_rules": [
       {
-        "conditions": {},
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "FI"
+          ]
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.9"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
-        "label": "Edistyneet luotto- ja pankkikorttimaksutAmerican Express -kortin tyyppi",
-        "percentage": "3.5",
+        "label": "Suomi (FI)",
+        "percentage": "1.9",
         "source": {
           "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "2Gf0UyG9WG6vEejDSPiw3K",
-          "document_id": "FEETB22",
-          "original_label": "Edistyneet luotto- ja pankkikorttimaksutAmerican Express -kortin tyyppi",
+          "component_id": "7KKKI266ujYQpDFsd8Qyzm",
+          "document_id": "FEETB32",
+          "original_label": "Suomi (FI)",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
           "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "6bNZ9jqfmhRakgM051KqaJ",
-          "row_index": 2,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen PayPalin verkkokorttimaksupalvelujen avulla",
-          "table_id": "FeeTable::FEETB22::25"
-        }
+          "row_id": "sZQK8fa9QtIrOyXPWJZth",
+          "row_index": 0,
+          "section_heading": "Palkkiotaulukko: Kotimaisten hyväntekeväisyystapahtumien vastaanottaminen",
+          "table_id": "FeeTable::FEETB32::16"
+        },
+        "variant_id": "standard"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -3897,11 +3927,27 @@
           "row_id": "25beahUCN3Z6HizRxB2K8B",
           "row_index": 4,
           "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "standard"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.9"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -3919,11 +3965,27 @@
           "row_id": "2d8ZpnmdWeZjlFjeYA2iSS",
           "row_index": 1,
           "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "standard"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.4"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -3941,11 +4003,27 @@
           "row_id": "1WqGyLvQN7kx7dbUzVdNyt",
           "row_index": 3,
           "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
-          "table_id": "FeeTable::FEETB16::1"
-        }
+          "table_id": "FeeTable::FEETB16::3"
+        },
+        "variant_id": "standard"
       },
       {
+        "calculation_status": "calculable",
         "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "0.9"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
         "fixed_fee_schedule": "commercial",
         "id": "other_commercial",
         "international_surcharge_schedule": "commercial",
@@ -3963,292 +4041,14 @@
           "row_id": "5uAFQYifIJsV8pkBuSnpBh",
           "row_index": 2,
           "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottamisen normaali hinta",
-          "table_id": "FeeTable::FEETB16::1"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "other_commercial",
-        "international_surcharge_schedule": "commercial",
-        "label": "eTerminal-maksut",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2Gf0UyG9WG6vEejDSPiw3K",
-          "document_id": "FEETB22",
-          "original_label": "eTerminal-maksut",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "eHxXpkPb8Z0cOsIoQQ2A00",
-          "row_index": 3,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen PayPalin verkkokorttimaksupalvelujen avulla",
-          "table_id": "FeeTable::FEETB22::25"
-        }
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "online_bank_transfer"
-          ]
+          "table_id": "FeeTable::FEETB16::3"
         },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Verkkopankki",
-        "percentage": "1.2",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "Verkkopankki",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "6RF72b4g5wViFHLtbUj2Vg",
-          "row_index": 0,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        },
-        "variant_id": "default"
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Muut vaihtoehtoiset maksutavat",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "Muut vaihtoehtoiset maksutavat",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "1gvfRSuevCVoKP5GuOy6lA",
-          "row_index": 5,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        },
-        "variant_id": "default"
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "blik_pay_later",
-            "floa_pay",
-            "gopay",
-            "kredivo",
-            "ovo_premium",
-            "scalapay",
-            "skrill"
-          ]
-        },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-        "percentage": "5.49",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "Thaimaan verkkopankkisiirto, Latvian verkkopankkisiirto, Liettuan verkkopankkisiirto, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, Scalapay, FLOA Pay (korollinen kuluttajille)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "AHeM3J8PBaCfTf4nusBc5a",
-          "row_index": 3,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        },
-        "variant_id": "special"
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "floa_pay"
-          ]
-        },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "FLOA Pay (koroton kuluttajille)",
-        "percentage": "6.5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "FLOA Pay (koroton kuluttajille)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "5vYGJHRFuW7fkrJMKWp0Vm",
-          "row_index": 4,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        },
-        "variant_id": "special"
-      },
-      {
-        "conditions": {
-          "payment_methods": [
-            "ovo_premium"
-          ]
-        },
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-        "percentage": "3.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "Twint, Doku Wallet, Viron verkkopankkisiirto, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "esBkDueYZlVab9whTeb1ew",
-          "row_index": 2,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        },
-        "variant_id": "special"
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Kotimaiset mikromaksut",
-        "percentage": "5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "6RSyloQfqz7FS1SZWvRKgO",
-          "document_id": "FEETB66",
-          "original_label": "Kotimaiset mikromaksut",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "2UoO8ww5tBdNl395lgogzk",
-          "row_index": 0,
-          "section_heading": "Palkkiotaulukko: Mikromaksujen vastaanottaminen",
-          "table_id": "FeeTable::FEETB66::35"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Muut kansainväliset mikromaksut",
-        "percentage": "6",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "6RSyloQfqz7FS1SZWvRKgO",
-          "document_id": "FEETB66",
-          "original_label": "Muut kansainväliset mikromaksut",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "56EBMV5iNgMVbMOMO0bX7N",
-          "row_index": 1,
-          "section_heading": "Palkkiotaulukko: Mikromaksujen vastaanottaminen",
-          "table_id": "FeeTable::FEETB66::35"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "pay_later_consumer",
-        "international_surcharge_schedule": "commercial",
-        "label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
-        "percentage": "3.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
-          "document_id": "FEETB925",
-          "original_label": "Maksulinkit: PayPal Checkout, Pay with Venmo, PayPal Pay Later -tarjoukset tai PayPal-vierasmaksut",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "89RzGdom4NnfD0eFaXdIa1",
-          "row_index": 1,
-          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::31"
-        }
-      },
-      {
-        "conditions": {},
-        "fixed_fee_schedule": "commercial",
-        "id": "pay_later_consumer",
-        "international_surcharge_schedule": "commercial",
-        "label": "Vain Klarna",
-        "percentage": "2.99",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "FC88UYiB6uszdfnw04zpU",
-          "document_id": "FEETB30",
-          "original_label": "Vain Klarna",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "bgdiZcSwj5yd3YXY0UUWD2",
-          "row_index": 1,
-          "section_heading": "Palkkiotaulukko: Kotimaisten tapahtumien vastaanottaminen",
-          "table_id": "FeeTable::FEETB30::19"
-        }
-      },
-      {
-        "conditions": {},
-        "id": "pos_transactions",
-        "label": "Kortti fyysisesti läsnä -tapahtumat",
-        "percentage": "1.95",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
-          "document_id": "FEETB925",
-          "original_label": "Kortti fyysisesti läsnä -tapahtumat",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "09Tqw7eEXapdjndWce8LoR",
-          "row_index": 0,
-          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::31"
-        }
-      },
-      {
-        "conditions": {},
-        "id": "pos_transactions",
-        "label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "WPt1hoPVT1EaxZZOlCLVu0",
-          "document_id": "FEETB925",
-          "original_label": "Maksulinkit: Normaalit pankki- ja luottokorttimaksut, Apple Pay tai muut kolmannen osapuolen lompakot",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal-kauppiaspalkkiot – myyjän palkkiot",
-          "requested_url": "https://www.paypal.com/fi/business/paypal-business-fees",
-          "row_id": "dhwQP37chfIeha2Hv0y3XF",
-          "row_index": 2,
-          "section_heading": "Palkkiotaulukko: Normaalit palkkiot tapahtumien vastaanottamiseen PayPal Point of Salella",
-          "table_id": "FeeTable::FEETB925::31"
-        }
+        "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
+  "generated_at": "2026-07-15T11:05:09.565903",
   "market": {
     "country_name": "Finland",
     "iso_country_code": "FI",
