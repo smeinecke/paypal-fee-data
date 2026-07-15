@@ -1,16 +1,15 @@
 {
   "cms_updated_at": "2025-09-24T07:32:56.351Z",
-  "crawled_at": "2026-04-30",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
-      "conflicts": 76,
+      "conflicts": 75,
       "extracted_apm_methods": 13,
       "fixed_fee_entries": 264,
       "ignored": 11,
       "inherited_schedules": 0,
-      "international_surcharge_entries": 4,
+      "international_surcharge_entries": 3,
       "missing_required_schedules": 1,
       "reference_sources": 0,
       "reference_targets": 0,
@@ -3178,51 +3177,6 @@
             "requested_url": "https://www.paypal.com/gr/business/paypal-business-fees",
             "section_heading": "Πίνακας χρεώσεων: Βασική χρέωση για την αποστολή διεθνών δωρεών για την Ελλάδα",
             "table_id": "FeeTable::FEETB405::24"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "1.99",
-          "0"
-        ]
-      },
-      {
-        "normalized_key": "OTHER",
-        "schedule_id": "commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1BDpc1eJoFotBxictrB01T",
-            "document_id": "FEETB533",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Merchant Fees",
-            "requested_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "section_heading": "Πίνακας χρεώσεων: Πρόσθετη χρέωση βάσει ποσοστού για διεθνείς εμπορικές συναλλαγές",
-            "table_id": "FeeTable::FEETB533::3"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4n6bXYJ7ScrF1ZIYuY2My9",
-            "document_id": "FEETB537",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Merchant Fees",
-            "requested_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "section_heading": "Πίνακας χρεώσεων: Πρόσθετη χρέωση υπηρεσίας για παραλήπτες διεθνών εμπορικών συναλλαγών με βάση το Ηνωμένο Βασίλειο",
-            "table_id": "FeeTable::FEETB537::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "2AtYhYImZ8naSj2OOEnvsH",
-            "document_id": "FEETB405",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Merchant Fees",
-            "requested_url": "https://www.paypal.com/gr/business/paypal-business-fees",
-            "section_heading": "Πίνακας χρεώσεων: Βασική χρέωση για την αποστολή διεθνών δωρεών για την Ελλάδα",
-            "table_id": "FeeTable::FEETB405::24"
           },
           {
             "canonical_url": "https://www.paypal.com/gr/business/paypal-business-fees",
@@ -3238,7 +3192,7 @@
         ],
         "type": "conflicting_schedule_entry",
         "values": [
-          "1.99",
+          "0",
           "2.99"
         ]
       },
@@ -7060,7 +7014,7 @@
           },
           {
             "payer_region": "OTHER",
-            "percentage_points": "1.99"
+            "percentage_points": "0"
           }
         ],
         "sources": [
@@ -7115,10 +7069,6 @@
           {
             "payer_region": "EEA",
             "percentage_points": "0"
-          },
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.99"
           }
         ],
         "sources": [
@@ -7448,7 +7398,6 @@
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-04-30",
   "market": {
     "country_name": "Greece",
     "iso_country_code": "GR",
