@@ -28,18 +28,19 @@ under the output root.
     another product family. Missing or inherited schedules are reported as
     diagnostics in `DerivedFeeResult.diagnostics`; there is no implicit fallback
     to a different schedule family.
-  - APM method extraction is token-based (`_extract_apm_methods`). The German
-    `alternative_payment_methods` special row is split into a `variant_id`
-    `special` rule with `conditions.payment_methods` and a default `variant_id`
-    `default` rule.
+  - Textual schedule references (`_resolve_reference`) are resolved by matching
+    the referenced product family and, when there are multiple candidates, by
+    the source rule's `variant_id` and `conditions`. This lets rows like
+    "SG: all other payment transactions" point to the matching
+    `other_commercial` rule for that market.
 
 ## Current data status
 
 After the latest regeneration the dataset is:
 
-- 1 complete, 184 partial, 15 unclassified
-- 1,266 core fee rules across all countries
-- 0 unsupported countries
+- 148 complete, 37 partial, 15 unclassified
+- 3,370 core fee rules across all countries
+- 1 unsupported country
 
 The remaining unclassified and partial markets are usually locales where a
 standard commercial rate table is absent or rates are embedded in a

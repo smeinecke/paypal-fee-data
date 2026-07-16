@@ -1,56 +1,35 @@
 {
   "cms_updated_at": "2025-09-24T07:33:52.949Z",
-  "crawled_at": "2026-07-16T12:30:55.687497",
+  "crawled_at": "2026-07-16T17:26:13.664596",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 4,
+      "calculable_rules": 11,
       "conflicts": 0,
-      "direct_fixed_fees": 1,
+      "direct_fixed_fees": 2,
       "extracted_apm_methods": 1,
-      "fixed_fee_entries": 161,
-      "ignored": 37,
+      "fixed_fee_entries": 306,
+      "ignored": 35,
       "inherited_schedules": 0,
       "international_surcharge_entries": 0,
       "maximum_fee_entries": 0,
-      "missing_required_schedules": 2,
-      "non_calculable_rules": 2,
+      "missing_required_schedules": 0,
+      "non_calculable_rules": 0,
       "reference_sources": 2,
-      "reference_targets": 0,
-      "transaction_rules": 6,
-      "unclassified": 4,
+      "reference_targets": 1,
+      "transaction_rules": 11,
+      "unclassified": 0,
       "unknown_apm_methods": 0,
       "unresolved_nested_references": 0,
-      "unresolved_references": 2,
+      "unresolved_references": 0,
       "unsupported_fee_shapes": 0
     },
     "currency_conversion": {
       "spread_percentage": "4"
     },
     "diagnostics": [
-      {
-        "label": "SG",
-        "rule_id": "other_commercial",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1WXMdsTP2ZMyjInzmnDBrf",
-            "document_id": "FEETB33",
-            "original_label": "SG",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal Para Vendedores",
-            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "row_id": "4n2H3N1VEI8Oic6ydZHvOD",
-            "row_index": 1,
-            "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
-            "table_id": "FeeTable::FEETB33::12"
-          }
-        ],
-        "type": "unresolved_reference"
-      },
       {
         "label": "Reembolsos de transacciones comerciales",
         "rule_id": "other_commercial",
@@ -67,54 +46,10 @@
             "row_id": "4R9Q2zyRSTLzScZLsCrjZt",
             "row_index": 2,
             "section_heading": "Tabla de comisiones: Otras comisiones",
-            "table_id": "FeeTable::FEETB86::77"
+            "table_id": "FeeTable::FEETB86::79"
           }
         ],
-        "type": "unresolved_reference"
-      },
-      {
-        "expected_schedule": "other_commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1WXMdsTP2ZMyjInzmnDBrf",
-            "document_id": "FEETB33",
-            "original_label": "SG",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal Para Vendedores",
-            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "row_id": "4n2H3N1VEI8Oic6ydZHvOD",
-            "row_index": 1,
-            "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
-            "table_id": "FeeTable::FEETB33::12"
-          }
-        ],
-        "type": "missing_required_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "15oCe3t5eiafamqULE72gk",
-            "document_id": "FEETB86",
-            "original_label": "Reembolsos de transacciones comerciales",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal Para Vendedores",
-            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-            "row_id": "4R9Q2zyRSTLzScZLsCrjZt",
-            "row_index": 2,
-            "section_heading": "Tabla de comisiones: Otras comisiones",
-            "table_id": "FeeTable::FEETB86::77"
-          }
-        ],
-        "type": "missing_required_schedule"
+        "type": "ambiguous_reference"
       }
     ],
     "fixed_fee_schedules": {
@@ -155,7 +90,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB872::6"
+            "table_id": "FeeTable::FEETB872::8"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -166,7 +101,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB871::7"
+            "table_id": "FeeTable::FEETB871::9"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -177,7 +112,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB18::14"
+            "table_id": "FeeTable::FEETB18::16"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -188,7 +123,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB205::15"
+            "table_id": "FeeTable::FEETB205::17"
           }
         ]
       },
@@ -229,7 +164,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::29"
+            "table_id": "FeeTable::FEETB69::31"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -240,11 +175,455 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::29"
+            "table_id": "FeeTable::FEETB69::31"
           }
         ]
       },
-      "withdrawals": {
+      "other_commercial": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "other_commercial__applies_to_markets=ag_bb_bm_bs_bz_cl_cr_dm_do_ec_gd_gt_hn_jm_kn_ky_lc_ni_pa_pe_sv_tc_tt_uy_ve": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "other_commercial__applies_to_markets=bh_dz_fj_jo_nc_om_pf_pw_sa": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "other_commercial__applies_to_markets=ma": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "other_commercial__applies_to_markets=my_sg": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "other_commercial__applies_to_markets=sg": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ykX4D0ouwkNJjp5iscwva",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "o2lwaxhSOkJluwbVZv35X",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "36Qeo19WEc36YQwRdpSJTr",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7JFp7JXrFf9PJvrvCwLbWl",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "section_heading": "Tabla de comisiones: Comisión fija para las transacciones realizadas mediante servicios de pago en línea con tarjeta (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ]
+      },
+      "withdrawals__applies_to_markets=ae_ag_al_ba_bb_bh_bs_bw_bz_cl_dm_dz_eg_fj_gd_ge_hn_is_jo_kn_kz_lc_ls_ma_md_mu_mw_mz_nc_om_pf_pw_sa_sc_sn_tc_tt_uy": {
         "entries": {
           "AED": "20",
           "AFN": "525",
@@ -370,7 +749,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB177::60"
+            "table_id": "FeeTable::FEETB177::62"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -381,7 +760,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB177::60"
+            "table_id": "FeeTable::FEETB177::62"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -392,7 +771,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB177::60"
+            "table_id": "FeeTable::FEETB177::62"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -403,8 +782,15 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB177::60"
-          },
+            "table_id": "FeeTable::FEETB177::62"
+          }
+        ]
+      },
+      "withdrawals__applies_to_markets=id_my": {
+        "entries": {
+          "CZK": "110"
+        },
+        "sources": [
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -414,7 +800,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB183::68"
+            "table_id": "FeeTable::FEETB183::70"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -425,7 +811,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB183::68"
+            "table_id": "FeeTable::FEETB183::70"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -436,7 +822,7 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB183::68"
+            "table_id": "FeeTable::FEETB183::70"
           },
           {
             "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
@@ -447,34 +833,12 @@
             "page_title": "Comisiones de PayPal Para Vendedores",
             "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
             "section_heading": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
-            "table_id": "FeeTable::FEETB183::68"
+            "table_id": "FeeTable::FEETB183::70"
           }
         ]
       }
     },
     "ignored_rows": [
-      {
-        "normalized_cells": [
-          "MA",
-          "4.40% + comisión fija"
-        ],
-        "original_label": "MA",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
-          "document_id": "FEETB16",
-          "original_label": "MA",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "7mZbRutH2zBY2wnR3OgGH0",
-          "row_index": 2,
-          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
-          "table_id": "FeeTable::FEETB16::2"
-        }
-      },
       {
         "normalized_cells": [
           "AG, AR, BB, BM, BS, BZ, CL, CO, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE"
@@ -493,31 +857,7 @@
           "row_id": "4p9eoAQWVyaQNxi4jqxVWC",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Comisión de negocio por recibir transacciones",
-          "table_id": "FeeTable::FEETB147::3"
-        }
-      },
-      {
-        "normalized_cells": [
-          "SG",
-          "Pagos avanzados con tarjeta de crédito y débito",
-          "3.40% + comisión fija",
-          ""
-        ],
-        "original_label": "SG",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "1WXMdsTP2ZMyjInzmnDBrf",
-          "document_id": "FEETB33",
-          "original_label": "SG",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "234kkBgvrvJ0R6Dod9tX32",
-          "row_index": 0,
-          "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
-          "table_id": "FeeTable::FEETB33::12"
+          "table_id": "FeeTable::FEETB147::5"
         }
       },
       {
@@ -538,7 +878,7 @@
           "row_id": "6ymNH78jjoyeKk1BPyMiRR",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Otras comisiones por el uso de Servicios de pago con tarjeta en línea de PayPal",
-          "table_id": "FeeTable::FEETB918::18"
+          "table_id": "FeeTable::FEETB918::20"
         }
       },
       {
@@ -559,7 +899,7 @@
           "row_id": "vlGev4lKluolC9vq6Zpaz",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Recepción de micropagos",
-          "table_id": "FeeTable::FEETB66::27"
+          "table_id": "FeeTable::FEETB66::29"
         }
       },
       {
@@ -580,7 +920,7 @@
           "row_id": "2DWbtuN1JUhcjVd7qZy2UZ",
           "row_index": 2,
           "section_heading": "Tabla de comisiones: Recepción de micropagos",
-          "table_id": "FeeTable::FEETB66::27"
+          "table_id": "FeeTable::FEETB66::29"
         }
       },
       {
@@ -601,7 +941,7 @@
           "row_id": "347jnrat1XfUahiIlts1F4",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Recepción de micropagos por bienes digitales",
-          "table_id": "FeeTable::FEETB148::28"
+          "table_id": "FeeTable::FEETB148::30"
         }
       },
       {
@@ -622,7 +962,7 @@
           "row_id": "2uCZDm9uM6LEUhL1d86ZU9",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Recepción de micropagos por bienes digitales",
-          "table_id": "FeeTable::FEETB148::28"
+          "table_id": "FeeTable::FEETB148::30"
         }
       },
       {
@@ -643,7 +983,7 @@
           "row_id": "6Is9QdWkaIo9sf4Eqaawvp",
           "row_index": 3,
           "section_heading": "Tabla de comisiones: Recepción de micropagos por bienes digitales",
-          "table_id": "FeeTable::FEETB148::28"
+          "table_id": "FeeTable::FEETB148::30"
         }
       },
       {
@@ -664,7 +1004,7 @@
           "row_id": "3sr9syZuvIIWuEpbxbUQ8r",
           "row_index": 4,
           "section_heading": "Tabla de comisiones: Recepción de micropagos por bienes digitales",
-          "table_id": "FeeTable::FEETB148::28"
+          "table_id": "FeeTable::FEETB148::30"
         }
       },
       {
@@ -688,7 +1028,7 @@
           "row_id": "1QN4RFA2V1izOtfV9DENpn",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Otras comisiones",
-          "table_id": "FeeTable::FEETB86::77"
+          "table_id": "FeeTable::FEETB86::79"
         }
       },
       {
@@ -712,7 +1052,7 @@
           "row_id": "sTpdleUW4vFOsxF0UaB8J",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Otras comisiones",
-          "table_id": "FeeTable::FEETB86::77"
+          "table_id": "FeeTable::FEETB86::79"
         }
       },
       {
@@ -736,7 +1076,7 @@
           "row_id": "5p9PNajBkN9cQMkKYVqu4p",
           "row_index": 3,
           "section_heading": "Tabla de comisiones: Otras comisiones",
-          "table_id": "FeeTable::FEETB86::77"
+          "table_id": "FeeTable::FEETB86::79"
         }
       },
       {
@@ -760,7 +1100,7 @@
           "row_id": "1Hd9oOosvd6022tgVBpfGV",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -784,7 +1124,7 @@
           "row_id": "4fqKfL4swJTwDxl9ab2SRB",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -808,7 +1148,7 @@
           "row_id": "67v3dXdlvbZuKrsfipCcWz",
           "row_index": 2,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -832,7 +1172,7 @@
           "row_id": "26szsnqg6BtrrFhNyIXlV6",
           "row_index": 3,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -856,7 +1196,7 @@
           "row_id": "64Y4FgPXlS6XybH6sz9aHq",
           "row_index": 4,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -880,7 +1220,7 @@
           "row_id": "5xD7QscxnL959IyypLsw5u",
           "row_index": 5,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -904,7 +1244,7 @@
           "row_id": "6hsOqa9eWtOkj0tB6BdoNo",
           "row_index": 6,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -928,7 +1268,7 @@
           "row_id": "1U7oTV5bBomW27KBOckUyH",
           "row_index": 7,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -952,7 +1292,7 @@
           "row_id": "66yqEfpsSrswtm46RQk89R",
           "row_index": 8,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -976,7 +1316,7 @@
           "row_id": "6HAvvm849Yw6larNGiQ62",
           "row_index": 9,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -1000,7 +1340,7 @@
           "row_id": "2sG6yzFSx7PWeACFe3sHru",
           "row_index": 10,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -1024,7 +1364,7 @@
           "row_id": "58bNSYz9IJDEaHSz9sTZcz",
           "row_index": 11,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB76::79"
+          "table_id": "FeeTable::FEETB76::81"
         }
       },
       {
@@ -1046,7 +1386,7 @@
           "row_id": "66okjGgYRe2ZnxnCTjxBaE",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1068,7 +1408,7 @@
           "row_id": "1o775kRemwIHtPa5SdfXs5",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1090,7 +1430,7 @@
           "row_id": "2XO9XACYa1F1dDWKfAVnCy",
           "row_index": 2,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1112,7 +1452,7 @@
           "row_id": "12boXnFhnCz7rd6AKrqiK7",
           "row_index": 3,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1134,7 +1474,7 @@
           "row_id": "3C5e2zmudz5Xh4ffm4vWS8",
           "row_index": 4,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1156,7 +1496,7 @@
           "row_id": "5z7RGsZsE4oIQ6mli8t3NE",
           "row_index": 5,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1178,7 +1518,7 @@
           "row_id": "3v8s0mOIMZztf7MD8sVLLw",
           "row_index": 6,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1200,7 +1540,7 @@
           "row_id": "16jNO7gvFTqawg7sellxmn",
           "row_index": 7,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1222,7 +1562,7 @@
           "row_id": "5GmaNdKTTD4M336XkMLNoP",
           "row_index": 8,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1244,7 +1584,7 @@
           "row_id": "2JcveQO5EZ7MqadWzOiNk4",
           "row_index": 9,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1266,7 +1606,7 @@
           "row_id": "4GcGrXupJN9gOi3IYxUM8l",
           "row_index": 10,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       },
       {
@@ -1288,7 +1628,7 @@
           "row_id": "lEQaa28zMayHjgmKIom3C",
           "row_index": 11,
           "section_heading": "Tabla de comisiones: Tabla de asociación y confirmación de tarjetas de crédito y débito",
-          "table_id": "FeeTable::FEETB170::80"
+          "table_id": "FeeTable::FEETB170::82"
         }
       }
     ],
@@ -1297,16 +1637,252 @@
     "status": "partial",
     "transaction_fee_rules": [
       {
-        "calculation_status": "incomplete",
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "AG",
+            "BB",
+            "BM",
+            "BS",
+            "BZ",
+            "CL",
+            "CR",
+            "DM",
+            "DO",
+            "EC",
+            "GD",
+            "GT",
+            "HN",
+            "JM",
+            "KN",
+            "KY",
+            "LC",
+            "NI",
+            "PA",
+            "PE",
+            "SV",
+            "TC",
+            "TT",
+            "UY",
+            "VE"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "5.4"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=ag_bb_bm_bs_bz_cl_cr_dm_do_ec_gd_gt_hn_jm_kn_ky_lc_ni_pa_pe_sv_tc_tt_uy_ve",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=ag_bb_bm_bs_bz_cl_cr_dm_do_ec_gd_gt_hn_jm_kn_ky_lc_ni_pa_pe_sv_tc_tt_uy_ve",
+        "id": "other_commercial",
+        "label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE",
+        "percentage": "5.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
+          "document_id": "FEETB16",
+          "original_label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal Para Vendedores",
+          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "row_id": "2m50OPit9RTboXAwHypoiy",
+          "row_index": 0,
+          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
+          "table_id": "FeeTable::FEETB16::4"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "BH",
+            "DZ",
+            "FJ",
+            "JO",
+            "NC",
+            "OM",
+            "PF",
+            "PW",
+            "SA"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "4.9"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=bh_dz_fj_jo_nc_om_pf_pw_sa",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=bh_dz_fj_jo_nc_om_pf_pw_sa",
+        "id": "other_commercial",
+        "label": "BH, DZ, FJ, JO, NC, OM, PF, PW y SA",
+        "percentage": "4.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
+          "document_id": "FEETB16",
+          "original_label": "BH, DZ, FJ, JO, NC, OM, PF, PW y SA",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal Para Vendedores",
+          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "row_id": "44lxAOyENLJrSiSl00LdXx",
+          "row_index": 3,
+          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
+          "table_id": "FeeTable::FEETB16::4"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "MA"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "4.4"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=ma",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=ma",
+        "id": "other_commercial",
+        "label": "MA",
+        "percentage": "4.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
+          "document_id": "FEETB16",
+          "original_label": "MA",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal Para Vendedores",
+          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "row_id": "7mZbRutH2zBY2wnR3OgGH0",
+          "row_index": 2,
+          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
+          "table_id": "FeeTable::FEETB16::4"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "MY",
+            "SG"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.9"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=my_sg",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=my_sg",
+        "id": "other_commercial",
+        "label": "MY y SG",
+        "percentage": "3.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
+          "document_id": "FEETB16",
+          "original_label": "MY y SG",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal Para Vendedores",
+          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "row_id": "32V2AJbfrN9hjs1LNxAxZa",
+          "row_index": 1,
+          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
+          "table_id": "FeeTable::FEETB16::4"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
         "conditions": {
           "applies_to_markets": [
             "SG"
           ],
           "transaction_region": "domestic"
         },
-        "fee_components": [],
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=sg",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "resolved_percentage",
+            "value": "3.4"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=sg",
         "id": "other_commercial",
         "label": "SG",
+        "percentage": "3.4",
+        "rate_reference": {
+          "reference": "other_commercial",
+          "resolved_rate": {
+            "fixed_fee_schedule": "other_commercial__applies_to_markets=sg",
+            "percentage": "3.4",
+            "rule_id": "other_commercial",
+            "source": {
+              "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "1WXMdsTP2ZMyjInzmnDBrf",
+              "document_id": "FEETB33",
+              "original_label": "SG",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "Comisiones de PayPal Para Vendedores",
+              "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+              "row_id": "234kkBgvrvJ0R6Dod9tX32",
+              "row_index": 0,
+              "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
+              "table_id": "FeeTable::FEETB33::14"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1WXMdsTP2ZMyjInzmnDBrf",
+            "document_id": "FEETB33",
+            "original_label": "SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal Para Vendedores",
+            "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+            "row_id": "4n2H3N1VEI8Oic6ydZHvOD",
+            "row_index": 1,
+            "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
+            "table_id": "FeeTable::FEETB33::14"
+          }
+        },
         "source": {
           "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
           "classifier_version": "rules-v1",
@@ -1319,29 +1895,45 @@
           "row_id": "4n2H3N1VEI8Oic6ydZHvOD",
           "row_index": 1,
           "section_heading": "Tabla de comisiones: Recepción de transacciones nacionales mediante los servicios de pago en línea con tarjeta",
-          "table_id": "FeeTable::FEETB33::12"
+          "table_id": "FeeTable::FEETB33::14"
         },
         "variant_id": "standard"
       },
       {
-        "calculation_status": "incomplete",
-        "conditions": {},
-        "fee_components": [],
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "all_other_markets"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "other_commercial",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial",
         "id": "other_commercial",
-        "label": "Reembolsos de transacciones comerciales",
+        "label": "Todos los demás mercados",
+        "percentage": "3.4",
         "source": {
           "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "15oCe3t5eiafamqULE72gk",
-          "document_id": "FEETB86",
-          "original_label": "Reembolsos de transacciones comerciales",
+          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
+          "document_id": "FEETB16",
+          "original_label": "Todos los demás mercados",
           "page_id": "business/paypal-business-fees",
           "page_title": "Comisiones de PayPal Para Vendedores",
           "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "4R9Q2zyRSTLzScZLsCrjZt",
-          "row_index": 2,
-          "section_heading": "Tabla de comisiones: Otras comisiones",
-          "table_id": "FeeTable::FEETB86::77"
+          "row_id": "GUzoqTuSDhyc1yjTs7Zbh",
+          "row_index": 4,
+          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
+          "table_id": "FeeTable::FEETB16::4"
         },
         "variant_id": "standard"
       },
@@ -1373,7 +1965,7 @@
           "row_id": "55PTxu5kGXOWriOimV9ndw",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Comisión de servicio adicional para los destinatarios de transacciones comerciales internacionales originadas en el Reino Unido (mercados aplicables: HR, IS y MC)",
-          "table_id": "FeeTable::FEETB158::5"
+          "table_id": "FeeTable::FEETB158::7"
         },
         "variant_id": "special"
       },
@@ -1445,7 +2037,7 @@
           "row_id": "3a64t9uzXMvqqhuJkagxEm",
           "row_index": 0,
           "section_heading": "Tabla de comisiones: Recepción de micropagos",
-          "table_id": "FeeTable::FEETB66::27"
+          "table_id": "FeeTable::FEETB66::29"
         },
         "variant_id": "standard"
       },
@@ -1483,20 +2075,61 @@
           "row_id": "67Owf2PIeY47voxdTmFMUv",
           "row_index": 2,
           "section_heading": "Tabla de comisiones: Recepción de micropagos por bienes digitales",
-          "table_id": "FeeTable::FEETB148::28"
+          "table_id": "FeeTable::FEETB148::30"
         },
         "variant_id": "standard"
       },
       {
         "calculation_status": "calculable",
-        "conditions": {},
+        "conditions": {
+          "applies_to_markets": [
+            "ae",
+            "ag",
+            "al",
+            "ba",
+            "bb",
+            "bh",
+            "bs",
+            "bw",
+            "bz",
+            "cl",
+            "dm",
+            "dz",
+            "eg",
+            "fj",
+            "gd",
+            "ge",
+            "hn",
+            "is",
+            "jo",
+            "kn",
+            "kz",
+            "lc",
+            "ls",
+            "ma",
+            "md",
+            "mu",
+            "mw",
+            "mz",
+            "nc",
+            "om",
+            "pf",
+            "pw",
+            "sa",
+            "sc",
+            "sn",
+            "tc",
+            "tt",
+            "uy"
+          ]
+        },
         "fee_components": [
           {
-            "schedule_id": "withdrawals",
+            "schedule_id": "withdrawals__applies_to_markets=ae_ag_al_ba_bb_bh_bs_bw_bz_cl_dm_dz_eg_fj_gd_ge_hn_is_jo_kn_kz_lc_ls_ma_md_mu_mw_mz_nc_om_pf_pw_sa_sc_sn_tc_tt_uy",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "withdrawals",
+        "fixed_fee_schedule": "withdrawals__applies_to_markets=ae_ag_al_ba_bb_bh_bs_bw_bz_cl_dm_dz_eg_fj_gd_ge_hn_is_jo_kn_kz_lc_ls_ma_md_mu_mw_mz_nc_om_pf_pw_sa_sc_sn_tc_tt_uy",
         "id": "withdrawals",
         "label": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
         "source": {
@@ -1508,103 +2141,44 @@
           "page_title": "Comisiones de PayPal Para Vendedores",
           "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
           "section_heading": "Tabla de comisiones: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE y UY | Comisión fija por retiro a tarjeta",
-          "table_id": "FeeTable::FEETB177::60"
+          "table_id": "FeeTable::FEETB177::62"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "id",
+            "my"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "withdrawals__applies_to_markets=id_my",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "withdrawals__applies_to_markets=id_my",
+        "id": "withdrawals",
+        "label": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
+        "source": {
+          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4VXRUVlMZDcQaQGWPAOeR7",
+          "document_id": "FEETB183",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Comisiones de PayPal Para Vendedores",
+          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
+          "section_heading": "Tabla de comisiones: ID y MY | Comisión fija por retiro a tarjeta",
+          "table_id": "FeeTable::FEETB183::70"
         },
         "variant_id": "standard"
       }
     ],
-    "unclassified_fee_rows": [
-      {
-        "normalized_cells": [
-          "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE",
-          "5.40% + comisión fija"
-        ],
-        "original_label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
-          "document_id": "FEETB16",
-          "original_label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY y VE",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "2m50OPit9RTboXAwHypoiy",
-          "row_index": 0,
-          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
-          "table_id": "FeeTable::FEETB16::2"
-        }
-      },
-      {
-        "normalized_cells": [
-          "MY y SG",
-          "3.90% + comisión fija"
-        ],
-        "original_label": "MY y SG",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
-          "document_id": "FEETB16",
-          "original_label": "MY y SG",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "32V2AJbfrN9hjs1LNxAxZa",
-          "row_index": 1,
-          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
-          "table_id": "FeeTable::FEETB16::2"
-        }
-      },
-      {
-        "normalized_cells": [
-          "BH, DZ, FJ, JO, NC, OM, PF, PW y SA",
-          "4.90% + comisión fija"
-        ],
-        "original_label": "BH, DZ, FJ, JO, NC, OM, PF, PW y SA",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
-          "document_id": "FEETB16",
-          "original_label": "BH, DZ, FJ, JO, NC, OM, PF, PW y SA",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "44lxAOyENLJrSiSl00LdXx",
-          "row_index": 3,
-          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
-          "table_id": "FeeTable::FEETB16::2"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Todos los demás mercados",
-          "3.40% + comisión fija"
-        ],
-        "original_label": "Todos los demás mercados",
-        "reason": "no product alias matched",
-        "source": {
-          "canonical_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3vmlOhNJzvfpgrzaRcd9b4",
-          "document_id": "FEETB16",
-          "original_label": "Todos los demás mercados",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Comisiones de PayPal Para Vendedores",
-          "requested_url": "https://www.paypal.com/uy/business/paypal-business-fees",
-          "row_id": "GUzoqTuSDhyc1yjTs7Zbh",
-          "row_index": 4,
-          "section_heading": "Tabla de comisiones: Comisión estándar por recibir transacciones nacionales",
-          "table_id": "FeeTable::FEETB16::2"
-        }
-      }
-    ]
+    "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-16T12:30:55.687497",
+  "generated_at": "2026-07-16T17:26:13.664596",
   "market": {
     "country_name": "Uruguay",
     "iso_country_code": "UY",
