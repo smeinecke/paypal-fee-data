@@ -1,24 +1,25 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-24T08:00:34.079Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 10,
-      "conflicts": 25,
+      "calculable_rules": 12,
+      "conflicts": 0,
       "direct_fixed_fees": 3,
       "extracted_apm_methods": 0,
-      "fixed_fee_entries": 169,
-      "ignored": 6,
+      "fixed_fee_entries": 242,
+      "ignored": 8,
       "inherited_schedules": 0,
       "international_surcharge_entries": 4,
-      "maximum_fee_entries": 0,
+      "maximum_fee_entries": 48,
       "missing_required_schedules": 1,
       "non_calculable_rules": 0,
       "reference_sources": 0,
       "reference_targets": 0,
-      "transaction_rules": 10,
+      "transaction_rules": 12,
       "unclassified": 0,
       "unknown_apm_methods": 0,
       "unresolved_nested_references": 0,
@@ -29,1406 +30,6 @@
       "spread_percentage": "3"
     },
     "diagnostics": [
-      {
-        "normalized_key": "AUD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "12",
-          "24"
-        ]
-      },
-      {
-        "normalized_key": "BRL",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "35",
-          "70"
-        ]
-      },
-      {
-        "normalized_key": "CAD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "10",
-          "20"
-        ]
-      },
-      {
-        "normalized_key": "CZK",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "185",
-          "370"
-        ]
-      },
-      {
-        "normalized_key": "DKK",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "55",
-          "110"
-        ]
-      },
-      {
-        "normalized_key": "EUR",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "7",
-          "14"
-        ]
-      },
-      {
-        "normalized_key": "HKD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "65",
-          "130"
-        ]
-      },
-      {
-        "normalized_key": "HUF",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "2450",
-          "4900"
-        ]
-      },
-      {
-        "normalized_key": "INR",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "580",
-          "1160"
-        ]
-      },
-      {
-        "normalized_key": "ILS",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "30",
-          "60"
-        ]
-      },
-      {
-        "normalized_key": "JPY",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "870",
-          "1740"
-        ]
-      },
-      {
-        "normalized_key": "MYR",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "35",
-          "70"
-        ]
-      },
-      {
-        "normalized_key": "MXN",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "160",
-          "320"
-        ]
-      },
-      {
-        "normalized_key": "TWD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "250",
-          "500"
-        ]
-      },
-      {
-        "normalized_key": "NZD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "13",
-          "26"
-        ]
-      },
-      {
-        "normalized_key": "NOK",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "75",
-          "150"
-        ]
-      },
-      {
-        "normalized_key": "PHP",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "405",
-          "810"
-        ]
-      },
-      {
-        "normalized_key": "PLN",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "30",
-          "60"
-        ]
-      },
-      {
-        "normalized_key": "RUB",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "600",
-          "1200"
-        ]
-      },
-      {
-        "normalized_key": "SGD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "11",
-          "22"
-        ]
-      },
-      {
-        "normalized_key": "SEK",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "75",
-          "150"
-        ]
-      },
-      {
-        "normalized_key": "CHF",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "8",
-          "16"
-        ]
-      },
-      {
-        "normalized_key": "THB",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "250",
-          "500"
-        ]
-      },
-      {
-        "normalized_key": "GBP",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "6",
-          "12"
-        ]
-      },
-      {
-        "normalized_key": "USD",
-        "schedule_id": "disputes",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "712dtslO7JA1oHRivviHi6",
-            "document_id": "FEETB72",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6CIN9Io3ZFJ8kMbw8yFtt8",
-            "document_id": "FEETB285",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          }
-        ],
-        "type": "conflicting_schedule_entry",
-        "values": [
-          "8",
-          "16"
-        ]
-      },
       {
         "expected_schedule": "other_commercial",
         "rule_id": "other_commercial",
@@ -1546,7 +147,60 @@
           }
         ]
       },
-      "disputes": {
+      "disputes_high_volume": {
+        "entries": {
+          "AUD": "24",
+          "BRL": "70",
+          "CAD": "20",
+          "CHF": "16",
+          "CZK": "370",
+          "DKK": "110",
+          "EUR": "14",
+          "GBP": "12",
+          "HKD": "130",
+          "HUF": "4900",
+          "ILS": "60",
+          "INR": "1160",
+          "JPY": "1740",
+          "MXN": "320",
+          "MYR": "70",
+          "NOK": "150",
+          "NZD": "26",
+          "PHP": "810",
+          "PLN": "60",
+          "RUB": "1200",
+          "SEK": "150",
+          "SGD": "22",
+          "THB": "500",
+          "TWD": "500",
+          "USD": "16"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
+            "document_id": "FEETB74",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: High Volume Dispute Fees",
+            "table_id": "FeeTable::FEETB74::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
+            "document_id": "FEETB292",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: High Volume Dispute Fees",
+            "table_id": "FeeTable::FEETB74::17"
+          }
+        ]
+      },
+      "disputes_standard": {
         "entries": {
           "AUD": "12",
           "BRL": "35",
@@ -1596,32 +250,166 @@
             "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
             "section_heading": "Fee Table: Standard Dispute Fees",
             "table_id": "FeeTable::FEETB285::16"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB74",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
-            "document_id": "FEETB292",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::17"
           }
         ]
       },
       "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7qjyhf93i0rblpHbpH5lsU",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4AWCi2wgnDP2igiWFVryog",
+            "document_id": "FEETB288",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB288::12"
+          }
+        ]
+      },
+      "micropayments_digital_goods": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7qjyhf93i0rblpHbpH5lsU",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4AWCi2wgnDP2igiWFVryog",
+            "document_id": "FEETB288",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB288::12"
+          }
+        ]
+      },
+      "micropayments_domestic": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7qjyhf93i0rblpHbpH5lsU",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4AWCi2wgnDP2igiWFVryog",
+            "document_id": "FEETB288",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB288::12"
+          }
+        ]
+      },
+      "micropayments_international": {
         "entries": {
           "AUD": "0.05",
           "BRL": "0.1",
@@ -1754,47 +542,6 @@
             "table_id": "FeeTable::FEETB18::3"
           }
         ]
-      },
-      "withdrawals": {
-        "entries": {
-          "AUD": "1.25",
-          "BRL": "2",
-          "CAD": "1.25",
-          "CHF": "1.3",
-          "CZK": "24",
-          "DKK": "6",
-          "EUR": "0.85",
-          "GBP": "0.65",
-          "HKD": "7",
-          "HUF": "210",
-          "ILS": "4",
-          "JPY": "120",
-          "MXN": "11",
-          "MYR": "4",
-          "NOK": "6.75",
-          "NZD": "1.5",
-          "PHP": "50",
-          "PLN": "3",
-          "RUB": "30",
-          "SEK": "9",
-          "SGD": "1.6",
-          "THB": "36",
-          "TWD": "33",
-          "USD": "1"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1XbhaYhXr4lefcACmAtVhF",
-            "document_id": "FEETB63",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Fees for Sellers (Business)",
-            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-            "section_heading": "Fee Table: Maximum fee cap for PayPal Payouts",
-            "table_id": "FeeTable::FEETB63::9"
-          }
-        ]
       }
     },
     "ignored_rows": [
@@ -1839,6 +586,51 @@
           "row_index": 0,
           "section_heading": "Fee Table:  Other fees for using PayPal Online Card Payment Services",
           "table_id": "FeeTable::FEETB873::7"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Per each payment transaction",
+          "Commercial Transaction Rates",
+          "",
+          ""
+        ],
+        "original_label": "Per each payment transaction",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4rIHemywGMYuKx2CQ3Pklp",
+          "document_id": "FEETB75",
+          "original_label": "Per each payment transaction",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "3e14KErkJR6HOAw5lLA7jv",
+          "row_index": 0,
+          "section_heading": "Fee Table: Receiving eChecks fees",
+          "table_id": "FeeTable::FEETB75::21"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Bank account"
+        ],
+        "original_label": "Bank account",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "7D6fY2JRDOlaumP6UygilX",
+          "document_id": "FEETB82",
+          "original_label": "Bank account",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "35ljwtsyoLf4W9NrLnFaYf",
+          "row_index": 0,
+          "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
+          "table_id": "FeeTable::FEETB82::23"
         }
       },
       {
@@ -2021,7 +813,90 @@
         ]
       }
     },
-    "maximum_fee_schedules": {},
+    "maximum_fee_schedules": {
+      "payouts_domestic": {
+        "entries": {
+          "AUD": "1.25",
+          "BRL": "2",
+          "CAD": "1.25",
+          "CHF": "1.3",
+          "CZK": "24",
+          "DKK": "6",
+          "EUR": "0.85",
+          "GBP": "0.65",
+          "HKD": "7",
+          "HUF": "210",
+          "ILS": "4",
+          "JPY": "120",
+          "MXN": "11",
+          "MYR": "4",
+          "NOK": "6.75",
+          "NZD": "1.5",
+          "PHP": "50",
+          "PLN": "3",
+          "RUB": "30",
+          "SEK": "9",
+          "SGD": "1.6",
+          "THB": "36",
+          "TWD": "33",
+          "USD": "1"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1XbhaYhXr4lefcACmAtVhF",
+            "document_id": "FEETB63",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Maximum fee cap for PayPal Payouts",
+            "table_id": "FeeTable::FEETB63::9"
+          }
+        ]
+      },
+      "payouts_international": {
+        "entries": {
+          "AUD": "60",
+          "BRL": "100",
+          "CAD": "60",
+          "CHF": "50",
+          "CZK": "1000",
+          "DKK": "300",
+          "EUR": "40",
+          "GBP": "35",
+          "HKD": "400",
+          "HUF": "15000",
+          "ILS": "200",
+          "JPY": "5000",
+          "MXN": "750",
+          "MYR": "200",
+          "NOK": "300",
+          "NZD": "75",
+          "PHP": "2500",
+          "PLN": "150",
+          "RUB": "1500",
+          "SEK": "400",
+          "SGD": "80",
+          "THB": "2000",
+          "TWD": "2000",
+          "USD": "50"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1XbhaYhXr4lefcACmAtVhF",
+            "document_id": "FEETB63",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Maximum fee cap for PayPal Payouts",
+            "table_id": "FeeTable::FEETB63::9"
+          }
+        ]
+      }
+    },
     "status": "partial",
     "transaction_fee_rules": [
       {
@@ -2108,8 +983,13 @@
           {
             "type": "percentage",
             "value": "2.9"
+          },
+          {
+            "schedule_id": "qr_code_payments",
+            "type": "fixed_fee_schedule"
           }
         ],
+        "fixed_fee_schedule": "qr_code_payments",
         "id": "qr_code_payments",
         "label": "QR Code Transactions",
         "percentage": "2.9",
@@ -2140,11 +1020,11 @@
             "value": "5.5"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_digital_goods",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_digital_goods",
         "id": "micropayments",
         "label": "Domestic micropayments for Digital Goods",
         "percentage": "5.5",
@@ -2175,11 +1055,11 @@
             "value": "6"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_digital_goods",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_digital_goods",
         "id": "micropayments",
         "label": "Other International micropayments for Digital Goods",
         "percentage": "6",
@@ -2210,11 +1090,11 @@
             "value": "5"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_domestic",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_domestic",
         "id": "micropayments",
         "label": "Domestic micropayments",
         "percentage": "5",
@@ -2245,11 +1125,11 @@
             "value": "6"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_international",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_international",
         "id": "micropayments",
         "label": "Other International micropayments",
         "percentage": "6",
@@ -2296,14 +1176,41 @@
       },
       {
         "calculation_status": "calculable",
-        "conditions": {},
+        "conditions": {
+          "volume_status": "high_volume"
+        },
         "fee_components": [
           {
-            "schedule_id": "disputes",
+            "schedule_id": "disputes_high_volume",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "disputes",
+        "fixed_fee_schedule": "disputes_high_volume",
+        "id": "disputes",
+        "label": "Fee Table: High Volume Dispute Fees",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3FOgwGPyauMd2w4Ig1ZOSa",
+          "document_id": "FEETB74",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "section_heading": "Fee Table: High Volume Dispute Fees",
+          "table_id": "FeeTable::FEETB74::17"
+        },
+        "variant_id": "high_volume"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "disputes_standard",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "disputes_standard",
         "id": "disputes",
         "label": "Fee Table: Standard Dispute Fees",
         "source": {
@@ -2321,33 +1228,78 @@
       },
       {
         "calculation_status": "calculable",
-        "conditions": {},
+        "conditions": {
+          "transaction_region": "domestic"
+        },
         "fee_components": [
           {
-            "schedule_id": "withdrawals",
-            "type": "fixed_fee_schedule"
+            "type": "percentage",
+            "value": "2"
+          },
+          {
+            "schedule_id": "payouts_domestic",
+            "type": "maximum_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "withdrawals",
         "id": "withdrawals",
-        "label": "Fee Table: Maximum fee cap for PayPal Payouts",
+        "label": "Domestic PayPal Payouts",
+        "maximum_fee_schedule": "payouts_domestic",
+        "percentage": "2",
         "source": {
           "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "1XbhaYhXr4lefcACmAtVhF",
-          "document_id": "FEETB63",
+          "component_id": "rfQMAcAjsEYgOFl8b0Pi7",
+          "document_id": "FEETB81",
+          "original_label": "Domestic PayPal Payouts",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPal Fees for Sellers (Business)",
           "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
-          "section_heading": "Fee Table: Maximum fee cap for PayPal Payouts",
-          "table_id": "FeeTable::FEETB63::9"
+          "row_id": "3aM43bBuvHgK6w2ilNe3N7",
+          "row_index": 0,
+          "section_heading": "Fee Table: Sending PayPal Payouts",
+          "table_id": "FeeTable::FEETB81::8"
         },
-        "variant_id": "standard"
+        "variant_id": "domestic"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "international"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "2"
+          },
+          {
+            "schedule_id": "payouts_international",
+            "type": "maximum_fee_schedule"
+          }
+        ],
+        "id": "withdrawals",
+        "label": "International PayPal Payouts",
+        "maximum_fee_schedule": "payouts_international",
+        "percentage": "2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "rfQMAcAjsEYgOFl8b0Pi7",
+          "document_id": "FEETB81",
+          "original_label": "International PayPal Payouts",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Fees for Sellers (Business)",
+          "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+          "row_id": "6B95NFyl3vDWPdMUAEMl1q",
+          "row_index": 1,
+          "section_heading": "Fee Table: Sending PayPal Payouts",
+          "table_id": "FeeTable::FEETB81::8"
+        },
+        "variant_id": "international"
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Hong Kong SAR China",
     "iso_country_code": "HK",

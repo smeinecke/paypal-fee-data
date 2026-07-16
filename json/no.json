@@ -1,5 +1,6 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-25T07:31:47.443Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -9,10 +10,10 @@
       "conflicts": 2,
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 20,
-      "fixed_fee_entries": 120,
+      "fixed_fee_entries": 192,
       "ignored": 13,
       "inherited_schedules": 0,
-      "international_surcharge_entries": 6,
+      "international_surcharge_entries": 12,
       "maximum_fee_entries": 0,
       "missing_required_schedules": 0,
       "non_calculable_rules": 2,
@@ -629,7 +630,7 @@
         ],
         "type": "conflicting_rule_identity",
         "values": [
-          "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": null}",
+          "{\"fixed_fee_schedule\": null, \"international_surcharge_schedule\": null, \"percentage\": null}",
           "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": \"2.99\"}",
           "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": \"1.9\"}"
         ]
@@ -691,6 +692,58 @@
     ],
     "fixed_fee_schedules": {
       "advanced_card_payments": {
+        "entries": {
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1I2HqjzuEw7c2XwyQbWlCO",
+            "document_id": "FEETB51",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for transaksjoner med PayPals nettbaserte kortbetalingstjenester (basert på mottatt valuta)",
+            "table_id": "FeeTable::FEETB51::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1I2HqjzuEw7c2XwyQbWlCO",
+            "document_id": "FEETB281",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for transaksjoner med PayPals nettbaserte kortbetalingstjenester (basert på mottatt valuta)",
+            "table_id": "FeeTable::FEETB51::20"
+          }
+        ]
+      },
+      "advanced_card_payments_interchange_plus": {
         "entries": {
           "AUD": "0.3",
           "BRL": "0.6",
@@ -891,6 +944,110 @@
         ]
       },
       "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ppFAdz0W2DAx9JOJk6vBc",
+            "document_id": "FEETB666",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for mikrobetalinger",
+            "table_id": "FeeTable::FEETB666::27"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ppFAdz0W2DAx9JOJk6vBc",
+            "document_id": "FEETB667",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for mikrobetalinger",
+            "table_id": "FeeTable::FEETB666::27"
+          }
+        ]
+      },
+      "micropayments_domestic": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ppFAdz0W2DAx9JOJk6vBc",
+            "document_id": "FEETB666",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for mikrobetalinger",
+            "table_id": "FeeTable::FEETB666::27"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ppFAdz0W2DAx9JOJk6vBc",
+            "document_id": "FEETB667",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Fast gebyr for mikrobetalinger",
+            "table_id": "FeeTable::FEETB666::27"
+          }
+        ]
+      },
+      "micropayments_international": {
         "entries": {
           "AUD": "0.05",
           "BRL": "0.1",
@@ -1352,6 +1509,130 @@
           }
         ]
       },
+      "advanced_card_payments_american_express": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6DHNnWV86MfO84voZb0uHa",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra prosentbasert gebyr for internasjonale kommersielle transaksjoner",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4V6axBrOyi9lNkwwog3L3D",
+            "document_id": "FEETB579",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra tjenestegebyr for mottakere av internasjonale forretningstransaksjoner i Storbritannia",
+            "table_id": "FeeTable::FEETB579::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2oRzDhrBys9LuWP2SqBeOV",
+            "document_id": "FEETB323",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra prosentbasert gebyr for internasjonale donasjoner",
+            "table_id": "FeeTable::FEETB323::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "A2rk9BinveveAWOZaE0EuX",
+            "document_id": "FEETB952",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Motta internasjonale transaksjoner",
+            "table_id": "FeeTable::FEETB952::16"
+          }
+        ]
+      },
+      "advanced_card_payments_interchange_plus": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6DHNnWV86MfO84voZb0uHa",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra prosentbasert gebyr for internasjonale kommersielle transaksjoner",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4V6axBrOyi9lNkwwog3L3D",
+            "document_id": "FEETB579",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra tjenestegebyr for mottakere av internasjonale forretningstransaksjoner i Storbritannia",
+            "table_id": "FeeTable::FEETB579::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2oRzDhrBys9LuWP2SqBeOV",
+            "document_id": "FEETB323",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Ekstra prosentbasert gebyr for internasjonale donasjoner",
+            "table_id": "FeeTable::FEETB323::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "A2rk9BinveveAWOZaE0EuX",
+            "document_id": "FEETB952",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal brukerstedsgebyrer - selgergebyrer",
+            "requested_url": "https://www.paypal.com/no/business/paypal-business-fees",
+            "section_heading": "Gebyrtabell: Motta internasjonale transaksjoner",
+            "table_id": "FeeTable::FEETB952::16"
+          }
+        ]
+      },
       "commercial": {
         "entries": [
           {
@@ -1429,17 +1710,12 @@
             "value": "3.5"
           },
           {
-            "schedule_id": "advanced_card_payments",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
+            "schedule_id": "advanced_card_payments_american_express",
             "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments_american_express",
         "label": "Avanserte kortbetalingerKorttypen American Express",
         "percentage": "3.5",
         "source": {
@@ -1512,17 +1788,17 @@
             "value": "1.9"
           },
           {
-            "schedule_id": "advanced_card_payments",
+            "schedule_id": "advanced_card_payments_interchange_plus",
             "type": "fixed_fee_schedule"
           },
           {
-            "schedule_id": "advanced_card_payments",
+            "schedule_id": "advanced_card_payments_interchange_plus",
             "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "advanced_card_payments",
+        "fixed_fee_schedule": "advanced_card_payments_interchange_plus",
         "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments_interchange_plus",
         "label": "Avanserte kortbetalinger – Interchange Plus-gebyrstruktur:Korttypene Visa, Mastercard, China Union Pay (CUP), Diners og Discover",
         "percentage": "1.9",
         "source": {
@@ -1784,11 +2060,11 @@
             "value": "5"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_domestic",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_domestic",
         "id": "micropayments",
         "label": "Innenlands mikrobetalinger",
         "percentage": "5",
@@ -1819,11 +2095,11 @@
             "value": "6"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_international",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_international",
         "id": "micropayments",
         "label": "Andre internasjonale mikrobetalinger",
         "percentage": "6",
@@ -1961,7 +2237,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Norway",
     "iso_country_code": "NO",

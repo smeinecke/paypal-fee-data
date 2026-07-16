@@ -1,5 +1,6 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-25T09:28:05.216Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -9,7 +10,7 @@
       "conflicts": 27,
       "direct_fixed_fees": 1,
       "extracted_apm_methods": 19,
-      "fixed_fee_entries": 216,
+      "fixed_fee_entries": 240,
       "ignored": 35,
       "inherited_schedules": 0,
       "international_surcharge_entries": 12,
@@ -1900,7 +1901,7 @@
         ],
         "type": "conflicting_rule_identity",
         "values": [
-          "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": null}",
+          "{\"fixed_fee_schedule\": null, \"international_surcharge_schedule\": null, \"percentage\": null}",
           "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": \"2.99\"}",
           "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": \"0.99\"}",
           "{\"fixed_fee_schedule\": \"alternative_payment_methods\", \"international_surcharge_schedule\": null, \"percentage\": \"1.9\"}"
@@ -2223,6 +2224,58 @@
         ]
       },
       "micropayments": {
+        "entries": {
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
+        },
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5JjNv7MQfOfd0YrycCGZS3",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals avgifter för företag – säljavgifter",
+            "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+            "section_heading": "Avgiftstabell: Fast avgift för mikrobetalningar",
+            "table_id": "FeeTable::FEETB69::40"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/se/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5JjNv7MQfOfd0YrycCGZS3",
+            "document_id": "FEETB304",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals avgifter för företag – säljavgifter",
+            "requested_url": "https://www.paypal.com/se/business/paypal-business-fees",
+            "section_heading": "Avgiftstabell: Fast avgift för mikrobetalningar",
+            "table_id": "FeeTable::FEETB69::40"
+          }
+        ]
+      },
+      "micropayments_international": {
         "entries": {
           "AUD": "0.05",
           "BRL": "0.1",
@@ -3744,11 +3797,11 @@
             "value": "6"
           },
           {
-            "schedule_id": "micropayments",
+            "schedule_id": "micropayments_international",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments",
+        "fixed_fee_schedule": "micropayments_international",
         "id": "micropayments",
         "label": "Övriga internationella mikrobetalningar",
         "percentage": "6",
@@ -4008,7 +4061,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Sweden",
     "iso_country_code": "SE",

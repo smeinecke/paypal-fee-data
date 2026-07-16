@@ -1,21 +1,22 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-24T07:27:33.300Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 4,
+      "calculable_rules": 3,
       "conflicts": 48,
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 0,
-      "fixed_fee_entries": 332,
-      "ignored": 18,
+      "fixed_fee_entries": 190,
+      "ignored": 19,
       "inherited_schedules": 0,
-      "international_surcharge_entries": 3,
+      "international_surcharge_entries": 2,
       "maximum_fee_entries": 0,
-      "missing_required_schedules": 0,
-      "non_calculable_rules": 0,
+      "missing_required_schedules": 1,
+      "non_calculable_rules": 1,
       "reference_sources": 1,
       "reference_targets": 0,
       "transaction_rules": 4,
@@ -4662,6 +4663,28 @@
           }
         ],
         "type": "unresolved_reference"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2tvBuxA1dB4SN6XVX3kphZ",
+            "document_id": "FEETB33",
+            "original_label": "SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Business",
+            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+            "row_id": "2owGCSQqATUveIJ2eRvIdL",
+            "row_index": 1,
+            "section_heading": "Grille tarifaire: Réception des transactions nationales en utilisant les Services de paiement par carte en ligne",
+            "table_id": "FeeTable::FEETB33::12"
+          }
+        ],
+        "type": "missing_required_schedule"
       }
     ],
     "fixed_fee_schedules": {
@@ -5026,264 +5049,6 @@
             "table_id": "FeeTable::FEETB205::15"
           }
         ]
-      },
-      "other_commercial": {
-        "entries": {
-          "AED": "20",
-          "AFN": "525",
-          "ALL": "552",
-          "AMD": "2625",
-          "ANG": "8",
-          "AOA": "2466",
-          "ARS": "15",
-          "AUD": "0.3",
-          "AWG": "9",
-          "AZN": "8.5",
-          "BAM": "9",
-          "BBD": "10",
-          "BDT": "440",
-          "BGN": "7",
-          "BHD": "2",
-          "BIF": "9449",
-          "BMD": "5",
-          "BND": "7",
-          "BOB": "35",
-          "BRL": "0.6",
-          "BSD": "5",
-          "BTN": "355",
-          "BWP": "54",
-          "BZD": "10",
-          "CAD": "0.3",
-          "CDF": "8452",
-          "CHF": "0.55",
-          "CLP": "2400",
-          "CNY": "35",
-          "COP": "16658",
-          "CRC": "2816",
-          "CZK": "10",
-          "DJF": "889",
-          "DKK": "2.6",
-          "DOP": "267",
-          "DZD": "600",
-          "EGP": "79",
-          "ERN": "75",
-          "ETB": "160",
-          "EUR": "0.35",
-          "FJD": "11",
-          "FKP": "4",
-          "GBP": "0.2",
-          "GEL": "14",
-          "GHS": "31.25",
-          "GIP": "4",
-          "GMD": "256",
-          "GNF": "47695",
-          "GTQ": "38",
-          "GYD": "1043",
-          "HKD": "2.35",
-          "HNL": "123",
-          "HTG": "500",
-          "HUF": "90",
-          "IDR": "46000",
-          "ILS": "1.2",
-          "INR": "200",
-          "IQD": "7250",
-          "ISK": "340",
-          "JMD": "670",
-          "JOD": "3.6",
-          "JPY": "40",
-          "KES": "504",
-          "KGS": "425",
-          "KHR": "20600",
-          "KMF": "2218",
-          "KRW": "5830",
-          "KWD": "5",
-          "KYD": "4",
-          "KZT": "1887",
-          "LAK": "44392",
-          "LBP": "7600",
-          "LKR": "907",
-          "LRD": "750",
-          "LSL": "80",
-          "MAD": "48",
-          "MDL": "88",
-          "MGA": "18259",
-          "MKD": "278",
-          "MMK": "9000",
-          "MNT": "13735",
-          "MOP": "40",
-          "MRU": "180",
-          "MUR": "183",
-          "MVR": "77",
-          "MWK": "3684",
-          "MXN": "4",
-          "MYR": "2",
-          "MZN": "375",
-          "NAD": "72",
-          "NGN": "1812",
-          "NIO": "171",
-          "NOK": "2.8",
-          "NPR": "571",
-          "NZD": "0.45",
-          "OMR": "2",
-          "PAB": "5",
-          "PEN": "17",
-          "PGK": "17",
-          "PHP": "15",
-          "PKR": "900",
-          "PLN": "1.35",
-          "PYG": "32625",
-          "QAR": "18",
-          "RON": "12",
-          "RSD": "530",
-          "RUB": "10",
-          "RWF": "5000",
-          "SAR": "19",
-          "SBD": "41",
-          "SCR": "68",
-          "SEK": "3.25",
-          "SGD": "0.5",
-          "SHP": "4",
-          "SLL": "49324",
-          "SOS": "2898",
-          "SRD": "37",
-          "STN": "110",
-          "SZL": "72",
-          "THB": "11",
-          "TJS": "52",
-          "TMT": "20",
-          "TND": "13",
-          "TOP": "11",
-          "TRY": "70",
-          "TTD": "34",
-          "TWD": "10",
-          "TZS": "11520",
-          "UAH": "122",
-          "UGX": "18388",
-          "USD": "0.3",
-          "UZS": "60000",
-          "VES": "30000000",
-          "VND": "115874",
-          "VUV": "582",
-          "WST": "13",
-          "XAF": "2956",
-          "XCD": "14",
-          "XOF": "2700",
-          "YER": "1252",
-          "ZAR": "40",
-          "ZMW": "107.5"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "JXrSMkfbhNd9XRyYyrHUg",
-            "document_id": "FEETB872",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::6"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5sa9ZrnPqG14Lcsgwl45Xk",
-            "document_id": "FEETB871",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::7"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1fejlOBrpDNryP5J2uS7v9",
-            "document_id": "FEETB177",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::56"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1fejlOBrpDNryP5J2uS7v9",
-            "document_id": "FEETB191",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::56"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "1fejlOBrpDNryP5J2uS7v9",
-            "document_id": "FEETB203",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::56"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "731ObE4ZsUfl6xLNYMSxjP",
-            "document_id": "FEETB202",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB202::58"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5ofjBu4sEHGoRoU5hPri2f",
-            "document_id": "FEETB183",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::64"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5ofjBu4sEHGoRoU5hPri2f",
-            "document_id": "FEETB193",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::64"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5ofjBu4sEHGoRoU5hPri2f",
-            "document_id": "FEETB194",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::64"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5ofjBu4sEHGoRoU5hPri2f",
-            "document_id": "FEETB196",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::64"
-          }
-        ]
       }
     },
     "ignored_rows": [
@@ -5328,6 +5093,28 @@
           "row_index": 0,
           "section_heading": "Grille tarifaire: Tarification dégressive pour les marchands applicable à la réception de transactions",
           "table_id": "FeeTable::FEETB147::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Achat ou vente",
+          "Aucuns frais"
+        ],
+        "original_label": "Achat ou vente",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5HKOMtc5vVBeIZrUBdzI9K",
+          "document_id": "FEETB988",
+          "original_label": "Achat ou vente",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Business",
+          "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+          "row_id": "fglxzaDwInuarKitFQbUK2",
+          "row_index": 0,
+          "section_heading": "Grille tarifaire: Acheter ou vendre des PYUSD",
+          "table_id": "FeeTable::FEETB988::8"
         }
       },
       {
@@ -5683,48 +5470,6 @@
       }
     ],
     "international_surcharge_schedules": {
-      "commercial": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "4.4"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6sjFpRUhyQgPnaeMXpQWZG",
-            "document_id": "FEETB153",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: Réception de transactions internationales",
-            "table_id": "FeeTable::FEETB153::4"
-          }
-        ]
-      },
-      "other_commercial": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "4.4"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6sjFpRUhyQgPnaeMXpQWZG",
-            "document_id": "FEETB153",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
-            "section_heading": "Grille tarifaire: Réception de transactions internationales",
-            "table_id": "FeeTable::FEETB153::4"
-          }
-        ]
-      },
       "recipient_service": {
         "entries": [
           {
@@ -5745,32 +5490,42 @@
             "table_id": "FeeTable::FEETB158::5"
           }
         ]
+      },
+      "withdrawals_ach": {
+        "entries": [
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "4.4"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6sjFpRUhyQgPnaeMXpQWZG",
+            "document_id": "FEETB153",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Business",
+            "requested_url": "https://www.paypal.com/bj/business/paypal-business-fees",
+            "section_heading": "Grille tarifaire: Réception de transactions internationales",
+            "table_id": "FeeTable::FEETB153::4"
+          }
+        ]
       }
     },
     "maximum_fee_schedules": {},
     "status": "partial",
     "transaction_fee_rules": [
       {
-        "calculation_status": "calculable",
+        "calculation_status": "incomplete",
         "conditions": {
           "applies_to_markets": [
             "SG"
           ],
           "transaction_region": "domestic"
         },
-        "fee_components": [
-          {
-            "schedule_id": "other_commercial",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "other_commercial",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "other_commercial",
+        "fee_components": [],
         "id": "other_commercial",
-        "international_surcharge_schedule": "other_commercial",
         "label": "SG",
         "source": {
           "canonical_url": "https://www.paypal.com/bj/business/paypal-business-fees",
@@ -6017,7 +5772,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Benin",
     "iso_country_code": "BJ",

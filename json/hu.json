@@ -1,5 +1,6 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-24T08:02:54.402Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -12,7 +13,7 @@
       "fixed_fee_entries": 120,
       "ignored": 3,
       "inherited_schedules": 0,
-      "international_surcharge_entries": 9,
+      "international_surcharge_entries": 12,
       "maximum_fee_entries": 0,
       "missing_required_schedules": 0,
       "non_calculable_rules": 1,
@@ -6633,6 +6634,57 @@
           }
         ]
       },
+      "advanced_card_payments_american_express": {
+        "entries": [
+          {
+            "payer_region": "EEA",
+            "percentage_points": "0"
+          },
+          {
+            "payer_region": "GB",
+            "percentage_points": "1.29"
+          },
+          {
+            "payer_region": "OTHER",
+            "percentage_points": "1.99"
+          }
+        ],
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4sRV0jeJlCMEoArt4YIRoh",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "section_heading": "Díjtáblázat: Nemzetközi kereskedelmi tranzakciók százalékos kiegészítő díja",
+            "table_id": "FeeTable::FEETB91::2"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2DnwVDaq67L8OhmccuENVs",
+            "document_id": "FEETB114",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "section_heading": "Díjtáblázat: További szolgáltatási díj az Egyesült Királyságban lebonyolított nemzetközi kereskedelmi tranzakciókat fogadó felek esetén",
+            "table_id": "FeeTable::FEETB114::3"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "ZS8OKwmq0UqbEiZuDGm7dV",
+            "document_id": "FEETB951",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/hu/business/paypal-business-fees",
+            "section_heading": "Díjtáblázat: Nemzetközi tranzakciók fogadása",
+            "table_id": "FeeTable::FEETB951::14"
+          }
+        ]
+      },
       "commercial": {
         "entries": [
           {
@@ -6748,17 +6800,12 @@
             "value": "3.5"
           },
           {
-            "schedule_id": "advanced_card_payments",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
+            "schedule_id": "advanced_card_payments_american_express",
             "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments_american_express",
         "label": "Advanced Credit and Debit Card PaymentsAmerican Express kártya",
         "percentage": "3.5",
         "source": {
@@ -7189,7 +7236,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Hungary",
     "iso_country_code": "HU",

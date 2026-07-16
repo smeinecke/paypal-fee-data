@@ -1,11 +1,12 @@
 {
-  "crawled_at": "2026-07-15T19:10:07.832518",
+  "cms_updated_at": "2025-09-24T08:09:32.343Z",
+  "crawled_at": "2026-07-16T12:30:55.687497",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 7,
+      "calculable_rules": 9,
       "conflicts": 75,
       "direct_fixed_fees": 1,
       "extracted_apm_methods": 14,
@@ -18,7 +19,7 @@
       "non_calculable_rules": 1,
       "reference_sources": 3,
       "reference_targets": 2,
-      "transaction_rules": 8,
+      "transaction_rules": 10,
       "unclassified": 13,
       "unknown_apm_methods": 18,
       "unresolved_nested_references": 0,
@@ -9122,7 +9123,11 @@
     "transaction_fee_rules": [
       {
         "calculation_status": "calculable",
-        "conditions": {},
+        "conditions": {
+          "applies_to_markets": [
+            "all_other_markets"
+          ]
+        },
         "fee_components": [
           {
             "type": "percentage",
@@ -9198,6 +9203,81 @@
           "table_id": "FeeTable::FEETB803::34"
         },
         "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.4"
+          },
+          {
+            "schedule_id": "other_commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "other_commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "other_commercial",
+        "label": "Tutte le altre transazioni commerciali",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5vqFv2yXbjYbUQs7pZiEjP",
+          "document_id": "FEETB16",
+          "original_label": "Tutte le altre transazioni commerciali",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tariffe per i Venditori PayPal",
+          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "row_id": "53saepAU75ot8aUP7wnzUb",
+          "row_index": 4,
+          "section_heading": "Tariffario: Tariffa standard per la ricezione di pagamenti per transazioni nazionali",
+          "table_id": "FeeTable::FEETB16::1"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "all_other_markets"
+          ]
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "1.2"
+          },
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Altri metodi di pagamento (APM) alternativi",
+        "percentage": "1.2",
+        "source": {
+          "canonical_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5gpstjr77VpIc9mcUmHPYZ",
+          "document_id": "FEETB779",
+          "original_label": "Altri metodi di pagamento (APM) alternativi",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Tariffe per i Venditori PayPal",
+          "requested_url": "https://www.paypal.com/it/business/paypal-business-fees",
+          "row_id": "riiKXQdOSLFKN2rYamYns",
+          "row_index": 3,
+          "section_heading": "Tariffario: Ricezione di pagamenti per transazioni nazionali",
+          "table_id": "FeeTable::FEETB779::29"
+        },
+        "variant_id": "default"
       },
       {
         "calculation_status": "calculable",
@@ -9769,7 +9849,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-15T19:10:07.832518",
+  "generated_at": "2026-07-16T12:30:55.687497",
   "market": {
     "country_name": "Italy",
     "iso_country_code": "IT",
