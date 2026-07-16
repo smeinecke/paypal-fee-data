@@ -30,16 +30,21 @@ under the output root.
     to a different schedule family.
   - Textual schedule references (`_resolve_reference`) are resolved by matching
     the referenced product family and, when there are multiple candidates, by
-    the source rule's `variant_id` and `conditions`. This lets rows like
-    "SG: all other payment transactions" point to the matching
-    `other_commercial` rule for that market.
+    the source rule's `variant_id` and `conditions`. The source market is only
+    injected when a candidate explicitly lists that market, so generic target
+    rules still match when no market-specific rule exists.
+  - APM method extraction is token-based (`_extract_apm_methods`). Add new
+    method token sets to `_APM_METHOD_MATCHERS`, region tokens for bank-transfer
+    variants, and generic header phrases/tokens to `_APM_HEADER_PHRASES` /
+    `_APM_HEADER_TOKENS` to suppress noise from variant-only rows.
 
 ## Current data status
 
 After the latest regeneration the dataset is:
 
-- 148 complete, 37 partial, 15 unclassified
-- 3,370 core fee rules across all countries
+- 183 complete, 2 partial, 15 unclassified
+- 3,379 core fee rules across all countries
+- 0 classifier diagnostics
 - 1 unsupported country
 
 The remaining unclassified and partial markets are usually locales where a

@@ -1,12 +1,12 @@
 {
   "cms_updated_at": "2025-09-24T07:27:33.300Z",
-  "crawled_at": "2026-07-16T17:26:13.664596",
+  "crawled_at": "2026-07-16T19:38:27.611826",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 11,
+      "calculable_rules": 12,
       "conflicts": 0,
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 0,
@@ -18,8 +18,8 @@
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
       "reference_sources": 1,
-      "reference_targets": 0,
-      "transaction_rules": 11,
+      "reference_targets": 1,
+      "transaction_rules": 12,
       "unclassified": 0,
       "unknown_apm_methods": 0,
       "unresolved_nested_references": 0,
@@ -29,29 +29,7 @@
     "currency_conversion": {
       "spread_percentage": "4.5"
     },
-    "diagnostics": [
-      {
-        "label": "SG",
-        "rule_id": "other_commercial",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "2tvBuxA1dB4SN6XVX3kphZ",
-            "document_id": "FEETB33",
-            "original_label": "SG",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Business",
-            "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
-            "row_id": "2owGCSQqATUveIJ2eRvIdL",
-            "row_index": 1,
-            "section_heading": "Grille tarifaire: Réception des transactions nationales en utilisant les Services de paiement par carte en ligne",
-            "table_id": "FeeTable::FEETB33::14"
-          }
-        ],
-        "type": "ambiguous_reference"
-      }
-    ],
+    "diagnostics": [],
     "fixed_fee_schedules": {
       "advanced_card_payments__applies_to_markets=sg": {
         "entries": {
@@ -90,7 +68,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais fixes sur les transactions impliquant des Services de paiement par carte en ligne (selon la devise cible)",
-            "table_id": "FeeTable::FEETB18::16"
+            "table_id": "FeeTable::FEETB18::14"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -101,7 +79,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais fixes sur les transactions impliquant des Services de paiement par carte en ligne (selon la devise cible)",
-            "table_id": "FeeTable::FEETB205::17"
+            "table_id": "FeeTable::FEETB205::15"
           }
         ]
       },
@@ -142,7 +120,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -153,7 +131,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -312,7 +290,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::58"
+            "table_id": "FeeTable::FEETB177::56"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -323,7 +301,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::58"
+            "table_id": "FeeTable::FEETB177::56"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -334,7 +312,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB177::58"
+            "table_id": "FeeTable::FEETB177::56"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -345,7 +323,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE et UY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB202::60"
+            "table_id": "FeeTable::FEETB202::58"
           }
         ]
       },
@@ -504,7 +482,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::66"
+            "table_id": "FeeTable::FEETB183::64"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -515,7 +493,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::66"
+            "table_id": "FeeTable::FEETB183::64"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -526,7 +504,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::66"
+            "table_id": "FeeTable::FEETB183::64"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -537,7 +515,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: ID et MY - Frais fixes pour les transferts par carte",
-            "table_id": "FeeTable::FEETB183::66"
+            "table_id": "FeeTable::FEETB183::64"
           }
         ]
       },
@@ -578,7 +556,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les micropaiements",
-            "table_id": "FeeTable::FEETB69::31"
+            "table_id": "FeeTable::FEETB69::29"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -589,7 +567,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les micropaiements",
-            "table_id": "FeeTable::FEETB69::31"
+            "table_id": "FeeTable::FEETB69::29"
           }
         ]
       },
@@ -630,7 +608,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais fixes sur les transactions impliquant des Services de paiement par carte en ligne (selon la devise cible)",
-            "table_id": "FeeTable::FEETB18::16"
+            "table_id": "FeeTable::FEETB18::14"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -641,7 +619,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais fixes sur les transactions impliquant des Services de paiement par carte en ligne (selon la devise cible)",
-            "table_id": "FeeTable::FEETB205::17"
+            "table_id": "FeeTable::FEETB205::15"
           }
         ]
       },
@@ -682,7 +660,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -693,7 +671,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -734,7 +712,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -745,7 +723,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -786,7 +764,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -797,7 +775,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -838,7 +816,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -849,7 +827,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -890,7 +868,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -901,7 +879,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -942,7 +920,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -953,7 +931,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       },
@@ -994,7 +972,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB872::8"
+            "table_id": "FeeTable::FEETB872::6"
           },
           {
             "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
@@ -1005,7 +983,7 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Commission fixe sur les transactions commerciales (selon la devise cible)",
-            "table_id": "FeeTable::FEETB871::9"
+            "table_id": "FeeTable::FEETB871::7"
           }
         ]
       }
@@ -1029,7 +1007,7 @@
           "row_id": "5azAwnYPa5WLHqnsfcHSPP",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Tarification dégressive pour les marchands applicable à la réception de transactions",
-          "table_id": "FeeTable::FEETB147::5"
+          "table_id": "FeeTable::FEETB147::3"
         }
       },
       {
@@ -1050,7 +1028,7 @@
           "row_id": "4tLBkA4EieaWuY4cjzZ6fg",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Réception de transactions internationales",
-          "table_id": "FeeTable::FEETB153::6"
+          "table_id": "FeeTable::FEETB153::4"
         }
       },
       {
@@ -1071,7 +1049,7 @@
           "row_id": "2YE9CTA2d0XSJ7zmSNbPeU",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Réception de transactions internationales",
-          "table_id": "FeeTable::FEETB153::6"
+          "table_id": "FeeTable::FEETB153::4"
         }
       },
       {
@@ -1093,7 +1071,7 @@
           "row_id": "fglxzaDwInuarKitFQbUK2",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Acheter ou vendre des PYUSD",
-          "table_id": "FeeTable::FEETB988::10"
+          "table_id": "FeeTable::FEETB988::8"
         }
       },
       {
@@ -1115,7 +1093,7 @@
           "row_id": "AjTPp6cQnFafgSMMJ8YPf7",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Transférer des cryptomonnaies",
-          "table_id": "FeeTable::FEETB991::13"
+          "table_id": "FeeTable::FEETB991::11"
         }
       },
       {
@@ -1137,7 +1115,7 @@
           "row_id": "1DtCc1Sx0MKbPjWJc3nGsY",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Transférer des cryptomonnaies",
-          "table_id": "FeeTable::FEETB991::13"
+          "table_id": "FeeTable::FEETB991::11"
         }
       },
       {
@@ -1159,7 +1137,7 @@
           "row_id": "ANJkcrnMOH3ePyxRv1eIVz",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Transférer des cryptomonnaies",
-          "table_id": "FeeTable::FEETB991::13"
+          "table_id": "FeeTable::FEETB991::11"
         }
       },
       {
@@ -1180,7 +1158,7 @@
           "row_id": "2olBPh0l04wLNtTiXX9L4C",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Frais supplémentaires basés sur un pourcentage pour les transactions internationales via les Services de paiement par carte en ligne",
-          "table_id": "FeeTable::FEETB71::15"
+          "table_id": "FeeTable::FEETB71::13"
         }
       },
       {
@@ -1201,7 +1179,7 @@
           "row_id": "be8KwkJG6CkfBUr9QYIc1Q",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Autres frais sur l'utilisation des services de paiement par carte en ligne PayPal",
-          "table_id": "FeeTable::FEETB918::20"
+          "table_id": "FeeTable::FEETB918::18"
         }
       },
       {
@@ -1222,7 +1200,7 @@
           "row_id": "7zy2yf39FxaSPSgkV238aW",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Réception de micropaiements",
-          "table_id": "FeeTable::FEETB66::29"
+          "table_id": "FeeTable::FEETB66::27"
         }
       },
       {
@@ -1243,7 +1221,7 @@
           "row_id": "2MNjQv6Iyc8ZiEXFtzy0vi",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Réception de micropaiements",
-          "table_id": "FeeTable::FEETB66::29"
+          "table_id": "FeeTable::FEETB66::27"
         }
       },
       {
@@ -1264,7 +1242,7 @@
           "row_id": "23Q64NsqfWQKmTFpCS6qtw",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Réception de micropaiements pour des biens numériques",
-          "table_id": "FeeTable::FEETB148::30"
+          "table_id": "FeeTable::FEETB148::28"
         }
       },
       {
@@ -1285,7 +1263,7 @@
           "row_id": "1yxlFxsov9AjPIMYEwZygg",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Réception de micropaiements pour des biens numériques",
-          "table_id": "FeeTable::FEETB148::30"
+          "table_id": "FeeTable::FEETB148::28"
         }
       },
       {
@@ -1306,7 +1284,7 @@
           "row_id": "1BR7DRQsFDpDexwBgG7TVc",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Réception de micropaiements pour des biens numériques",
-          "table_id": "FeeTable::FEETB148::30"
+          "table_id": "FeeTable::FEETB148::28"
         }
       },
       {
@@ -1327,7 +1305,7 @@
           "row_id": "1XGbMGMpCtpCBL2eqWe3BC",
           "row_index": 4,
           "section_heading": "Grille tarifaire: Réception de micropaiements pour des biens numériques",
-          "table_id": "FeeTable::FEETB148::30"
+          "table_id": "FeeTable::FEETB148::28"
         }
       },
       {
@@ -1351,7 +1329,7 @@
           "row_id": "31WI68XYYFoaydVcdjdf8s",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Autres frais",
-          "table_id": "FeeTable::FEETB86::75"
+          "table_id": "FeeTable::FEETB86::73"
         }
       },
       {
@@ -1375,7 +1353,7 @@
           "row_id": "1VwDwStJlTf9UHEyljbiGb",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Autres frais",
-          "table_id": "FeeTable::FEETB86::75"
+          "table_id": "FeeTable::FEETB86::73"
         }
       },
       {
@@ -1396,7 +1374,7 @@
           "row_id": "3yr2LVsQtJD907dw3wBAnG",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Autres frais",
-          "table_id": "FeeTable::FEETB86::75"
+          "table_id": "FeeTable::FEETB86::73"
         }
       },
       {
@@ -1420,7 +1398,7 @@
           "row_id": "5DDp8HPK7zN9oheNbGz2xE",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Autres frais",
-          "table_id": "FeeTable::FEETB86::75"
+          "table_id": "FeeTable::FEETB86::73"
         }
       }
     ],
@@ -1442,13 +1420,13 @@
             "page_title": "Seller Fees for Merchants and Business",
             "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
             "section_heading": "Grille tarifaire: Frais de service supplémentaires pour les destinataires de transactions commerciales internationales basées au Royaume-Uni (marchés applicables - HR, IS et MC)",
-            "table_id": "FeeTable::FEETB158::7"
+            "table_id": "FeeTable::FEETB158::5"
           }
         ]
       }
     },
     "maximum_fee_schedules": {},
-    "status": "partial",
+    "status": "complete",
     "transaction_fee_rules": [
       {
         "calculation_status": "calculable",
@@ -1484,7 +1462,7 @@
           "row_id": "1Jg21VJKhbf36HPzs8Lx7B",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Réception des transactions nationales en utilisant les Services de paiement par carte en ligne",
-          "table_id": "FeeTable::FEETB33::14"
+          "table_id": "FeeTable::FEETB33::12"
         },
         "variant_id": "standard"
       },
@@ -1548,7 +1526,7 @@
           "row_id": "3WH1Boi9qUKQp6JclByH8m",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Réception de transactions internationales",
-          "table_id": "FeeTable::FEETB153::6"
+          "table_id": "FeeTable::FEETB153::4"
         },
         "variant_id": "standard"
       },
@@ -1610,7 +1588,7 @@
           "row_id": "36wkY0dbQHIlMqtUBgWf48",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         },
         "variant_id": "standard"
       },
@@ -1679,7 +1657,7 @@
           "row_id": "1njwaMs6FoMtqLXRfBd8mI",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Réception de transactions internationales",
-          "table_id": "FeeTable::FEETB153::6"
+          "table_id": "FeeTable::FEETB153::4"
         },
         "variant_id": "standard"
       },
@@ -1725,7 +1703,7 @@
           "row_id": "7k2hx3B2ahpt7V1pNZ68Kv",
           "row_index": 3,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         },
         "variant_id": "standard"
       },
@@ -1763,7 +1741,7 @@
           "row_id": "1oqC5MmoQlJRRaNQ7bZQSF",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         },
         "variant_id": "standard"
       },
@@ -1802,7 +1780,85 @@
           "row_id": "7CGsrxV9XQdU0d4bAX0Ja0",
           "row_index": 1,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "SG"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "3.9"
+          },
+          {
+            "schedule_id": "other_commercial__applies_to_markets=my_sg",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "resolved_percentage",
+            "value": "3.9"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial__applies_to_markets=my_sg",
+        "id": "other_commercial",
+        "label": "SG",
+        "percentage": "3.9",
+        "rate_reference": {
+          "reference": "other_commercial",
+          "resolved_rate": {
+            "fixed_fee_schedule": "other_commercial__applies_to_markets=my_sg",
+            "percentage": "3.9",
+            "rule_id": "other_commercial",
+            "source": {
+              "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+              "classifier_version": "rules-v1",
+              "component_id": "1KEECGTwnLPlEmFXTXR6H4",
+              "document_id": "FEETB16",
+              "original_label": "MY et SG",
+              "page_id": "business/paypal-business-fees",
+              "page_title": "Seller Fees for Merchants and Business",
+              "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+              "row_id": "7CGsrxV9XQdU0d4bAX0Ja0",
+              "row_index": 1,
+              "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
+              "table_id": "FeeTable::FEETB16::2"
+            }
+          },
+          "source": {
+            "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "2tvBuxA1dB4SN6XVX3kphZ",
+            "document_id": "FEETB33",
+            "original_label": "SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Business",
+            "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+            "row_id": "2owGCSQqATUveIJ2eRvIdL",
+            "row_index": 1,
+            "section_heading": "Grille tarifaire: Réception des transactions nationales en utilisant les Services de paiement par carte en ligne",
+            "table_id": "FeeTable::FEETB33::12"
+          }
+        },
+        "source": {
+          "canonical_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2tvBuxA1dB4SN6XVX3kphZ",
+          "document_id": "FEETB33",
+          "original_label": "SG",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Business",
+          "requested_url": "https://www.paypal.com/ci/business/paypal-business-fees",
+          "row_id": "2owGCSQqATUveIJ2eRvIdL",
+          "row_index": 1,
+          "section_heading": "Grille tarifaire: Réception des transactions nationales en utilisant les Services de paiement par carte en ligne",
+          "table_id": "FeeTable::FEETB33::12"
         },
         "variant_id": "standard"
       },
@@ -1840,7 +1896,7 @@
           "row_id": "10GWjYCg3bBAqep5xSUifo",
           "row_index": 4,
           "section_heading": "Grille tarifaire: Tarification standard pour la réception de transactions nationales",
-          "table_id": "FeeTable::FEETB16::4"
+          "table_id": "FeeTable::FEETB16::2"
         },
         "variant_id": "standard"
       },
@@ -1878,7 +1934,7 @@
           "row_id": "65E53XNwsAd1HbGCZJVq9z",
           "row_index": 4,
           "section_heading": "Grille tarifaire: Réception de transactions internationales",
-          "table_id": "FeeTable::FEETB153::6"
+          "table_id": "FeeTable::FEETB153::4"
         },
         "variant_id": "standard"
       },
@@ -1950,7 +2006,7 @@
           "row_id": "ltVv3XCsWz8YkJbHWE7NC",
           "row_index": 0,
           "section_heading": "Grille tarifaire: Réception de micropaiements",
-          "table_id": "FeeTable::FEETB66::29"
+          "table_id": "FeeTable::FEETB66::27"
         },
         "variant_id": "standard"
       },
@@ -1988,14 +2044,14 @@
           "row_id": "5BYp7wuifhpsVkeZ5IWkVt",
           "row_index": 2,
           "section_heading": "Grille tarifaire: Réception de micropaiements pour des biens numériques",
-          "table_id": "FeeTable::FEETB148::30"
+          "table_id": "FeeTable::FEETB148::28"
         },
         "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-16T17:26:13.664596",
+  "generated_at": "2026-07-16T19:38:27.611826",
   "market": {
     "country_name": "Côte d’Ivoire",
     "iso_country_code": "CI",
