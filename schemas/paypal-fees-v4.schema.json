@@ -114,6 +114,11 @@
           "title": "Non Calculable Rules",
           "type": "integer"
         },
+        "numeric_fee_candidates": {
+          "default": 0,
+          "title": "Numeric Fee Candidates",
+          "type": "integer"
+        },
         "reference_sources": {
           "default": 0,
           "title": "Reference Sources",
@@ -132,6 +137,11 @@
         "unclassified": {
           "default": 0,
           "title": "Unclassified",
+          "type": "integer"
+        },
+        "unclassified_fee_candidates": {
+          "default": 0,
+          "title": "Unclassified Fee Candidates",
           "type": "integer"
         },
         "unknown_apm_methods": {

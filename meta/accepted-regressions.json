@@ -7,6 +7,13 @@
       "identifier": "commercial_fixed_fees",
       "reason": "Legacy output contained one implausible RUB-only result and multiple currency conflicts; structural classifier also omits fixed fees for BR.",
       "reviewed_at": "2026-07-12"
+    },
+    {
+      "country_code": "IN",
+      "kind": "lost_core_category",
+      "identifier": "international_surcharge_schedules",
+      "reason": "India's international-receiving rate is now represented as a core other_commercial rule with transaction_region international and a market-specific fixed-fee schedule; the separate international_surcharge_schedules category is no longer needed.",
+      "reviewed_at": "2026-07-16"
     }
   ]
 }
