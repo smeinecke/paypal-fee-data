@@ -40,17 +40,26 @@ under the output root.
     variants, and generic header phrases/tokens to `_APM_HEADER_PHRASES` /
     `_APM_HEADER_TOKENS` to suppress noise from variant-only rows.
 
+## Validation modes
+
+- `validate ..` checks schemas, cross-file consistency, and schedule references.
+- `validate .. --strict` checks for blocking semantic defects: conflicting rule
+  identities, dangling references, invalid calculable rules, unsupported fee
+  shapes, and a clean `change-report.json`. Partial and unclassified markets are
+  allowed because they still produce useful data.
+- `validate .. --require-all-complete` rejects any partial or unclassified
+  market, as well as diagnostics or unresolved fee candidates.
+
 ## Current data status
 
 After the latest regeneration the dataset is:
 
-- 7 complete, 178 partial, 15 unclassified
-- 4,177 core fee rules across all countries
+- 125 complete, 60 partial, 15 unclassified
+- 4,176 core fee rules across all countries
 - 0 classifier diagnostics
 - 1 unsupported country
+- `change-report.json`: no regressions (`has_regression: false`)
 
 The remaining unclassified and partial markets are usually locales where a
 standard commercial rate table is absent or rates are embedded in a
-market-specific hero or prose section. Run `validate .. --strict` to review
-publication-readiness issues such as unclassified rows and conflicting rule
-identities.
+market-specific hero or prose section.
