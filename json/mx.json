@@ -1,6 +1,6 @@
 {
   "cms_updated_at": "2025-09-25T07:29:45.873Z",
-  "crawled_at": "2026-07-17T00:24:01.794637",
+  "crawled_at": "2026-07-17T08:59:48.300667",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -10,10 +10,10 @@
       "conflicts": 0,
       "direct_fixed_fees": 0,
       "extracted_apm_methods": 39,
-      "fixed_fee_entries": 192,
+      "fixed_fee_entries": 168,
       "ignored": 3,
-      "inherited_schedules": 0,
-      "international_surcharge_entries": 4,
+      "inherited_schedules": 5,
+      "international_surcharge_entries": 3,
       "maximum_fee_entries": 0,
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
@@ -31,82 +31,124 @@
     "currency_conversion": {
       "spread_percentage": "4"
     },
-    "diagnostics": [],
-    "fixed_fee_schedules": {
-      "advanced_card_payments": {
-        "entries": {
-          "AUD": "0.3",
-          "BRL": "0.6",
-          "CAD": "0.3",
-          "CHF": "0.55",
-          "CZK": "10",
-          "DKK": "2.6",
-          "EUR": "0.35",
-          "GBP": "0.2",
-          "HKD": "2.35",
-          "HUF": "90",
-          "ILS": "1.2",
-          "JPY": "40",
-          "MXN": "4",
-          "MYR": "2",
-          "NOK": "2.8",
-          "NZD": "0.45",
-          "PHP": "15",
-          "PLN": "1.35",
-          "RUB": "10",
-          "SEK": "3.25",
-          "SGD": "0.5",
-          "THB": "11",
-          "TWD": "10",
-          "USD": "0.3"
-        },
+    "diagnostics": [
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
-            "document_id": "FEETB748",
+            "component_id": "3TE4QUzSW05lCypBuvv3pI",
+            "document_id": "FEETB16",
+            "original_label": "Transacciones comerciales",
             "page_id": "business/paypal-business-fees",
             "page_title": "Comisiones de PayPal para Empresas",
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB748::6"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "OveDNzdo9LMGgSslR3X8a",
-            "document_id": "FEETB749",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal para Empresas",
-            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB749::7"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6Co7CksZCezKtUPy5kPoop",
-            "document_id": "FEETB865",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal para Empresas",
-            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB865::15"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5zReF7te8xAVaNHmGFHRNR",
-            "document_id": "FEETB866",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal para Empresas",
-            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
-            "table_id": "FeeTable::FEETB866::16"
+            "row_id": "6D9dsK2ZVA909zW3lMrrlt",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisión estándar por recibir transacciones nacionales",
+            "table_id": "FeeTable::FEETB16::3"
           }
-        ]
+        ],
+        "type": "inherited_schedule"
       },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3TE4QUzSW05lCypBuvv3pI",
+            "document_id": "FEETB16",
+            "original_label": "Transacciones comerciales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "6D9dsK2ZVA909zW3lMrrlt",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisión estándar por recibir transacciones nacionales",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "agjZFHLu0J3y3fZbC3E3n",
+            "document_id": "FEETB742",
+            "original_label": "Pagos Avanzados con Tarjeta de Crédito y Débito",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WmCY1vFTfu4OMZ53IAOXz",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Recepción de transacciones nacionales con Pagos Avanzados con Tarjeta de Crédito y Débito",
+            "table_id": "FeeTable::FEETB742::14"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "micropayments_domestic",
+        "inherited_from": "commercial",
+        "rule_id": "micropayments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "FSo4xBW971misLMEl0xtN",
+            "document_id": "FEETB66",
+            "original_label": "Micropagos nacionales para bienes digitales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "Nx0ZOGfTRRf4CrteUqnzN",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Recepción de micropagos",
+            "table_id": "FeeTable::FEETB66::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "micropayments_international",
+        "inherited_from": "commercial",
+        "rule_id": "micropayments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "FSo4xBW971misLMEl0xtN",
+            "document_id": "FEETB66",
+            "original_label": "Micropagos internacionales para bienes digitales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "5oAYYhrwfCgBAJGfav4LLe",
+            "row_index": 1,
+            "section_heading": "Tabla de tarifas: Recepción de micropagos",
+            "table_id": "FeeTable::FEETB66::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      }
+    ],
+    "fixed_fee_schedules": {
       "alternative_payment_methods": {
         "entries": {
           "AUD": "0.3",
@@ -134,6 +176,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -186,6 +230,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -260,6 +306,8 @@
           "TWD": "2",
           "USD": "0.05"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -287,105 +335,275 @@
       },
       "micropayments_domestic": {
         "entries": {
-          "AUD": "0.05",
-          "BRL": "0.1",
-          "CAD": "0.05",
-          "CHF": "0.09",
-          "CZK": "1.67",
-          "DKK": "0.43",
-          "EUR": "0.05",
-          "GBP": "0.05",
-          "HKD": "0.39",
-          "HUF": "15",
-          "ILS": "0.2",
-          "JPY": "7",
-          "MXN": "0.55",
-          "MYR": "0.2",
-          "NOK": "0.47",
-          "NZD": "0.08",
-          "PHP": "2.5",
-          "PLN": "0.23",
-          "RUB": "2",
-          "SEK": "0.54",
-          "SGD": "0.08",
-          "THB": "1.8",
-          "TWD": "2",
-          "USD": "0.05"
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
         },
-        "sources": [
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "70YFBHGnq33xVG3j5W9GjV",
-            "document_id": "FEETB69",
+            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
+            "document_id": "FEETB748",
             "page_id": "business/paypal-business-fees",
             "page_title": "Comisiones de PayPal para Empresas",
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::22"
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB748::6"
           },
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "70YFBHGnq33xVG3j5W9GjV",
-            "document_id": "FEETB304",
+            "component_id": "OveDNzdo9LMGgSslR3X8a",
+            "document_id": "FEETB749",
             "page_id": "business/paypal-business-fees",
             "page_title": "Comisiones de PayPal para Empresas",
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::22"
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB749::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Co7CksZCezKtUPy5kPoop",
+            "document_id": "FEETB865",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB865::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5zReF7te8xAVaNHmGFHRNR",
+            "document_id": "FEETB866",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB866::16"
+          }
+        ],
+        "origin": "inherited",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
+            "document_id": "FEETB748",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB748::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "OveDNzdo9LMGgSslR3X8a",
+            "document_id": "FEETB749",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB749::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Co7CksZCezKtUPy5kPoop",
+            "document_id": "FEETB865",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB865::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5zReF7te8xAVaNHmGFHRNR",
+            "document_id": "FEETB866",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB866::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "FSo4xBW971misLMEl0xtN",
+            "document_id": "FEETB66",
+            "original_label": "Micropagos nacionales para bienes digitales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "Nx0ZOGfTRRf4CrteUqnzN",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Recepción de micropagos",
+            "table_id": "FeeTable::FEETB66::21"
           }
         ]
       },
       "micropayments_international": {
         "entries": {
-          "AUD": "0.05",
-          "BRL": "0.1",
-          "CAD": "0.05",
-          "CHF": "0.09",
-          "CZK": "1.67",
-          "DKK": "0.43",
-          "EUR": "0.05",
-          "GBP": "0.05",
-          "HKD": "0.39",
-          "HUF": "15",
-          "ILS": "0.2",
-          "JPY": "7",
-          "MXN": "0.55",
-          "MYR": "0.2",
-          "NOK": "0.47",
-          "NZD": "0.08",
-          "PHP": "2.5",
-          "PLN": "0.23",
-          "RUB": "2",
-          "SEK": "0.54",
-          "SGD": "0.08",
-          "THB": "1.8",
-          "TWD": "2",
-          "USD": "0.05"
+          "AUD": "0.3",
+          "BRL": "0.6",
+          "CAD": "0.3",
+          "CHF": "0.55",
+          "CZK": "10",
+          "DKK": "2.6",
+          "EUR": "0.35",
+          "GBP": "0.2",
+          "HKD": "2.35",
+          "HUF": "90",
+          "ILS": "1.2",
+          "JPY": "40",
+          "MXN": "4",
+          "MYR": "2",
+          "NOK": "2.8",
+          "NZD": "0.45",
+          "PHP": "15",
+          "PLN": "1.35",
+          "RUB": "10",
+          "SEK": "3.25",
+          "SGD": "0.5",
+          "THB": "11",
+          "TWD": "10",
+          "USD": "0.3"
         },
-        "sources": [
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "70YFBHGnq33xVG3j5W9GjV",
-            "document_id": "FEETB69",
+            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
+            "document_id": "FEETB748",
             "page_id": "business/paypal-business-fees",
             "page_title": "Comisiones de PayPal para Empresas",
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::22"
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB748::6"
           },
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "70YFBHGnq33xVG3j5W9GjV",
-            "document_id": "FEETB304",
+            "component_id": "OveDNzdo9LMGgSslR3X8a",
+            "document_id": "FEETB749",
             "page_id": "business/paypal-business-fees",
             "page_title": "Comisiones de PayPal para Empresas",
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión fija por micropagos",
-            "table_id": "FeeTable::FEETB69::22"
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB749::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Co7CksZCezKtUPy5kPoop",
+            "document_id": "FEETB865",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB865::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5zReF7te8xAVaNHmGFHRNR",
+            "document_id": "FEETB866",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB866::16"
+          }
+        ],
+        "origin": "inherited",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
+            "document_id": "FEETB748",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB748::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "OveDNzdo9LMGgSslR3X8a",
+            "document_id": "FEETB749",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB749::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Co7CksZCezKtUPy5kPoop",
+            "document_id": "FEETB865",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB865::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5zReF7te8xAVaNHmGFHRNR",
+            "document_id": "FEETB866",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB866::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "FSo4xBW971misLMEl0xtN",
+            "document_id": "FEETB66",
+            "original_label": "Micropagos internacionales para bienes digitales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "5oAYYhrwfCgBAJGfav4LLe",
+            "row_index": 1,
+            "section_heading": "Tabla de tarifas: Recepción de micropagos",
+            "table_id": "FeeTable::FEETB66::21"
           }
         ]
       },
@@ -416,6 +634,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -468,6 +688,55 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1T7K4TwlcQLtMf0BWEtfhh",
+            "document_id": "FEETB748",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB748::6"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "OveDNzdo9LMGgSslR3X8a",
+            "document_id": "FEETB749",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones comerciales (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB749::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Co7CksZCezKtUPy5kPoop",
+            "document_id": "FEETB865",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB865::15"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5zReF7te8xAVaNHmGFHRNR",
+            "document_id": "FEETB866",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
+            "table_id": "FeeTable::FEETB866::16"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -512,6 +781,20 @@
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "section_heading": "Tabla de tarifas: Comisión fija por transacciones de Pagos Avanzados con Tarjeta de Crédito y Débito (en función de la divisa recibida)",
             "table_id": "FeeTable::FEETB866::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3TE4QUzSW05lCypBuvv3pI",
+            "document_id": "FEETB16",
+            "original_label": "Transacciones comerciales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "6D9dsK2ZVA909zW3lMrrlt",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisión estándar por recibir transacciones nacionales",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       }
@@ -595,6 +878,22 @@
             "percentage_points": "0.5"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "pqMDa4i2TSpcTbAjdnMn2",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión porcentual adicional por transacciones comerciales internacionales",
+            "table_id": "FeeTable::FEETB91::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -606,6 +905,20 @@
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "section_heading": "Tabla de tarifas: Comisión porcentual adicional por transacciones comerciales internacionales",
             "table_id": "FeeTable::FEETB91::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "agjZFHLu0J3y3fZbC3E3n",
+            "document_id": "FEETB742",
+            "original_label": "Pagos Avanzados con Tarjeta de Crédito y Débito",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "WmCY1vFTfu4OMZ53IAOXz",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Recepción de transacciones nacionales con Pagos Avanzados con Tarjeta de Crédito y Débito",
+            "table_id": "FeeTable::FEETB742::14"
           }
         ]
       },
@@ -616,27 +929,8 @@
             "percentage_points": "0.5"
           }
         ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "pqMDa4i2TSpcTbAjdnMn2",
-            "document_id": "FEETB91",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Comisiones de PayPal para Empresas",
-            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
-            "section_heading": "Tabla de tarifas: Comisión porcentual adicional por transacciones comerciales internacionales",
-            "table_id": "FeeTable::FEETB91::5"
-          }
-        ]
-      },
-      "nonprofit__applies_to_markets=mx": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "0.5"
-          }
-        ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -658,6 +952,22 @@
             "percentage_points": "0.5"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "pqMDa4i2TSpcTbAjdnMn2",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "section_heading": "Tabla de tarifas: Comisión porcentual adicional por transacciones comerciales internacionales",
+            "table_id": "FeeTable::FEETB91::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
@@ -669,6 +979,20 @@
             "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
             "section_heading": "Tabla de tarifas: Comisión porcentual adicional por transacciones comerciales internacionales",
             "table_id": "FeeTable::FEETB91::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3TE4QUzSW05lCypBuvv3pI",
+            "document_id": "FEETB16",
+            "original_label": "Transacciones comerciales",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Comisiones de PayPal para Empresas",
+            "requested_url": "https://www.paypal.com/mx/business/paypal-business-fees",
+            "row_id": "6D9dsK2ZVA909zW3lMrrlt",
+            "row_index": 0,
+            "section_heading": "Tabla de tarifas: Comisión estándar por recibir transacciones nacionales",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       }
@@ -688,14 +1012,9 @@
           },
           {
             "schedule_id": "advanced_card_payments",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
             "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "advanced_card_payments",
         "id": "advanced_card_payments",
         "international_surcharge_schedule": "advanced_card_payments",
         "label": "Pagos Avanzados con Tarjeta de Crédito y Débito",
@@ -1028,15 +1347,10 @@
           {
             "schedule_id": "nonprofit",
             "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "nonprofit__applies_to_markets=mx",
-            "type": "international_surcharge_schedule"
           }
         ],
         "fixed_fee_schedule": "nonprofit",
         "id": "nonprofit",
-        "international_surcharge_schedule": "nonprofit__applies_to_markets=mx",
         "label": "México (MX)",
         "percentage": "2.95",
         "source": {
@@ -1689,7 +2003,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-17T00:24:01.794637",
+  "generated_at": "2026-07-17T08:59:48.300667",
   "market": {
     "country_name": "Mexico",
     "iso_country_code": "MX",

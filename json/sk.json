@@ -1,6 +1,6 @@
 {
   "cms_updated_at": "2025-09-25T09:28:37.092Z",
-  "crawled_at": "2026-07-17T00:24:01.794637",
+  "crawled_at": "2026-07-17T08:59:48.300667",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -12,8 +12,8 @@
       "extracted_apm_methods": 38,
       "fixed_fee_entries": 576,
       "ignored": 113,
-      "inherited_schedules": 0,
-      "international_surcharge_entries": 27,
+      "inherited_schedules": 21,
+      "international_surcharge_entries": 25,
       "maximum_fee_entries": 0,
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
@@ -28,7 +28,445 @@
       "unresolved_references": 0,
       "unsupported_fee_shapes": 0
     },
-    "diagnostics": [],
+    "diagnostics": [
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "48VxG8HLDfiznRceqMHKfa",
+            "document_id": "FEETB359",
+            "original_label": "Platba kartou od používateľa našich ppodmienok pre platby bez účtu PayPal",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6BphukLEZNzNCw5Pw5V2Uu",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Štandardná sadzba za prijímanie platieb v rámci domácich transakcií",
+            "table_id": "FeeTable::FEETB359::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "48VxG8HLDfiznRceqMHKfa",
+            "document_id": "FEETB359",
+            "original_label": "Platba kartou od používateľa našich ppodmienok pre platby bez účtu PayPal",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6BphukLEZNzNCw5Pw5V2Uu",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Štandardná sadzba za prijímanie platieb v rámci domácich transakcií",
+            "table_id": "FeeTable::FEETB359::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "kartami Rozšírené možnosti platieb kreditnými a debetnýmiTypy kariet American Express",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "3UjEmyi00DeSxpc9dVbXbz",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "5RYx7OAzTe3cdTgqsvJuq9",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "5RYx7OAzTe3cdTgqsvJuq9",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__pricing_plan=blended",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov s kombinovanými sadzbami:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6Lbukgt68l3hUSvtEAhjEh",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__pricing_plan=blended",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov s kombinovanými sadzbami:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6Lbukgt68l3hUSvtEAhjEh",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__applies_to_markets=si",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre SI",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "AeXB45lwnpAfSVwsceeMUc",
+            "row_index": 4,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__applies_to_markets=si",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre SI",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "AeXB45lwnpAfSVwsceeMUc",
+            "row_index": 4,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7ZQLSyS1LK6fstCiUuxmVi",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7ZQLSyS1LK6fstCiUuxmVi",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov Interchange Plus:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7lmRUHAyrMeWl3xMqhlfmH",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov Interchange Plus:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7lmRUHAyrMeWl3xMqhlfmH",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=at_be_ch_de_dk_fi_nl_no_se",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AT, BE, DE, CH, DK, FI, NL, NO a SE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "a2jaSrIgtPZcjAPWPRd67t",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=at_be_ch_de_dk_fi_nl_no_se",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AT, BE, DE, CH, DK, FI, NL, NO a SE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "a2jaSrIgtPZcjAPWPRd67t",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=cz_es_fr_gb_gr_hu_ie_it_pl_pt_ro_sk",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "CZ, ES, FR, GB, GR, HU, IE, IT, PL, PT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ezob1x3JRDUadV4CxEvBML",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=cz_es_fr_gb_gr_hu_ie_it_pl_pt_ro_sk",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "CZ, ES, FR, GB, GR, HU, IE, IT, PL, PT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ezob1x3JRDUadV4CxEvBML",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__applies_to_markets=bg_cy_cz_ee_gr_li_lt_lv_mt_ro_sk",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre BG, CY, CZ, EE, GR, LI, LT, LV, MT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ay6XkuNPLfjcz74ESzSZLX",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__applies_to_markets=bg_cy_cz_ee_gr_li_lt_lv_mt_ro_sk",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre BG, CY, CZ, EE, GR, LI, LT, LV, MT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ay6XkuNPLfjcz74ESzSZLX",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
+          }
+        ],
+        "type": "inherited_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "advanced_card_payments__applies_to_markets=bg_cy_cz_ee_gr_li_lt_lv_mt_ro_sk": {
         "entries": {
@@ -57,6 +495,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from online_card_payments",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4LWhRgdjsQyfiH1GoPG0LQ",
+            "document_id": "FEETB440",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB440::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "52P9DCplxg3X60COiSKJnk",
+            "document_id": "FEETB441",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB441::40"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -79,6 +544,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB441::40"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre BG, CY, CZ, EE, GR, LI, LT, LV, MT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ay6XkuNPLfjcz74ESzSZLX",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -109,6 +588,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from online_card_payments",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4LWhRgdjsQyfiH1GoPG0LQ",
+            "document_id": "FEETB440",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB440::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "52P9DCplxg3X60COiSKJnk",
+            "document_id": "FEETB441",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB441::40"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -131,6 +637,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB441::40"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre SI",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "AeXB45lwnpAfSVwsceeMUc",
+            "row_index": 4,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -161,6 +681,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from online_card_payments",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4LWhRgdjsQyfiH1GoPG0LQ",
+            "document_id": "FEETB440",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB440::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "52P9DCplxg3X60COiSKJnk",
+            "document_id": "FEETB441",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB441::40"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -183,6 +730,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB441::40"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov s kombinovanými sadzbami:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6Lbukgt68l3hUSvtEAhjEh",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -213,6 +774,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from online_card_payments",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4LWhRgdjsQyfiH1GoPG0LQ",
+            "document_id": "FEETB440",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB440::39"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "52P9DCplxg3X60COiSKJnk",
+            "document_id": "FEETB441",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB441::40"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -235,6 +823,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za transakcie uskutočnené pomocou služieb PayPal pre online platby kartou (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB441::40"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov Interchange Plus:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7lmRUHAyrMeWl3xMqhlfmH",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -265,6 +867,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -317,6 +921,8 @@
           "TWD": "625",
           "USD": "20"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -369,6 +975,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -421,6 +1029,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -473,6 +1083,8 @@
           "TWD": "2",
           "USD": "0.05"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -525,6 +1137,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -577,6 +1191,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -629,6 +1245,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -651,6 +1294,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "48VxG8HLDfiznRceqMHKfa",
+            "document_id": "FEETB359",
+            "original_label": "Platba kartou od používateľa našich ppodmienok pre platby bez účtu PayPal",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6BphukLEZNzNCw5Pw5V2Uu",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Štandardná sadzba za prijímanie platieb v rámci domácich transakcií",
+            "table_id": "FeeTable::FEETB359::4"
           }
         ]
       },
@@ -681,6 +1338,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -703,6 +1387,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AT, BE, DE, CH, DK, FI, NL, NO a SE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "a2jaSrIgtPZcjAPWPRd67t",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -733,6 +1431,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -755,6 +1480,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "5RYx7OAzTe3cdTgqsvJuq9",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -785,6 +1524,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -807,6 +1573,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7ZQLSyS1LK6fstCiUuxmVi",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -837,6 +1617,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB354",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "EaSOts3p2wUX5yBrjztLz",
+            "document_id": "FEETB363",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
+            "table_id": "FeeTable::FEETB354::7"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -859,6 +1666,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Fixný poplatok za komerčné transakcie (podľa meny, v ktorej bola platba prijatá)",
             "table_id": "FeeTable::FEETB354::7"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "CZ, ES, FR, GB, GR, HU, IE, IT, PL, PT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ezob1x3JRDUadV4CxEvBML",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -889,6 +1710,8 @@
           "TWD": "3",
           "USD": "0.1"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -941,6 +1764,8 @@
           "TWD": "2",
           "USD": "0.05"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -1113,6 +1938,8 @@
           "ZAR": "20",
           "ZMW": "55"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3868,6 +4695,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3879,6 +4722,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "kartami Rozšírené možnosti platieb kreditnými a debetnýmiTypy kariet American Express",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "3UjEmyi00DeSxpc9dVbXbz",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -3893,6 +4750,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3904,6 +4777,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre BG, CY, CZ, EE, GR, LI, LT, LV, MT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ay6XkuNPLfjcz74ESzSZLX",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -3918,6 +4805,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3929,6 +4832,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Platby cez elektronický terminál pre SI",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "AeXB45lwnpAfSVwsceeMUc",
+            "row_index": 4,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -3943,6 +4860,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3954,6 +4887,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov s kombinovanými sadzbami:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6Lbukgt68l3hUSvtEAhjEh",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -3968,6 +4915,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -3979,6 +4942,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7aFH8dEQ0Evkjs4H6n2g7k",
+            "document_id": "FEETB439",
+            "original_label": "Rozšírené možnosti platieb kreditnými a debetnými kartami – štruktúra poplatkov Interchange Plus:Typy kariet Visa, MasterCard, China Union Pay (CUP), Diners a Discover",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7lmRUHAyrMeWl3xMqhlfmH",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Prijímanie domácich transakcií prostredníctvom služieb PayPal pre platby online",
+            "table_id": "FeeTable::FEETB439::38"
           }
         ]
       },
@@ -3993,6 +4970,8 @@
             "percentage_points": "1.99"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4018,6 +4997,8 @@
             "percentage_points": "1.99"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4032,31 +5013,6 @@
           }
         ]
       },
-      "nonprofit": {
-        "entries": [
-          {
-            "payer_region": "EEA",
-            "percentage_points": "0"
-          },
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.99"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
-            "document_id": "FEETB533",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPal Merchant Fees",
-            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
-            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
-            "table_id": "FeeTable::FEETB533::5"
-          }
-        ]
-      },
       "other_commercial": {
         "entries": [
           {
@@ -4068,6 +5024,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4079,6 +5051,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "48VxG8HLDfiznRceqMHKfa",
+            "document_id": "FEETB359",
+            "original_label": "Platba kartou od používateľa našich ppodmienok pre platby bez účtu PayPal",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "6BphukLEZNzNCw5Pw5V2Uu",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov: Štandardná sadzba za prijímanie platieb v rámci domácich transakcií",
+            "table_id": "FeeTable::FEETB359::4"
           }
         ]
       },
@@ -4093,6 +5079,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4104,6 +5106,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AT, BE, DE, CH, DK, FI, NL, NO a SE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "a2jaSrIgtPZcjAPWPRd67t",
+            "row_index": 0,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -4118,6 +5134,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4129,6 +5161,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "5RYx7OAzTe3cdTgqsvJuq9",
+            "row_index": 3,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -4143,6 +5189,22 @@
             "percentage_points": "1.99"
           }
         ],
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -4154,6 +5216,20 @@
             "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "7ZQLSyS1LK6fstCiUuxmVi",
+            "row_index": 2,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
           }
         ]
       },
@@ -4168,7 +5244,9 @@
             "percentage_points": "1.99"
           }
         ],
-        "sources": [
+        "inheritance_reason": "explicit product inheritance from commercial",
+        "inherited_from": "commercial",
+        "inherited_sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -4180,6 +5258,34 @@
             "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
             "table_id": "FeeTable::FEETB533::5"
           }
+        ],
+        "origin": "inherited",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "3kmj1qIz9wtqAhSBj58DIq",
+            "document_id": "FEETB533",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "section_heading": "Tabuľka poplatkov: Dodatočný percentuálny poplatok za medzinárodné komerčné transakcie",
+            "table_id": "FeeTable::FEETB533::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "WFdCh6rjCJefePdWzC9VCg",
+            "document_id": "FEETB940",
+            "original_label": "CZ, ES, FR, GB, GR, HU, IE, IT, PL, PT, RO a SK",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Merchant Fees",
+            "requested_url": "https://www.paypal.com/sk/business/paypal-business-fees",
+            "row_id": "ezob1x3JRDUadV4CxEvBML",
+            "row_index": 1,
+            "section_heading": "Tabuľka poplatkov : Prijímanie platieb v rámci medzinárodných transakcií",
+            "table_id": "FeeTable::FEETB940::33"
+          }
         ]
       },
       "recipient_service": {
@@ -4189,6 +5295,8 @@
             "percentage_points": "1.29"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/sk/business/paypal-business-fees",
@@ -5111,15 +6219,10 @@
           {
             "schedule_id": "nonprofit",
             "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "nonprofit",
-            "type": "international_surcharge_schedule"
           }
         ],
         "fixed_fee_schedule": "nonprofit",
         "id": "nonprofit",
-        "international_surcharge_schedule": "nonprofit",
         "label": "Transakcie spojené s charitatívnymi príspevkami",
         "percentage": "1.9",
         "source": {
@@ -5320,7 +6423,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-17T00:24:01.794637",
+  "generated_at": "2026-07-17T08:59:48.300667",
   "market": {
     "country_name": "Slovakia",
     "iso_country_code": "SK",

@@ -55,9 +55,9 @@ under the output root.
 After the latest regeneration the dataset is:
 
 - 125 complete, 60 partial, 15 unclassified
-- 4,176 core fee rules across all countries
+- 4,004 core fee rules across all countries
 - 0 classifier diagnostics
-- 1 unsupported country
+- 2 unsupported countries
 - `change-report.json`: no regressions (`has_regression: false`)
 
 The remaining unclassified and partial markets are usually locales where a

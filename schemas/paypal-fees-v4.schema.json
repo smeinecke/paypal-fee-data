@@ -501,7 +501,7 @@
     },
     "FixedFeeSchedule": {
       "additionalProperties": false,
-      "description": "Fixed fees by received currency for a single product schedule.\n\n``entries`` maps ISO 4217 currency codes to decimal strings.  ``sources``\nrecords the provenance of each contributing table fragment.",
+      "description": "Fixed fees by received currency for a single product schedule.\n\n``entries`` maps ISO 4217 currency codes to decimal strings.  ``sources``\nrecords the provenance of each contributing table fragment.  Schedules that\nare inherited from another product family carry ``origin`` metadata so that\nsilent schedule copies can be distinguished from directly extracted ones.",
       "properties": {
         "entries": {
           "additionalProperties": {
@@ -509,6 +509,42 @@
           },
           "title": "Entries",
           "type": "object"
+        },
+        "inheritance_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inheritance Reason"
+        },
+        "inherited_from": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inherited From"
+        },
+        "inherited_sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Inherited Sources",
+          "type": "array"
+        },
+        "origin": {
+          "default": "direct",
+          "title": "Origin",
+          "type": "string"
         },
         "sources": {
           "items": {
@@ -523,7 +559,7 @@
     },
     "InternationalSurchargeSchedule": {
       "additionalProperties": false,
-      "description": "International surcharge schedule for a single product or product family.",
+      "description": "International surcharge schedule for a single product or product family.\n\nLike ``FixedFeeSchedule``, inherited surcharge schedules expose provenance\nmetadata describing the source schedule and the reason for inheritance.",
       "properties": {
         "entries": {
           "items": {
@@ -531,6 +567,42 @@
           },
           "title": "Entries",
           "type": "array"
+        },
+        "inheritance_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inheritance Reason"
+        },
+        "inherited_from": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inherited From"
+        },
+        "inherited_sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Inherited Sources",
+          "type": "array"
+        },
+        "origin": {
+          "default": "direct",
+          "title": "Origin",
+          "type": "string"
         },
         "sources": {
           "items": {

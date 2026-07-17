@@ -1,6 +1,6 @@
 {
   "cms_updated_at": "2025-09-24T21:27:42.094Z",
-  "crawled_at": "2026-07-17T00:24:01.794637",
+  "crawled_at": "2026-07-17T08:59:48.300667",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -10,9 +10,9 @@
       "conflicts": 0,
       "direct_fixed_fees": 10,
       "extracted_apm_methods": 0,
-      "fixed_fee_entries": 622,
+      "fixed_fee_entries": 598,
       "ignored": 25,
-      "inherited_schedules": 0,
+      "inherited_schedules": 9,
       "international_surcharge_entries": 1,
       "maximum_fee_entries": 96,
       "missing_required_schedules": 0,
@@ -31,7 +31,192 @@
     "currency_conversion": {
       "spread_percentage": "3.5"
     },
-    "diagnostics": [],
+    "diagnostics": [
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "All other markets",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "6iNkXEd6Ly82i9akheqmVG",
+            "row_index": 4,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ma",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "MA",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "469qKce9giOTPdafqyxhcI",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=my_sg",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "MY & SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "7slPJm3rF6QqcCeki4UXQg",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments__applies_to_markets=sg",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5b09MsiiUKrYQiAUedN7HS",
+            "document_id": "FEETB33",
+            "original_label": "SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "jWxB9XF4uYkbxliyN4vOI",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB33::14"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=bh_dz_fj_jo_nc_om_pf_pw_sa",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "BH, DZ, FJ, JO, NC, OM, PF, PW, & SA",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "12bnmnJm5c86DAs5a9LpcO",
+            "row_index": 3,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ag_bb_bm_bs_bz_cl_cr_dm_do_ec_gd_gt_hn_jm_kn_ky_lc_ni_pa_pe_sv_tc_tt_uy_ve",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY, & VE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "1NCE3zNuVhqUKHBtW8TpJV",
+            "row_index": 0,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ag_ar_bb_bm_bs_bz_cl_co_cr_dm_do_ec_gd_gt_hn_jm_kn_ky_lc_ni_pa_pe_sv_tc_tt_uy_ve",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KkaPfef47AcaenPpoWun",
+            "document_id": "FEETB153",
+            "original_label": "AG, AR, BB, BM, BS, BZ, CL, CO, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY, & VE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "73WwaVupIxtzbjFVdFESqn",
+            "row_index": 1,
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB153::6"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ao_bf_bh_bj_cd_ci_cm_dz_et_fj_ga_gn_jo_kg_mg_na_nc_ng_om_pf_pw_rw_sa_sl_tg_tj_tm_tn_tz_ug_zm_zw",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KkaPfef47AcaenPpoWun",
+            "document_id": "FEETB153",
+            "original_label": "AO, BF, BH, BJ, CD, CI, CM, DZ, ET, FJ, GA, GN, JO, KG, MG, NA, NC, NG, OM, PF, PW, RW, SA, SL, TG, TJ, TM, TN, TZ, UG, ZM, & ZW",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "2ht9VqhQq48r3TFqb9BYXq",
+            "row_index": 2,
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB153::6"
+          }
+        ],
+        "type": "inherited_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "advanced_card_payments__applies_to_markets=sg": {
         "entries": {
@@ -60,6 +245,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references online card fixed fee",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "1UMn6TJTxut1TrTxhnqd0W",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::16"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5Hgjk9dM8cKM8WFFdvL6AE",
+            "document_id": "FEETB205",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB205::17"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -82,6 +294,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for Online Card Payment Services transactions (based on currency received)",
             "table_id": "FeeTable::FEETB205::17"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5b09MsiiUKrYQiAUedN7HS",
+            "document_id": "FEETB33",
+            "original_label": "SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "jWxB9XF4uYkbxliyN4vOI",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB33::14"
           }
         ]
       },
@@ -112,6 +338,8 @@
           "TWD": "330",
           "USD": "10"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -122,7 +350,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: All other markets – Chargeback fees",
-            "table_id": "FeeTable::FEETB151::35"
+            "table_id": "FeeTable::FEETB151::39"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -133,7 +361,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: All other markets – Chargeback fees",
-            "table_id": "FeeTable::FEETB151::35"
+            "table_id": "FeeTable::FEETB151::39"
           }
         ]
       },
@@ -164,6 +392,8 @@
           "TWD": "625",
           "USD": "20"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -174,7 +404,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, AD, AZ, BA, GE, HR, IS, MC, MD, & RS – Chargeback fees",
-            "table_id": "FeeTable::FEETB70::31"
+            "table_id": "FeeTable::FEETB70::35"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -185,7 +415,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, AD, AZ, BA, GE, HR, IS, MC, MD, & RS – Chargeback fees",
-            "table_id": "FeeTable::FEETB70::31"
+            "table_id": "FeeTable::FEETB70::35"
           }
         ]
       },
@@ -216,6 +446,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -241,107 +473,57 @@
           }
         ]
       },
-      "micropayments__applies_to_markets=ag_ai_an_ar_aw_bb_bm_bz_cl_co_cr_dm_do_ec_fk_gd_gt_gy_hn_jm_kn_ky_lc_ms_ni_pa_pe_py_sr_sv_tc_tt_uy_vc_ve_vg": {
+      "micropayments": {
         "entries": {
-          "AUD": "0.3",
-          "BRL": "0.6",
-          "CAD": "0.3",
-          "CHF": "0.55",
-          "CZK": "10",
-          "DKK": "2.6",
-          "EUR": "0.35",
-          "GBP": "0.2",
-          "HKD": "2.35",
-          "HUF": "90",
-          "ILS": "1.2",
-          "JPY": "40",
-          "MXN": "4",
-          "MYR": "2",
-          "NOK": "2.8",
-          "NZD": "0.45",
-          "PHP": "15",
-          "PLN": "1.35",
-          "RUB": "10",
-          "SEK": "3.25",
-          "SGD": "0.5",
-          "THB": "11",
-          "TWD": "10",
-          "USD": "0.3"
+          "AUD": "0.05",
+          "BRL": "0.1",
+          "CAD": "0.05",
+          "CHF": "0.09",
+          "CZK": "1.67",
+          "DKK": "0.43",
+          "EUR": "0.05",
+          "GBP": "0.05",
+          "HKD": "0.39",
+          "HUF": "15",
+          "ILS": "0.2",
+          "JPY": "7",
+          "MXN": "0.55",
+          "MYR": "0.2",
+          "NOK": "0.47",
+          "NZD": "0.08",
+          "PHP": "2.5",
+          "PLN": "0.23",
+          "RUB": "2",
+          "SEK": "0.54",
+          "SGD": "0.08",
+          "THB": "1.8",
+          "TWD": "2",
+          "USD": "0.05"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
-            "document_id": "FEETB872",
+            "component_id": "5pDB8diyXf4KsUfZY12ua4",
+            "document_id": "FEETB69",
             "page_id": "business/paypal-business-fees",
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB872::8"
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::31"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "5tQL38DwdWzhyjoe5mLgci",
-            "document_id": "FEETB871",
+            "component_id": "5pDB8diyXf4KsUfZY12ua4",
+            "document_id": "FEETB173",
             "page_id": "business/paypal-business-fees",
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB871::9"
-          }
-        ]
-      },
-      "micropayments__applies_to_markets=id_ph": {
-        "entries": {
-          "AUD": "0.3",
-          "BRL": "0.6",
-          "CAD": "0.3",
-          "CHF": "0.55",
-          "CZK": "10",
-          "DKK": "2.6",
-          "EUR": "0.35",
-          "GBP": "0.2",
-          "HKD": "2.35",
-          "HUF": "90",
-          "ILS": "1.2",
-          "JPY": "40",
-          "MXN": "4",
-          "MYR": "2",
-          "NOK": "2.8",
-          "NZD": "0.45",
-          "PHP": "15",
-          "PLN": "1.35",
-          "RUB": "10",
-          "SEK": "3.25",
-          "SGD": "0.5",
-          "THB": "11",
-          "TWD": "10",
-          "USD": "0.3"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
-            "document_id": "FEETB872",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Businesses",
-            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB872::8"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5tQL38DwdWzhyjoe5mLgci",
-            "document_id": "FEETB871",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Seller Fees for Merchants and Businesses",
-            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB871::9"
+            "section_heading": "Fee Table: Micropayments fixed fee",
+            "table_id": "FeeTable::FEETB69::31"
           }
         ]
       },
@@ -372,6 +554,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -424,6 +608,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -446,6 +657,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "All other markets",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "6iNkXEd6Ly82i9akheqmVG",
+            "row_index": 4,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
           }
         ]
       },
@@ -476,6 +701,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -498,6 +750,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KkaPfef47AcaenPpoWun",
+            "document_id": "FEETB153",
+            "original_label": "AG, AR, BB, BM, BS, BZ, CL, CO, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY, & VE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "73WwaVupIxtzbjFVdFESqn",
+            "row_index": 1,
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB153::6"
           }
         ]
       },
@@ -528,6 +794,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -550,6 +843,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "AG, BB, BM, BS, BZ, CL, CR, DM, DO, EC, GD, GT, HN, JM, KN, KY, LC, NI, PA, PE, SV, TC, TT, UY, & VE",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "1NCE3zNuVhqUKHBtW8TpJV",
+            "row_index": 0,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
           }
         ]
       },
@@ -580,6 +887,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -602,6 +936,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5KkaPfef47AcaenPpoWun",
+            "document_id": "FEETB153",
+            "original_label": "AO, BF, BH, BJ, CD, CI, CM, DZ, ET, FJ, GA, GN, JO, KG, MG, NA, NC, NG, OM, PF, PW, RW, SA, SL, TG, TJ, TM, TN, TZ, UG, ZM, & ZW",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "2ht9VqhQq48r3TFqb9BYXq",
+            "row_index": 2,
+            "section_heading": "Fee Table: Receiving international transactions",
+            "table_id": "FeeTable::FEETB153::6"
           }
         ]
       },
@@ -632,6 +980,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -654,6 +1029,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "BH, DZ, FJ, JO, NC, OM, PF, PW, & SA",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "12bnmnJm5c86DAs5a9LpcO",
+            "row_index": 3,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
           }
         ]
       },
@@ -684,6 +1073,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -706,6 +1122,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "MA",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "469qKce9giOTPdafqyxhcI",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
           }
         ]
       },
@@ -736,6 +1166,33 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6ZRNpnoNvSccmo5e7LHdV0",
+            "document_id": "FEETB872",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB872::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5tQL38DwdWzhyjoe5mLgci",
+            "document_id": "FEETB871",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB871::9"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -758,6 +1215,20 @@
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB871::9"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6FyMtN07pINxmDgXYwbHat",
+            "document_id": "FEETB16",
+            "original_label": "MY & SG",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Seller Fees for Merchants and Businesses",
+            "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
+            "row_id": "7slPJm3rF6QqcCeki4UXQg",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::4"
           }
         ]
       },
@@ -907,6 +1378,8 @@
           "ZAR": "40",
           "ZMW": "107.5"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -917,7 +1390,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE, & UY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB177::53"
+            "table_id": "FeeTable::FEETB177::58"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -928,7 +1401,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE, & UY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB177::53"
+            "table_id": "FeeTable::FEETB177::58"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -939,7 +1412,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE, & UY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB177::53"
+            "table_id": "FeeTable::FEETB177::58"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -950,7 +1423,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE, & UY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB177::53"
+            "table_id": "FeeTable::FEETB177::58"
           }
         ]
       },
@@ -1100,6 +1573,8 @@
           "ZAR": "40",
           "ZMW": "107.5"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1110,7 +1585,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: ID & MY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB183::61"
+            "table_id": "FeeTable::FEETB183::66"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1121,7 +1596,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: ID & MY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB183::61"
+            "table_id": "FeeTable::FEETB183::66"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1132,7 +1607,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: ID & MY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB183::61"
+            "table_id": "FeeTable::FEETB183::66"
           },
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1143,7 +1618,7 @@
             "page_title": "Seller Fees for Merchants and Businesses",
             "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
             "section_heading": "Fee Table: ID & MY - Fixed fee for card withdrawal",
-            "table_id": "FeeTable::FEETB183::61"
+            "table_id": "FeeTable::FEETB183::66"
           }
         ]
       }
@@ -1530,7 +2005,7 @@
           "row_id": "5kZEPhnzyBqa8JwODiih8",
           "row_index": 0,
           "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
-          "table_id": "FeeTable::FEETB82::50"
+          "table_id": "FeeTable::FEETB82::55"
         }
       },
       {
@@ -1553,7 +2028,7 @@
           "row_id": "22GV2uf6F5dMLWtbHBFKXA",
           "row_index": 1,
           "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
-          "table_id": "FeeTable::FEETB82::50"
+          "table_id": "FeeTable::FEETB82::55"
         }
       },
       {
@@ -1574,7 +2049,7 @@
           "row_id": "3ow07zayeV6hWEp1vecuPu",
           "row_index": 2,
           "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
-          "table_id": "FeeTable::FEETB82::50"
+          "table_id": "FeeTable::FEETB82::55"
         }
       },
       {
@@ -1595,7 +2070,7 @@
           "row_id": "3JQlBXLpGNtXDyZFlig125",
           "row_index": 3,
           "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
-          "table_id": "FeeTable::FEETB82::50"
+          "table_id": "FeeTable::FEETB82::55"
         }
       },
       {
@@ -1616,7 +2091,7 @@
           "row_id": "3GNj4rqSIt9cF5kOErCvQG",
           "row_index": 0,
           "section_heading": "Fee Table: Withdrawals through third party service providers",
-          "table_id": "FeeTable::FEETB919::69"
+          "table_id": "FeeTable::FEETB919::74"
         }
       },
       {
@@ -1640,7 +2115,7 @@
           "row_id": "201cbOikgsvBKPeyfkYBOE",
           "row_index": 0,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB86::70"
+          "table_id": "FeeTable::FEETB86::75"
         }
       },
       {
@@ -1664,7 +2139,7 @@
           "row_id": "2HuRdx3rm8If1uKV5TAKjF",
           "row_index": 1,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB86::70"
+          "table_id": "FeeTable::FEETB86::75"
         }
       },
       {
@@ -1685,18 +2160,20 @@
           "row_id": "1FZyt8NHBh1ML3vWh7Ez1P",
           "row_index": 2,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB86::70"
+          "table_id": "FeeTable::FEETB86::75"
         }
       }
     ],
     "international_surcharge_schedules": {
-      "commercial__applies_to_markets=hr_is_mc_uk": {
+      "recipient_service__applies_to_markets=hr_is_mc_uk": {
         "entries": [
           {
             "payer_region": "EEA",
             "percentage_points": "1.29"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1740,6 +2217,8 @@
           "TWD": "440",
           "USD": "14"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1781,6 +2260,8 @@
           "TWD": "33",
           "USD": "1"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1822,6 +2303,8 @@
           "TWD": "2700",
           "USD": "90"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -1863,6 +2346,8 @@
           "TWD": "2000",
           "USD": "50"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hr/business/paypal-business-fees",
@@ -2360,11 +2845,11 @@
             "value": "6.5"
           },
           {
-            "schedule_id": "micropayments__applies_to_markets=ag_ai_an_ar_aw_bb_bm_bz_cl_co_cr_dm_do_ec_fk_gd_gt_gy_hn_jm_kn_ky_lc_ms_ni_pa_pe_py_sr_sv_tc_tt_uy_vc_ve_vg",
+            "schedule_id": "micropayments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments__applies_to_markets=ag_ai_an_ar_aw_bb_bm_bz_cl_co_cr_dm_do_ec_fk_gd_gt_gy_hn_jm_kn_ky_lc_ms_ni_pa_pe_py_sr_sv_tc_tt_uy_vc_ve_vg",
+        "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
         "label": "AG, AI, AN, AR, AW, BB, BM, BZ, CL, CO, CR, DM, DO, EC, FK, GD, GT, GY, HN, JM, KN, KY, LC, MS, NI, PA, PE, PY, SR, SV, TC, TT, UY, VC, VE, & VG",
         "percentage": "6.5",
@@ -2398,11 +2883,11 @@
             "value": "6"
           },
           {
-            "schedule_id": "micropayments__applies_to_markets=id_ph",
+            "schedule_id": "micropayments",
             "type": "fixed_fee_schedule"
           }
         ],
-        "fixed_fee_schedule": "micropayments__applies_to_markets=id_ph",
+        "fixed_fee_schedule": "micropayments",
         "id": "micropayments",
         "label": "ID & PH",
         "percentage": "6",
@@ -2456,7 +2941,7 @@
           "page_title": "Seller Fees for Merchants and Businesses",
           "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
           "section_heading": "Fee Table: AL, AD, AZ, BA, GE, HR, IS, MC, MD, & RS – Chargeback fees",
-          "table_id": "FeeTable::FEETB70::31"
+          "table_id": "FeeTable::FEETB70::35"
         },
         "variant_id": "standard"
       },
@@ -2481,7 +2966,7 @@
           "page_title": "Seller Fees for Merchants and Businesses",
           "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
           "section_heading": "Fee Table: All other markets – Chargeback fees",
-          "table_id": "FeeTable::FEETB151::35"
+          "table_id": "FeeTable::FEETB151::39"
         },
         "variant_id": "standard"
       },
@@ -2515,7 +3000,7 @@
           "row_id": "5fEadsGDSDsISYyivKtjeC",
           "row_index": 0,
           "section_heading": "Fee Table: Bank Return on Withdrawal/Transfer out of PayPal Table",
-          "table_id": "FeeTable::FEETB127::71"
+          "table_id": "FeeTable::FEETB127::76"
         },
         "variant_id": "bank_return"
       },
@@ -2548,7 +3033,7 @@
           "row_id": "4kgOp7U1GKj7jn3mtRkBqm",
           "row_index": 1,
           "section_heading": "Fee Table: Bank Return on Withdrawal/Transfer out of PayPal Table",
-          "table_id": "FeeTable::FEETB127::71"
+          "table_id": "FeeTable::FEETB127::76"
         },
         "variant_id": "bank_return"
       },
@@ -2581,7 +3066,7 @@
           "row_id": "x3Ai1JIGz4tpzymJsUvfn",
           "row_index": 3,
           "section_heading": "Fee Table: Bank Return on Withdrawal/Transfer out of PayPal Table",
-          "table_id": "FeeTable::FEETB127::71"
+          "table_id": "FeeTable::FEETB127::76"
         },
         "variant_id": "bank_return"
       },
@@ -2614,7 +3099,7 @@
           "row_id": "4S319dsKrsChfSMNovqH1a",
           "row_index": 2,
           "section_heading": "Fee Table: Bank Return on Withdrawal/Transfer out of PayPal Table",
-          "table_id": "FeeTable::FEETB127::71"
+          "table_id": "FeeTable::FEETB127::76"
         },
         "variant_id": "bank_return"
       },
@@ -2681,7 +3166,7 @@
           "page_title": "Seller Fees for Merchants and Businesses",
           "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
           "section_heading": "Fee Table: AL, DZ, AG, BS, BH, BB, BZ, BA, BW, CL, DM, EG, FJ, PF, GE, GD, HN, IS, JO, KZ, LS, MW, MU, MD, MA, MZ, NC, OM, PW, KN, LC, SA, SN, SC, TT, TC, AE, & UY - Fixed fee for card withdrawal",
-          "table_id": "FeeTable::FEETB177::53"
+          "table_id": "FeeTable::FEETB177::58"
         },
         "variant_id": "cards"
       },
@@ -2712,7 +3197,7 @@
           "page_title": "Seller Fees for Merchants and Businesses",
           "requested_url": "https://www.paypal.com/hr/business/paypal-business-fees",
           "section_heading": "Fee Table: ID & MY - Fixed fee for card withdrawal",
-          "table_id": "FeeTable::FEETB183::61"
+          "table_id": "FeeTable::FEETB183::66"
         },
         "variant_id": "cards"
       },
@@ -2742,7 +3227,7 @@
           "row_id": "3494O5ooNly18OTLIZVvfz",
           "row_index": 4,
           "section_heading": "Fee Table: Withdrawing a balance from a business PayPal account",
-          "table_id": "FeeTable::FEETB82::50"
+          "table_id": "FeeTable::FEETB82::55"
         },
         "variant_id": "cards"
       },
@@ -2803,14 +3288,14 @@
           "row_id": "a9kH2YVgxJ9v1OAOu5pmq",
           "row_index": 3,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB86::70"
+          "table_id": "FeeTable::FEETB86::75"
         },
         "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-17T00:24:01.794637",
+  "generated_at": "2026-07-17T08:59:48.300667",
   "market": {
     "country_name": "Croatia",
     "iso_country_code": "HR",

@@ -1,6 +1,6 @@
 {
   "cms_updated_at": "2025-09-24T08:00:34.079Z",
-  "crawled_at": "2026-07-17T00:24:01.794637",
+  "crawled_at": "2026-07-17T08:59:48.300667",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -12,7 +12,7 @@
       "extracted_apm_methods": 0,
       "fixed_fee_entries": 170,
       "ignored": 6,
-      "inherited_schedules": 0,
+      "inherited_schedules": 3,
       "international_surcharge_entries": 4,
       "maximum_fee_entries": 48,
       "missing_required_schedules": 0,
@@ -31,7 +31,77 @@
     "currency_conversion": {
       "spread_percentage": "3"
     },
-    "diagnostics": [],
+    "diagnostics": [
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6O4ZmcfhDQeshnVKipeFS1",
+            "document_id": "FEETB16",
+            "original_label": "Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "4csKAGuTFFUbhC8n11MFo7",
+            "row_index": 0,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments",
+        "inherited_from": "online_card_payments",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4YJzT7m8vE494ITXPIycwx",
+            "document_id": "FEETB455",
+            "original_label": "Advanced Credit and Debit Card Payments",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "5hfMnw6h2CBV5DBKZQy4HK",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB455::6"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "advanced_card_payments",
+        "inherited_from": "commercial",
+        "rule_id": "advanced_card_payments",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4YJzT7m8vE494ITXPIycwx",
+            "document_id": "FEETB455",
+            "original_label": "Advanced Credit and Debit Card Payments",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "5hfMnw6h2CBV5DBKZQy4HK",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB455::6"
+          }
+        ],
+        "type": "inherited_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "advanced_card_payments": {
         "entries": {
@@ -60,6 +130,22 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inheritance_reason": "table context references online card fixed fee",
+        "inherited_from": "online_card_payments",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6Qa7otbf7Y9dW64Tuygu8T",
+            "document_id": "FEETB51",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for Online Card Payment Services transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB51::8"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -71,6 +157,20 @@
             "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for Online Card Payment Services transactions (based on currency received)",
             "table_id": "FeeTable::FEETB51::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4YJzT7m8vE494ITXPIycwx",
+            "document_id": "FEETB455",
+            "original_label": "Advanced Credit and Debit Card Payments",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "5hfMnw6h2CBV5DBKZQy4HK",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB455::6"
           }
         ]
       },
@@ -101,6 +201,8 @@
           "TWD": "330",
           "USD": "10"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -154,6 +256,8 @@
           "TWD": "500",
           "USD": "16"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -207,6 +311,8 @@
           "TWD": "250",
           "USD": "8"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -259,6 +365,8 @@
           "TWD": "2",
           "USD": "0.05"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -311,6 +419,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -352,6 +462,8 @@
           "TWD": "10",
           "USD": "0.3"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -510,7 +622,9 @@
             "percentage_points": "0.5"
           }
         ],
-        "sources": [
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -522,6 +636,34 @@
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
           }
+        ],
+        "origin": "inherited",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6LdS0b9lP9HodwfO7QKxNS",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "4YJzT7m8vE494ITXPIycwx",
+            "document_id": "FEETB455",
+            "original_label": "Advanced Credit and Debit Card Payments",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "5hfMnw6h2CBV5DBKZQy4HK",
+            "row_index": 0,
+            "section_heading": "Fee Table: Receiving domestic transactions using Online Card Payment Services",
+            "table_id": "FeeTable::FEETB455::6"
+          }
         ]
       },
       "commercial": {
@@ -531,6 +673,8 @@
             "percentage_points": "0.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -552,6 +696,8 @@
             "percentage_points": "0.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -573,6 +719,22 @@
             "percentage_points": "0.5"
           }
         ],
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6LdS0b9lP9HodwfO7QKxNS",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -584,6 +746,20 @@
             "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6O4ZmcfhDQeshnVKipeFS1",
+            "document_id": "FEETB16",
+            "original_label": "Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPal Fees for Sellers (Business)",
+            "requested_url": "https://www.paypal.com/hk/business/paypal-business-fees",
+            "row_id": "4csKAGuTFFUbhC8n11MFo7",
+            "row_index": 0,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       }
@@ -616,6 +792,8 @@
           "TWD": "33",
           "USD": "1"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -657,6 +835,8 @@
           "TWD": "2000",
           "USD": "50"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/hk/business/paypal-business-fees",
@@ -1127,7 +1307,7 @@
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-17T00:24:01.794637",
+  "generated_at": "2026-07-17T08:59:48.300667",
   "market": {
     "country_name": "Hong Kong SAR China",
     "iso_country_code": "HK",

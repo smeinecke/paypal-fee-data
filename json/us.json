@@ -1,26 +1,26 @@
 {
   "cms_updated_at": "2025-09-14T23:06:26.379Z",
-  "crawled_at": "2026-07-17T00:24:01.794637",
+  "crawled_at": "2026-07-17T08:59:48.300667",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 56,
+      "calculable_rules": 58,
       "conflicts": 0,
-      "direct_fixed_fees": 8,
+      "direct_fixed_fees": 9,
       "extracted_apm_methods": 35,
-      "fixed_fee_entries": 605,
-      "ignored": 26,
-      "inherited_schedules": 0,
-      "international_surcharge_entries": 17,
+      "fixed_fee_entries": 509,
+      "ignored": 28,
+      "inherited_schedules": 15,
+      "international_surcharge_entries": 12,
       "maximum_fee_entries": 48,
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
       "numeric_fee_candidates": 33,
       "reference_sources": 1,
       "reference_targets": 1,
-      "transaction_rules": 56,
+      "transaction_rules": 58,
       "unclassified": 22,
       "unclassified_fee_candidates": 22,
       "unknown_apm_methods": 0,
@@ -31,7 +31,215 @@
     "currency_conversion": {
       "spread_percentage": "4"
     },
-    "diagnostics": [],
+    "diagnostics": [
+      {
+        "expected_schedule": "guest_checkout",
+        "inherited_from": "commercial",
+        "rule_id": "guest_checkout",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Guest Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3R2B0uLGW7f0We3elgqFXl",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "guest_checkout",
+        "inherited_from": "commercial",
+        "rule_id": "guest_checkout",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Guest Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3R2B0uLGW7f0We3elgqFXl",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "paypal_checkout",
+        "inherited_from": "commercial",
+        "rule_id": "paypal_checkout",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "7F1I3mhMIY4ulfr8xBAyRr",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "paypal_checkout",
+        "inherited_from": "commercial",
+        "rule_id": "paypal_checkout",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "7F1I3mhMIY4ulfr8xBAyRr",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "All Other Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3p1nmNT1CpYa5i1EPU2ncg",
+            "row_index": 9,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "All Other Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3p1nmNT1CpYa5i1EPU2ncg",
+            "row_index": 9,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "pay_later_consumer",
+        "inherited_from": "commercial",
+        "rule_id": "pay_later_consumer",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Pay Later options",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "Uhiwy9FZKtZgwdrN3UkTh",
+            "row_index": 8,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "pay_later_consumer",
+        "inherited_from": "commercial",
+        "rule_id": "pay_later_consumer",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Pay Later options",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "Uhiwy9FZKtZgwdrN3UkTh",
+            "row_index": 8,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__pricing_plan=pyusd",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "aZYn7uuv1mmejP8vjUj6TU",
+            "document_id": "FEETB906",
+            "original_label": "PYUSD",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "W7lkkdCpcStdGiLNF0LWK0",
+            "row_index": 5,
+            "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
+            "table_id": "FeeTable::FEETB906::24"
+          }
+        ],
+        "type": "inherited_schedule"
+      }
+    ],
     "fixed_fee_schedules": {
       "advanced_card_payments": {
         "entries": {
@@ -60,6 +268,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -70,7 +280,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Payments Advanced and Payments Pro (based on currency received)",
-            "table_id": "FeeTable::FEETB51::53"
+            "table_id": "FeeTable::FEETB51::55"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -81,7 +291,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Payments Advanced and Payments Pro (based on currency received)",
-            "table_id": "FeeTable::FEETB51::53"
+            "table_id": "FeeTable::FEETB51::55"
           }
         ]
       },
@@ -112,6 +322,8 @@
           "TWD": "8",
           "USD": "0.29"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -122,7 +334,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Advanced Credit and Debit Card Payments and Virtual Terminal (based on currency received)",
-            "table_id": "FeeTable::FEETB856::57"
+            "table_id": "FeeTable::FEETB856::59"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -133,7 +345,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Advanced Credit and Debit Card Payments and Virtual Terminal (based on currency received)",
-            "table_id": "FeeTable::FEETB856::57"
+            "table_id": "FeeTable::FEETB856::59"
           }
         ]
       },
@@ -164,6 +376,8 @@
           "TWD": "8",
           "USD": "0.29"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -174,7 +388,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Advanced Credit and Debit Card Payments and Virtual Terminal (based on currency received)",
-            "table_id": "FeeTable::FEETB856::57"
+            "table_id": "FeeTable::FEETB856::59"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -185,7 +399,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for PayPal Card Payment Services transactions for Advanced Credit and Debit Card Payments and Virtual Terminal (based on currency received)",
-            "table_id": "FeeTable::FEETB856::57"
+            "table_id": "FeeTable::FEETB856::59"
           }
         ]
       },
@@ -216,6 +430,8 @@
           "TWD": "11",
           "USD": "0.39"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -226,7 +442,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Interchange Plus Plus Fixed fee for PayPal Card Payment Services transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB67::62"
+            "table_id": "FeeTable::FEETB67::64"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -237,7 +453,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Interchange Plus Plus Fixed fee for PayPal Card Payment Services transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB67::62"
+            "table_id": "FeeTable::FEETB67::64"
           }
         ]
       },
@@ -268,6 +484,8 @@
           "TWD": "11",
           "USD": "0.39"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -278,7 +496,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Interchange Plus Plus Fixed fee for PayPal Card Payment Services transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB67::62"
+            "table_id": "FeeTable::FEETB67::64"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -289,7 +507,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Interchange Plus Plus Fixed fee for PayPal Card Payment Services transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB67::62"
+            "table_id": "FeeTable::FEETB67::64"
           }
         ]
       },
@@ -320,6 +538,8 @@
           "TWD": "8",
           "USD": "0.29"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -330,7 +550,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB858::42"
+            "table_id": "FeeTable::FEETB858::44"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -341,7 +561,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for APM transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB858::42"
+            "table_id": "FeeTable::FEETB858::44"
           }
         ]
       },
@@ -372,6 +592,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -382,7 +604,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for APM transactions through Pay Links and Buttons, Payment Links and Buttons, Payment Links, Buy Buttons, Shopping Cart Buttons (based on currency received)",
-            "table_id": "FeeTable::FEETB64::46"
+            "table_id": "FeeTable::FEETB64::48"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -393,7 +615,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for APM transactions through Pay Links and Buttons, Payment Links and Buttons, Payment Links, Buy Buttons, Shopping Cart Buttons (based on currency received)",
-            "table_id": "FeeTable::FEETB64::46"
+            "table_id": "FeeTable::FEETB64::48"
           }
         ]
       },
@@ -424,6 +646,8 @@
           "TWD": "625",
           "USD": "20"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -434,7 +658,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Chargeback fees",
-            "table_id": "FeeTable::FEETB70::81"
+            "table_id": "FeeTable::FEETB70::83"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -445,7 +669,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Chargeback fees",
-            "table_id": "FeeTable::FEETB70::81"
+            "table_id": "FeeTable::FEETB70::83"
           }
         ]
       },
@@ -476,6 +700,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -529,6 +755,8 @@
           "TWD": "910",
           "USD": "30"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -539,7 +767,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::89"
+            "table_id": "FeeTable::FEETB74::91"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -550,7 +778,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: High Volume Dispute Fees",
-            "table_id": "FeeTable::FEETB74::89"
+            "table_id": "FeeTable::FEETB74::91"
           }
         ]
       },
@@ -582,6 +810,8 @@
           "TWD": "455",
           "USD": "15"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -592,7 +822,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::85"
+            "table_id": "FeeTable::FEETB72::87"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -603,7 +833,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Standard Dispute Fees",
-            "table_id": "FeeTable::FEETB72::85"
+            "table_id": "FeeTable::FEETB72::87"
           }
         ]
       },
@@ -634,6 +864,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -644,7 +876,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
-            "table_id": "FeeTable::FEETB25::28"
+            "table_id": "FeeTable::FEETB25::30"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -655,59 +887,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
-            "table_id": "FeeTable::FEETB25::28"
-          }
-        ]
-      },
-      "donations_button": {
-        "entries": {
-          "AUD": "0.59",
-          "BRL": "2.9",
-          "CAD": "0.59",
-          "CHF": "0.49",
-          "CZK": "9",
-          "DKK": "2.9",
-          "EUR": "0.39",
-          "GBP": "0.39",
-          "HKD": "3.79",
-          "HUF": "149",
-          "ILS": "1.6",
-          "JPY": "49",
-          "MXN": "9",
-          "MYR": "2",
-          "NOK": "3.9",
-          "NZD": "0.69",
-          "PHP": "25",
-          "PLN": "1.89",
-          "RUB": "39",
-          "SEK": "4.09",
-          "SGD": "0.69",
-          "THB": "15",
-          "TWD": "14",
-          "USD": "0.49"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "UbHJTFV90MkGJVIkkMubC",
-            "document_id": "FEETB25",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
-            "table_id": "FeeTable::FEETB25::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "UbHJTFV90MkGJVIkkMubC",
-            "document_id": "FEETB270",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for donations (based on currency received)",
-            "table_id": "FeeTable::FEETB25::28"
+            "table_id": "FeeTable::FEETB25::30"
           }
         ]
       },
@@ -738,6 +918,33 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -760,6 +967,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Guest Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3R2B0uLGW7f0We3elgqFXl",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -790,6 +1011,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -842,6 +1065,8 @@
           "TWD": "3",
           "USD": "0.09"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -852,7 +1077,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Micropayments fixed fee",
-            "table_id": "FeeTable::FEETB69::77"
+            "table_id": "FeeTable::FEETB69::79"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -863,7 +1088,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Micropayments fixed fee",
-            "table_id": "FeeTable::FEETB69::77"
+            "table_id": "FeeTable::FEETB69::79"
           }
         ]
       },
@@ -894,6 +1119,8 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -904,7 +1131,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
+            "table_id": "FeeTable::FEETB38::38"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -915,163 +1142,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          }
-        ]
-      },
-      "nonprofit_advanced_card": {
-        "entries": {
-          "AUD": "0.59",
-          "BRL": "2.9",
-          "CAD": "0.59",
-          "CHF": "0.49",
-          "CZK": "9",
-          "DKK": "2.9",
-          "EUR": "0.39",
-          "GBP": "0.39",
-          "HKD": "3.79",
-          "HUF": "149",
-          "ILS": "1.6",
-          "JPY": "49",
-          "MXN": "9",
-          "MYR": "2",
-          "NOK": "3.9",
-          "NZD": "0.69",
-          "PHP": "25",
-          "PLN": "1.89",
-          "RUB": "39",
-          "SEK": "4.09",
-          "SGD": "0.69",
-          "THB": "15",
-          "TWD": "14",
-          "USD": "0.49"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB38",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB279",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          }
-        ]
-      },
-      "nonprofit_eterminal": {
-        "entries": {
-          "AUD": "0.59",
-          "BRL": "2.9",
-          "CAD": "0.59",
-          "CHF": "0.49",
-          "CZK": "9",
-          "DKK": "2.9",
-          "EUR": "0.39",
-          "GBP": "0.39",
-          "HKD": "3.79",
-          "HUF": "149",
-          "ILS": "1.6",
-          "JPY": "49",
-          "MXN": "9",
-          "MYR": "2",
-          "NOK": "3.9",
-          "NZD": "0.69",
-          "PHP": "25",
-          "PLN": "1.89",
-          "RUB": "39",
-          "SEK": "4.09",
-          "SGD": "0.69",
-          "THB": "15",
-          "TWD": "14",
-          "USD": "0.49"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB38",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB279",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          }
-        ]
-      },
-      "nonprofit_payments_pro": {
-        "entries": {
-          "AUD": "0.59",
-          "BRL": "2.9",
-          "CAD": "0.59",
-          "CHF": "0.49",
-          "CZK": "9",
-          "DKK": "2.9",
-          "EUR": "0.39",
-          "GBP": "0.39",
-          "HKD": "3.79",
-          "HUF": "149",
-          "ILS": "1.6",
-          "JPY": "49",
-          "MXN": "9",
-          "MYR": "2",
-          "NOK": "3.9",
-          "NZD": "0.69",
-          "PHP": "25",
-          "PLN": "1.89",
-          "RUB": "39",
-          "SEK": "4.09",
-          "SGD": "0.69",
-          "THB": "15",
-          "TWD": "14",
-          "USD": "0.49"
-        },
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB38",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "38f0EHQArhoL0vRUm5yi1o",
-            "document_id": "FEETB279",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Fixed fee for charity transactions (based on currency received)",
-            "table_id": "FeeTable::FEETB38::36"
+            "table_id": "FeeTable::FEETB38::38"
           }
         ]
       },
@@ -1102,6 +1173,33 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1124,6 +1222,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "All Other Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3p1nmNT1CpYa5i1EPU2ncg",
+            "row_index": 9,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -1154,6 +1266,33 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1176,6 +1315,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Pay Later options",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "Uhiwy9FZKtZgwdrN3UkTh",
+            "row_index": 8,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -1206,6 +1359,33 @@
           "TWD": "14",
           "USD": "0.49"
         },
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB18",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7BszrinfEjLUHsgIHEIg6S",
+            "document_id": "FEETB306",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
+            "table_id": "FeeTable::FEETB18::5"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1228,6 +1408,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for commercial transactions (based on currency received)",
             "table_id": "FeeTable::FEETB18::5"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "7F1I3mhMIY4ulfr8xBAyRr",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -1258,6 +1452,8 @@
           "TWD": "3",
           "USD": "0.09"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1309,6 +1505,8 @@
           "SGD": "6.95",
           "USD": "0.95"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1319,7 +1517,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for ACH – International Disbursements",
-            "table_id": "FeeTable::FEETB907::23"
+            "table_id": "FeeTable::FEETB907::25"
           },
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1330,7 +1528,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for ACH – International Disbursements",
-            "table_id": "FeeTable::FEETB907::23"
+            "table_id": "FeeTable::FEETB907::25"
           }
         ]
       },
@@ -1341,6 +1539,8 @@
           "GBP": "15",
           "USD": "20"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1351,7 +1551,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fixed fee for Wire Transfer Disbursements",
-            "table_id": "FeeTable::FEETB909::25"
+            "table_id": "FeeTable::FEETB909::27"
           }
         ]
       }
@@ -1403,6 +1603,50 @@
       },
       {
         "normalized_cells": [
+          "PayPal Wallet – Balance",
+          "Waived – No Fee"
+        ],
+        "original_label": "PayPal Wallet – Balance",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "0WaiLSRsWVvd7V1vFwiR6h",
+          "document_id": "FEETB903",
+          "original_label": "PayPal Wallet – Balance",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Fees | Merchant and Business",
+          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "row_id": "1zxLyTzWI5DfcDKki2jq7G",
+          "row_index": 1,
+          "section_heading": "Fee Table: Standard rates for funding a Bill Pay for Business Accounts Transaction",
+          "table_id": "FeeTable::FEETB903::23"
+        }
+      },
+      {
+        "normalized_cells": [
+          "PYUSD",
+          "Waived – No Fee"
+        ],
+        "original_label": "PYUSD",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "0WaiLSRsWVvd7V1vFwiR6h",
+          "document_id": "FEETB903",
+          "original_label": "PYUSD",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Fees | Merchant and Business",
+          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "row_id": "2yQHtmrrb8fat1eEgcuOgs",
+          "row_index": 2,
+          "section_heading": "Fee Table: Standard rates for funding a Bill Pay for Business Accounts Transaction",
+          "table_id": "FeeTable::FEETB903::23"
+        }
+      },
+      {
+        "normalized_cells": [
           "ACH – International",
           "Fixed Fee"
         ],
@@ -1420,7 +1664,7 @@
           "row_id": "3sTpvWJ6tK4dRb8gA9h7iI",
           "row_index": 1,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -1442,7 +1686,7 @@
           "row_id": "X8MFetfrNWLclK4rdSxPlk",
           "row_index": 2,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -1464,7 +1708,7 @@
           "row_id": "ciHUWImaoU0abHWLw5YpTd",
           "row_index": 3,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -1486,7 +1730,7 @@
           "row_id": "591Tl63avcucoCy7XnTDU1",
           "row_index": 4,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -1508,7 +1752,7 @@
           "row_id": "ec6fqyuK90KaWXjhxkCwkM",
           "row_index": 7,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -1532,7 +1776,7 @@
           "row_id": "RWPoNrraVrI7Q3UYH9bm1",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for sending domestic donations",
-          "table_id": "FeeTable::FEETB30::32"
+          "table_id": "FeeTable::FEETB30::34"
         }
       },
       {
@@ -1556,7 +1800,7 @@
           "row_id": "6nsHJwPsSXcIk77vuAasl9",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for sending international donations",
-          "table_id": "FeeTable::FEETB31::33"
+          "table_id": "FeeTable::FEETB31::35"
         }
       },
       {
@@ -1580,7 +1824,7 @@
           "row_id": "24usv8HPzYNLr2SjBDNLfl",
           "row_index": 3,
           "section_heading": "Fee Table: Charity rates for receiving transactions using PayPal Card Payment Services",
-          "table_id": "FeeTable::FEETB34::52"
+          "table_id": "FeeTable::FEETB34::54"
         }
       },
       {
@@ -1601,7 +1845,7 @@
           "row_id": "4d7NLt6t7rJbZSdMhpiWok",
           "row_index": 6,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -1622,7 +1866,7 @@
           "row_id": "4jl4gJlpq0yuVzLtMeQKlt",
           "row_index": 8,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -1643,7 +1887,7 @@
           "row_id": "4vgTvL0ImT9jAY5bYtWwP6",
           "row_index": 0,
           "section_heading": "Fee Table: Other fees for using Payflow",
-          "table_id": "FeeTable::FEETB78::69"
+          "table_id": "FeeTable::FEETB78::71"
         }
       },
       {
@@ -1664,7 +1908,7 @@
           "row_id": "7HZesxoFFGzH5SGQ09XY0Z",
           "row_index": 1,
           "section_heading": "Fee Table: Other fees for using Payflow",
-          "table_id": "FeeTable::FEETB78::69"
+          "table_id": "FeeTable::FEETB78::71"
         }
       },
       {
@@ -1685,7 +1929,7 @@
           "row_id": "5K4CsTs3cAgCCPnQTOzzJr",
           "row_index": 2,
           "section_heading": "Fee Table: Other fees for using Payflow",
-          "table_id": "FeeTable::FEETB78::69"
+          "table_id": "FeeTable::FEETB78::71"
         }
       },
       {
@@ -1706,7 +1950,7 @@
           "row_id": "12ZGP2pMb1bEhaPt9tZchw",
           "row_index": 3,
           "section_heading": "Fee Table: Other fees for using Payflow",
-          "table_id": "FeeTable::FEETB78::69"
+          "table_id": "FeeTable::FEETB78::71"
         }
       },
       {
@@ -1730,7 +1974,7 @@
           "row_id": "5u1Ztm2Wct0GQuvmClO6Zs",
           "row_index": 1,
           "section_heading": "Fee Table: Sending PayPal Payouts",
-          "table_id": "FeeTable::FEETB81::71"
+          "table_id": "FeeTable::FEETB81::73"
         }
       },
       {
@@ -1752,7 +1996,7 @@
           "row_id": "Af8A8jMn5EKd0L4gP82aLU",
           "row_index": 4,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -1774,7 +2018,7 @@
           "row_id": "0BuoM9fYb8TbxMkV0oA1iL",
           "row_index": 5,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -1798,7 +2042,7 @@
           "row_id": "6EScVyi5nLaE0nta9NEQxA",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving E-check fees",
-          "table_id": "FeeTable::FEETB75::92"
+          "table_id": "FeeTable::FEETB75::94"
         }
       },
       {
@@ -1819,7 +2063,7 @@
           "row_id": "1CT8y9nzAfv6kmXvykEAVC",
           "row_index": 0,
           "section_heading": "Fee Table: Withdrawing a balance from a PayPal business account",
-          "table_id": "FeeTable::FEETB82::94"
+          "table_id": "FeeTable::FEETB82::96"
         }
       },
       {
@@ -1840,7 +2084,7 @@
           "row_id": "2VG6BFqGRxwxwBmpEw7bu8",
           "row_index": 1,
           "section_heading": "Fee Table: Withdrawing a balance from a PayPal business account",
-          "table_id": "FeeTable::FEETB82::94"
+          "table_id": "FeeTable::FEETB82::96"
         }
       },
       {
@@ -1861,7 +2105,7 @@
           "row_id": "6ukCyWRIhw14E7bfP8Leiv",
           "row_index": 4,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         }
       },
       {
@@ -1885,7 +2129,7 @@
           "row_id": "29B4hT7yQi7FpdrqDYjn0f",
           "row_index": 5,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         }
       },
       {
@@ -1909,7 +2153,7 @@
           "row_id": "3mQhWhKTVU5Sc7vR32ofk5",
           "row_index": 6,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         }
       },
       {
@@ -1933,7 +2177,7 @@
           "row_id": "1U9BrGsBTQD4zSSHOGrVHp",
           "row_index": 7,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         }
       }
     ],
@@ -1945,6 +2189,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1955,7 +2201,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international PayPal Card Payment Services transactions",
-            "table_id": "FeeTable::FEETB71::66"
+            "table_id": "FeeTable::FEETB71::68"
           }
         ]
       },
@@ -1966,6 +2212,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -1976,7 +2224,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international APM transactions",
-            "table_id": "FeeTable::FEETB60::41"
+            "table_id": "FeeTable::FEETB60::43"
           }
         ]
       },
@@ -1987,6 +2235,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2008,6 +2258,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2018,49 +2270,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international donations",
-            "table_id": "FeeTable::FEETB24::27"
-          }
-        ]
-      },
-      "donations_button": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "4tw8q5f9CGdfP9tOLjyy2d",
-            "document_id": "FEETB24",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international donations",
-            "table_id": "FeeTable::FEETB24::27"
-          }
-        ]
-      },
-      "goods_and_services": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
-            "document_id": "FEETB91",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
-            "table_id": "FeeTable::FEETB91::4"
+            "table_id": "FeeTable::FEETB24::29"
           }
         ]
       },
@@ -2071,7 +2281,9 @@
             "percentage_points": "1.5"
           }
         ],
-        "sources": [
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -2083,6 +2295,34 @@
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
           }
+        ],
+        "origin": "inherited",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Guest Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3R2B0uLGW7f0We3elgqFXl",
+            "row_index": 2,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
+          }
         ]
       },
       "invoice_pay_later": {
@@ -2092,6 +2332,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2113,6 +2355,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2123,7 +2367,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international Micropayment transactions",
-            "table_id": "FeeTable::FEETB68::76"
+            "table_id": "FeeTable::FEETB68::78"
           }
         ]
       },
@@ -2134,6 +2378,8 @@
             "percentage_points": "1.5"
           }
         ],
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2144,70 +2390,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international charity transactions",
-            "table_id": "FeeTable::FEETB61::35"
-          }
-        ]
-      },
-      "nonprofit_advanced_card": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5vAOzQ5sf6hDO5TvBlg1nC",
-            "document_id": "FEETB61",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international charity transactions",
-            "table_id": "FeeTable::FEETB61::35"
-          }
-        ]
-      },
-      "nonprofit_eterminal": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5vAOzQ5sf6hDO5TvBlg1nC",
-            "document_id": "FEETB61",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international charity transactions",
-            "table_id": "FeeTable::FEETB61::35"
-          }
-        ]
-      },
-      "nonprofit_payments_pro": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5vAOzQ5sf6hDO5TvBlg1nC",
-            "document_id": "FEETB61",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international charity transactions",
-            "table_id": "FeeTable::FEETB61::35"
+            "table_id": "FeeTable::FEETB61::37"
           }
         ]
       },
@@ -2218,6 +2401,22 @@
             "percentage_points": "1.5"
           }
         ],
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2229,6 +2428,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "All Other Commercial Transactions",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "3p1nmNT1CpYa5i1EPU2ncg",
+            "row_index": 9,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -2239,6 +2452,22 @@
             "percentage_points": "1.5"
           }
         ],
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2250,6 +2479,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "aZYn7uuv1mmejP8vjUj6TU",
+            "document_id": "FEETB906",
+            "original_label": "PYUSD",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "W7lkkdCpcStdGiLNF0LWK0",
+            "row_index": 5,
+            "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
+            "table_id": "FeeTable::FEETB906::24"
           }
         ]
       },
@@ -2260,6 +2503,22 @@
             "percentage_points": "1.5"
           }
         ],
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2271,6 +2530,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Pay Later options",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "Uhiwy9FZKtZgwdrN3UkTh",
+            "row_index": 8,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       },
@@ -2281,6 +2554,22 @@
             "percentage_points": "1.5"
           }
         ],
+        "inheritance_reason": "table context references commercial fixed fee",
+        "inherited_from": "commercial",
+        "inherited_sources": [
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
+            "document_id": "FEETB91",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
+            "table_id": "FeeTable::FEETB91::4"
+          }
+        ],
+        "origin": "inherited",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2292,6 +2581,20 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::4"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "26WIjk12H5hu7yXnGS16Gg",
+            "document_id": "FEETB16",
+            "original_label": "PayPal Checkout",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "Fees | Merchant and Business",
+            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+            "row_id": "7F1I3mhMIY4ulfr8xBAyRr",
+            "row_index": 1,
+            "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
+            "table_id": "FeeTable::FEETB16::3"
           }
         ]
       }
@@ -2324,6 +2627,8 @@
           "TWD": "800",
           "USD": "20"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2334,7 +2639,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fee and maximum fee cap for PayPal Payouts",
-            "table_id": "FeeTable::FEETB63::72"
+            "table_id": "FeeTable::FEETB63::74"
           }
         ]
       },
@@ -2365,6 +2670,8 @@
           "TWD": "33",
           "USD": "1"
         },
+        "inherited_sources": [],
+        "origin": "direct",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
@@ -2375,7 +2682,7 @@
             "page_title": "Fees | Merchant and Business",
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Fee and maximum fee cap for PayPal Payouts",
-            "table_id": "FeeTable::FEETB63::72"
+            "table_id": "FeeTable::FEETB63::74"
           }
         ]
       }
@@ -2474,14 +2781,9 @@
           {
             "type": "percentage",
             "value": "2.99"
-          },
-          {
-            "schedule_id": "goods_and_services",
-            "type": "international_surcharge_schedule"
           }
         ],
         "id": "goods_and_services",
-        "international_surcharge_schedule": "goods_and_services",
         "label": "Send/Receive Money for Goods and Services",
         "percentage": "2.99",
         "source": {
@@ -2539,7 +2841,7 @@
           "row_id": "4OrXGAaifICote1NWtPGhj",
           "row_index": 0,
           "section_heading": "Fee Table: Interchange Plus Plus fee structure for PayPal Card Payment Services transactions",
-          "table_id": "FeeTable::FEETB52::61"
+          "table_id": "FeeTable::FEETB52::63"
         },
         "variant_id": "advanced_card"
       },
@@ -2582,7 +2884,7 @@
           "row_id": "ZBsadvUwHB0Ve575KTs8N",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB33::51"
+          "table_id": "FeeTable::FEETB33::53"
         },
         "variant_id": "advanced_card"
       },
@@ -2624,7 +2926,7 @@
           "row_id": "4vgGaq7Xu6LV8UtUzWR19T",
           "row_index": 4,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB33::51"
+          "table_id": "FeeTable::FEETB33::53"
         },
         "variant_id": "eterminal"
       },
@@ -2657,7 +2959,7 @@
           "row_id": "2DCNNaiYbHGFoTYe8I9Bry",
           "row_index": 7,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         },
         "variant_id": "express_checkout"
       },
@@ -2693,7 +2995,7 @@
           "row_id": "ZYxEfPybqjNbfdBuX6EDb2",
           "row_index": 12,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         },
         "variant_id": "fx_service"
       },
@@ -2729,7 +3031,7 @@
           "row_id": "5IEexXtIh8FcbbVmtJ5Wty",
           "row_index": 12,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         },
         "variant_id": "fx_service"
       },
@@ -2769,7 +3071,7 @@
           "row_id": "2tp9HOTMfIK3Fi5vBit8kv",
           "row_index": 2,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB33::51"
+          "table_id": "FeeTable::FEETB33::53"
         },
         "variant_id": "payments_advanced"
       },
@@ -2809,7 +3111,7 @@
           "row_id": "74s1d5xIwFINqyc3XHeCib",
           "row_index": 3,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB33::51"
+          "table_id": "FeeTable::FEETB33::53"
         },
         "variant_id": "payments_pro"
       },
@@ -2842,7 +3144,7 @@
           "row_id": "6xbcUCGGwwPl5Ook9eHknu",
           "row_index": 3,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         },
         "variant_id": "risk_factors"
       },
@@ -2963,7 +3265,7 @@
           "row_id": "3XiDF1UtJsOkxN6F01LgFp",
           "row_index": 1,
           "section_heading": "Fee Table: Receiving domestic transactions using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB33::51"
+          "table_id": "FeeTable::FEETB33::53"
         },
         "variant_id": "ach"
       },
@@ -3031,7 +3333,7 @@
           "row_id": "W7lkkdCpcStdGiLNF0LWK0",
           "row_index": 5,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         },
         "variant_id": "pyusd"
       },
@@ -3080,6 +3382,39 @@
       },
       {
         "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "type": "percentage",
+            "value": "2.9"
+          },
+          {
+            "schedule_id": "other_commercial",
+            "type": "international_surcharge_schedule"
+          }
+        ],
+        "id": "other_commercial",
+        "international_surcharge_schedule": "other_commercial",
+        "label": "Debit and Credit",
+        "percentage": "2.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "0WaiLSRsWVvd7V1vFwiR6h",
+          "document_id": "FEETB903",
+          "original_label": "Debit and Credit",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Fees | Merchant and Business",
+          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "row_id": "VTqqQHhYi6Dass9CXn8fua",
+          "row_index": 3,
+          "section_heading": "Fee Table: Standard rates for funding a Bill Pay for Business Accounts Transaction",
+          "table_id": "FeeTable::FEETB903::23"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
         "conditions": {
           "applies_to_markets": [
             "all_other_markets"
@@ -3106,7 +3441,7 @@
           "row_id": "fqotyeqp17RbW1vhXVUYrn",
           "row_index": 3,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         },
         "variant_id": "cash_a_check"
       },
@@ -3134,7 +3469,7 @@
           "row_id": "5UrQg6NXpJmbQMondgp3v6",
           "row_index": 2,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         },
         "variant_id": "cash_a_check"
       },
@@ -3162,7 +3497,7 @@
           "row_id": "Zd5cE4IJ79acPdedzbuVEc",
           "row_index": 4,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         },
         "variant_id": "debit_card_transfer"
       },
@@ -3200,7 +3535,7 @@
           "row_id": "VMykHVvY8efculn361IcNm",
           "row_index": 4,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB325::40"
+          "table_id": "FeeTable::FEETB325::42"
         },
         "variant_id": "default"
       },
@@ -3241,7 +3576,7 @@
               "row_id": "505ByEFpBpxMg7odAPUioF",
               "row_index": 3,
               "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-              "table_id": "FeeTable::FEETB325::40"
+              "table_id": "FeeTable::FEETB325::42"
             }
           },
           "source": {
@@ -3306,7 +3641,7 @@
           "row_id": "505ByEFpBpxMg7odAPUioF",
           "row_index": 3,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB325::40"
+          "table_id": "FeeTable::FEETB325::42"
         },
         "variant_id": "payment_links"
       },
@@ -3356,7 +3691,7 @@
           "row_id": "XozDUsjudJEbkHbKcNPSPE",
           "row_index": 1,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB325::40"
+          "table_id": "FeeTable::FEETB325::42"
         },
         "variant_id": "special"
       },
@@ -3449,7 +3784,7 @@
           "row_id": "2IfvyIDtT4zU7kVkF4sRzS",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB325::40"
+          "table_id": "FeeTable::FEETB325::42"
         },
         "variant_id": "special"
       },
@@ -3488,7 +3823,7 @@
           "row_id": "fiAhRCZrqpgctY9n20XWN0",
           "row_index": 2,
           "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
-          "table_id": "FeeTable::FEETB325::40"
+          "table_id": "FeeTable::FEETB325::42"
         },
         "variant_id": "special"
       },
@@ -3516,7 +3851,7 @@
           "row_id": "5TcAhd05PiRdDLCdeV2YEv",
           "row_index": 11,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         },
         "variant_id": "spendback_transfer"
       },
@@ -3548,7 +3883,7 @@
           "row_id": "WfRu2plMzgNdgs46vq5OlZ",
           "row_index": 10,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         },
         "variant_id": "third_party_wallet"
       },
@@ -3576,7 +3911,7 @@
           "row_id": "6dMtmYjh8u3epItqEhnZ4Q",
           "row_index": 3,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         },
         "variant_id": "wire_transfer"
       },
@@ -3665,19 +4000,9 @@
           {
             "type": "percentage",
             "value": "2.89"
-          },
-          {
-            "schedule_id": "donations_button",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "donations_button",
-            "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "donations_button",
         "id": "donations",
-        "international_surcharge_schedule": "donations_button",
         "label": "Donate Button",
         "percentage": "2.89",
         "source": {
@@ -3692,7 +4017,7 @@
           "row_id": "3Yo1NXvkskajN4zOq39Abj",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving domestic donations",
-          "table_id": "FeeTable::FEETB22::26"
+          "table_id": "FeeTable::FEETB22::28"
         },
         "variant_id": "button"
       },
@@ -3733,7 +4058,7 @@
           "row_id": "4EEKxQLI9oonwfZ9c6OHbu",
           "row_index": 1,
           "section_heading": "Fee Table: Standard rate for receiving domestic donations",
-          "table_id": "FeeTable::FEETB22::26"
+          "table_id": "FeeTable::FEETB22::28"
         },
         "variant_id": "standard"
       },
@@ -3749,19 +4074,9 @@
           {
             "type": "percentage",
             "value": "2.19"
-          },
-          {
-            "schedule_id": "nonprofit_advanced_card",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "nonprofit_advanced_card",
-            "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "nonprofit_advanced_card",
         "id": "nonprofit",
-        "international_surcharge_schedule": "nonprofit_advanced_card",
         "label": "Advanced Credit and Debit Card Payments",
         "percentage": "2.19",
         "source": {
@@ -3776,7 +4091,7 @@
           "row_id": "6Szpfd6Hr1E2aQGOK99Fxm",
           "row_index": 2,
           "section_heading": "Fee Table: Charity rates for receiving transactions using PayPal Card Payment Services",
-          "table_id": "FeeTable::FEETB34::52"
+          "table_id": "FeeTable::FEETB34::54"
         },
         "variant_id": "advanced_card"
       },
@@ -3791,19 +4106,9 @@
           {
             "type": "percentage",
             "value": "2.69"
-          },
-          {
-            "schedule_id": "nonprofit_eterminal",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "nonprofit_eterminal",
-            "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "nonprofit_eterminal",
         "id": "nonprofit",
-        "international_surcharge_schedule": "nonprofit_eterminal",
         "label": "Virtual Terminal",
         "percentage": "2.69",
         "source": {
@@ -3818,7 +4123,7 @@
           "row_id": "36VirHqFoGQasVph6PnxGd",
           "row_index": 1,
           "section_heading": "Fee Table: Charity rates for receiving transactions using PayPal Card Payment Services",
-          "table_id": "FeeTable::FEETB34::52"
+          "table_id": "FeeTable::FEETB34::54"
         },
         "variant_id": "eterminal"
       },
@@ -3831,19 +4136,9 @@
           {
             "type": "percentage",
             "value": "1.99"
-          },
-          {
-            "schedule_id": "nonprofit_payments_pro",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "nonprofit_payments_pro",
-            "type": "international_surcharge_schedule"
           }
         ],
-        "fixed_fee_schedule": "nonprofit_payments_pro",
         "id": "nonprofit",
-        "international_surcharge_schedule": "nonprofit_payments_pro",
         "label": "Payments Pro",
         "percentage": "1.99",
         "source": {
@@ -3858,7 +4153,7 @@
           "row_id": "3ncggdOqKB00hiceVajEI6",
           "row_index": 0,
           "section_heading": "Fee Table: Charity rates for receiving transactions using PayPal Card Payment Services",
-          "table_id": "FeeTable::FEETB34::52"
+          "table_id": "FeeTable::FEETB34::54"
         },
         "variant_id": "payments_pro"
       },
@@ -3899,7 +4194,7 @@
           "row_id": "4fNq67Pd5V5Dombstc2saq",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic charity transactions",
-          "table_id": "FeeTable::FEETB59::34"
+          "table_id": "FeeTable::FEETB59::36"
         },
         "variant_id": "standard"
       },
@@ -3937,7 +4232,7 @@
           "row_id": "5QRYk3eXdBnfoTF5EQoGmj",
           "row_index": 0,
           "section_heading": "Fee Table: Receiving domestic micropayments",
-          "table_id": "FeeTable::FEETB66::75"
+          "table_id": "FeeTable::FEETB66::77"
         },
         "variant_id": "standard"
       },
@@ -3962,7 +4257,7 @@
           "page_title": "Fees | Merchant and Business",
           "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
           "section_heading": "Fee Table: Chargeback fees",
-          "table_id": "FeeTable::FEETB70::81"
+          "table_id": "FeeTable::FEETB70::83"
         },
         "variant_id": "standard"
       },
@@ -3989,7 +4284,7 @@
           "page_title": "Fees | Merchant and Business",
           "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
           "section_heading": "Fee Table: High Volume Dispute Fees",
-          "table_id": "FeeTable::FEETB74::89"
+          "table_id": "FeeTable::FEETB74::91"
         },
         "variant_id": "high_volume"
       },
@@ -4014,7 +4309,7 @@
           "page_title": "Fees | Merchant and Business",
           "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
           "section_heading": "Fee Table: Standard Dispute Fees",
-          "table_id": "FeeTable::FEETB72::85"
+          "table_id": "FeeTable::FEETB72::87"
         },
         "variant_id": "standard"
       },
@@ -4041,9 +4336,39 @@
           "page_title": "Fees | Merchant and Business",
           "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
           "section_heading": "Fee Table: Fixed fee for ACH – International Disbursements",
-          "table_id": "FeeTable::FEETB907::23"
+          "table_id": "FeeTable::FEETB907::25"
         },
         "variant_id": "ach"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "withdrawal_method": "bank_account"
+        },
+        "fee_components": [
+          {
+            "amount": "0",
+            "currency": "USD",
+            "type": "fixed_amount"
+          }
+        ],
+        "id": "withdrawals",
+        "label": "PayPal Wallet – Bank Account",
+        "source": {
+          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "0WaiLSRsWVvd7V1vFwiR6h",
+          "document_id": "FEETB903",
+          "original_label": "PayPal Wallet – Bank Account",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Fees | Merchant and Business",
+          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "row_id": "308LhALZ2SraZFT3J3ktxK",
+          "row_index": 0,
+          "section_heading": "Fee Table: Standard rates for funding a Bill Pay for Business Accounts Transaction",
+          "table_id": "FeeTable::FEETB903::23"
+        },
+        "variant_id": "bank_account"
       },
       {
         "calculation_status": "calculable",
@@ -4071,7 +4396,7 @@
           "row_id": "3UMj7WptB3MGVjsUChqrDB",
           "row_index": 0,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         },
         "variant_id": "bank_return"
       },
@@ -4109,7 +4434,7 @@
           "row_id": "6VqoqWkU8PDfBVLLA24POK",
           "row_index": 0,
           "section_heading": "Fee Table: Sending PayPal Payouts",
-          "table_id": "FeeTable::FEETB81::71"
+          "table_id": "FeeTable::FEETB81::73"
         },
         "variant_id": "payouts"
       },
@@ -4145,7 +4470,7 @@
           "row_id": "7qZpXtd0buK0SnszhTRG17",
           "row_index": 2,
           "section_heading": "Fee Table: Sending PayPal Payouts",
-          "table_id": "FeeTable::FEETB81::71"
+          "table_id": "FeeTable::FEETB81::73"
         },
         "variant_id": "payouts"
       },
@@ -4172,7 +4497,7 @@
           "page_title": "Fees | Merchant and Business",
           "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
           "section_heading": "Fee Table: Fixed fee for Wire Transfer Disbursements",
-          "table_id": "FeeTable::FEETB909::25"
+          "table_id": "FeeTable::FEETB909::27"
         },
         "variant_id": "wire_transfer"
       },
@@ -4200,7 +4525,7 @@
           "row_id": "2coEMZf2ZPoQH41hf8L1rA",
           "row_index": 5,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         },
         "variant_id": "standard"
       },
@@ -4228,7 +4553,7 @@
           "row_id": "1ODfO8r6MDJoIrFY9yMKtn",
           "row_index": 2,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         },
         "variant_id": "advanced"
       },
@@ -4300,7 +4625,7 @@
           "row_id": "2aMbU8KRSnryvYqiEhgUuu",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rate for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB80::70"
+          "table_id": "FeeTable::FEETB80::72"
         },
         "variant_id": "card_present"
       },
@@ -4331,7 +4656,7 @@
           "row_id": "6e4OuqHnbDyeKJqkCc06D7",
           "row_index": 1,
           "section_heading": "Fee Table: Standard rate for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB80::70"
+          "table_id": "FeeTable::FEETB80::72"
         },
         "variant_id": "manual_entry"
       },
@@ -4365,7 +4690,7 @@
           "row_id": "df8AA3LjfHdejB7s7rQ7v5",
           "row_index": 4,
           "section_heading": "Fee Table: Standard rate for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB80::70"
+          "table_id": "FeeTable::FEETB80::72"
         },
         "variant_id": "payment_links"
       },
@@ -4400,7 +4725,7 @@
           "row_id": "fpXX1ivUzmIdZ73FCOm7yD",
           "row_index": 3,
           "section_heading": "Fee Table: Standard rate for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB80::70"
+          "table_id": "FeeTable::FEETB80::72"
         },
         "variant_id": "payment_links"
       },
@@ -4433,7 +4758,7 @@
           "row_id": "11U43HvTbrxU69O1hgdFQs",
           "row_index": 2,
           "section_heading": "Fee Table: Standard rate for receiving transactions using PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB80::70"
+          "table_id": "FeeTable::FEETB80::72"
         },
         "variant_id": "qr_code"
       }
@@ -4458,7 +4783,7 @@
           "row_id": "XckD3xSEz6hfZzIX4YytZk",
           "row_index": 0,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -4480,7 +4805,7 @@
           "row_id": "5G2LY8pePyUdK2NXgbMLq8",
           "row_index": 6,
           "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::22"
+          "table_id": "FeeTable::FEETB906::24"
         }
       },
       {
@@ -4504,7 +4829,7 @@
           "row_id": "6TsErYBkiCguqlQ7MY6L2B",
           "row_index": 0,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4528,7 +4853,7 @@
           "row_id": "2DN7iLfxg86Iqfsr4gsXJy",
           "row_index": 1,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4552,7 +4877,7 @@
           "row_id": "3LYO1FcAO2etzf5EqFuG5G",
           "row_index": 4,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4576,7 +4901,7 @@
           "row_id": "6CkhH3sDLDga56HAC8fV2Y",
           "row_index": 9,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4600,7 +4925,7 @@
           "row_id": "1lHYq4XYkKyXSMbork4ezP",
           "row_index": 10,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4624,7 +4949,7 @@
           "row_id": "7FmWDZ6r9kpi6U2tPWndYc",
           "row_index": 11,
           "section_heading": "Fee Table: Other fees for using PayPal Online Payment Services",
-          "table_id": "FeeTable::FEETB62::67"
+          "table_id": "FeeTable::FEETB62::69"
         }
       },
       {
@@ -4646,7 +4971,7 @@
           "row_id": "3s9KimLmPjzfDuSABUmZJ1",
           "row_index": 0,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4668,7 +4993,7 @@
           "row_id": "cQvqYLHUr1ueD6wXFdzLY6",
           "row_index": 1,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4690,7 +5015,7 @@
           "row_id": "VwZLtPZVyZQd0fZjuJHsmv",
           "row_index": 2,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4712,7 +5037,7 @@
           "row_id": "dkkZv5wNfk2bVJaP52Jp1t",
           "row_index": 5,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4734,7 +5059,7 @@
           "row_id": "3wwizy79xHwbktyntpTGXh",
           "row_index": 6,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4756,7 +5081,7 @@
           "row_id": "09r1JRsmpVYctKp9MG7XQp",
           "row_index": 7,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4778,7 +5103,7 @@
           "row_id": "3L5JOWsA35kdqAKOIrIg6k",
           "row_index": 8,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4800,7 +5125,7 @@
           "row_id": "ZfhEPsDfTNJc1G3PcCQPbH",
           "row_index": 9,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4822,7 +5147,7 @@
           "row_id": "9XD8KQLifrtd3E2CK5DSkI",
           "row_index": 13,
           "section_heading": "Fee Table: Sending funds through Hyperwallet",
-          "table_id": "FeeTable::FEETB954::73"
+          "table_id": "FeeTable::FEETB954::75"
         }
       },
       {
@@ -4844,7 +5169,7 @@
           "row_id": "AkVmaPaIOAtcN8Fo56G9kV",
           "row_index": 0,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -4866,7 +5191,7 @@
           "row_id": "VIpscW8fvVNemkuUAsSaTP",
           "row_index": 1,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -4888,7 +5213,7 @@
           "row_id": "YMS9pxIO8zocJh8SokSs0t",
           "row_index": 2,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -4910,7 +5235,7 @@
           "row_id": "VFlGe922xPXcP6gaDhaSWN",
           "row_index": 3,
           "section_heading": "Fee Table: Other fees or charges for using Hyperwallet Services",
-          "table_id": "FeeTable::FEETB955::74"
+          "table_id": "FeeTable::FEETB955::76"
         }
       },
       {
@@ -4933,12 +5258,12 @@
           "row_id": "511f95zZ8EIcCLi6oU4Nvv",
           "row_index": 1,
           "section_heading": "Fee Table: Other Fees",
-          "table_id": "FeeTable::FEETB324::98"
+          "table_id": "FeeTable::FEETB324::100"
         }
       }
     ]
   },
-  "generated_at": "2026-07-17T00:24:01.794637",
+  "generated_at": "2026-07-17T08:59:48.300667",
   "market": {
     "country_name": "United States",
     "iso_country_code": "US",
