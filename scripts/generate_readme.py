@@ -30,7 +30,6 @@ def _format_dt(value: str | None) -> str:
 
 def _derive_stats(data_dir: Path) -> dict:
     index = _load_json(data_dir / "json" / "index.json")
-    core_fees = _load_json(data_dir / "json" / "core-fees.json")
     countries_meta = _load_json(data_dir / "meta" / "countries.json")
     unsupported = _load_json(data_dir / "meta" / "unsupported-countries.json")
 
@@ -46,8 +45,13 @@ def _derive_stats(data_dir: Path) -> dict:
     inherited_schedule_objects = 0
     inherited_schedule_references = 0
     rule_categories: set[str] = set()
-    for country in core_fees.get("countries", []):
-        derived = country.get("derived", {})
+    # core-fees.json is a compact summary and does not contain coverage
+    # summaries. Aggregate the canonical per-country files instead.
+    for country_path in (data_dir / "json").glob("*.json"):
+        if country_path.name in ("index.json", "core-fees.json"):
+            continue
+        country_data = _load_json(country_path)
+        derived = country_data.get("derived", {})
         transaction_rules = derived.get("transaction_fee_rules") or []
         transaction_rule_count += len(transaction_rules)
         for rule in transaction_rules:

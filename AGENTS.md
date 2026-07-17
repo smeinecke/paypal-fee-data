@@ -44,8 +44,18 @@ under the output root.
 
 The crawler keeps a 24-hour on-disk HTTP cache under `.cache/paypal-fee-crawler/http/`
 by default.  Cached responses are keyed by normalized URL, market, locale, relevant
-content-negotiation headers, and a crawler-specific cache version.  Fresh entries are
-returned directly; expired entries are revalidated with `If-None-Match`/`If-Modified-Since`.
+content-negotiation headers, and a crawler-specific cache version.  The cache key
+includes all query parameters except known-safe tracking tokens (`utm_source`,
+`utm_medium`, `utm_campaign`); sensitive or content-affecting parameters such as
+`token`, `session` and `auth` are never stripped.
+
+Fresh entries are returned directly.  Expired entries and responses carrying
+`Cache-Control: no-cache` or `max-age=0` are revalidated with
+`If-None-Match`/`If-Modified-Since` before reuse.  Responses with
+`Cache-Control: no-store` or `Cache-Control: private` are not persisted, and any
+previously stored copy for the same resource is removed so it cannot be served again.
+When the upstream response does not specify stricter caching rules, the crawler's
+24-hour TTL is used.
 
 CLI flags:
 
