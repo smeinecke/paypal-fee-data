@@ -1,6 +1,6 @@
 # PayPal Fee Data — Agent Notes
 
-This repository contains the generated schema-v4 PayPal merchant fee data and
+This repository contains the generated schema-v1 PayPal merchant fee data and
 the `crawler/` submodule that produces it.
 
 ## Key commands

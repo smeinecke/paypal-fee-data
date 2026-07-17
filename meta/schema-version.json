@@ -1,11 +1,11 @@
 {
-  "description": "Public schema for PayPal fee data v4",
-  "schema_path": "schemas/paypal-fees-v4.schema.json",
-  "schema_version": 4,
+  "schema_version": 1,
+  "schema_path": "schemas/paypal-fees-v1.schema.json",
   "schemas": [
-    "schemas/paypal-fees-v4.schema.json",
-    "schemas/core-fees-v4.schema.json",
-    "schemas/index-v4.schema.json",
-    "schemas/manifest-v4.schema.json"
-  ]
+    "schemas/paypal-fees-v1.schema.json",
+    "schemas/core-fees-v1.schema.json",
+    "schemas/index-v1.schema.json",
+    "schemas/manifest-v1.schema.json"
+  ],
+  "description": "Public schema for PayPal fee data v1"
 }

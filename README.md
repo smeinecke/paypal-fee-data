@@ -37,7 +37,7 @@ crawler/       Git submodule pointing to the crawler source
 - `json/index.json` — index of all published country files
 - `json/core-fees.json` — consolidated product-specific fee rules across all countries
 - `meta/countries.json` — discovered market manifest
-- `schemas/paypal-fees-v4.schema.json` — JSON schema for per-country files
+- `schemas/paypal-fees-v1.schema.json` — JSON schema for per-country files
 
 ## HTTP response cache
 

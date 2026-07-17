@@ -4,50 +4,9 @@
       "additionalProperties": false,
       "description": "Compact entry in the country index.",
       "properties": {
-        "content_sha256": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Content Sha256"
-        },
-        "country_code": {
-          "readOnly": true,
-          "title": "Country Code",
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
           "type": "string"
-        },
-        "crawled_at": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Crawled At"
-        },
-        "data_url": {
-          "title": "Data Url",
-          "type": "string"
-        },
-        "derived_status": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Derived Status"
         },
         "iso_country_code": {
           "anyOf": [
@@ -73,8 +32,12 @@
           "default": null,
           "title": "Locale"
         },
-        "paypal_market_code": {
-          "title": "Paypal Market Code",
+        "data_url": {
+          "title": "Data Url",
+          "type": "string"
+        },
+        "source_url": {
+          "title": "Source Url",
           "type": "string"
         },
         "source_updated_at": {
@@ -89,8 +52,45 @@
           "default": null,
           "title": "Source Updated At"
         },
-        "source_url": {
-          "title": "Source Url",
+        "crawled_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Crawled At"
+        },
+        "derived_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Derived Status"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
           "type": "string"
         }
       },
@@ -104,17 +104,13 @@
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/index-v4.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Index of successfully processed countries.",
   "properties": {
-    "countries": {
-      "items": {
-        "$ref": "#/$defs/CountryIndexEntry"
-      },
-      "title": "Countries",
-      "type": "array"
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
     },
     "generated_at": {
       "anyOf": [
@@ -128,12 +124,16 @@
       "default": null,
       "title": "Generated At"
     },
-    "schema_version": {
-      "default": 4,
-      "title": "Schema Version",
-      "type": "integer"
+    "countries": {
+      "items": {
+        "$ref": "#/$defs/CountryIndexEntry"
+      },
+      "title": "Countries",
+      "type": "array"
     }
   },
   "title": "CountryIndex",
-  "type": "object"
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/index-v1.schema.json"
 }

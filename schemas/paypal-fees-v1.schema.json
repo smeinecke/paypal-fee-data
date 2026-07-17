@@ -4,13 +4,6 @@
       "additionalProperties": false,
       "description": "A fee row with multiple equally confident product classifications.",
       "properties": {
-        "candidates": {
-          "items": {
-            "type": "string"
-          },
-          "title": "Candidates",
-          "type": "array"
-        },
         "normalized_cells": {
           "items": {
             "type": "string"
@@ -40,6 +33,13 @@
             }
           ],
           "default": null
+        },
+        "candidates": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidates",
+          "type": "array"
         }
       },
       "title": "AmbiguousFeeRow",
@@ -49,14 +49,9 @@
       "additionalProperties": false,
       "description": "Summary of how every source row was classified.",
       "properties": {
-        "ambiguous": {
+        "transaction_rules": {
           "default": 0,
-          "title": "Ambiguous",
-          "type": "integer"
-        },
-        "ambiguous_identities": {
-          "default": 0,
-          "title": "Ambiguous Identities",
+          "title": "Transaction Rules",
           "type": "integer"
         },
         "calculable_rules": {
@@ -64,9 +59,9 @@
           "title": "Calculable Rules",
           "type": "integer"
         },
-        "conflicts": {
+        "non_calculable_rules": {
           "default": 0,
-          "title": "Conflicts",
+          "title": "Non Calculable Rules",
           "type": "integer"
         },
         "direct_fixed_fees": {
@@ -74,34 +69,9 @@
           "title": "Direct Fixed Fees",
           "type": "integer"
         },
-        "extracted_apm_methods": {
-          "default": 0,
-          "title": "Extracted Apm Methods",
-          "type": "integer"
-        },
         "fixed_fee_entries": {
           "default": 0,
           "title": "Fixed Fee Entries",
-          "type": "integer"
-        },
-        "ignored": {
-          "default": 0,
-          "title": "Ignored",
-          "type": "integer"
-        },
-        "inherited_schedule_objects": {
-          "default": 0,
-          "title": "Inherited Schedule Objects",
-          "type": "integer"
-        },
-        "inherited_schedule_references": {
-          "default": 0,
-          "title": "Inherited Schedule References",
-          "type": "integer"
-        },
-        "inherited_schedules": {
-          "default": 0,
-          "title": "Inherited Schedules",
           "type": "integer"
         },
         "international_surcharge_entries": {
@@ -114,21 +84,6 @@
           "title": "Maximum Fee Entries",
           "type": "integer"
         },
-        "missing_required_schedules": {
-          "default": 0,
-          "title": "Missing Required Schedules",
-          "type": "integer"
-        },
-        "non_calculable_rules": {
-          "default": 0,
-          "title": "Non Calculable Rules",
-          "type": "integer"
-        },
-        "numeric_fee_candidates": {
-          "default": 0,
-          "title": "Numeric Fee Candidates",
-          "type": "integer"
-        },
         "reference_sources": {
           "default": 0,
           "title": "Reference Sources",
@@ -139,9 +94,9 @@
           "title": "Reference Targets",
           "type": "integer"
         },
-        "transaction_rules": {
+        "ignored": {
           "default": 0,
-          "title": "Transaction Rules",
+          "title": "Ignored",
           "type": "integer"
         },
         "unclassified": {
@@ -149,19 +104,34 @@
           "title": "Unclassified",
           "type": "integer"
         },
-        "unclassified_fee_candidates": {
+        "ambiguous": {
           "default": 0,
-          "title": "Unclassified Fee Candidates",
+          "title": "Ambiguous",
           "type": "integer"
         },
-        "unknown_apm_methods": {
+        "conflicts": {
           "default": 0,
-          "title": "Unknown Apm Methods",
+          "title": "Conflicts",
           "type": "integer"
         },
-        "unresolved_nested_references": {
+        "missing_required_schedules": {
           "default": 0,
-          "title": "Unresolved Nested References",
+          "title": "Missing Required Schedules",
+          "type": "integer"
+        },
+        "inherited_schedules": {
+          "default": 0,
+          "title": "Inherited Schedules",
+          "type": "integer"
+        },
+        "inherited_schedule_objects": {
+          "default": 0,
+          "title": "Inherited Schedule Objects",
+          "type": "integer"
+        },
+        "inherited_schedule_references": {
+          "default": 0,
+          "title": "Inherited Schedule References",
           "type": "integer"
         },
         "unresolved_references": {
@@ -169,9 +139,39 @@
           "title": "Unresolved References",
           "type": "integer"
         },
+        "unresolved_nested_references": {
+          "default": 0,
+          "title": "Unresolved Nested References",
+          "type": "integer"
+        },
+        "extracted_apm_methods": {
+          "default": 0,
+          "title": "Extracted Apm Methods",
+          "type": "integer"
+        },
+        "unknown_apm_methods": {
+          "default": 0,
+          "title": "Unknown Apm Methods",
+          "type": "integer"
+        },
         "unsupported_fee_shapes": {
           "default": 0,
           "title": "Unsupported Fee Shapes",
+          "type": "integer"
+        },
+        "ambiguous_identities": {
+          "default": 0,
+          "title": "Ambiguous Identities",
+          "type": "integer"
+        },
+        "numeric_fee_candidates": {
+          "default": 0,
+          "title": "Numeric Fee Candidates",
+          "type": "integer"
+        },
+        "unclassified_fee_candidates": {
+          "default": 0,
+          "title": "Unclassified Fee Candidates",
           "type": "integer"
         }
       },
@@ -202,40 +202,16 @@
       "additionalProperties": false,
       "description": "Derived product-specific fee rules, schedules, and diagnostics.",
       "properties": {
-        "ambiguous_rows": {
+        "status": {
+          "default": "unclassified",
+          "title": "Status",
+          "type": "string"
+        },
+        "transaction_fee_rules": {
           "items": {
-            "$ref": "#/$defs/AmbiguousFeeRow"
+            "$ref": "#/$defs/TransactionFeeRule"
           },
-          "title": "Ambiguous Rows",
-          "type": "array"
-        },
-        "coverage_summary": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CoverageSummary"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "currency_conversion": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CurrencyConversion"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
-        "diagnostics": {
-          "items": {
-            "$ref": "#/$defs/Diagnostic"
-          },
-          "title": "Diagnostics",
+          "title": "Transaction Fee Rules",
           "type": "array"
         },
         "fixed_fee_schedules": {
@@ -244,13 +220,6 @@
           },
           "title": "Fixed Fee Schedules",
           "type": "object"
-        },
-        "ignored_rows": {
-          "items": {
-            "$ref": "#/$defs/UnclassifiedFeeRow"
-          },
-          "title": "Ignored Rows",
-          "type": "array"
         },
         "international_surcharge_schedules": {
           "additionalProperties": {
@@ -266,17 +235,16 @@
           "title": "Maximum Fee Schedules",
           "type": "object"
         },
-        "status": {
-          "default": "unclassified",
-          "title": "Status",
-          "type": "string"
-        },
-        "transaction_fee_rules": {
-          "items": {
-            "$ref": "#/$defs/TransactionFeeRule"
-          },
-          "title": "Transaction Fee Rules",
-          "type": "array"
+        "currency_conversion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CurrencyConversion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         },
         "unclassified_fee_rows": {
           "items": {
@@ -284,6 +252,38 @@
           },
           "title": "Unclassified Fee Rows",
           "type": "array"
+        },
+        "ambiguous_rows": {
+          "items": {
+            "$ref": "#/$defs/AmbiguousFeeRow"
+          },
+          "title": "Ambiguous Rows",
+          "type": "array"
+        },
+        "ignored_rows": {
+          "items": {
+            "$ref": "#/$defs/UnclassifiedFeeRow"
+          },
+          "title": "Ignored Rows",
+          "type": "array"
+        },
+        "diagnostics": {
+          "items": {
+            "$ref": "#/$defs/Diagnostic"
+          },
+          "title": "Diagnostics",
+          "type": "array"
+        },
+        "coverage_summary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CoverageSummary"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         }
       },
       "title": "DerivedFeeResult",
@@ -293,6 +293,34 @@
       "additionalProperties": false,
       "description": "A structured classifier diagnostic.\n\nDiagnostics capture data-quality events such as missing schedules, schedule\nconflicts, or unrecognized payment-method aliases. The meaning of a\ndiagnostic is determined by ``type``; only the relevant fields are populated.",
       "properties": {
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
+        "schedule_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Schedule Type"
+        },
         "expected_schedule": {
           "anyOf": [
             {
@@ -305,7 +333,7 @@
           "default": null,
           "title": "Expected Schedule"
         },
-        "inherited_from": {
+        "schedule_id": {
           "anyOf": [
             {
               "type": "string"
@@ -315,7 +343,53 @@
             }
           ],
           "default": null,
-          "title": "Inherited From"
+          "title": "Schedule Id"
+        },
+        "normalized_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Normalized Key"
+        },
+        "values": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Values"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "payment_method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Payment Method"
         },
         "label": {
           "anyOf": [
@@ -341,7 +415,7 @@
           "default": null,
           "title": "Message"
         },
-        "normalized_key": {
+        "inherited_from": {
           "anyOf": [
             {
               "type": "string"
@@ -351,81 +425,7 @@
             }
           ],
           "default": null,
-          "title": "Normalized Key"
-        },
-        "payment_method": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Payment Method"
-        },
-        "rule_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Rule Id"
-        },
-        "schedule_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Schedule Id"
-        },
-        "schedule_type": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Schedule Type"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
-          "type": "array"
-        },
-        "type": {
-          "title": "Type",
-          "type": "string"
-        },
-        "values": {
-          "anyOf": [
-            {
-              "items": {
-                "type": "string"
-              },
-              "type": "array"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Values"
+          "title": "Inherited From"
         }
       },
       "required": [
@@ -438,6 +438,22 @@
       "additionalProperties": false,
       "description": "One calculable fee component for a transaction rule.\n\nComponents can represent a percentage, a direct fixed monetary amount, or a\nreference to a schedule.  The ``type`` field determines which other fields\nare meaningful.",
       "properties": {
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        },
         "amount": {
           "anyOf": [
             {
@@ -462,18 +478,6 @@
           "default": null,
           "title": "Currency"
         },
-        "operator": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Operator"
-        },
         "schedule_id": {
           "anyOf": [
             {
@@ -486,11 +490,7 @@
           "default": null,
           "title": "Schedule Id"
         },
-        "type": {
-          "title": "Type",
-          "type": "string"
-        },
-        "value": {
+        "operator": {
           "anyOf": [
             {
               "type": "string"
@@ -500,7 +500,7 @@
             }
           ],
           "default": null,
-          "title": "Value"
+          "title": "Operator"
         }
       },
       "required": [
@@ -520,17 +520,17 @@
           "title": "Entries",
           "type": "object"
         },
-        "inheritance_reason": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Inheritance Reason"
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "origin": {
+          "default": "direct",
+          "title": "Origin",
+          "type": "string"
         },
         "inherited_from": {
           "anyOf": [
@@ -544,23 +544,23 @@
           "default": null,
           "title": "Inherited From"
         },
+        "inheritance_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inheritance Reason"
+        },
         "inherited_sources": {
           "items": {
             "$ref": "#/$defs/Provenance"
           },
           "title": "Inherited Sources",
-          "type": "array"
-        },
-        "origin": {
-          "default": "direct",
-          "title": "Origin",
-          "type": "string"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
           "type": "array"
         }
       },
@@ -578,17 +578,17 @@
           "title": "Entries",
           "type": "array"
         },
-        "inheritance_reason": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Inheritance Reason"
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "origin": {
+          "default": "direct",
+          "title": "Origin",
+          "type": "string"
         },
         "inherited_from": {
           "anyOf": [
@@ -602,23 +602,23 @@
           "default": null,
           "title": "Inherited From"
         },
+        "inheritance_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inheritance Reason"
+        },
         "inherited_sources": {
           "items": {
             "$ref": "#/$defs/Provenance"
           },
           "title": "Inherited Sources",
-          "type": "array"
-        },
-        "origin": {
-          "default": "direct",
-          "title": "Origin",
-          "type": "string"
-        },
-        "sources": {
-          "items": {
-            "$ref": "#/$defs/Provenance"
-          },
-          "title": "Sources",
           "type": "array"
         }
       },
@@ -656,6 +656,18 @@
       "additionalProperties": false,
       "description": "Source metadata for a derived rule or schedule.",
       "properties": {
+        "requested_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requested Url"
+        },
         "canonical_url": {
           "anyOf": [
             {
@@ -667,54 +679,6 @@
           ],
           "default": null,
           "title": "Canonical Url"
-        },
-        "classifier_version": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Classifier Version"
-        },
-        "component_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Component Id"
-        },
-        "document_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Document Id"
-        },
-        "original_label": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Original Label"
         },
         "page_id": {
           "anyOf": [
@@ -740,7 +704,7 @@
           "default": null,
           "title": "Page Title"
         },
-        "requested_url": {
+        "document_id": {
           "anyOf": [
             {
               "type": "string"
@@ -750,7 +714,31 @@
             }
           ],
           "default": null,
-          "title": "Requested Url"
+          "title": "Document Id"
+        },
+        "component_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Component Id"
+        },
+        "table_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Table Id"
         },
         "row_id": {
           "anyOf": [
@@ -788,7 +776,7 @@
           "default": null,
           "title": "Section Heading"
         },
-        "table_id": {
+        "original_label": {
           "anyOf": [
             {
               "type": "string"
@@ -798,7 +786,19 @@
             }
           ],
           "default": null,
-          "title": "Table Id"
+          "title": "Original Label"
+        },
+        "classifier_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Classifier Version"
         }
       },
       "title": "Provenance",
@@ -808,8 +808,8 @@
       "additionalProperties": false,
       "description": "Consumer-facing market identity for a country fee result.",
       "properties": {
-        "country_name": {
-          "title": "Country Name",
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
           "type": "string"
         },
         "iso_country_code": {
@@ -824,6 +824,10 @@
           "default": null,
           "title": "Iso Country Code"
         },
+        "country_name": {
+          "title": "Country Name",
+          "type": "string"
+        },
         "locale": {
           "anyOf": [
             {
@@ -835,10 +839,6 @@
           ],
           "default": null,
           "title": "Locale"
-        },
-        "paypal_market_code": {
-          "title": "Paypal Market Code",
-          "type": "string"
         }
       },
       "required": [
@@ -889,6 +889,18 @@
       "additionalProperties": false,
       "description": "A fee rate resolved from a reference to another table or product.",
       "properties": {
+        "percentage": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percentage"
+        },
         "fixed_fee_schedule": {
           "anyOf": [
             {
@@ -925,17 +937,16 @@
           "default": null,
           "title": "Maximum Fee Schedule"
         },
-        "percentage": {
+        "source": {
           "anyOf": [
             {
-              "type": "string"
+              "$ref": "#/$defs/Provenance"
             },
             {
               "type": "null"
             }
           ],
-          "default": null,
-          "title": "Percentage"
+          "default": null
         },
         "rule_id": {
           "anyOf": [
@@ -948,17 +959,6 @@
           ],
           "default": null,
           "title": "Rule Id"
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
         }
       },
       "title": "ResolvedRate",
@@ -968,40 +968,11 @@
       "additionalProperties": false,
       "description": "A single product-specific transaction fee rule.\n\n``id`` identifies the payment product family. ``variant_id`` distinguishes\nmultiple legitimate pricing variants for the same product (e.g. special\nversus default alternative payment methods). Both fields participate in\nthe stable rule identity key.\n\n``calculation_status`` describes whether and how the rule can be used by a\nfee calculator. ``calculable`` rules carry at least one usable fee\ncomponent; other states preserve source rows for review without exposing\nthem as ready-to-use rates.",
       "properties": {
-        "calculation_status": {
-          "default": "calculable",
-          "title": "Calculation Status",
-          "type": "string"
-        },
-        "conditions": {
-          "additionalProperties": true,
-          "title": "Conditions",
-          "type": "object"
-        },
-        "fee_components": {
-          "items": {
-            "$ref": "#/$defs/FeeComponent"
-          },
-          "title": "Fee Components",
-          "type": "array"
-        },
-        "fixed_fee_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Fixed Fee Schedule"
-        },
         "id": {
           "title": "Id",
           "type": "string"
         },
-        "international_surcharge_schedule": {
+        "variant_id": {
           "anyOf": [
             {
               "type": "string"
@@ -1011,7 +982,7 @@
             }
           ],
           "default": null,
-          "title": "International Surcharge Schedule"
+          "title": "Variant Id"
         },
         "label": {
           "anyOf": [
@@ -1025,18 +996,6 @@
           "default": null,
           "title": "Label"
         },
-        "maximum_fee_schedule": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Maximum Fee Schedule"
-        },
         "percentage": {
           "anyOf": [
             {
@@ -1049,6 +1008,42 @@
           "default": null,
           "title": "Percentage"
         },
+        "fixed_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fixed Fee Schedule"
+        },
+        "international_surcharge_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "International Surcharge Schedule"
+        },
+        "maximum_fee_schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Maximum Fee Schedule"
+        },
         "rate_reference": {
           "anyOf": [
             {
@@ -1059,6 +1054,11 @@
             }
           ],
           "default": null
+        },
+        "conditions": {
+          "additionalProperties": true,
+          "title": "Conditions",
+          "type": "object"
         },
         "source": {
           "anyOf": [
@@ -1071,17 +1071,17 @@
           ],
           "default": null
         },
-        "variant_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Variant Id"
+        "calculation_status": {
+          "default": "calculable",
+          "title": "Calculation Status",
+          "type": "string"
+        },
+        "fee_components": {
+          "items": {
+            "$ref": "#/$defs/FeeComponent"
+          },
+          "title": "Fee Components",
+          "type": "array"
         }
       },
       "required": [
@@ -1113,6 +1113,17 @@
           "default": null,
           "title": "Original Label"
         },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "reason": {
           "anyOf": [
             {
@@ -1124,54 +1135,19 @@
           ],
           "default": null,
           "title": "Reason"
-        },
-        "source": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/Provenance"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
         }
       },
       "title": "UnclassifiedFeeRow",
       "type": "object"
     }
   },
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/paypal-fees-v4.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Compact public consumer-facing country fee result.",
   "properties": {
-    "cms_updated_at": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "title": "Cms Updated At"
-    },
-    "crawled_at": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "title": "Crawled At"
-    },
-    "derived": {
-      "$ref": "#/$defs/DerivedFeeResult"
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
     },
     "generated_at": {
       "anyOf": [
@@ -1185,13 +1161,17 @@
       "default": null,
       "title": "Generated At"
     },
-    "market": {
-      "$ref": "#/$defs/PublicMarket"
-    },
-    "schema_version": {
-      "default": 4,
-      "title": "Schema Version",
-      "type": "integer"
+    "crawled_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Crawled At"
     },
     "source_updated_at": {
       "anyOf": [
@@ -1204,6 +1184,24 @@
       ],
       "default": null,
       "title": "Source Updated At"
+    },
+    "cms_updated_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cms Updated At"
+    },
+    "market": {
+      "$ref": "#/$defs/PublicMarket"
+    },
+    "derived": {
+      "$ref": "#/$defs/DerivedFeeResult"
     }
   },
   "required": [
@@ -1211,5 +1209,7 @@
     "derived"
   ],
   "title": "PublicCountryOutput",
-  "type": "object"
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/paypal-fees-v1.schema.json"
 }
