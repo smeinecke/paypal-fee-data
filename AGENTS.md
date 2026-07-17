@@ -64,19 +64,46 @@ cache timestamp, so cached data does not affect determinism.
 - `validate ..` checks schemas, cross-file consistency, and schedule references.
 - `validate .. --strict` checks for blocking semantic defects: conflicting rule
   identities, dangling references, invalid calculable rules, unsupported fee
-  shapes, and a clean `change-report.json`. Partial and unclassified markets are
-  allowed because they still produce useful data.
+  shapes, inappropriate cross-product schedule inheritance, and a clean
+  `change-report.json`. Partial and unclassified markets are allowed because they
+  still produce useful data.
 - `validate .. --require-all-complete` rejects any partial or unclassified
   market, as well as diagnostics or unresolved fee candidates.
+
+## Derivation status meaning
+
+`complete` means the source classification exposed at least one core PayPal
+payment product (`paypal_checkout` or `goods_and_services`) and every core rule
+is calculable with resolved schedule references. It does **not** imply full
+product coverage. A market with only the generic `other_commercial` fallback is
+reported as `partial`.
+
+## Schedule resolution priority
+
+When a variant-specific schedule is missing, the crawler resolves references in
+this order:
+
+1. Exact variant-specific schedule.
+2. Direct product-family base schedule.
+3. Explicitly proven cross-product inheritance (declared in `_*_INHERITANCE` maps
+   and supported by source text or table context).
+4. `missing_required_schedule`.
+
+Variant-specific schedules never inherit from another product family while a
+direct base-family schedule exists.
 
 ## Current data status
 
 After the latest regeneration the dataset is:
 
-- 125 complete, 60 partial, 15 unclassified
-- 4,004 core fee rules across all countries
+- 1 complete, 184 partial, 15 unclassified
+- 4,004 transaction fee rules
+- 176 currency-conversion entries
+- 4,180 total core entries
+- 1,616 inherited schedule objects
+- 1,926 inherited schedule references
 - 0 classifier diagnostics
-- 2 unsupported countries
+- 1 unsupported country
 - `change-report.json`: no regressions (`has_regression: false`)
 
 The remaining unclassified and partial markets are usually locales where a

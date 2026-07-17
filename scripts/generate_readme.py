@@ -41,12 +41,15 @@ def _derive_stats(data_dir: Path) -> dict:
         status = country.get("derived_status") or "unknown"
         status_counts[status] = status_counts.get(status, 0) + 1
 
-    rule_count = 0
+    transaction_rule_count = 0
+    currency_conversion_count = 0
+    inherited_schedule_objects = 0
+    inherited_schedule_references = 0
     rule_categories: set[str] = set()
     for country in core_fees.get("countries", []):
         derived = country.get("derived", {})
         transaction_rules = derived.get("transaction_fee_rules") or []
-        rule_count += len(transaction_rules)
+        transaction_rule_count += len(transaction_rules)
         for rule in transaction_rules:
             rule_categories.add(rule.get("id", "unknown"))
         if derived.get("fixed_fee_schedules"):
@@ -54,8 +57,11 @@ def _derive_stats(data_dir: Path) -> dict:
         if derived.get("international_surcharge_schedules"):
             rule_categories.add("international_surcharge_schedules")
         if derived.get("currency_conversion"):
-            rule_count += 1
+            currency_conversion_count += 1
             rule_categories.add("currency_conversion")
+        coverage = derived.get("coverage_summary") or {}
+        inherited_schedule_objects += coverage.get("inherited_schedule_objects", 0)
+        inherited_schedule_references += coverage.get("inherited_schedule_references", 0)
 
     regions: set[str] = set()
     for market in countries_meta.get("markets", []):
@@ -86,7 +92,11 @@ def _derive_stats(data_dir: Path) -> dict:
     return {
         "total_countries": total_countries,
         "status_counts": status_counts,
-        "total_rules": rule_count,
+        "transaction_rule_count": transaction_rule_count,
+        "currency_conversion_count": currency_conversion_count,
+        "total_core_entries": transaction_rule_count + currency_conversion_count,
+        "inherited_schedule_objects": inherited_schedule_objects,
+        "inherited_schedule_references": inherited_schedule_references,
         "rule_categories": sorted(rule_categories),
         "regions": sorted(regions),
         "unsupported_count": unsupported_count,
@@ -111,7 +121,11 @@ def _render_stats(stats: dict) -> str:
         "|--------|------:|",
         f"| Countries | **{stats['total_countries']}** |",
         f"| Derivation status | {status_str} |",
-        f"| Core fee rules | **{stats['total_rules']:,}** |",
+        f"| Transaction fee rules | **{stats['transaction_rule_count']:,}** |",
+        f"| Currency conversion entries | **{stats['currency_conversion_count']:,}** |",
+        f"| Total core entries | **{stats['total_core_entries']:,}** |",
+        f"| Inherited schedule objects | {stats['inherited_schedule_objects']:,} |",
+        f"| Inherited schedule references | {stats['inherited_schedule_references']:,} |",
         f"| Rule categories | {', '.join(stats['rule_categories']) or '—'} |",
         f"| Regions | {len(stats['regions'])} ({', '.join(stats['regions']) or '—'}) |",
         f"| Unsupported countries | {stats['unsupported_count']} |",
