@@ -40,6 +40,25 @@ under the output root.
     variants, and generic header phrases/tokens to `_APM_HEADER_PHRASES` /
     `_APM_HEADER_TOKENS` to suppress noise from variant-only rows.
 
+## HTTP response cache
+
+The crawler keeps a 24-hour on-disk HTTP cache under `.cache/paypal-fee-crawler/http/`
+by default.  Cached responses are keyed by normalized URL, market, locale, relevant
+content-negotiation headers, and a crawler-specific cache version.  Fresh entries are
+returned directly; expired entries are revalidated with `If-None-Match`/`If-Modified-Since`.
+
+CLI flags:
+
+- `--cache-dir PATH` — cache directory (default: `.cache/paypal-fee-crawler/http/`).
+- `--cache-ttl-hours HOURS` — entry TTL in hours (default: 24).
+- `--no-cache` — bypass cache reads and writes.
+- `--refresh-cache` — force network revalidation/update.
+
+Environment variables `PAYPAL_FEE_CRAWLER_CACHE_DIR`, `PAYPAL_FEE_CRAWLER_CACHE_TTL_HOURS`,
+`PAYPAL_FEE_CRAWLER_NO_CACHE`, and `PAYPAL_FEE_CRAWLER_REFRESH_CACHE` are also supported.
+The `crawled_at` timestamp in generated output always reflects the current crawl, not the
+cache timestamp, so cached data does not affect determinism.
+
 ## Validation modes
 
 - `validate ..` checks schemas, cross-file consistency, and schedule references.

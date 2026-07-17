@@ -35,6 +35,23 @@ crawler/       Git submodule pointing to the crawler source
 - `meta/countries.json` — discovered market manifest
 - `schemas/paypal-fees-v4.schema.json` — JSON schema for per-country files
 
+## HTTP response cache
+
+The crawler uses a 24-hour on-disk HTTP cache (default `.cache/paypal-fee-crawler/http/`)
+to avoid re-downloading unchanged PayPal pages.  Cache entries are keyed by normalized URL,
+market, locale, content-negotiation headers, and crawler cache version.  Fresh entries are
+served directly; expired entries are revalidated with `If-None-Match`/`If-Modified-Since`.
+
+Useful options:
+
+- `--cache-dir PATH`
+- `--cache-ttl-hours HOURS` (default `24`)
+- `--no-cache` (bypass cache)
+- `--refresh-cache` (force revalidation/update)
+
+Environment variables `PAYPAL_FEE_CRAWLER_CACHE_DIR`, `PAYPAL_FEE_CRAWLER_CACHE_TTL_HOURS`,
+`PAYPAL_FEE_CRAWLER_NO_CACHE`, and `PAYPAL_FEE_CRAWLER_REFRESH_CACHE` are also supported.
+
 ## Automated updates
 
 The `.github/workflows/daily-crawl.yml` workflow runs the crawler daily and commits any changes directly.
