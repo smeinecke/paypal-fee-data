@@ -31,8 +31,9 @@
       "additionalProperties": false,
       "description": "A discovered PayPal market/country.\n\nPayPal market codes (e.g. ``C2`` for China) are kept separate from ISO\n3166-1 alpha-2 country codes. The ``country_code`` property is preserved\nfor backward compatibility and returns the ISO code when known, otherwise\nthe raw PayPal market code.",
       "properties": {
-        "paypal_market_code": {
-          "title": "Paypal Market Code",
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
           "type": "string"
         },
         "country_name": {
@@ -51,17 +52,12 @@
           "default": null,
           "title": "Iso Country Code"
         },
-        "region": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Region"
+        "languages": {
+          "items": {
+            "$ref": "#/$defs/Language"
+          },
+          "title": "Languages",
+          "type": "array"
         },
         "locale": {
           "anyOf": [
@@ -75,24 +71,9 @@
           "default": null,
           "title": "Locale"
         },
-        "languages": {
-          "items": {
-            "$ref": "#/$defs/Language"
-          },
-          "title": "Languages",
-          "type": "array"
-        },
-        "url_prefix": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Url Prefix"
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
         },
         "preferred_language": {
           "anyOf": [
@@ -106,10 +87,29 @@
           "default": null,
           "title": "Preferred Language"
         },
-        "country_code": {
-          "readOnly": true,
-          "title": "Country Code",
-          "type": "string"
+        "region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region"
+        },
+        "url_prefix": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url Prefix"
         },
         "url_slug": {
           "readOnly": true,
@@ -130,21 +130,10 @@
       "additionalProperties": false,
       "description": "A market without a discoverable public fee page.",
       "properties": {
-        "paypal_market_code": {
-          "title": "Paypal Market Code",
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
           "type": "string"
-        },
-        "iso_country_code": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Iso Country Code"
         },
         "country_name": {
           "anyOf": [
@@ -158,25 +147,6 @@
           "default": null,
           "title": "Country Name"
         },
-        "tested_urls": {
-          "items": {
-            "type": "string"
-          },
-          "title": "Tested Urls",
-          "type": "array"
-        },
-        "reason": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Reason"
-        },
         "first_confirmed_at": {
           "anyOf": [
             {
@@ -188,6 +158,18 @@
           ],
           "default": null,
           "title": "First Confirmed At"
+        },
+        "iso_country_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso Country Code"
         },
         "last_confirmed_at": {
           "anyOf": [
@@ -213,15 +195,33 @@
           "default": null,
           "title": "Last Status"
         },
+        "paypal_market_code": {
+          "title": "Paypal Market Code",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
         "temporary": {
           "default": false,
           "title": "Temporary",
           "type": "boolean"
         },
-        "country_code": {
-          "readOnly": true,
-          "title": "Country Code",
-          "type": "string"
+        "tested_urls": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tested Urls",
+          "type": "array"
         }
       },
       "required": [
@@ -232,13 +232,17 @@
       "type": "object"
     }
   },
+  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/manifest-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Discovered country manifest.",
   "properties": {
-    "schema_version": {
-      "default": 1,
-      "title": "Schema Version",
-      "type": "integer"
+    "fee_page_urls": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Fee Page Urls",
+      "type": "object"
     },
     "generated_at": {
       "anyOf": [
@@ -259,23 +263,19 @@
       "title": "Markets",
       "type": "array"
     },
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
     "unsupported": {
       "items": {
         "$ref": "#/$defs/UnsupportedCountry"
       },
       "title": "Unsupported",
       "type": "array"
-    },
-    "fee_page_urls": {
-      "additionalProperties": {
-        "type": "string"
-      },
-      "title": "Fee Page Urls",
-      "type": "object"
     }
   },
   "title": "CountryManifest",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/smeinecke/paypal-fee-data/schemas/manifest-v1.schema.json"
+  "type": "object"
 }
