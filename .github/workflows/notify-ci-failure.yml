@@ -1,0 +1,53 @@
+name: Notify CI failure
+
+on:
+  workflow_run:
+    workflows:
+      - Daily crawl
+      - Verify publication
+    types:
+      - completed
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  notify:
+    if: ${{ github.event.workflow_run.conclusion != 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+          WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+
+          title="[CI failure] ${WORKFLOW_NAME}"
+
+          body=$(cat <<EOF
+          The GitHub Actions workflow **${WORKFLOW_NAME}** did not complete successfully.
+
+          - Result: \`${CONCLUSION}\`
+          - Branch: \`${HEAD_BRANCH}\`
+          - Commit: \`${HEAD_SHA}\`
+          - Run ID: \`${RUN_ID}\`
+          - Workflow logs: ${RUN_URL}
+
+          Please inspect the failed job and its annotations.
+          EOF
+          )
+
+          gh issue create \
+            --repo "${REPOSITORY}" \
+            --title "${title}" \
+            --body "${body}" \
+            --label "ci-failure"
