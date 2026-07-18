@@ -5,6 +5,10 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: paypal-fee-data-daily-crawl
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -14,17 +18,18 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Check out data repo with crawler submodule
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
+          fetch-depth: 0
           submodules: recursive
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@b5f58b2abc5763ade55e4e9d0fe52cd1ff7979ca # v5.2.1
         with:
           version: "0.11.12"
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
         with:
           python-version: "3.12"
 
@@ -41,51 +46,49 @@ jobs:
             --fail-on-regression \
             --report /tmp/crawl-report.json
 
-      - name: Update README statistics
-        run: python3 scripts/generate_readme.py
-
       - name: Validate generated data
         working-directory: ./crawler
-        run: uv run paypal-fee-crawler validate .. --strict
+        run: uv run paypal-fee-crawler validate .. --strict --require-all-complete
 
-      - name: Assert no regression
-        run: |
-          python3 - <<'PY'
-          import json
-          with open("change-report.json", encoding="utf-8") as f:
-              report = json.load(f)
-          if report.get("has_regression"):
-              raise SystemExit("change-report.json has_regression is true")
-          PY
+      - name: Run publication gate
+        run: bash scripts/verify_publication.sh
 
-      - name: Assert crawler-revision matches submodule
+      - name: Commit generated changes
         run: |
-          test "$(git -C crawler rev-parse HEAD)" = \
-            "$(python3 -c 'import json; print(json.load(open("meta/crawler-revision.json"))["crawler_revision"])')"
+          set -euo pipefail
 
-      - name: Check for changes
-        id: changes
-        run: |
-          if git diff --quiet --exit-code; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          git config user.name "Auto Update Bot"
+          git config user.email "bot@github.com"
+
+          git add \
+            change-report.json \
+            json \
+            meta \
+            schemas \
+            README.md
+
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
           fi
 
-      - name: Add and commit
-        if: steps.changes.outputs.changed == 'true'
-        uses: EndBug/add-and-commit@v9
-        env:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-        with:
-          add: 'change-report.json json meta schemas README.md'
-          author_name: Auto Update Bot
-          author_email: bot@github.com
-          message: 'Daily PayPal fee update'
+          git commit -m "Daily PayPal fee update"
+          git push origin HEAD:main
 
       - name: Upload diagnostics
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: crawl-diagnostics
-          path: /tmp/crawl-report.json
+          if-no-files-found: warn
+          path: |
+            /tmp/crawl-report.json
+            meta/crawl-report.json
+            change-report.json
+            meta/crawler-revision.json
+            meta/transient-failures.json
+            meta/unsupported-countries.json
+            json
+            meta
+            schemas
+            README.md

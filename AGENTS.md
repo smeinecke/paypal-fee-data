@@ -77,8 +77,11 @@ cache timestamp, so cached data does not affect determinism.
   shapes, inappropriate cross-product schedule inheritance, and a clean
   `change-report.json`. Partial and unclassified markets are allowed because they
   still produce useful data.
-- `validate .. --require-all-complete` rejects any partial or unclassified
-  market, as well as diagnostics or unresolved fee candidates.
+- `validate .. --require-all-complete` requires the publication tree to be
+  complete: every discovered market must have a JSON output, unsupported record,
+  or transient-failure entry, and all strict checks must pass. Partial and
+  unclassified markets are allowed because they still produce useful publishable
+  data.
 
 ## Derivation status meaning
 
