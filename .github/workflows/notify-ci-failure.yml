@@ -1,53 +1,170 @@
-name: Notify CI failure
+name: Notify CI Failure
 
 on:
   workflow_run:
     workflows:
-      - Daily crawl
-      - Verify publication
+      - Daily Crawl
+      - Verify Publication
     types:
       - completed
 
 permissions:
   contents: read
+  actions: read
   issues: write
 
 jobs:
   notify:
-    if: ${{ github.event.workflow_run.conclusion != 'success' }}
     runs-on: ubuntu-latest
-
+    timeout-minutes: 5
     steps:
-      - name: Create failure issue
+      - name: Open or update CI failure issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOSITORY: ${{ github.repository }}
-          WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
-          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
-          RUN_URL: ${{ github.event.workflow_run.html_url }}
-          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
-          RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
           set -euo pipefail
 
-          title="[CI failure] ${WORKFLOW_NAME}"
+          python3 - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+          from pathlib import Path
 
-          body=$(cat <<EOF
-          The GitHub Actions workflow **${WORKFLOW_NAME}** did not complete successfully.
+          FAILURE_CONCLUSIONS = {
+              "failure",
+              "cancelled",
+              "timed_out",
+              "action_required",
+              "startup_failure",
+              "stale",
+          }
 
-          - Result: \`${CONCLUSION}\`
-          - Branch: \`${HEAD_BRANCH}\`
-          - Commit: \`${HEAD_SHA}\`
-          - Run ID: \`${RUN_ID}\`
-          - Workflow logs: ${RUN_URL}
+          event_path = Path(os.environ["GITHUB_EVENT_PATH"])
+          event = json.loads(event_path.read_text(encoding="utf-8"))
 
-          Please inspect the failed job and its annotations.
-          EOF
-          )
+          run = event.get("workflow_run", {})
+          repo = event.get("repository", {})
 
-          gh issue create \
-            --repo "${REPOSITORY}" \
-            --title "${title}" \
-            --body "${body}" \
-            --label "ci-failure"
+          repository = repo.get("full_name") or os.environ["GITHUB_REPOSITORY"]
+          workflow_name = run.get("name", "Unknown workflow")
+          conclusion = run.get("conclusion", "unknown")
+          branch = run.get("head_branch", "unknown")
+          sha = run.get("head_sha", "unknown")
+          event_type = run.get("event", "unknown")
+          run_number = run.get("run_number", "unknown")
+          attempt = run.get("run_attempt", "unknown")
+          actor = run.get("actor", {}).get("login", "unknown")
+          started = run.get("run_started_at") or run.get("created_at", "unknown")
+          updated = run.get("updated_at", "unknown")
+          run_url = run.get("html_url", "unknown")
+
+          title = f"[CI failure] {workflow_name}"
+          label = "ci-failure"
+          assignee = "smeinecke"
+
+
+          def gh(*args: str) -> str:
+              result = subprocess.run(
+                  ["gh", *args],
+                  check=True,
+                  text=True,
+                  capture_output=True,
+              )
+              return result.stdout
+
+
+          def ensure_label() -> None:
+              output = gh(
+                  "label", "list",
+                  "--repo", repository,
+                  "--search", label,
+                  "--json", "name",
+              )
+              names = {item.get("name") for item in json.loads(output)}
+              if label in names:
+                  return
+              gh(
+                  "label", "create", label,
+                  "--repo", repository,
+                  "--color", "FF0000",
+                  "--description", "CI workflow failures",
+              )
+
+
+          def find_open_issue() -> int | None:
+              output = gh(
+                  "issue", "list",
+                  "--repo", repository,
+                  "--label", label,
+                  "--state", "open",
+                  "--limit", "100",
+                  "--json", "number,title",
+              )
+              for issue in json.loads(output):
+                  if issue.get("title") == title:
+                      return int(issue["number"])
+              return None
+
+
+          def format_message() -> str:
+              return (
+                  f"A monitored CI workflow completed with a non-success conclusion.\n\n"
+                  f"- **Repository:** {repository}\n"
+                  f"- **Workflow:** {workflow_name}\n"
+                  f"- **Conclusion:** {conclusion}\n"
+                  f"- **Branch:** {branch}\n"
+                  f"- **Commit SHA:** {sha}\n"
+                  f"- **Event:** {event_type}\n"
+                  f"- **Run number:** {run_number}\n"
+                  f"- **Run attempt:** {attempt}\n"
+                  f"- **Actor:** {actor}\n"
+                  f"- **Started at:** {started}\n"
+                  f"- **Updated at:** {updated}\n"
+                  f"- **Run URL:** {run_url}"
+              )
+
+
+          ensure_label()
+
+          if conclusion == "success":
+              issue_number = find_open_issue()
+              if issue_number is not None:
+                  recovery = (
+                      f"Workflow `{workflow_name}` recovered successfully.\n\n"
+                      f"- **Run URL:** {run_url}\n"
+                      f"- **Commit SHA:** {sha}"
+                  )
+                  gh(
+                      "issue", "comment", str(issue_number),
+                      "--repo", repository,
+                      "--body", recovery,
+                  )
+                  gh(
+                      "issue", "edit", str(issue_number),
+                      "--repo", repository,
+                      "--state", "closed",
+                  )
+              sys.exit(0)
+
+          if conclusion not in FAILURE_CONCLUSIONS:
+              sys.exit(0)
+
+          message = format_message()
+          issue_number = find_open_issue()
+          if issue_number is not None:
+              gh(
+                  "issue", "comment", str(issue_number),
+                  "--repo", repository,
+                  "--body", message,
+              )
+          else:
+              gh(
+                  "issue", "create",
+                  "--repo", repository,
+                  "--title", title,
+                  "--body", message,
+                  "--label", label,
+                  "--assignee", assignee,
+              )
+          PY
