@@ -41,12 +41,27 @@ jobs:
             --fail-on-regression \
             --report /tmp/crawl-report.json
 
-      - name: Validate generated JSON
-        working-directory: ./crawler
-        run: uv run paypal-fee-crawler validate ..
-
       - name: Update README statistics
         run: python3 scripts/generate_readme.py
+
+      - name: Validate generated data
+        working-directory: ./crawler
+        run: uv run paypal-fee-crawler validate .. --strict
+
+      - name: Assert no regression
+        run: |
+          python3 - <<'PY'
+          import json
+          with open("change-report.json", encoding="utf-8") as f:
+              report = json.load(f)
+          if report.get("has_regression"):
+              raise SystemExit("change-report.json has_regression is true")
+          PY
+
+      - name: Assert crawler-revision matches submodule
+        run: |
+          test "$(git -C crawler rev-parse HEAD)" = \
+            "$(python3 -c 'import json; print(json.load(open("meta/crawler-revision.json"))["crawler_revision"])')"
 
       - name: Check for changes
         id: changes
@@ -57,20 +72,13 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Stage optional change report
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          if [ -f change-report.json ]; then
-            git add change-report.json
-          fi
-
       - name: Add and commit
         if: steps.changes.outputs.changed == 'true'
         uses: EndBug/add-and-commit@v9
         env:
           ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         with:
-          add: 'json meta schemas README.md'
+          add: 'change-report.json json meta schemas README.md'
           author_name: Auto Update Bot
           author_email: bot@github.com
           message: 'Daily PayPal fee update'

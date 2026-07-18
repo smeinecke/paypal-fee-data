@@ -82,6 +82,7 @@ def _derive_stats(data_dir: Path) -> dict:
                 if latest_update is None or candidate > latest_update:
                     latest_update = candidate
 
+    core_fees = _load_json(data_dir / "json" / "core-fees.json")
     generated_at = index.get("generated_at") or core_fees.get("generated_at")
     if generated_at and latest_update is None:
         with contextlib.suppress(Exception):
@@ -148,12 +149,26 @@ def _replace_section(content: str, start_marker: str, end_marker: str, body: str
     return content
 
 
-def main() -> int:
-    data_dir = Path(__file__).parent.parent
+def _default_readme() -> str:
+    return """# PayPal Fee Data
+
+A public, deterministic repository of PayPal merchant fee data.
+
+## Statistics
+
+<!-- STATS_START -->
+<!-- STATS_END -->
+"""
+
+
+def main(argv: list[str] | None = None) -> int:
+    if argv is None:
+        argv = sys.argv[1:]
+    data_dir = Path(argv[0]) if argv else Path(__file__).parent.parent
     readme_path = data_dir / "README.md"
     if not readme_path.exists():
-        print(f"ERROR: README not found: {readme_path}", file=sys.stderr)
-        return 1
+        readme_path.write_text(_default_readme(), encoding="utf-8")
+        print(f"README created: {readme_path}")
 
     stats = _derive_stats(data_dir)
     body = _render_stats(stats)

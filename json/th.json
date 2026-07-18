@@ -1,6 +1,5 @@
 {
   "cms_updated_at": "2025-09-28T23:37:17.105Z",
-  "crawled_at": "2026-07-18T07:23:12.845795",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -71,7 +70,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
-            "table_id": "FeeTable::FEETB18::2"
+            "table_id": "FeeTable::FEETB18::12"
           },
           {
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
@@ -82,7 +81,7 @@
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียมคงที่สำหรับการทำรายการเชิงพาณิชย์ (ขึ้นอยู่กับสกุลเงินที่ได้รับ)",
-            "table_id": "FeeTable::FEETB18::2"
+            "table_id": "FeeTable::FEETB18::12"
           }
         ]
       },
@@ -120,23 +119,23 @@
             "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "classifier_version": "rules-v1",
             "component_id": "7rQ0oGJmRJzBGJC5GitDK3",
-            "document_id": "FEETB69",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
-            "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
-            "table_id": "FeeTable::FEETB69::7"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "7rQ0oGJmRJzBGJC5GitDK3",
             "document_id": "FEETB304",
             "page_id": "business/paypal-business-fees",
             "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
             "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
             "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
-            "table_id": "FeeTable::FEETB69::7"
+            "table_id": "FeeTable::FEETB69::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/th/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7rQ0oGJmRJzBGJC5GitDK3",
+            "document_id": "FEETB69",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "ค่าธรรมเนียม PayPal สำหรับผู้ขาย (ธุรกิจ)",
+            "requested_url": "https://www.paypal.com/th/business/paypal-business-fees",
+            "section_heading": "ตารางค่าธรรมเนียม: ค่าธรรมเนียม Micropayment ในอัตราคงที่",
+            "table_id": "FeeTable::FEETB69::8"
           }
         ]
       }
@@ -151,12 +150,12 @@
         "conditions": {},
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "6"
-          },
-          {
             "schedule_id": "micropayments",
             "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "6"
           }
         ],
         "fixed_fee_schedule": "micropayments",
@@ -175,14 +174,13 @@
           "row_id": "30gSHtI9ALdXEs2mKFJYFV",
           "row_index": 0,
           "section_heading": "ตารางค่าธรรมเนียม: การรับ Micropayment",
-          "table_id": "FeeTable::FEETB66::6"
+          "table_id": "FeeTable::FEETB66::2"
         },
         "variant_id": "standard"
       }
     ],
     "unclassified_fee_rows": []
   },
-  "generated_at": "2026-07-18T07:23:12.845795",
   "market": {
     "country_name": "Thailand",
     "iso_country_code": "TH",

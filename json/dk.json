@@ -1,6 +1,5 @@
 {
   "cms_updated_at": "2025-09-25T07:28:52.781Z",
-  "crawled_at": "2026-07-18T07:23:12.845795",
   "derived": {
     "ambiguous_rows": [],
     "coverage_summary": {
@@ -35,93 +34,24 @@
     },
     "diagnostics": [
       {
-        "expected_schedule": "guest_checkout",
+        "expected_schedule": "advanced_card_payments",
         "inherited_from": "commercial",
-        "rule_id": "guest_checkout",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5fkuXzju7ujkg0atLY5doL",
-            "document_id": "FEETB614",
-            "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "5GKcHgM88YDh3r1Xx00EF1",
-            "row_index": 1,
-            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "guest_checkout",
-        "inherited_from": "commercial",
-        "rule_id": "guest_checkout",
+        "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "5fkuXzju7ujkg0atLY5doL",
-            "document_id": "FEETB614",
-            "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
+            "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
+            "document_id": "FEETB697",
+            "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "5GKcHgM88YDh3r1Xx00EF1",
-            "row_index": 1,
-            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5fkuXzju7ujkg0atLY5doL",
-            "document_id": "FEETB614",
-            "original_label": "Alle øvrige erhvervsbetalinger",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "CYmkyb0xwtUVXJZPvNIJX",
-            "row_index": 4,
-            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "5fkuXzju7ujkg0atLY5doL",
-            "document_id": "FEETB614",
-            "original_label": "Alle øvrige erhvervsbetalinger",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "CYmkyb0xwtUVXJZPvNIJX",
-            "row_index": 4,
-            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
+            "row_id": "212as4OS3Jo8t1HbPMZEce",
+            "row_index": 0,
+            "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
+            "table_id": "FeeTable::FEETB697::20"
           }
         ],
         "type": "inherited_schedule"
@@ -144,13 +74,13 @@
             "row_id": "212as4OS3Jo8t1HbPMZEce",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
           }
         ],
         "type": "inherited_schedule"
       },
       {
-        "expected_schedule": "advanced_card_payments",
+        "expected_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
         "inherited_from": "commercial",
         "rule_id": "advanced_card_payments",
         "schedule_type": "international_surcharge",
@@ -160,106 +90,14 @@
             "classifier_version": "rules-v1",
             "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
             "document_id": "FEETB697",
-            "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+            "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "212as4OS3Jo8t1HbPMZEce",
-            "row_index": 0,
+            "row_id": "hjjAg5fYxIwasvEO7SpML",
+            "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
-            "document_id": "FEETB949",
-            "original_label": "AU, NZ",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "cnw5MrW5rmKe235fG5XEpS",
-            "row_index": 3,
-            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
-            "document_id": "FEETB949",
-            "original_label": "AU, NZ",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "cnw5MrW5rmKe235fG5XEpS",
-            "row_index": 3,
-            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "fixed_fee",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
-            "document_id": "FEETB949",
-            "original_label": "US, CA, MX",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "bsVZjr2KlISb8nqOsyI5JV",
-            "row_index": 2,
-            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
-            "document_id": "FEETB949",
-            "original_label": "US, CA, MX",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "bsVZjr2KlISb8nqOsyI5JV",
-            "row_index": 2,
-            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB697::20"
           }
         ],
         "type": "inherited_schedule"
@@ -282,30 +120,99 @@
             "row_id": "hjjAg5fYxIwasvEO7SpML",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
           }
         ],
         "type": "inherited_schedule"
       },
       {
-        "expected_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
+        "expected_schedule": "guest_checkout",
         "inherited_from": "commercial",
-        "rule_id": "advanced_card_payments",
+        "rule_id": "guest_checkout",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5fkuXzju7ujkg0atLY5doL",
+            "document_id": "FEETB614",
+            "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "5GKcHgM88YDh3r1Xx00EF1",
+            "row_index": 1,
+            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+            "table_id": "FeeTable::FEETB614::26"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "guest_checkout",
+        "inherited_from": "commercial",
+        "rule_id": "guest_checkout",
         "schedule_type": "international_surcharge",
         "sources": [
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
-            "document_id": "FEETB697",
-            "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+            "component_id": "5fkuXzju7ujkg0atLY5doL",
+            "document_id": "FEETB614",
+            "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "row_id": "hjjAg5fYxIwasvEO7SpML",
+            "row_id": "5GKcHgM88YDh3r1Xx00EF1",
             "row_index": 1,
-            "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+            "table_id": "FeeTable::FEETB614::26"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5fkuXzju7ujkg0atLY5doL",
+            "document_id": "FEETB614",
+            "original_label": "Alle øvrige erhvervsbetalinger",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "CYmkyb0xwtUVXJZPvNIJX",
+            "row_index": 4,
+            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+            "table_id": "FeeTable::FEETB614::26"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5fkuXzju7ujkg0atLY5doL",
+            "document_id": "FEETB614",
+            "original_label": "Alle øvrige erhvervsbetalinger",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "CYmkyb0xwtUVXJZPvNIJX",
+            "row_index": 4,
+            "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+            "table_id": "FeeTable::FEETB614::26"
           }
         ],
         "type": "inherited_schedule"
@@ -328,7 +235,7 @@
             "row_id": "enuJEJkg14GbdqRaqwlovP",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ],
         "type": "inherited_schedule"
@@ -351,7 +258,99 @@
             "row_id": "enuJEJkg14GbdqRaqwlovP",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
+            "document_id": "FEETB949",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "cnw5MrW5rmKe235fG5XEpS",
+            "row_index": 3,
+            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
+            "table_id": "FeeTable::FEETB949::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=au_nz",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
+            "document_id": "FEETB949",
+            "original_label": "AU, NZ",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "cnw5MrW5rmKe235fG5XEpS",
+            "row_index": 3,
+            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
+            "table_id": "FeeTable::FEETB949::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "fixed_fee",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
+            "document_id": "FEETB949",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "bsVZjr2KlISb8nqOsyI5JV",
+            "row_index": 2,
+            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
+            "table_id": "FeeTable::FEETB949::21"
+          }
+        ],
+        "type": "inherited_schedule"
+      },
+      {
+        "expected_schedule": "other_commercial__applies_to_markets=ca_mx_us",
+        "inherited_from": "commercial",
+        "rule_id": "other_commercial",
+        "schedule_type": "international_surcharge",
+        "sources": [
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "cfgpaG9dkwpfLye2FQvrsG",
+            "document_id": "FEETB949",
+            "original_label": "US, CA, MX",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "row_id": "bsVZjr2KlISb8nqOsyI5JV",
+            "row_index": 2,
+            "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
+            "table_id": "FeeTable::FEETB949::21"
           }
         ],
         "type": "inherited_schedule"
@@ -374,7 +373,7 @@
             "row_id": "5QnQ55AkoiCb6rdrGXUhhs",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ],
         "type": "inherited_schedule"
@@ -397,7 +396,7 @@
             "row_id": "5QnQ55AkoiCb6rdrGXUhhs",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ],
         "type": "inherited_schedule"
@@ -437,24 +436,24 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
-            "document_id": "FEETB770",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB770::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1sITrn2BzJdsdnYoieleC4",
             "document_id": "FEETB772",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB772::29"
+            "table_id": "FeeTable::FEETB772::1"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
+            "document_id": "FEETB770",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB770::10"
           }
         ],
         "origin": "inherited",
@@ -462,24 +461,13 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
-            "document_id": "FEETB770",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB770::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1sITrn2BzJdsdnYoieleC4",
             "document_id": "FEETB772",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB772::29"
+            "table_id": "FeeTable::FEETB772::1"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -493,7 +481,18 @@
             "row_id": "212as4OS3Jo8t1HbPMZEce",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
+            "document_id": "FEETB770",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB770::10"
           }
         ]
       },
@@ -530,24 +529,24 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
-            "document_id": "FEETB770",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB770::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1sITrn2BzJdsdnYoieleC4",
             "document_id": "FEETB772",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB772::29"
+            "table_id": "FeeTable::FEETB772::1"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
+            "document_id": "FEETB770",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB770::10"
           }
         ],
         "origin": "inherited",
@@ -555,24 +554,13 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
-            "document_id": "FEETB770",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB770::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1sITrn2BzJdsdnYoieleC4",
             "document_id": "FEETB772",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB772::29"
+            "table_id": "FeeTable::FEETB772::1"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -586,7 +574,18 @@
             "row_id": "hjjAg5fYxIwasvEO7SpML",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
+            "document_id": "FEETB770",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB770::10"
           }
         ]
       },
@@ -628,7 +627,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for ABM-betalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB671::23"
+            "table_id": "FeeTable::FEETB671::6"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -639,7 +638,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for ABM-betalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB671::23"
+            "table_id": "FeeTable::FEETB671::6"
           }
         ]
       },
@@ -681,7 +680,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -692,7 +691,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ]
       },
@@ -734,7 +733,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -745,33 +744,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
-            "document_id": "FEETB631",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
-            "document_id": "FEETB632",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -784,7 +761,29 @@
             "row_id": "5GKcHgM88YDh3r1Xx00EF1",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
+            "table_id": "FeeTable::FEETB614::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
+            "document_id": "FEETB631",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB631::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
+            "document_id": "FEETB632",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB631::11"
           }
         ]
       },
@@ -827,7 +826,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for mikrobetalinger",
-            "table_id": "FeeTable::FEETB673::38"
+            "table_id": "FeeTable::FEETB673::12"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -838,7 +837,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for mikrobetalinger",
-            "table_id": "FeeTable::FEETB673::38"
+            "table_id": "FeeTable::FEETB673::12"
           }
         ]
       },
@@ -880,7 +879,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger til velgørende organisationer (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB694::17"
+            "table_id": "FeeTable::FEETB694::2"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -891,7 +890,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger til velgørende organisationer (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB694::17"
+            "table_id": "FeeTable::FEETB694::2"
           }
         ]
       },
@@ -928,24 +927,24 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
-            "document_id": "FEETB770",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB770::28"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1sITrn2BzJdsdnYoieleC4",
             "document_id": "FEETB772",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel:  Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB772::29"
+            "table_id": "FeeTable::FEETB772::1"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "6z46J8ZDbCbj21Mc9dUu0j",
+            "document_id": "FEETB770",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for betalinger med PayPals online kortbetalingstjenester (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB770::10"
           }
         ]
       },
@@ -987,7 +986,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -998,33 +997,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
-            "document_id": "FEETB631",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
-            "document_id": "FEETB632",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -1037,7 +1014,29 @@
             "row_id": "CYmkyb0xwtUVXJZPvNIJX",
             "row_index": 4,
             "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
+            "table_id": "FeeTable::FEETB614::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
+            "document_id": "FEETB631",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB631::11"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "7xOVypPEFAQ9C7JUtJ1MVp",
+            "document_id": "FEETB632",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB631::11"
           }
         ]
       },
@@ -1079,7 +1078,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1090,7 +1089,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
@@ -1104,7 +1103,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1115,7 +1114,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1129,7 +1128,7 @@
             "row_id": "enuJEJkg14GbdqRaqwlovP",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -1171,7 +1170,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1182,7 +1181,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
@@ -1196,7 +1195,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1207,7 +1206,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1221,7 +1220,7 @@
             "row_id": "cnw5MrW5rmKe235fG5XEpS",
             "row_index": 3,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -1263,7 +1262,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1274,7 +1273,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
@@ -1288,7 +1287,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1299,7 +1298,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1313,7 +1312,7 @@
             "row_id": "bsVZjr2KlISb8nqOsyI5JV",
             "row_index": 2,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -1355,7 +1354,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1366,7 +1365,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           }
         ],
         "origin": "inherited",
@@ -1380,7 +1379,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1391,7 +1390,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for erhvervsbetalinger (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB631::4"
+            "table_id": "FeeTable::FEETB631::11"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1405,7 +1404,7 @@
             "row_id": "5QnQ55AkoiCb6rdrGXUhhs",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -1448,7 +1447,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for QR-kodebetalinger på 10,01 EUR og derover (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB633::8"
+            "table_id": "FeeTable::FEETB633::9"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -1459,7 +1458,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for QR-kodebetalinger på 10,01 EUR og derover (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB633::8"
+            "table_id": "FeeTable::FEETB633::9"
           }
         ]
       },
@@ -1496,24 +1495,24 @@
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
-            "component_id": "5oHtjZZwqpBMihHyaaSCUh",
-            "document_id": "FEETB640",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Fast gebyr for QR-kodebetalinger på 10,00 EUR og derunder (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB640::12"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
             "component_id": "1JBiYIaezjfcjhH0FlvCEO",
             "document_id": "FEETB644",
             "page_id": "business/paypal-business-fees",
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Fast gebyr for QR-kodebetalinger på 10,00 EUR og derunder (baseret på modtaget valuta)",
-            "table_id": "FeeTable::FEETB644::13"
+            "table_id": "FeeTable::FEETB644::8"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "5oHtjZZwqpBMihHyaaSCUh",
+            "document_id": "FEETB640",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Fast gebyr for QR-kodebetalinger på 10,00 EUR og derunder (baseret på modtaget valuta)",
+            "table_id": "FeeTable::FEETB640::7"
           }
         ]
       }
@@ -1538,7 +1537,7 @@
           "row_id": "4IfKJgx7KJBrUZCQccgtUr",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB614::1"
+          "table_id": "FeeTable::FEETB614::26"
         }
       },
       {
@@ -1560,116 +1559,7 @@
           "row_id": "40mI0O7giKILJRuG24BV5A",
           "row_index": 4,
           "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB697::27"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Ungarske forint",
-          "4.585,00 HUF"
-        ],
-        "original_label": "Ungarske forint",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Ungarske forint",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "3YCzy2IwQLVQwcW1kFlP5y",
-          "row_index": 7,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Indisk rupi",
-          "1.080,00 INR"
-        ],
-        "original_label": "Indisk rupi",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Indisk rupi",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "DXsFugmcCYkXU02E4c6ne",
-          "row_index": 8,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Japanske yen",
-          "1.630,00 JPY"
-        ],
-        "original_label": "Japanske yen",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Japanske yen",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "37K8RiZxatpv6hg2uLvwp7",
-          "row_index": 10,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Russiske rubler",
-          "1.125,00 RUB"
-        ],
-        "original_label": "Russiske rubler",
-        "reason": "no product alias and no rate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Russiske rubler",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "79pTowi2WVnq8l3GyQ9ubk",
-          "row_index": 18,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Tilbagebetaling af erhvervsbetalinger"
-        ],
-        "original_label": "Tilbagebetaling af erhvervsbetalinger",
-        "reason": "no rate or reference",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "1ppYFumgcYAEuGnArE0jyr",
-          "document_id": "FEETB718",
-          "original_label": "Tilbagebetaling af erhvervsbetalinger",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4lNhp8ELqOqmRNzt1S9hks",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Andre gebyrer",
-          "table_id": "FeeTable::FEETB718::57"
+          "table_id": "FeeTable::FEETB697::20"
         }
       },
       {
@@ -1692,7 +1582,7 @@
           "row_id": "1TmrB7q3MSSgHhYC5TCN2y",
           "row_index": 2,
           "section_heading": "Gebyrtabel: Andre gebyrer",
-          "table_id": "FeeTable::FEETB718::57"
+          "table_id": "FeeTable::FEETB718::3"
         }
       },
       {
@@ -1715,7 +1605,116 @@
           "row_id": "1cqYIIrtaJzfqYmHXSs1Br",
           "row_index": 3,
           "section_heading": "Gebyrtabel: Andre gebyrer",
-          "table_id": "FeeTable::FEETB718::57"
+          "table_id": "FeeTable::FEETB718::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Indisk rupi",
+          "1.080,00 INR"
+        ],
+        "original_label": "Indisk rupi",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Indisk rupi",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "DXsFugmcCYkXU02E4c6ne",
+          "row_index": 8,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Japanske yen",
+          "1.630,00 JPY"
+        ],
+        "original_label": "Japanske yen",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Japanske yen",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "37K8RiZxatpv6hg2uLvwp7",
+          "row_index": 10,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Russiske rubler",
+          "1.125,00 RUB"
+        ],
+        "original_label": "Russiske rubler",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Russiske rubler",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "79pTowi2WVnq8l3GyQ9ubk",
+          "row_index": 18,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Tilbagebetaling af erhvervsbetalinger"
+        ],
+        "original_label": "Tilbagebetaling af erhvervsbetalinger",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1ppYFumgcYAEuGnArE0jyr",
+          "document_id": "FEETB718",
+          "original_label": "Tilbagebetaling af erhvervsbetalinger",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4lNhp8ELqOqmRNzt1S9hks",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Andre gebyrer",
+          "table_id": "FeeTable::FEETB718::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Ungarske forint",
+          "4.585,00 HUF"
+        ],
+        "original_label": "Ungarske forint",
+        "reason": "no product alias and no rate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Ungarske forint",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "3YCzy2IwQLVQwcW1kFlP5y",
+          "row_index": 7,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
         }
       }
     ],
@@ -1743,22 +1742,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "M2MVkL7rFb35W9c26hbII",
-            "document_id": "FEETB615",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -1771,7 +1759,18 @@
             "row_id": "212as4OS3Jo8t1HbPMZEce",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "M2MVkL7rFb35W9c26hbII",
+            "document_id": "FEETB615",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
+            "table_id": "FeeTable::FEETB615::5"
           }
         ]
       },
@@ -1798,22 +1797,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "M2MVkL7rFb35W9c26hbII",
-            "document_id": "FEETB615",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -1826,7 +1814,18 @@
             "row_id": "hjjAg5fYxIwasvEO7SpML",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-            "table_id": "FeeTable::FEETB697::27"
+            "table_id": "FeeTable::FEETB697::20"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "M2MVkL7rFb35W9c26hbII",
+            "document_id": "FEETB615",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
+            "table_id": "FeeTable::FEETB615::5"
           }
         ]
       },
@@ -1853,7 +1852,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ]
       },
@@ -1880,22 +1879,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "M2MVkL7rFb35W9c26hbII",
-            "document_id": "FEETB615",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -1908,7 +1896,18 @@
             "row_id": "5GKcHgM88YDh3r1Xx00EF1",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
+            "table_id": "FeeTable::FEETB614::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "M2MVkL7rFb35W9c26hbII",
+            "document_id": "FEETB615",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
+            "table_id": "FeeTable::FEETB615::5"
           }
         ]
       },
@@ -1935,22 +1934,11 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
         "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "M2MVkL7rFb35W9c26hbII",
-            "document_id": "FEETB615",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
-          },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "classifier_version": "rules-v1",
@@ -1963,7 +1951,18 @@
             "row_id": "CYmkyb0xwtUVXJZPvNIJX",
             "row_index": 4,
             "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-            "table_id": "FeeTable::FEETB614::1"
+            "table_id": "FeeTable::FEETB614::26"
+          },
+          {
+            "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "classifier_version": "rules-v1",
+            "component_id": "M2MVkL7rFb35W9c26hbII",
+            "document_id": "FEETB615",
+            "page_id": "business/paypal-business-fees",
+            "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+            "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+            "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
+            "table_id": "FeeTable::FEETB615::5"
           }
         ]
       },
@@ -1990,7 +1989,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
@@ -2004,7 +2003,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -2018,7 +2017,7 @@
             "row_id": "enuJEJkg14GbdqRaqwlovP",
             "row_index": 0,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -2045,7 +2044,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
@@ -2059,7 +2058,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -2073,7 +2072,7 @@
             "row_id": "cnw5MrW5rmKe235fG5XEpS",
             "row_index": 3,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -2100,7 +2099,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
@@ -2114,7 +2113,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -2128,7 +2127,7 @@
             "row_id": "bsVZjr2KlISb8nqOsyI5JV",
             "row_index": 2,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -2155,7 +2154,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           }
         ],
         "origin": "inherited",
@@ -2169,7 +2168,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Ekstra procentbaseret gebyr for internationale erhvervsbetalinger",
-            "table_id": "FeeTable::FEETB615::2"
+            "table_id": "FeeTable::FEETB615::5"
           },
           {
             "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
@@ -2183,7 +2182,7 @@
             "row_id": "5QnQ55AkoiCb6rdrGXUhhs",
             "row_index": 1,
             "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-            "table_id": "FeeTable::FEETB949::22"
+            "table_id": "FeeTable::FEETB949::21"
           }
         ]
       },
@@ -2206,7 +2205,7 @@
             "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
             "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
             "section_heading": "Gebyrtabel: Yderligere servicegebyr for modtagere af internationale erhvervsbetalinger fra Storbritannien",
-            "table_id": "FeeTable::FEETB619::3"
+            "table_id": "FeeTable::FEETB619::32"
           }
         ]
       }
@@ -2214,177 +2213,6 @@
     "maximum_fee_schedules": {},
     "status": "partial",
     "transaction_fee_rules": [
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "american_express"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "3.5"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
-        "label": "Avancerede kortbetalingerAmerican Express-kort",
-        "percentage": "3.5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
-          "document_id": "FEETB697",
-          "original_label": "Avancerede kortbetalingerAmerican Express-kort",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "1W8GlGLlgfWZiTfV1lTHDc",
-          "row_index": 2,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB697::27"
-        },
-        "variant_id": "american_express"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "authorization_channel": "terminal",
-          "point_of_sale": true
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.9"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "advanced_card_payments",
-        "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
-        "label": "Betalinger via eTerminal",
-        "percentage": "2.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
-          "document_id": "FEETB697",
-          "original_label": "Betalinger via eTerminal",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "ZXVsmDdDwO2c8heYenbmtJ",
-          "row_index": 3,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB697::27"
-        },
-        "variant_id": "eterminal"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "visa",
-            "mastercard",
-            "china_union_pay",
-            "diners",
-            "discover"
-          ],
-          "pricing_plan": "interchange_plus"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.9"
-          },
-          {
-            "schedule_id": "advanced_card_payments__pricing_plan=interchange_plus",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments__pricing_plan=interchange_plus",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
-        "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
-        "label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
-          "document_id": "FEETB697",
-          "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "hjjAg5fYxIwasvEO7SpML",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB697::27"
-        },
-        "variant_id": "interchange_plus"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "visa",
-            "mastercard",
-            "china_union_pay",
-            "diners",
-            "discover"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.9"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "advanced_card_payments",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "advanced_card_payments",
-        "id": "advanced_card_payments",
-        "international_surcharge_schedule": "advanced_card_payments",
-        "label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
-          "document_id": "FEETB697",
-          "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "212as4OS3Jo8t1HbPMZEce",
-          "row_index": 0,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB697::27"
-        },
-        "variant_id": "standard"
-      },
       {
         "calculation_status": "calculable",
         "conditions": {
@@ -2402,16 +2230,16 @@
         },
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "2.99"
-          },
-          {
             "schedule_id": "other_commercial__applies_to_markets=at_be_ch_de_fi_nl_no_se",
             "type": "fixed_fee_schedule"
           },
           {
             "schedule_id": "other_commercial__applies_to_markets=at_be_ch_de_fi_nl_no_se",
             "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "2.99"
           }
         ],
         "fixed_fee_schedule": "other_commercial__applies_to_markets=at_be_ch_de_fi_nl_no_se",
@@ -2431,7 +2259,7 @@
           "row_id": "enuJEJkg14GbdqRaqwlovP",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-          "table_id": "FeeTable::FEETB949::22"
+          "table_id": "FeeTable::FEETB949::21"
         },
         "variant_id": "standard"
       },
@@ -2446,16 +2274,16 @@
         },
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "4.99"
-          },
-          {
             "schedule_id": "other_commercial__applies_to_markets=au_nz",
             "type": "fixed_fee_schedule"
           },
           {
             "schedule_id": "other_commercial__applies_to_markets=au_nz",
             "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "4.99"
           }
         ],
         "fixed_fee_schedule": "other_commercial__applies_to_markets=au_nz",
@@ -2475,7 +2303,7 @@
           "row_id": "cnw5MrW5rmKe235fG5XEpS",
           "row_index": 3,
           "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-          "table_id": "FeeTable::FEETB949::22"
+          "table_id": "FeeTable::FEETB949::21"
         },
         "variant_id": "standard"
       },
@@ -2491,16 +2319,16 @@
         },
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "5.99"
-          },
-          {
             "schedule_id": "other_commercial__applies_to_markets=ca_mx_us",
             "type": "fixed_fee_schedule"
           },
           {
             "schedule_id": "other_commercial__applies_to_markets=ca_mx_us",
             "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5.99"
           }
         ],
         "fixed_fee_schedule": "other_commercial__applies_to_markets=ca_mx_us",
@@ -2520,7 +2348,7 @@
           "row_id": "bsVZjr2KlISb8nqOsyI5JV",
           "row_index": 2,
           "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-          "table_id": "FeeTable::FEETB949::22"
+          "table_id": "FeeTable::FEETB949::21"
         },
         "variant_id": "standard"
       },
@@ -2545,16 +2373,16 @@
         },
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "4.99"
-          },
-          {
             "schedule_id": "other_commercial__applies_to_markets=cz_es_fr_gb_gr_hu_ie_it_pl_pt_ro_sk",
             "type": "fixed_fee_schedule"
           },
           {
             "schedule_id": "other_commercial__applies_to_markets=cz_es_fr_gb_gr_hu_ie_it_pl_pt_ro_sk",
             "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "4.99"
           }
         ],
         "fixed_fee_schedule": "other_commercial__applies_to_markets=cz_es_fr_gb_gr_hu_ie_it_pl_pt_ro_sk",
@@ -2574,403 +2402,9 @@
           "row_id": "5QnQ55AkoiCb6rdrGXUhhs",
           "row_index": 1,
           "section_heading": "Gebyrtabel: Modtagelse af internationale betalinger",
-          "table_id": "FeeTable::FEETB949::22"
+          "table_id": "FeeTable::FEETB949::21"
         },
         "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "3.4"
-          },
-          {
-            "schedule_id": "other_commercial",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "other_commercial",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "other_commercial",
-        "id": "other_commercial",
-        "international_surcharge_schedule": "other_commercial",
-        "label": "Alle øvrige erhvervsbetalinger",
-        "percentage": "3.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5fkuXzju7ujkg0atLY5doL",
-          "document_id": "FEETB614",
-          "original_label": "Alle øvrige erhvervsbetalinger",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "CYmkyb0xwtUVXJZPvNIJX",
-          "row_index": 4,
-          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB614::1"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.9"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Anden alternativ betalingsmetode (ABM)",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "Anden alternativ betalingsmetode (ABM)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "5Zo5evsiEX6yrIUIU3MxqR",
-          "row_index": 5,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "default"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "airtel",
-            "blik_pay_later",
-            "floa_pay",
-            "gopay",
-            "kredivo",
-            "naver_pay",
-            "nupay",
-            "online_bank_transfer",
-            "ovo_premium",
-            "pago_efectivo",
-            "picpay",
-            "scalapay",
-            "skrill",
-            "thai_online_bank_transfer",
-            "true_money"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "5.49"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Online thailandsk bankoverførsel, online lettisk bankoverførsel, online litauisk bankoverførsel, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, FLOA Pay (pålægges renter for forbrugere), Scalapay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-        "percentage": "5.49",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "Online thailandsk bankoverførsel, online lettisk bankoverførsel, online litauisk bankoverførsel, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, FLOA Pay (pålægges renter for forbrugere), Scalapay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "2oXaZg1od6iatFuB8oG3ip",
-          "row_index": 2,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "special"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "bre_b",
-            "codi",
-            "coins",
-            "doku_wallet",
-            "dragonpay",
-            "estonian_online_bank_transfer",
-            "halopesa",
-            "jenius_pay",
-            "linkaja",
-            "mixx_by_yas",
-            "nequi",
-            "nibss_bank_transfer",
-            "ovo_premium",
-            "payattitude",
-            "paysera",
-            "pesalink",
-            "promptpay_qr",
-            "pse",
-            "twint",
-            "vietqr"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "3.4"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Twint, Doku E-pung, online estlandsk bankoverførsel, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, CODI, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, PSE, Bre-B, Nigerian Bank Transfer (NIBBS), Nequi, VietQR, Coins",
-        "percentage": "3.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "Twint, Doku E-pung, online estlandsk bankoverførsel, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, CODI, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, PSE, Bre-B, Nigerian Bank Transfer (NIBBS), Nequi, VietQR, Coins",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "8rGlnLphY1ObKwH7eStKji",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "special"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "floa_pay"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "6.5"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "FLOA Pay (pålægges ikke renter for forbrugere)",
-        "percentage": "6.5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "FLOA Pay (pålægges ikke renter for forbrugere)",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "AADd3RvohEMammlO2v6iZP",
-          "row_index": 4,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "special"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "klarna"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "2.99"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Klarna",
-        "percentage": "2.99",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "Klarna",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "XkUYCidrf6iazVslQhkLmR",
-          "row_index": 0,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "special"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "mercado_pago",
-            "shopee_pay"
-          ]
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "5.99"
-          },
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Mercado Pago, ShopeePay",
-        "percentage": "5.99",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2bbLHio9w7KSIyQaG174b3",
-          "document_id": "FEETB685",
-          "original_label": "Mercado Pago, ShopeePay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "6dkt0CFBip0crUbUMSZM0d",
-          "row_index": 3,
-          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB685::21"
-        },
-        "variant_id": "special"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.9"
-          },
-          {
-            "schedule_id": "guest_checkout",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "schedule_id": "guest_checkout",
-            "type": "international_surcharge_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "guest_checkout",
-        "id": "guest_checkout",
-        "international_surcharge_schedule": "guest_checkout",
-        "label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
-        "percentage": "1.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5fkuXzju7ujkg0atLY5doL",
-          "document_id": "FEETB614",
-          "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "5GKcHgM88YDh3r1Xx00EF1",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB614::1"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "0.9"
-          },
-          {
-            "schedule_id": "qr_code_payments_above_threshold",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "qr_code_payments_above_threshold",
-        "id": "qr_code_payments",
-        "label": "QR-kode-betalinger – 10,01 EUR og derover",
-        "percentage": "0.9",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5fkuXzju7ujkg0atLY5doL",
-          "document_id": "FEETB614",
-          "original_label": "QR-kode-betalinger – 10,01 EUR og derover",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4SYjrFgnDqtK2e7KNos95f",
-          "row_index": 2,
-          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB614::1"
-        },
-        "variant_id": "above_threshold"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "1.4"
-          },
-          {
-            "schedule_id": "qr_code_payments_below_threshold",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "qr_code_payments_below_threshold",
-        "id": "qr_code_payments",
-        "label": "QR-kode-betalinger – 10,00 EUR og derunder",
-        "percentage": "1.4",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5fkuXzju7ujkg0atLY5doL",
-          "document_id": "FEETB614",
-          "original_label": "QR-kode-betalinger – 10,00 EUR og derunder",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "3kxdL8oAALP1xEQCLr23Yb",
-          "row_index": 3,
-          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
-          "table_id": "FeeTable::FEETB614::1"
-        },
-        "variant_id": "below_threshold"
       },
       {
         "calculation_status": "calculable",
@@ -2982,12 +2416,12 @@
         },
         "fee_components": [
           {
-            "type": "percentage",
-            "value": "1.9"
-          },
-          {
             "schedule_id": "nonprofit",
             "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.9"
           }
         ],
         "fixed_fee_schedule": "nonprofit",
@@ -3006,75 +2440,7 @@
           "row_id": "26hEFG6xSN59ND2G8AINEg",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Modtage indenlandske betalinger til velgørende organisationer",
-          "table_id": "FeeTable::FEETB647::16"
-        },
-        "variant_id": "standard"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "transaction_region": "international"
-        },
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "6"
-          },
-          {
-            "schedule_id": "micropayments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Andre internationale mikrobetalinger",
-        "percentage": "6",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3yrBkOU1hi4j6h9sjN5ote",
-          "document_id": "FEETB670",
-          "original_label": "Andre internationale mikrobetalinger",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "oUGJ6qHJR2J8YDunPeYs7",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Modtagelse af mikrobetalinger",
-          "table_id": "FeeTable::FEETB670::37"
-        },
-        "variant_id": "international"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {},
-        "fee_components": [
-          {
-            "type": "percentage",
-            "value": "5"
-          },
-          {
-            "schedule_id": "micropayments",
-            "type": "fixed_fee_schedule"
-          }
-        ],
-        "fixed_fee_schedule": "micropayments",
-        "id": "micropayments",
-        "label": "Indenlandske mikrobetalinger",
-        "percentage": "5",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "3yrBkOU1hi4j6h9sjN5ote",
-          "document_id": "FEETB670",
-          "original_label": "Indenlandske mikrobetalinger",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "63iOP45DpsuX2f1lwiNjYU",
-          "row_index": 0,
-          "section_heading": "Gebyrtabel: Modtagelse af mikrobetalinger",
-          "table_id": "FeeTable::FEETB670::37"
+          "table_id": "FeeTable::FEETB647::18"
         },
         "variant_id": "standard"
       },
@@ -3106,9 +2472,138 @@
           "row_id": "9dPOZNu7KQwcBT4f8rKXKA",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af betalinger via PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB925::33"
+          "table_id": "FeeTable::FEETB925::25"
         },
         "variant_id": "card_present"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "authorization_channel": "terminal",
+          "point_of_sale": true
+        },
+        "fee_components": [
+          {
+            "schedule_id": "advanced_card_payments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "advanced_card_payments",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "2.9"
+          }
+        ],
+        "fixed_fee_schedule": "advanced_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments",
+        "label": "Betalinger via eTerminal",
+        "percentage": "2.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
+          "document_id": "FEETB697",
+          "original_label": "Betalinger via eTerminal",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "ZXVsmDdDwO2c8heYenbmtJ",
+          "row_index": 3,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
+          "table_id": "FeeTable::FEETB697::20"
+        },
+        "variant_id": "eterminal"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "airtel",
+            "blik_pay_later",
+            "floa_pay",
+            "gopay",
+            "kredivo",
+            "naver_pay",
+            "nupay",
+            "online_bank_transfer",
+            "ovo_premium",
+            "pago_efectivo",
+            "picpay",
+            "scalapay",
+            "skrill",
+            "thai_online_bank_transfer",
+            "true_money"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5.49"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Online thailandsk bankoverførsel, online lettisk bankoverførsel, online litauisk bankoverførsel, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, FLOA Pay (pålægges renter for forbrugere), Scalapay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
+        "percentage": "5.49",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "Online thailandsk bankoverførsel, online lettisk bankoverførsel, online litauisk bankoverførsel, Skrill, Ovo Premium, GoPay, BLIK Pay Later, Kredivo, FLOA Pay (pålægges renter for forbrugere), Scalapay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "2oXaZg1od6iatFuB8oG3ip",
+          "row_index": 2,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "special"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "american_express"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "advanced_card_payments",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "3.5"
+          }
+        ],
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments",
+        "label": "Avancerede kortbetalingerAmerican Express-kort",
+        "percentage": "3.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
+          "document_id": "FEETB697",
+          "original_label": "Avancerede kortbetalingerAmerican Express-kort",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "1W8GlGLlgfWZiTfV1lTHDc",
+          "row_index": 2,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
+          "table_id": "FeeTable::FEETB697::20"
+        },
+        "variant_id": "american_express"
       },
       {
         "calculation_status": "calculable",
@@ -3140,9 +2635,195 @@
           "row_id": "cK2EHfTUXMsc8YHULzSaeB",
           "row_index": 3,
           "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af betalinger via PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB925::33"
+          "table_id": "FeeTable::FEETB925::25"
         },
         "variant_id": "payment_links"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "bre_b",
+            "codi",
+            "coins",
+            "doku_wallet",
+            "dragonpay",
+            "estonian_online_bank_transfer",
+            "halopesa",
+            "jenius_pay",
+            "linkaja",
+            "mixx_by_yas",
+            "nequi",
+            "nibss_bank_transfer",
+            "ovo_premium",
+            "payattitude",
+            "paysera",
+            "pesalink",
+            "promptpay_qr",
+            "pse",
+            "twint",
+            "vietqr"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "3.4"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Twint, Doku E-pung, online estlandsk bankoverførsel, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, CODI, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, PSE, Bre-B, Nigerian Bank Transfer (NIBBS), Nequi, VietQR, Coins",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "Twint, Doku E-pung, online estlandsk bankoverførsel, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, CODI, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, PSE, Bre-B, Nigerian Bank Transfer (NIBBS), Nequi, VietQR, Coins",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "8rGlnLphY1ObKwH7eStKji",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "special"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "china_union_pay",
+            "diners",
+            "discover",
+            "mastercard",
+            "visa"
+          ],
+          "pricing_plan": "interchange_plus"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "advanced_card_payments__pricing_plan=interchange_plus",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "advanced_card_payments__pricing_plan=interchange_plus",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.9"
+          }
+        ],
+        "fixed_fee_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments__pricing_plan=interchange_plus",
+        "label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
+          "document_id": "FEETB697",
+          "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Interchange Plus (interbankgebyrer):Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "hjjAg5fYxIwasvEO7SpML",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
+          "table_id": "FeeTable::FEETB697::20"
+        },
+        "variant_id": "interchange_plus"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "china_union_pay",
+            "diners",
+            "discover",
+            "mastercard",
+            "visa"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "advanced_card_payments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "advanced_card_payments",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.9"
+          }
+        ],
+        "fixed_fee_schedule": "advanced_card_payments",
+        "id": "advanced_card_payments",
+        "international_surcharge_schedule": "advanced_card_payments",
+        "label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4OXKtKjPEjZaJCiUTYVD8A",
+          "document_id": "FEETB697",
+          "original_label": "Avancerede kortbetalinger - Gebyrstrukturen Blandede priser:Visa, Mastercard, China Union Pay (CUP), Diners Club og Discover",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "212as4OS3Jo8t1HbPMZEce",
+          "row_index": 0,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger ved hjælp af PayPals online kortbetalingstjenester",
+          "table_id": "FeeTable::FEETB697::20"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "floa_pay"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "6.5"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "FLOA Pay (pålægges ikke renter for forbrugere)",
+        "percentage": "6.5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "FLOA Pay (pålægges ikke renter for forbrugere)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "AADd3RvohEMammlO2v6iZP",
+          "row_index": 4,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "special"
       },
       {
         "calculation_status": "calculable",
@@ -3175,9 +2856,84 @@
           "row_id": "8Oq7aPBsusnabxsPRjWutW",
           "row_index": 2,
           "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af betalinger via PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB925::33"
+          "table_id": "FeeTable::FEETB925::25"
         },
         "variant_id": "payment_links"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "klarna"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "2.99"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Klarna",
+        "percentage": "2.99",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "Klarna",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "XkUYCidrf6iazVslQhkLmR",
+          "row_index": 0,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "special"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "mercado_pago",
+            "shopee_pay"
+          ]
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5.99"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Mercado Pago, ShopeePay",
+        "percentage": "5.99",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "Mercado Pago, ShopeePay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "6dkt0CFBip0crUbUMSZM0d",
+          "row_index": 3,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "special"
       },
       {
         "calculation_status": "calculable",
@@ -3202,55 +2958,275 @@
           "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
           "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
           "section_heading": "Gebyrtabel: Yderligere servicegebyr for modtagere af internationale erhvervsbetalinger fra Storbritannien",
-          "table_id": "FeeTable::FEETB619::3"
+          "table_id": "FeeTable::FEETB619::32"
         },
         "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "transaction_region": "international"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "micropayments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "6"
+          }
+        ],
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Andre internationale mikrobetalinger",
+        "percentage": "6",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3yrBkOU1hi4j6h9sjN5ote",
+          "document_id": "FEETB670",
+          "original_label": "Andre internationale mikrobetalinger",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "oUGJ6qHJR2J8YDunPeYs7",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Modtagelse af mikrobetalinger",
+          "table_id": "FeeTable::FEETB670::22"
+        },
+        "variant_id": "international"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.9"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Anden alternativ betalingsmetode (ABM)",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2bbLHio9w7KSIyQaG174b3",
+          "document_id": "FEETB685",
+          "original_label": "Anden alternativ betalingsmetode (ABM)",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "5Zo5evsiEX6yrIUIU3MxqR",
+          "row_index": 5,
+          "section_heading": "Gebyrtabel: Modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB685::19"
+        },
+        "variant_id": "default"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "guest_checkout",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "guest_checkout",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.9"
+          }
+        ],
+        "fixed_fee_schedule": "guest_checkout",
+        "id": "guest_checkout",
+        "international_surcharge_schedule": "guest_checkout",
+        "label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
+        "percentage": "1.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5fkuXzju7ujkg0atLY5doL",
+          "document_id": "FEETB614",
+          "original_label": "Betaling via kort fra en bruger af vores vilkår for betalinger uden en PayPal-konto",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "5GKcHgM88YDh3r1Xx00EF1",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB614::26"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "micropayments",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5"
+          }
+        ],
+        "fixed_fee_schedule": "micropayments",
+        "id": "micropayments",
+        "label": "Indenlandske mikrobetalinger",
+        "percentage": "5",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "3yrBkOU1hi4j6h9sjN5ote",
+          "document_id": "FEETB670",
+          "original_label": "Indenlandske mikrobetalinger",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "63iOP45DpsuX2f1lwiNjYU",
+          "row_index": 0,
+          "section_heading": "Gebyrtabel: Modtagelse af mikrobetalinger",
+          "table_id": "FeeTable::FEETB670::22"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "other_commercial",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "schedule_id": "other_commercial",
+            "type": "international_surcharge_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "3.4"
+          }
+        ],
+        "fixed_fee_schedule": "other_commercial",
+        "id": "other_commercial",
+        "international_surcharge_schedule": "other_commercial",
+        "label": "Alle øvrige erhvervsbetalinger",
+        "percentage": "3.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5fkuXzju7ujkg0atLY5doL",
+          "document_id": "FEETB614",
+          "original_label": "Alle øvrige erhvervsbetalinger",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "CYmkyb0xwtUVXJZPvNIJX",
+          "row_index": 4,
+          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB614::26"
+        },
+        "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "qr_code_payments_above_threshold",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "0.9"
+          }
+        ],
+        "fixed_fee_schedule": "qr_code_payments_above_threshold",
+        "id": "qr_code_payments",
+        "label": "QR-kode-betalinger – 10,01 EUR og derover",
+        "percentage": "0.9",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5fkuXzju7ujkg0atLY5doL",
+          "document_id": "FEETB614",
+          "original_label": "QR-kode-betalinger – 10,01 EUR og derover",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4SYjrFgnDqtK2e7KNos95f",
+          "row_index": 2,
+          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB614::26"
+        },
+        "variant_id": "above_threshold"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {},
+        "fee_components": [
+          {
+            "schedule_id": "qr_code_payments_below_threshold",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "1.4"
+          }
+        ],
+        "fixed_fee_schedule": "qr_code_payments_below_threshold",
+        "id": "qr_code_payments",
+        "label": "QR-kode-betalinger – 10,00 EUR og derunder",
+        "percentage": "1.4",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5fkuXzju7ujkg0atLY5doL",
+          "document_id": "FEETB614",
+          "original_label": "QR-kode-betalinger – 10,00 EUR og derunder",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "3kxdL8oAALP1xEQCLr23Yb",
+          "row_index": 3,
+          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af indenlandske betalinger",
+          "table_id": "FeeTable::FEETB614::26"
+        },
+        "variant_id": "below_threshold"
       }
     ],
     "unclassified_fee_rows": [
       {
         "normalized_cells": [
-          "Avanceret bedrageriværktøj",
-          "Valgfri tjeneste til avancerede kortbetalinger",
-          "0,50 DKK pr. betaling"
+          "Amerikanske dollar",
+          "15,00 USD"
         ],
-        "original_label": "Avanceret bedrageriværktøj",
+        "original_label": "Amerikanske dollar",
         "reason": "unclassified_fee_candidate",
         "source": {
           "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "5TYvU7B8r2w0H0pSmb7UPc",
-          "document_id": "FEETB762",
-          "original_label": "Avanceret bedrageriværktøj",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Amerikanske dollar",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
           "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "7BRhMMcOdz4okVj4pNvL4W",
-          "row_index": 0,
-          "section_heading": "Gebyrtabel: Andre gebyrer for brug af PayPals online-kortbetalingstjenester",
-          "table_id": "FeeTable::FEETB762::32"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Betalinger med MobilePay",
-          "0,00 DKK"
-        ],
-        "original_label": "Betalinger med MobilePay",
-        "reason": "unsupported_fee_shape",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2uEFqvamXCsdumLLYEU3FI",
-          "document_id": "FEETB925",
-          "original_label": "Betalinger med MobilePay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "WioMRHRUc1QbD9ABTtr0l2",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af betalinger via PayPal Point of Sale",
-          "table_id": "FeeTable::FEETB925::33"
+          "row_id": "1SwYwEeRhEZYym0cCp91aF",
+          "row_index": 24,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
         }
       },
       {
@@ -3272,447 +3248,30 @@
           "row_id": "1JE7VDyjY4EYrJOlDFOgZf",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
+          "table_id": "FeeTable::FEETB708::27"
         }
       },
       {
         "normalized_cells": [
-          "Brasilianske real",
-          "65,00 BRL"
+          "Avanceret bedrageriværktøj",
+          "Valgfri tjeneste til avancerede kortbetalinger",
+          "0,50 DKK pr. betaling"
         ],
-        "original_label": "Brasilianske real",
+        "original_label": "Avanceret bedrageriværktøj",
         "reason": "unclassified_fee_candidate",
         "source": {
           "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
           "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Brasilianske real",
+          "component_id": "5TYvU7B8r2w0H0pSmb7UPc",
+          "document_id": "FEETB762",
+          "original_label": "Avanceret bedrageriværktøj",
           "page_id": "business/paypal-business-fees",
           "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
           "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4lsDtTIQBnTKQZESkNq2jB",
-          "row_index": 1,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Canadiske dollar",
-          "20,00 CAD"
-        ],
-        "original_label": "Canadiske dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Canadiske dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4JdTQ9sKjo7mdTjRsEiKEq",
-          "row_index": 2,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Tjekkiske koruna",
-          "350,00 CZK"
-        ],
-        "original_label": "Tjekkiske koruna",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Tjekkiske koruna",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "1bEMexJsfLvSlj53325dQt",
-          "row_index": 3,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Danske kroner",
-          "100,00 DKK"
-        ],
-        "original_label": "Danske kroner",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Danske kroner",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "5VAPZeIIgLb3Xv68dtw0fg",
-          "row_index": 4,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Euro",
-          "14,00 EUR"
-        ],
-        "original_label": "Euro",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Euro",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "3hPMBkPmK6GebSe4cJ8Bzs",
-          "row_index": 5,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Hongkong dollar",
-          "115,00 HKD"
-        ],
-        "original_label": "Hongkong dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Hongkong dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "9we1HlC2SCDyh5eUAG9qm",
-          "row_index": 6,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Nye israelske shekler",
-          "55,00 ILS"
-        ],
-        "original_label": "Nye israelske shekler",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Nye israelske shekler",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4kRYMHHyfBhtD2YJlybcUc",
-          "row_index": 9,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Malaysiske ringgit",
-          "65,00 MYR"
-        ],
-        "original_label": "Malaysiske ringgit",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Malaysiske ringgit",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "7mTT5JoK0DSditerVaLaAK",
-          "row_index": 11,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Mexicanske pesos",
-          "300,00 MXN"
-        ],
-        "original_label": "Mexicanske pesos",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
-          "document_id": "FEETB708",
-          "original_label": "Mexicanske pesos",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "20X3bxUEWLo8U8EC5sKzNt",
-          "row_index": 12,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Nye taiwanske dollar",
-          "455,00 TWD"
-        ],
-        "original_label": "Nye taiwanske dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Nye taiwanske dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "zZPq2lez75dbffv9LCGBj",
-          "row_index": 13,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Newzealandske dollar",
-          "25,00 NZD"
-        ],
-        "original_label": "Newzealandske dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Newzealandske dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "aD58hJwpMuO636c5gPxTK",
-          "row_index": 14,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Norske kroner",
-          "140,00 NOK"
-        ],
-        "original_label": "Norske kroner",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Norske kroner",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "1nAIhuPwlgwnlN9lOluGfC",
-          "row_index": 15,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Filippinske pesos",
-          "760,00 PHP"
-        ],
-        "original_label": "Filippinske pesos",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Filippinske pesos",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "3Qr1x8ohvsj0mpKf8EpV71",
-          "row_index": 16,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Polske zloty",
-          "60,00 PLN"
-        ],
-        "original_label": "Polske zloty",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Polske zloty",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "2E131ip1PRM5IuziXHhUks",
-          "row_index": 17,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Singapore dollar",
-          "20,00 SGD"
-        ],
-        "original_label": "Singapore dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Singapore dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "71GoZWFXQU2Dekx1La9CbN",
-          "row_index": 19,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Svenske kroner",
-          "145,00 SEK"
-        ],
-        "original_label": "Svenske kroner",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Svenske kroner",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "4qFyRRRnISsIvTV35BwLnk",
-          "row_index": 20,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Schweizerfranc",
-          "15,00 CHF"
-        ],
-        "original_label": "Schweizerfranc",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Schweizerfranc",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "dn3MYHBvNvSuCXHtVxN2q",
-          "row_index": 21,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Thailandske baht",
-          "465,00 THB"
-        ],
-        "original_label": "Thailandske baht",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Thailandske baht",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "3uBX2OPX0eeoqDekkSMyZO",
-          "row_index": 22,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Britiske pund",
-          "12,00 GBP"
-        ],
-        "original_label": "Britiske pund",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Britiske pund",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "1fRMa2fNaWPJ8bkMBsSplQ",
-          "row_index": 23,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
-        }
-      },
-      {
-        "normalized_cells": [
-          "Amerikanske dollar",
-          "15,00 USD"
-        ],
-        "original_label": "Amerikanske dollar",
-        "reason": "unclassified_fee_candidate",
-        "source": {
-          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "4BncZNRnhMV69rBOKj2QyF",
-          "document_id": "FEETB707",
-          "original_label": "Amerikanske dollar",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
-          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
-          "row_id": "1SwYwEeRhEZYym0cCp91aF",
-          "row_index": 24,
-          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
-          "table_id": "FeeTable::FEETB708::46"
+          "row_id": "7BRhMMcOdz4okVj4pNvL4W",
+          "row_index": 0,
+          "section_heading": "Gebyrtabel: Andre gebyrer for brug af PayPals online-kortbetalingstjenester",
+          "table_id": "FeeTable::FEETB762::4"
         }
       },
       {
@@ -3735,7 +3294,117 @@
           "row_id": "5bJ5UeLPq2qP8YQm8MsqA9",
           "row_index": 0,
           "section_heading": "Gebyrtabel: Andre gebyrer",
-          "table_id": "FeeTable::FEETB718::57"
+          "table_id": "FeeTable::FEETB718::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Betalinger med MobilePay",
+          "0,00 DKK"
+        ],
+        "original_label": "Betalinger med MobilePay",
+        "reason": "unsupported_fee_shape",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2uEFqvamXCsdumLLYEU3FI",
+          "document_id": "FEETB925",
+          "original_label": "Betalinger med MobilePay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "WioMRHRUc1QbD9ABTtr0l2",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Standardgebyr for modtagelse af betalinger via PayPal Point of Sale",
+          "table_id": "FeeTable::FEETB925::25"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Brasilianske real",
+          "65,00 BRL"
+        ],
+        "original_label": "Brasilianske real",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Brasilianske real",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4lsDtTIQBnTKQZESkNq2jB",
+          "row_index": 1,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Britiske pund",
+          "12,00 GBP"
+        ],
+        "original_label": "Britiske pund",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Britiske pund",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "1fRMa2fNaWPJ8bkMBsSplQ",
+          "row_index": 23,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Canadiske dollar",
+          "20,00 CAD"
+        ],
+        "original_label": "Canadiske dollar",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Canadiske dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4JdTQ9sKjo7mdTjRsEiKEq",
+          "row_index": 2,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Danske kroner",
+          "100,00 DKK"
+        ],
+        "original_label": "Danske kroner",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Danske kroner",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "5VAPZeIIgLb3Xv68dtw0fg",
+          "row_index": 4,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
         }
       },
       {
@@ -3758,12 +3427,341 @@
           "row_id": "1ewOYtQW7kVBRQ64T6gu2E",
           "row_index": 4,
           "section_heading": "Gebyrtabel: Andre gebyrer",
-          "table_id": "FeeTable::FEETB718::57"
+          "table_id": "FeeTable::FEETB718::3"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Euro",
+          "14,00 EUR"
+        ],
+        "original_label": "Euro",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Euro",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "3hPMBkPmK6GebSe4cJ8Bzs",
+          "row_index": 5,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Filippinske pesos",
+          "760,00 PHP"
+        ],
+        "original_label": "Filippinske pesos",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Filippinske pesos",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "3Qr1x8ohvsj0mpKf8EpV71",
+          "row_index": 16,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Hongkong dollar",
+          "115,00 HKD"
+        ],
+        "original_label": "Hongkong dollar",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Hongkong dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "9we1HlC2SCDyh5eUAG9qm",
+          "row_index": 6,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Malaysiske ringgit",
+          "65,00 MYR"
+        ],
+        "original_label": "Malaysiske ringgit",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Malaysiske ringgit",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "7mTT5JoK0DSditerVaLaAK",
+          "row_index": 11,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Mexicanske pesos",
+          "300,00 MXN"
+        ],
+        "original_label": "Mexicanske pesos",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Mexicanske pesos",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "20X3bxUEWLo8U8EC5sKzNt",
+          "row_index": 12,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Newzealandske dollar",
+          "25,00 NZD"
+        ],
+        "original_label": "Newzealandske dollar",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Newzealandske dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "aD58hJwpMuO636c5gPxTK",
+          "row_index": 14,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Norske kroner",
+          "140,00 NOK"
+        ],
+        "original_label": "Norske kroner",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Norske kroner",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "1nAIhuPwlgwnlN9lOluGfC",
+          "row_index": 15,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Nye israelske shekler",
+          "55,00 ILS"
+        ],
+        "original_label": "Nye israelske shekler",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Nye israelske shekler",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4kRYMHHyfBhtD2YJlybcUc",
+          "row_index": 9,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Nye taiwanske dollar",
+          "455,00 TWD"
+        ],
+        "original_label": "Nye taiwanske dollar",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Nye taiwanske dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "zZPq2lez75dbffv9LCGBj",
+          "row_index": 13,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Polske zloty",
+          "60,00 PLN"
+        ],
+        "original_label": "Polske zloty",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Polske zloty",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "2E131ip1PRM5IuziXHhUks",
+          "row_index": 17,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Schweizerfranc",
+          "15,00 CHF"
+        ],
+        "original_label": "Schweizerfranc",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Schweizerfranc",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "dn3MYHBvNvSuCXHtVxN2q",
+          "row_index": 21,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Singapore dollar",
+          "20,00 SGD"
+        ],
+        "original_label": "Singapore dollar",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Singapore dollar",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "71GoZWFXQU2Dekx1La9CbN",
+          "row_index": 19,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Svenske kroner",
+          "145,00 SEK"
+        ],
+        "original_label": "Svenske kroner",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Svenske kroner",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "4qFyRRRnISsIvTV35BwLnk",
+          "row_index": 20,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Thailandske baht",
+          "465,00 THB"
+        ],
+        "original_label": "Thailandske baht",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "4BncZNRnhMV69rBOKj2QyF",
+          "document_id": "FEETB707",
+          "original_label": "Thailandske baht",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "3uBX2OPX0eeoqDekkSMyZO",
+          "row_index": 22,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
+        }
+      },
+      {
+        "normalized_cells": [
+          "Tjekkiske koruna",
+          "350,00 CZK"
+        ],
+        "original_label": "Tjekkiske koruna",
+        "reason": "unclassified_fee_candidate",
+        "source": {
+          "canonical_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "2pZCXqZ1uDr4Q1W7SLnkZe",
+          "document_id": "FEETB708",
+          "original_label": "Tjekkiske koruna",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPals forhandlergebyrer – sælgergebyrer",
+          "requested_url": "https://www.paypal.com/dk/business/paypal-business-fees",
+          "row_id": "1bEMexJsfLvSlj53325dQt",
+          "row_index": 3,
+          "section_heading": "Gebyrtabel: Standardgebyrer for tvister",
+          "table_id": "FeeTable::FEETB708::27"
         }
       }
     ]
   },
-  "generated_at": "2026-07-18T07:23:12.845795",
   "market": {
     "country_name": "Denmark",
     "iso_country_code": "DK",
