@@ -124,8 +124,7 @@ def _check_notify_workflow(notify_path: Path) -> None:
 
     check_present(r'gh\(\s*"issue",\s*"create"', text, name)
     check_present(r'gh\(\s*"issue",\s*"comment"', text, name)
-    check_present(r'gh\(\s*"issue",\s*"edit"', text, name)
-    check_present(r'"--state",\s*"closed"', text, name)
+    check_present(r'gh\(\s*"issue",\s*"close"', text, name)
     check_present(r"smeinecke", text, name)
     check_present(r'conclusion == "success"', text, name)
 

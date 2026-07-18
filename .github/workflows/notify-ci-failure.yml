@@ -141,9 +141,8 @@ jobs:
                       "--body", recovery,
                   )
                   gh(
-                      "issue", "edit", str(issue_number),
+                      "issue", "close", str(issue_number),
                       "--repo", repository,
-                      "--state", "closed",
                   )
               sys.exit(0)
 
