@@ -808,6 +808,11 @@
       "additionalProperties": false,
       "description": "Consumer-facing market identity for a country fee result.",
       "properties": {
+        "country_code": {
+          "readOnly": true,
+          "title": "Country Code",
+          "type": "string"
+        },
         "country_name": {
           "title": "Country Name",
           "type": "string"
@@ -843,7 +848,8 @@
       },
       "required": [
         "paypal_market_code",
-        "country_name"
+        "country_name",
+        "country_code"
       ],
       "title": "PublicMarket",
       "type": "object"
