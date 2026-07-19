@@ -52817,41 +52817,6 @@
             "calculation_status": "calculable",
             "conditions": {
               "payment_methods": [
-                "airtel",
-                "gopay",
-                "latvian_online_bank_transfer",
-                "lithuanian_online_bank_transfer",
-                "naver_pay",
-                "nupay",
-                "ovo_premium",
-                "pago_efectivo",
-                "picpay",
-                "skrill",
-                "thai_online_bank_transfer",
-                "true_money"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.49"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "percentage": "5.49",
-            "variant_id": "special"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
                 "apple_pay",
                 "card",
                 "third_party_wallet"
@@ -52867,6 +52832,35 @@
             "label": "Zahlungslinks: Standard-Kredit- und Debitkartenzahlungen, Apple Pay oder andere Wallets von Drittanbietern",
             "percentage": "2.99",
             "variant_id": "payment_links"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
+              "payment_methods": [
+                "gopay",
+                "latvian_online_bank_transfer",
+                "lithuanian_online_bank_transfer",
+                "ovo_premium",
+                "skrill",
+                "thai_online_bank_transfer"
+              ],
+              "transaction_region": "domestic"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "alternative_payment_methods",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "5.49"
+              }
+            ],
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "id": "alternative_payment_methods",
+            "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
+            "percentage": "5.49",
+            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
@@ -52888,31 +52882,6 @@
             "label": "Zahlungslinks: PayPal Checkout, Zahlungen mit Venmo, PayPal-Ratenzahlungsangebote, oder Zahlungen ohne PayPal-Konto",
             "percentage": "2.99",
             "variant_id": "payment_links"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
-                "mercado_pago",
-                "shopee_pay"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.99"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Mercado Pesa, ShopeePay",
-            "percentage": "5.99",
-            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
@@ -74440,41 +74409,6 @@
             "calculation_status": "calculable",
             "conditions": {
               "payment_methods": [
-                "airtel",
-                "gopay",
-                "latvian_online_bank_transfer",
-                "lithuanian_online_bank_transfer",
-                "naver_pay",
-                "nupay",
-                "ovo_premium",
-                "pago_efectivo",
-                "picpay",
-                "skrill",
-                "thai_online_bank_transfer",
-                "true_money"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.49"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "percentage": "5.49",
-            "variant_id": "special"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
                 "american_express"
               ],
               "transaction_region": "domestic"
@@ -74514,49 +74448,6 @@
             "label": "Payment Links: Standard Credit and Debit Card Payments, Apple Pay, or other third-party wallets",
             "percentage": "1.2",
             "variant_id": "payment_links"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
-                "bre_b",
-                "codi",
-                "coins",
-                "doku_wallet",
-                "dragonpay",
-                "estonian_online_bank_transfer",
-                "halopesa",
-                "jenius_pay",
-                "linkaja",
-                "mixx_by_yas",
-                "nequi",
-                "nibss_bank_transfer",
-                "ovo_premium",
-                "payattitude",
-                "paysera",
-                "pesalink",
-                "promptpay_qr",
-                "pse",
-                "twint",
-                "vietqr"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "2.9"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Twint, Doku Wallet, Estonia Online Bank Transfer, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, CODI, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, PSE, Bre-B, Nigerian Bank Transfer (NIBBS), Nequi, VietQR, Coins",
-            "percentage": "2.9",
-            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
@@ -74627,6 +74518,66 @@
             "label": "Advanced Credit and Debit Card Payments - Interchange Plus Fee Structure:Visa, MasterCard, China Union Pay (CUP), Diners and Discover card types",
             "percentage": "1.2",
             "variant_id": "advanced_card"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
+              "payment_methods": [
+                "doku_wallet",
+                "dragonpay",
+                "estonian_online_bank_transfer",
+                "jenius_pay",
+                "linkaja",
+                "ovo_premium",
+                "paysera",
+                "twint"
+              ],
+              "transaction_region": "domestic"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "alternative_payment_methods",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "2.9"
+              }
+            ],
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "id": "alternative_payment_methods",
+            "label": "Twint, Doku Wallet, Estonia Online Bank Transfer, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "percentage": "2.9",
+            "variant_id": "special"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
+              "payment_methods": [
+                "gopay",
+                "latvian_online_bank_transfer",
+                "lithuanian_online_bank_transfer",
+                "ovo_premium",
+                "skrill",
+                "thai_online_bank_transfer"
+              ],
+              "transaction_region": "domestic"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "alternative_payment_methods",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "5.49"
+              }
+            ],
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "id": "alternative_payment_methods",
+            "label": "Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
+            "percentage": "5.49",
+            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
@@ -74712,31 +74663,6 @@
             "label": "Website Payments Pro - Interchange Plus Fee Structure:Visa, MasterCard or Maestro card types",
             "percentage": "2.9",
             "variant_id": "payments_pro"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
-                "mercado_pago",
-                "shopee_pay"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.99"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Mercado Pago, ShopeePay",
-            "percentage": "5.99",
-            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
@@ -227947,42 +227873,6 @@
             "calculation_status": "calculable",
             "conditions": {
               "payment_methods": [
-                "airtel",
-                "gopay",
-                "latvian_online_bank_transfer",
-                "lithuanian_online_bank_transfer",
-                "naver_pay",
-                "nupay",
-                "ovo_premium",
-                "oxxopay",
-                "pago_efectivo",
-                "picpay",
-                "skrill",
-                "thai_online_bank_transfer",
-                "true_money"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.49"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "OxxoPay, Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
-            "percentage": "5.49",
-            "variant_id": "special"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
                 "apple_pay",
                 "card",
                 "third_party_wallet"
@@ -228021,47 +227911,6 @@
             "id": "alternative_payment_methods",
             "label": "Standard Credit and Debit Card Payments, Apple Pay, or other third-party wallets",
             "percentage": "2.99",
-            "variant_id": "special"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
-                "bre_b",
-                "coins",
-                "doku_wallet",
-                "dragonpay",
-                "estonian_online_bank_transfer",
-                "fiuu_cash",
-                "halopesa",
-                "jenius_pay",
-                "linkaja",
-                "mixx_by_yas",
-                "nibss_bank_transfer",
-                "opay",
-                "ovo_premium",
-                "payattitude",
-                "paysera",
-                "pesalink",
-                "promptpay_qr",
-                "vietqr"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "3.49"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Doku Wallet, Estonia Online Bank Transfer, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo, HaloPesa, Mixx by Yas, Payattitude, PesaLink, Promptpay QR, Opay, Bre-B, Nigerian Bank Transfer (NIBBS), Viet QR, Coins",
-            "percentage": "3.49",
             "variant_id": "special"
           },
           {
@@ -228155,6 +228004,67 @@
             "calculation_status": "calculable",
             "conditions": {
               "payment_methods": [
+                "doku_wallet",
+                "dragonpay",
+                "estonian_online_bank_transfer",
+                "fiuu_cash",
+                "jenius_pay",
+                "linkaja",
+                "ovo_premium",
+                "paysera"
+              ],
+              "transaction_region": "domestic"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "alternative_payment_methods",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "3.49"
+              }
+            ],
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "id": "alternative_payment_methods",
+            "label": "Doku Wallet, Estonia Online Bank Transfer, FIUU Cash, LinkAja, Jenius Pay, Paysera, DragonPay, Ovo",
+            "percentage": "3.49",
+            "variant_id": "special"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
+              "payment_methods": [
+                "gopay",
+                "latvian_online_bank_transfer",
+                "lithuanian_online_bank_transfer",
+                "ovo_premium",
+                "oxxopay",
+                "skrill",
+                "thai_online_bank_transfer"
+              ],
+              "transaction_region": "domestic"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "alternative_payment_methods",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "5.49"
+              }
+            ],
+            "fixed_fee_schedule": "alternative_payment_methods",
+            "id": "alternative_payment_methods",
+            "label": "OxxoPay, Thailand Online Bank Transfer, Latvian Online Bank Transfer, Lithuanian Online Bank Transfer, Skrill, Ovo Premium, GoPay",
+            "percentage": "5.49",
+            "variant_id": "special"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
+              "payment_methods": [
                 "guest_checkout",
                 "pay_later",
                 "paypal_checkout",
@@ -228171,31 +228081,6 @@
             "label": "Payment links: PayPal Checkout, Pay with Venmo, PayPal Pay Later offers, or PayPal Guest Checkout",
             "percentage": "3.49",
             "variant_id": "payment_links"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "payment_methods": [
-                "mercado_pago",
-                "shopee_pay"
-              ],
-              "transaction_region": "domestic"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "alternative_payment_methods",
-                "type": "fixed_fee_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "5.99"
-              }
-            ],
-            "fixed_fee_schedule": "alternative_payment_methods",
-            "id": "alternative_payment_methods",
-            "label": "Mercado Pago, ShopeePay",
-            "percentage": "5.99",
-            "variant_id": "special"
           },
           {
             "calculation_status": "calculable",
