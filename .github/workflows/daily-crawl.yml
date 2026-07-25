@@ -53,7 +53,19 @@ jobs:
       - name: Run publication gate
         run: bash scripts/verify_publication.sh
 
+      - name: Detect value changes
+        id: value_changes
+        run: |
+          change_count=$(python3 -c 'import json; print(len(json.load(open("change-report.json")).get("changes", [])))')
+          if [ "$change_count" -eq 0 ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No fee value changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit generated changes
+        if: steps.value_changes.outputs.has_changes == 'true'
         run: |
           set -euo pipefail
 
