@@ -5,10 +5,10 @@
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 28,
+      "calculable_rules": 29,
       "conflicts": 0,
       "direct_fixed_fees": 6,
-      "extracted_apm_methods": 6,
+      "extracted_apm_methods": 14,
       "fixed_fee_entries": 312,
       "ignored": 110,
       "inherited_schedule_objects": 10,
@@ -21,7 +21,7 @@
       "numeric_fee_candidates": 7,
       "reference_sources": 4,
       "reference_targets": 3,
-      "transaction_rules": 28,
+      "transaction_rules": 29,
       "unclassified": 0,
       "unclassified_fee_candidates": 0,
       "unknown_apm_methods": 0,
@@ -4323,7 +4323,7 @@
           "page_title": "PayPal Händler - und Verkäufergebühren",
           "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
           "row_id": "6iyAl0gJz3Btir2S0CdQUe",
-          "row_index": 1,
+          "row_index": 2,
           "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
           "table_id": "FeeTable::FEETB421::3"
         },
@@ -4637,6 +4637,55 @@
         "calculation_status": "calculable",
         "conditions": {
           "payment_methods": [
+            "airtel",
+            "gopay",
+            "latvian_online_bank_transfer",
+            "lithuanian_online_bank_transfer",
+            "naver_pay",
+            "nupay",
+            "ovo_premium",
+            "pago_efectivo",
+            "picpay",
+            "skrill",
+            "thai_online_bank_transfer",
+            "true_money"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5.49"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
+        "percentage": "5.49",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5d5LpUG29eqRwWktmzAyG6",
+          "document_id": "FEETB421",
+          "original_label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay, NaverPay, PicPay, NuPay, TrueMoney, Airtel, Pago Efectivo",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "YTrd81sCEtadjVr8R5gmZH",
+          "row_index": 0,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB421::3"
+        },
+        "variant_id": "special"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
             "apple_pay",
             "card",
             "third_party_wallet"
@@ -4666,49 +4715,6 @@
           "table_id": "FeeTable::FEETB893::25"
         },
         "variant_id": "payment_links"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "payment_methods": [
-            "gopay",
-            "latvian_online_bank_transfer",
-            "lithuanian_online_bank_transfer",
-            "ovo_premium",
-            "skrill",
-            "thai_online_bank_transfer"
-          ],
-          "transaction_region": "domestic"
-        },
-        "fee_components": [
-          {
-            "schedule_id": "alternative_payment_methods",
-            "type": "fixed_fee_schedule"
-          },
-          {
-            "type": "percentage",
-            "value": "5.49"
-          }
-        ],
-        "fixed_fee_schedule": "alternative_payment_methods",
-        "id": "alternative_payment_methods",
-        "label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
-        "percentage": "5.49",
-        "source": {
-          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "5d5LpUG29eqRwWktmzAyG6",
-          "document_id": "FEETB421",
-          "original_label": "Thailändische Online-Banküberweisung, lettische Online-Banküberweisung, litauische Online-Banküberweisung, Skrill, Ovo Premium, GoPay",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "PayPal Händler - und Verkäufergebühren",
-          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
-          "row_id": "YTrd81sCEtadjVr8R5gmZH",
-          "row_index": 0,
-          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
-          "table_id": "FeeTable::FEETB421::3"
-        },
-        "variant_id": "special"
       },
       {
         "calculation_status": "calculable",
@@ -4744,6 +4750,45 @@
           "table_id": "FeeTable::FEETB893::25"
         },
         "variant_id": "payment_links"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "payment_methods": [
+            "mercado_pago",
+            "shopee_pay"
+          ],
+          "transaction_region": "domestic"
+        },
+        "fee_components": [
+          {
+            "schedule_id": "alternative_payment_methods",
+            "type": "fixed_fee_schedule"
+          },
+          {
+            "type": "percentage",
+            "value": "5.99"
+          }
+        ],
+        "fixed_fee_schedule": "alternative_payment_methods",
+        "id": "alternative_payment_methods",
+        "label": "Mercado Pesa, ShopeePay",
+        "percentage": "5.99",
+        "source": {
+          "canonical_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "5d5LpUG29eqRwWktmzAyG6",
+          "document_id": "FEETB421",
+          "original_label": "Mercado Pesa, ShopeePay",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "PayPal Händler - und Verkäufergebühren",
+          "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
+          "row_id": "87QhbUGoEIPbKu1vQLXlrR",
+          "row_index": 1,
+          "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
+          "table_id": "FeeTable::FEETB421::3"
+        },
+        "variant_id": "special"
       },
       {
         "calculation_status": "calculable",
@@ -5067,7 +5112,7 @@
               "page_title": "PayPal Händler - und Verkäufergebühren",
               "requested_url": "https://www.paypal.com/de/business/paypal-business-fees",
               "row_id": "6iyAl0gJz3Btir2S0CdQUe",
-              "row_index": 1,
+              "row_index": 2,
               "section_heading": "Gebührentabelle: Empfangen von Inlandstransaktionen",
               "table_id": "FeeTable::FEETB421::3"
             }
