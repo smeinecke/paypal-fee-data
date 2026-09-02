@@ -227081,6 +227081,33 @@
               "USD": "0.49"
             }
           },
+          "bill_pay": {
+            "entries": {
+              "AUD": "0.3",
+              "BRL": "0.6",
+              "CAD": "0.3",
+              "CHF": "0.55",
+              "CNY": "2.1",
+              "CZK": "10",
+              "DKK": "2.6",
+              "EUR": "0.35",
+              "GBP": "0.2",
+              "HKD": "2.35",
+              "HUF": "90",
+              "ILS": "1.2",
+              "INR": "30",
+              "JPY": "40",
+              "KRW": "450",
+              "MXN": "4",
+              "NOK": "2.8",
+              "NZD": "0.45",
+              "PHP": "15",
+              "PLN": "1.35",
+              "SEK": "3.25",
+              "SGD": "0.5",
+              "USD": "0.3"
+            }
+          },
           "chargebacks": {
             "entries": {
               "AUD": "22",
@@ -228779,6 +228806,25 @@
               },
               {
                 "type": "percentage",
+                "value": "0.6"
+              }
+            ],
+            "id": "advanced_card_payments",
+            "international_surcharge_schedule": "advanced_card_payments",
+            "label": "Smart Retries",
+            "percentage": "0.6",
+            "variant_id": "standard"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {},
+            "fee_components": [
+              {
+                "schedule_id": "advanced_card_payments",
+                "type": "international_surcharge_schedule"
+              },
+              {
+                "type": "percentage",
                 "value": "1"
               }
             ],
@@ -228812,6 +228858,25 @@
             "conditions": {},
             "fee_components": [
               {
+                "schedule_id": "bill_pay",
+                "type": "fixed_fee_schedule"
+              },
+              {
+                "type": "percentage",
+                "value": "2.9"
+              }
+            ],
+            "fixed_fee_schedule": "bill_pay",
+            "id": "bill_pay",
+            "label": "Debit and Credit",
+            "percentage": "2.9",
+            "variant_id": "standard"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {},
+            "fee_components": [
+              {
                 "schedule_id": "chargebacks",
                 "type": "fixed_fee_schedule"
               }
@@ -228833,25 +228898,6 @@
             "fixed_fee_schedule": "disputes_standard",
             "id": "disputes",
             "label": "Fee Table: Standard Dispute Fees",
-            "variant_id": "standard"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {},
-            "fee_components": [
-              {
-                "schedule_id": "other_commercial",
-                "type": "international_surcharge_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "2.9"
-              }
-            ],
-            "id": "other_commercial",
-            "international_surcharge_schedule": "other_commercial",
-            "label": "Debit and Credit",
-            "percentage": "2.9",
             "variant_id": "standard"
           },
           {

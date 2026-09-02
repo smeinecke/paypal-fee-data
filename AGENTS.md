@@ -120,11 +120,11 @@ direct base-family schedule exists.
 After the latest regeneration the dataset is:
 
 - 1 complete, 184 partial, 15 unclassified
-- 4,001 transaction fee rules
+- 4,006 transaction fee rules
 - 176 currency-conversion entries
-- 4,177 total core entries
+- 4,182 total core entries
 - 1,616 inherited schedule objects
-- 1,926 inherited schedule references
+- 1,925 inherited schedule references
 - 0 classifier diagnostics
 - 1 unsupported country
 - `change-report.json`: no regressions (`has_regression: false`)
