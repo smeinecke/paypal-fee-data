@@ -5,23 +5,23 @@
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 59,
+      "calculable_rules": 58,
       "conflicts": 0,
       "direct_fixed_fees": 9,
       "extracted_apm_methods": 35,
       "fixed_fee_entries": 532,
-      "ignored": 28,
-      "inherited_schedule_objects": 9,
-      "inherited_schedule_references": 14,
-      "inherited_schedules": 14,
-      "international_surcharge_entries": 12,
+      "ignored": 29,
+      "inherited_schedule_objects": 8,
+      "inherited_schedule_references": 13,
+      "inherited_schedules": 13,
+      "international_surcharge_entries": 11,
       "maximum_fee_entries": 48,
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
       "numeric_fee_candidates": 36,
       "reference_sources": 1,
       "reference_targets": 1,
-      "transaction_rules": 59,
+      "transaction_rules": 58,
       "unclassified": 25,
       "unclassified_fee_candidates": 25,
       "unknown_apm_methods": 0,
@@ -121,29 +121,6 @@
             "row_index": 9,
             "section_heading": "Fee Table: Standard rate for receiving domestic transactions",
             "table_id": "FeeTable::FEETB16::49"
-          }
-        ],
-        "type": "inherited_schedule"
-      },
-      {
-        "expected_schedule": "other_commercial__pricing_plan=pyusd",
-        "inherited_from": "commercial",
-        "rule_id": "other_commercial",
-        "schedule_type": "international_surcharge",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "aZYn7uuv1mmejP8vjUj6TU",
-            "document_id": "FEETB906",
-            "original_label": "PYUSD",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "row_id": "W7lkkdCpcStdGiLNF0LWK0",
-            "row_index": 5,
-            "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-            "table_id": "FeeTable::FEETB906::54"
           }
         ],
         "type": "inherited_schedule"
@@ -1880,6 +1857,28 @@
       {
         "normalized_cells": [
           "PYUSD",
+          "No Fee"
+        ],
+        "original_label": "PYUSD",
+        "reason": "no rate or reference",
+        "source": {
+          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "aZYn7uuv1mmejP8vjUj6TU",
+          "document_id": "FEETB906",
+          "original_label": "PYUSD",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Fees | Merchant and Business",
+          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
+          "row_id": "W7lkkdCpcStdGiLNF0LWK0",
+          "row_index": 5,
+          "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
+          "table_id": "FeeTable::FEETB906::54"
+        }
+      },
+      {
+        "normalized_cells": [
+          "PYUSD",
           "Waived – No Fee"
         ],
         "original_label": "PYUSD",
@@ -2496,57 +2495,6 @@
             "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
             "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
             "table_id": "FeeTable::FEETB91::5"
-          }
-        ]
-      },
-      "other_commercial__pricing_plan=pyusd": {
-        "entries": [
-          {
-            "payer_region": "OTHER",
-            "percentage_points": "1.5"
-          }
-        ],
-        "inheritance_reason": "table context references commercial fixed fee",
-        "inherited_from": "commercial",
-        "inherited_sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
-            "document_id": "FEETB91",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
-            "table_id": "FeeTable::FEETB91::5"
-          }
-        ],
-        "origin": "inherited",
-        "sources": [
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "TlR3B4NKSrJWJ0O1iSpJZ",
-            "document_id": "FEETB91",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "section_heading": "Fee Table: Additional percentage-based fee for international commercial transactions",
-            "table_id": "FeeTable::FEETB91::5"
-          },
-          {
-            "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "classifier_version": "rules-v1",
-            "component_id": "aZYn7uuv1mmejP8vjUj6TU",
-            "document_id": "FEETB906",
-            "original_label": "PYUSD",
-            "page_id": "business/paypal-business-fees",
-            "page_title": "Fees | Merchant and Business",
-            "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-            "row_id": "W7lkkdCpcStdGiLNF0LWK0",
-            "row_index": 5,
-            "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-            "table_id": "FeeTable::FEETB906::54"
           }
         ]
       },
@@ -3768,41 +3716,6 @@
           "table_id": "FeeTable::FEETB16::49"
         },
         "variant_id": "venmo"
-      },
-      {
-        "calculation_status": "calculable",
-        "conditions": {
-          "pricing_plan": "pyusd"
-        },
-        "fee_components": [
-          {
-            "schedule_id": "other_commercial__pricing_plan=pyusd",
-            "type": "international_surcharge_schedule"
-          },
-          {
-            "type": "percentage",
-            "value": "1"
-          }
-        ],
-        "id": "other_commercial",
-        "international_surcharge_schedule": "other_commercial__pricing_plan=pyusd",
-        "label": "PYUSD",
-        "percentage": "1",
-        "source": {
-          "canonical_url": "https://www.paypal.com/us/business/paypal-business-fees",
-          "classifier_version": "rules-v1",
-          "component_id": "aZYn7uuv1mmejP8vjUj6TU",
-          "document_id": "FEETB906",
-          "original_label": "PYUSD",
-          "page_id": "business/paypal-business-fees",
-          "page_title": "Fees | Merchant and Business",
-          "requested_url": "https://www.paypal.com/us/business/paypal-business-fees",
-          "row_id": "W7lkkdCpcStdGiLNF0LWK0",
-          "row_index": 5,
-          "section_heading": "Fee Table: Standard rates for disbursement of Bill Pay for Business Accounts Transactions",
-          "table_id": "FeeTable::FEETB906::54"
-        },
-        "variant_id": "pyusd"
       },
       {
         "calculation_status": "calculable",

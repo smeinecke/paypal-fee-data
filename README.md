@@ -9,11 +9,11 @@ A public, deterministic repository of PayPal merchant fee data.
 |--------|------:|
 | Countries | **200** |
 | Derivation status | 1 complete, 184 partial, 15 unclassified |
-| Transaction fee rules | **4,006** |
+| Transaction fee rules | **4,007** |
 | Currency conversion entries | **176** |
-| Total core entries | **4,182** |
-| Inherited schedule objects | 1,616 |
-| Inherited schedule references | 1,925 |
+| Total core entries | **4,183** |
+| Inherited schedule objects | 1,615 |
+| Inherited schedule references | 1,924 |
 | Rule categories | advanced_card_payments, alternative_payment_methods, bill_pay, card_verification, chargebacks, currency_conversion, disputes, donations, fixed_fee_schedules, fraud_protection, goods_and_services, guest_checkout, international_surcharge_schedules, invoice_pay_later, micropayments, nonprofit, other_commercial, pay_later_consumer, paypal_checkout, pos_transactions, qr_code_payments, recipient_service, records_request, sepa_direct_debit, withdrawals |
 | Regions | 9 (africa, asia, caribbean, central_america, europe, middle_east, north_america, oceania, south_america) |
 | Unsupported countries | 1 |

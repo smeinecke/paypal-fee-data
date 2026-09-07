@@ -22009,7 +22009,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -49422,7 +49421,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -50914,7 +50912,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -59461,7 +59458,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -86433,7 +86429,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -86886,7 +86881,7 @@
             ],
             "fixed_fee_schedule": "withdrawals__applies_to_markets=cy_ee_li_lt_lv_mt_sk_sm",
             "id": "withdrawals",
-            "label": "Πίνακας χρεώσεων : CY, EE, LI, LT, LV, MT, SK και SM: Σταθερή χρέωση για μεταφορά σε κάρτα",
+            "label": "Πίνακας χρεώσεων: CY, EE, LI, LT, LV, MT, SK και SM: Σταθερή χρέωση για μεταφορά σε κάρτα",
             "variant_id": "standard"
           },
           {
@@ -96231,6 +96226,64 @@
               "USD": "0.3"
             }
           },
+          "disputes_high_volume": {
+            "entries": {
+              "AUD": "50",
+              "BRL": "130",
+              "CAD": "40",
+              "CHF": "30",
+              "CZK": "700",
+              "DKK": "200",
+              "EUR": "28",
+              "GBP": "24",
+              "HKD": "230",
+              "HUF": "9170",
+              "ILS": "110",
+              "INR": "2160",
+              "JPY": "3260",
+              "MXN": "600",
+              "MYR": "130",
+              "NOK": "280",
+              "NZD": "50",
+              "PHP": "1520",
+              "PLN": "120",
+              "RUB": "2250",
+              "SEK": "290",
+              "SGD": "40",
+              "THB": "930",
+              "TWD": "910",
+              "USD": "30"
+            }
+          },
+          "disputes_standard": {
+            "entries": {
+              "AUD": "25",
+              "BRL": "65",
+              "CAD": "20",
+              "CHF": "15",
+              "CZK": "350",
+              "DKK": "100",
+              "EUR": "14",
+              "GBP": "12",
+              "HKD": "115",
+              "HUF": "4585",
+              "ILS": "55",
+              "INR": "1080",
+              "JPY": "1630",
+              "MXN": "300",
+              "MYR": "65",
+              "NOK": "140",
+              "NZD": "25",
+              "PHP": "760",
+              "PLN": "60",
+              "RUB": "1125",
+              "SEK": "145",
+              "SGD": "20",
+              "THB": "465",
+              "TWD": "455",
+              "USD": "15"
+            }
+          },
           "guest_checkout": {
             "entries": {
               "AUD": "0.3",
@@ -96909,6 +96962,22 @@
           {
             "calculation_status": "calculable",
             "conditions": {
+              "volume_status": "high_volume"
+            },
+            "fee_components": [
+              {
+                "schedule_id": "disputes_high_volume",
+                "type": "fixed_fee_schedule"
+              }
+            ],
+            "fixed_fee_schedule": "disputes_high_volume",
+            "id": "disputes",
+            "label": "Fee Table: High Volume Dispute Fees",
+            "variant_id": "high_volume"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {
               "withdrawal_method": "bank_account"
             },
             "fee_components": [
@@ -96980,6 +97049,20 @@
             "fixed_fee_schedule": "chargebacks",
             "id": "chargebacks",
             "label": "Fee Table: Chargeback fees",
+            "variant_id": "standard"
+          },
+          {
+            "calculation_status": "calculable",
+            "conditions": {},
+            "fee_components": [
+              {
+                "schedule_id": "disputes_standard",
+                "type": "fixed_fee_schedule"
+              }
+            ],
+            "fixed_fee_schedule": "disputes_standard",
+            "id": "disputes",
+            "label": "Fee Table: Standard Dispute Fees",
             "variant_id": "standard"
           }
         ]
@@ -115819,7 +115902,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -120582,7 +120664,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -122468,7 +122549,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -124301,7 +124381,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -141209,7 +141288,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -183655,7 +183733,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -195546,7 +195623,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -198800,7 +198876,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4",
               "BMD": "3",
@@ -201832,7 +201907,6 @@
               "BAM": "4",
               "BBD": "5",
               "BDT": "220",
-              "BGN": "3.5",
               "BHD": "1",
               "BIF": "4725",
               "BMD": "3",
@@ -227583,14 +227657,6 @@
               }
             ]
           },
-          "other_commercial__pricing_plan=pyusd": {
-            "entries": [
-              {
-                "payer_region": "OTHER",
-                "percentage_points": "1.5"
-              }
-            ]
-          },
           "pay_later_consumer": {
             "entries": [
               {
@@ -228329,27 +228395,6 @@
             "label": "Pay with Venmo",
             "percentage": "3.49",
             "variant_id": "venmo"
-          },
-          {
-            "calculation_status": "calculable",
-            "conditions": {
-              "pricing_plan": "pyusd"
-            },
-            "fee_components": [
-              {
-                "schedule_id": "other_commercial__pricing_plan=pyusd",
-                "type": "international_surcharge_schedule"
-              },
-              {
-                "type": "percentage",
-                "value": "1"
-              }
-            ],
-            "id": "other_commercial",
-            "international_surcharge_schedule": "other_commercial__pricing_plan=pyusd",
-            "label": "PYUSD",
-            "percentage": "1",
-            "variant_id": "pyusd"
           },
           {
             "calculation_status": "calculable",
