@@ -40,11 +40,24 @@ jobs:
       - name: Run crawler
         working-directory: ./crawler
         run: |
-          uv run paypal-fee-crawler crawl \
-            --output .. \
-            --atomic \
-            --fail-on-regression \
-            --report /tmp/crawl-report.json
+          # Retry once on transient failures (CAPTCHA/interstitial/network) -
+          # these usually clear on a second attempt. Persistent data or
+          # validation problems still fail after the retry.
+          for attempt in 1 2; do
+            if uv run paypal-fee-crawler crawl \
+                --output .. \
+                --atomic \
+                --fail-on-regression \
+                --report /tmp/crawl-report.json; then
+              break
+            fi
+            if [ "$attempt" -eq 2 ]; then
+              echo "Crawl failed on retry."
+              exit 1
+            fi
+            echo "Crawl attempt $attempt failed; retrying in 60 seconds..."
+            sleep 60
+          done
 
       - name: Validate generated data
         working-directory: ./crawler
