@@ -48,6 +48,7 @@ jobs:
                 --output .. \
                 --atomic \
                 --fail-on-regression \
+                --transient-policy reuse-previous \
                 --report /tmp/crawl-report.json; then
               break
             fi
