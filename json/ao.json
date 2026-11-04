@@ -5,9 +5,9 @@
     "coverage_summary": {
       "ambiguous": 0,
       "ambiguous_identities": 0,
-      "calculable_rules": 22,
+      "calculable_rules": 23,
       "conflicts": 0,
-      "direct_fixed_fees": 10,
+      "direct_fixed_fees": 11,
       "extracted_apm_methods": 0,
       "fixed_fee_entries": 596,
       "ignored": 25,
@@ -18,10 +18,10 @@
       "maximum_fee_entries": 96,
       "missing_required_schedules": 0,
       "non_calculable_rules": 0,
-      "numeric_fee_candidates": 5,
+      "numeric_fee_candidates": 6,
       "reference_sources": 0,
       "reference_targets": 0,
-      "transaction_rules": 22,
+      "transaction_rules": 23,
       "unclassified": 0,
       "unclassified_fee_candidates": 0,
       "unknown_apm_methods": 0,
@@ -2962,6 +2962,39 @@
           "table_id": "FeeTable::FEETB33::35"
         },
         "variant_id": "standard"
+      },
+      {
+        "calculation_status": "calculable",
+        "conditions": {
+          "applies_to_markets": [
+            "SG"
+          ],
+          "withdrawal_method": "bank_return"
+        },
+        "fee_components": [
+          {
+            "amount": "5",
+            "currency": "SGD",
+            "type": "fixed_amount"
+          }
+        ],
+        "id": "withdrawals",
+        "label": "SG",
+        "source": {
+          "canonical_url": "https://www.paypal.com/ao/business/paypal-business-fees",
+          "classifier_version": "rules-v1",
+          "component_id": "1tKfB1y1fE2VtOc1orSrkl",
+          "document_id": "FEETB127",
+          "original_label": "SG",
+          "page_id": "business/paypal-business-fees",
+          "page_title": "Seller Fees for Merchants and Businesses",
+          "requested_url": "https://www.paypal.com/ao/business/paypal-business-fees",
+          "row_id": "YfHAp104bezeT48qaGQ0Hd",
+          "row_index": 4,
+          "section_heading": "Fee Table: Bank Return on Withdrawal/Transfer out of PayPal Table",
+          "table_id": "FeeTable::FEETB127::9"
+        },
+        "variant_id": "bank_return"
       },
       {
         "calculation_status": "calculable",
