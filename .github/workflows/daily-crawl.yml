@@ -15,7 +15,7 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - name: Check out data repo with crawler submodule
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -36,6 +36,31 @@ jobs:
       - name: Install crawler dependencies
         working-directory: ./crawler
         run: uv sync --frozen
+
+      - name: Pre-flight PayPal reachability check
+        run: |
+          # PayPal sometimes blocks the shared GitHub Actions runner IPs
+          # outright (every request returns 403/429). A blocked crawl cannot
+          # succeed and would only burn the job timeout on retries, so fail
+          # fast when two independent probes are denied. Single 403s and 429s
+          # still proceed - the crawler retries those per request.
+          UA="paypal-fee-crawler/0.1.0 (+https://github.com/smeinecke/paypal-fee-crawler)"
+          denied=0
+          for url in \
+            "https://www.paypal.com/de/business/paypal-business-fees" \
+            "https://www.paypal.com/us/business/paypal-business-fees"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 -A "$UA" "$url" || true)
+            echo "Preflight probe $url -> HTTP $code"
+            if [ "$code" = "403" ]; then
+              denied=$((denied + 1))
+            fi
+          done
+          if [ "$denied" -eq 2 ]; then
+            echo "::error::PayPal denies all requests from this runner (HTTP 403). \
+              The runner IP is likely blocked; skipping the crawl. \
+              The previously published data remains valid."
+            exit 1
+          fi
 
       - name: Run crawler
         working-directory: ./crawler
