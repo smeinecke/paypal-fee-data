@@ -1,0 +1,87 @@
+name: Daily Crawl Retry
+
+on:
+  schedule:
+    - cron: "17 7-21/2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: paypal-fee-data-daily-crawl-retry
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Re-dispatch Daily Crawl on a fresh runner after IP blocks
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_DISPATCHES: "3"
+        run: |
+          set -euo pipefail
+
+          # PayPal sometimes blocks the shared GitHub Actions runner IPs
+          # outright. Every new workflow run lands on a different runner IP,
+          # so re-dispatching the crawl gives it another chance on an
+          # unblocked address. Only preflight failures (the IP-block
+          # signature) are retried - real crawl/validation failures are not,
+          # and dispatches are capped per day to avoid hammering PayPal.
+
+          today=$(date -u +%Y-%m-%d)
+
+          runs=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow "daily-crawl.yml" \
+            --limit 30 \
+            --json databaseId,event,status,conclusion,createdAt)
+
+          latest=$(jq -r --arg today "$today" \
+            '[.[] | select(.createdAt >= $today)] | sort_by(.createdAt) | last // empty' \
+            <<<"$runs")
+
+          if [ -z "$latest" ]; then
+            echo "No Daily Crawl runs today; nothing to retry."
+            exit 0
+          fi
+
+          status=$(jq -r '.status' <<<"$latest")
+          conclusion=$(jq -r '.conclusion' <<<"$latest")
+          run_id=$(jq -r '.databaseId' <<<"$latest")
+          echo "Latest run today: id=$run_id status=$status conclusion=$conclusion"
+
+          if [ "$status" != "completed" ]; then
+            echo "A run is still in progress; the Daily Crawl concurrency group will serialize anyway."
+            exit 0
+          fi
+
+          if [ "$conclusion" = "success" ]; then
+            echo "Today's crawl already succeeded; nothing to do."
+            exit 0
+          fi
+
+          failed_steps=$(gh api \
+            "repos/$GITHUB_REPOSITORY/actions/runs/$run_id/jobs" \
+            --jq '.jobs[].steps[] | select(.conclusion == "failure") | .name')
+          echo "Failed steps: ${failed_steps:-<none>}"
+
+          if ! grep -qx "Pre-flight PayPal reachability check" <<<"$failed_steps"; then
+            echo "Failure is not the IP-block preflight; not retrying."
+            exit 0
+          fi
+
+          dispatches=$(jq --arg today "$today" \
+            '[.[] | select(.createdAt >= $today and .event == "workflow_dispatch")] | length' \
+            <<<"$runs")
+          echo "Dispatches today so far: $dispatches (max $MAX_DISPATCHES)"
+
+          if [ "$dispatches" -ge "$MAX_DISPATCHES" ]; then
+            echo "Retry budget exhausted for today."
+            exit 0
+          fi
+
+          echo "Dispatching Daily Crawl retry on a fresh runner."
+          gh workflow run "daily-crawl.yml" --repo "$GITHUB_REPOSITORY" --ref main
