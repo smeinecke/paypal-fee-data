@@ -55,6 +55,12 @@ jobs:
               denied=$((denied + 1))
             fi
           done
+          # Informational: does a browser UA get through when the crawler UA
+          # is denied? Tells us whether the block is IP-wide or UA-specific.
+          BROWSER_UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+          browser_code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 \
+            -A "$BROWSER_UA" "https://www.paypal.com/de/business/paypal-business-fees" || true)
+          echo "Browser-UA probe -> HTTP $browser_code"
           if [ "$denied" -eq 2 ]; then
             echo "::error::PayPal denies all requests from this runner (HTTP 403). \
               The runner IP is likely blocked; skipping the crawl. \

@@ -20,7 +20,7 @@ jobs:
       - name: Re-dispatch Daily Crawl on a fresh runner after IP blocks
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_DISPATCHES: "3"
+          MAX_DISPATCHES: "6"
         run: |
           set -euo pipefail
 
