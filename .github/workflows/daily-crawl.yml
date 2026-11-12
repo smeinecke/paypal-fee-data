@@ -38,35 +38,37 @@ jobs:
         run: uv sync --frozen
 
       - name: Pre-flight PayPal reachability check
+        working-directory: ./crawler
         run: |
-          # PayPal sometimes blocks the shared GitHub Actions runner IPs
-          # outright (every request returns 403/429). A blocked crawl cannot
-          # succeed and would only burn the job timeout on retries, so fail
-          # fast when two independent probes are denied. Single 403s and 429s
-          # still proceed - the crawler retries those per request.
-          UA="paypal-fee-crawler/0.1.0 (+https://github.com/smeinecke/paypal-fee-crawler)"
-          denied=0
-          for url in \
-            "https://www.paypal.com/de/business/paypal-business-fees" \
-            "https://www.paypal.com/us/business/paypal-business-fees"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 -A "$UA" "$url" || true)
-            echo "Preflight probe $url -> HTTP $code"
-            if [ "$code" = "403" ]; then
-              denied=$((denied + 1))
-            fi
-          done
-          # Informational: does a browser UA get through when the crawler UA
-          # is denied? Tells us whether the block is IP-wide or UA-specific.
-          BROWSER_UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
-          browser_code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 \
-            -A "$BROWSER_UA" "https://www.paypal.com/de/business/paypal-business-fees" || true)
-          echo "Browser-UA probe -> HTTP $browser_code"
-          if [ "$denied" -eq 2 ]; then
-            echo "::error::PayPal denies all requests from this runner (HTTP 403). \
-              The runner IP is likely blocked; skipping the crawl. \
-              The previously published data remains valid."
-            exit 1
-          fi
+          # PayPal sits behind DataDome, which denies every request whose
+          # TLS/HTTP fingerprint does not look like a real browser. The
+          # crawler fetches with a Chrome fingerprint, so the reachability
+          # probe has to impersonate the same way. Two 403s despite a proper
+          # fingerprint mean the runner IP itself is hard-blocked - a blocked
+          # crawl cannot succeed and would only burn the job timeout on
+          # retries, so fail fast. Single 403s and 429s still proceed - the
+          # crawler retries those per request.
+          uv run python - <<'PY'
+          from curl_cffi import requests
+          urls = [
+              "https://www.paypal.com/de/business/paypal-business-fees",
+              "https://www.paypal.com/us/business/paypal-business-fees",
+          ]
+          denied = 0
+          for url in urls:
+              try:
+                  code = requests.get(url, impersonate="chrome", timeout=20).status_code
+              except Exception as exc:
+                  code = f"error: {exc.__class__.__name__}"
+              print(f"Preflight probe {url} -> {code}")
+              if code == 403:
+                  denied += 1
+          if denied == len(urls):
+              print("::error::PayPal denies browser-fingerprint requests from this runner (HTTP 403). "
+                    "The runner IP is likely blocked; skipping the crawl. "
+                    "The previously published data remains valid.")
+              raise SystemExit(1)
+          PY
 
       - name: Run crawler
         working-directory: ./crawler
