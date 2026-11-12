@@ -111,11 +111,19 @@ jobs:
         id: value_changes
         run: |
           change_count=$(python3 -c 'import json; print(len(json.load(open("change-report.json")).get("changes", [])))')
-          if [ "$change_count" -eq 0 ]; then
+          if [ "$change_count" -gt 0 ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Detected $change_count fee value changes."
+          elif git status --porcelain -- change-report.json json meta schemas README.md | grep -q .; then
+            # Generated metadata can also change without fee value changes
+            # (crawler-revision bump, transient-failure records, unsupported
+            # list updates). The revision file must stay in sync with the
+            # crawler submodule or verify_publication fails.
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Generated metadata changed without fee value changes."
+          else
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No fee value changes detected."
-          else
-            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit generated changes
