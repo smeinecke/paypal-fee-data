@@ -76,12 +76,19 @@ jobs:
           # Retry once on transient failures (CAPTCHA/interstitial/network) -
           # these usually clear on a second attempt. Persistent data or
           # validation problems still fail after the retry.
+          # Pacing is kept gentle (2 workers, 1.5s request delay) because
+          # DataDome escalates to IP-level 403s/tarpits once the sustained
+          # request rate from a datacenter IP looks automated. Blocked
+          # markets fail fast and reuse previous data, so the added minutes
+          # buy a larger window of fresh fetches before flagging.
           for attempt in 1 2; do
             if uv run paypal-fee-crawler crawl \
                 --output .. \
                 --atomic \
                 --fail-on-regression \
                 --transient-policy reuse-previous \
+                --max-workers 2 \
+                --request-delay 1.5 \
                 --report /tmp/crawl-report.json; then
               break
             fi
